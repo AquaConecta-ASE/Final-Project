@@ -184,14 +184,14 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 
 [4.1. Strategic-Level Atrribute-Driven Desing](#41-strategic-level-domain-driven-design)   
 [4.1.1. Design Purpose](#411-event-storming)             
-[4.1.1. Attribute-Driven Design Inputs](#4111-candidate-context-discovery)    
+[4.1.2. Attribute-Driven Design Inputs](#4111-candidate-context-discovery)    
 [4.1.3. Architectural Design Backlog](#4112-domain-message-flows-modeling)    
 [4.1.4. Architectural Design Decisions](#4113-bounded-context-canvases)    
 [4.1.5. Quality Attribute Scenario Refirements](#412-context-mapping)
 
 [4.2. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)   
 [4.2.1. Event Storming](#411-event-storming)             
-[4.2.1. Candidate Context Discovery](#4111-candidate-context-discovery)    
+[4.2.2. Candidate Context Discovery](#4111-candidate-context-discovery)    
 [4.2.3. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)    
 [4.2.4. Bounded Context Canvases](#4113-bounded-context-canvases)    
 [4.2.5. Context Mapping](#412-context-mapping)
@@ -1473,14 +1473,27 @@ Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b
 
 
 # Chapter IV: Solution Software Design
-## 4.1. Strategic-Level Domain-Driven Design
-### 4.1.1. EventStorming
+
+## 4.1. Strategic-Level Atrribute-Driven Desing
+
+### 4.1.1. Design Purpose
+
+### 4.1.2. Attribute-Driven Design Inputs
+
+### 4.1.3. Architectural Design Backlog
+
+### 4.1.4. Architectural Design Decisions
+
+### 4.1.5. Quality Attribute Scenario Refirements
+
+## 4.2. Strategic-Level Domain-Driven Design
+### 4.2.1. EventStorming
 
 Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURAL, donde construimos todo el flujo del sistema. Iniciamos con la fase de **Exploración No Estructurada**, en la que intercambiamos ideas y discutimos libremente los eventos del dominio, guiándonos por las recomendaciones establecidas para esta etapa.
 
 ![alt text](./assets/img/eventStor.png)
 
-#### 4.1.1.1 Candidate Context Discovery.
+#### 4.2.2. Candidate Context Discovery.
 
 El proceso de Candidate Context Discovery fue ejecutado con el objetivo de establecer una aproximación inicial a los posibles bounded contexts presentes en el dominio. Se aplicó la técnica start-with-value, orientada a identificar los elementos core del dominio que representan el mayor valor estratégico para el negocio. Como resultado de esta exploración, se determinaron los siguientes bounded contexts:
 
@@ -1506,7 +1519,7 @@ El proceso de Candidate Context Discovery fue ejecutado con el objetivo de estab
 
   Gestiona la compra, registro y pago de sensores vinculados a usuarios, así como la suscripción al servicio mensual. Asegura que los sensores sean registrados correctamente, vinculados a un proveedor y que se registre el pago inicial y mensual de la suscripción.  
 
-#### 4.1.1.2 Domain Message Flows Modeling.
+#### 4.2.3. Domain Message Flows Modeling.
 
 En esta sección, aplicamos Domain Storytelling para modelar cómo los bounded contexts colaboran mediante flujos de mensajes, resolviendo los casos de uso del negocio. Esta técnica nos permitió visualizar las interacciones entre actores (usuarios, sistemas y servicios), secuenciar los pasos clave y validar el modelo con expertos del dominio. Estos diagramas clarifican dependencias, identifican riesgos y facilitan la alineación entre equipos técnicos y de negocio, asegurando una arquitectura coherente con las necesidades del dominio. 
 
@@ -1528,7 +1541,7 @@ El proveedor programa una suscripción en la aplicación, seleccionando un habit
 
 El proveedor modifica la cantidad de tanques y sensores asociados al habitante. El sistema actualiza estos datos en cascada, reflejando los cambios en los registros y generando eventos para sincronizar la información en otros contextos, como análisis de seguridad o grupos de datos.
 ![alt text](./assets/bounded/sh4.png)
-#### 4.1.1.3 Bounded Context Canvases. 
+#### 4.2.4. Bounded Context Canvases. 
 
 - Bounded context Analytics
 
@@ -1551,29 +1564,29 @@ Bounded context Subscription & Payment
 Este canvas gestiona la compra, registro y pago de sensores, así como suscripciones mensuales al servicio. Asegura que los sensores se vinculen correctamente a proveedores y que los pagos se registren antes de la activación. Las decisiones de negocio incluyen validar pagos y verificar disponibilidad de sensores, mientras que el lenguaje ubicuo define términos como "Active subscription" y "Payment period". Las métricas evalúan registros exitosos y tiempos de activación, y las preguntas abiertas exploran escenarios como fallos de pago o responsabilidades por sensores defectuosos.
 ![alt text](./assets/bounded/sh7.png)
 
-### 4.1.2. Context Mapping.
+### 4.2.5. Context Mapping.
 
 En este diagrama se visualiza las relaciones clave entre los bounded contexts del sistema, destacando la colaboración entre User & Profile Management, Subscription & Payment, Operation and Monitoring y Analytics Context, aplicando patrones DDD como Anti-Corruption Layer y Customer/Supplier (contratos claros en pagos) para garantizar una integración eficiente y escalable.
 
 ![Context Mapping](./assetsimg/context-mapping.png)
 
 
-### 4.1.3. Software Architecture.
+### 4.3. Software Architecture.
 
-#### 4.1.3.1. Software Architecture System Landscape Diagram.
+#### 4.3.1. Software Architecture System Landscape Diagram.
 ![alt text](<./assets/img/Software Architecture Context Level Diagrams..png>)
-#### 4.1.3.2. Software Architecture Context Level Diagrams.
+#### 4.3.2. Software Architecture Context Level Diagrams.
 
 En el diagrama de contexto se observa que el Proveedor gestiona usuarios y sensores a través de la plataforma web, el Administrador supervisa operaciones globales como aprobación de solicitudes y asignación de planes, y los Residentes reciben alertas y monitorean el consumo mediante una aplicación móvil. El sistema central AquaConecta se integra con Mercado Pago para procesar pagos y con los dispositivos hardware IoT, que capturan y transmiten datos de nivel y calidad del agua.
 
 ![alt text](<./assets/img/Software Architecture Context Level Diagrams..png>)
 
-#### 4.1.3.3. Software Architecture Container Level Diagrams.
+#### 4.3.3. Software Architecture Container Level Diagrams.
 
 El diagrama de contenedores muestra cómo interactúan los distintos usuarios y componentes del sistema. Los usuarios incluyen: residentes (que usan una app móvil para monitorear consumo y recibir alertas), proveedores (que gestionan sensores desde una plataforma web) y administradores (que configuran y supervisan el sistema). En el núcleo, el hardware AquaConecta mide calidad y nivel del agua, enviando datos a una app embebida que los recolecta. Luego, la Edge Processing App analiza la información y la guarda en una base SQLite. Una API REST en Spring Boot conecta las aplicaciones con una base de datos MySQL centralizada. La app móvil permite a los residentes interactuar, mientras que la web permite gestionar sensores, usuarios y planes. Además, el sistema se integra con Mercado Pago para gestionar pagos de servicios.
 
 ![alt text](<./assets/img/Software Architecture Container Level Diagrams.png>)
-#### 4.1.3.4. Software Architecture Deployment Diagrams.
+#### 4.3.4. Software Architecture Deployment Diagrams.
 
 El diagrama de despliegue muestra cómo se distribuyen los distintos componentes de software en su entorno de ejecución. El sistema está compuesto por una aplicación web desarrollada con Angular y una aplicación móvil desarrollada con Flutter, ambas desplegadas sobre Firebase. Estas aplicaciones se comunican mediante JSON/HTTPS con una API REST construida con Spring Boot (Java), que encapsula toda la lógica de negocio organizada por contextos delimitados. La API, a su vez, realiza operaciones de lectura y escritura sobre una base de datos MySQL, que almacena información de usuarios, suscripciones, sensores, alertas y registros administrativos. Además, el backend se integra con el sistema de pagos externo Mercado Pago, utilizado para procesar transacciones.
 
