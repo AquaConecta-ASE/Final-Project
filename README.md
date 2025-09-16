@@ -182,18 +182,19 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 
 [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
 
-[4.1. Strategic-Level Atrribute-Driven Desing]
-[4.1.1 Design Purpose]
-[4.1.2 Attribute-Driven Design Inputs]
-[4.1.3 Architectural Design Backlog]
-[4.1.4 Architectural Design Decisions]
-[4.1.5 Quality Attribute Scenario Refirements]
+[4.1. Strategic-Level Atrribute-Driven Desing](#41-strategic-level-domain-driven-design)   
+[4.1.1. Design Purpose](#411-event-storming)             
+[4.1.1. Attribute-Driven Design Inputs](#4111-candidate-context-discovery)    
+[4.1.3. Architectural Design Backlog](#4112-domain-message-flows-modeling)    
+[4.1.4. Architectural Design Decisions](#4113-bounded-context-canvases)    
+[4.1.5. Quality Attribute Scenario Refirements](#412-context-mapping)
+
 [4.2. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)   
 [4.2.1. Event Storming](#411-event-storming)             
-[4.2.1 Candidate Context Discovery](#4111-candidate-context-discovery)    
-[4.2.3 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)    
-[4.2.4 Bounded Context Canvases](#4113-bounded-context-canvases)    
-[4.2.5 Context Mapping](#412-context-mapping)
+[4.2.1. Candidate Context Discovery](#4111-candidate-context-discovery)    
+[4.2.3. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)    
+[4.2.4. Bounded Context Canvases](#4113-bounded-context-canvases)    
+[4.2.5. Context Mapping](#412-context-mapping)
 
 [4.3. Software Architecture](#413-software-architecture)    
 [4.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)        
