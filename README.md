@@ -1336,7 +1336,7 @@ Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b
     <tr>
       <td>10</td>
       <td>HU10</td>
-      <td>Ver nivel actual del agua de los habitantes</td>
+      <td>Comunicación del problema y la solución</td>
       <td>Como visitante interesado, Quiero entender el contexto del problema del acceso al agua y cómo AquaConecta lo resuelve, Para evaluar el valor real que la solución puede aportar a mi comunidad o negocio.</td>
       <td>2</td>
     </tr>
@@ -1380,14 +1380,15 @@ Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b
       <td>HU16</td>
       <td>Visualización y edición de perfil móvil</td>
       <td>Como habitante, Quiero ver y editar mi información personal desde la aplicación móvil, Para mantener mis datos actualizados fácilmente.</td>
-      <td>8</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>17</td>
       <td>HU17</td>
-      <td>API para recepción de datos</td>
-      <td>Como desarrollador, quiero implementar un endpoint REST para integrar datos de sensores IoT para asegurar la integración y el flujo continuo de información hacia el sistema..</td>
-      <td>8</td>
+      <td>Visualización y edición de perfil web</td>
+      <td>Como proveedor, Quiero acceder y modificar mi perfil desde la plataforma web,Para gestionar mis datos de contacto y empresa de manera segura.
+</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>18</td>
@@ -1402,7 +1403,7 @@ Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b
       <td>Añadir una nueva suscripción a un residente ya registrado</td>
       <td>Como proveedor, Quiero agregar una nueva suscripción a un residente ya registrado , Para que mi cliente pueda tener varios sensores asignados a sus tanques de agua.
     </td>
-      <td>8</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>20</td>
@@ -1416,7 +1417,7 @@ Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b
       <td>HU21</td>
       <td> Ver todas las suscripciones del sistema	</td>
       <td>Como administrador, Quiero visualizar todas las suscripciones del sistema, Para supervisar el uso de la plataforma por parte de proveedores y residentes.</td>
-      <td>2</td>
+      <td>3</td>
     </tr>
       <tr>
       <td>22</td>
@@ -1435,14 +1436,14 @@ Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b
           <tr>
       <td>24</td>
       <td>HT02</td>
-      <td>Gestión de perfiles vía API</td>
+      <td>Inicio de sesión API</td>
       <td> </td>
       <td>5</td>
     </tr>
           <tr>
       <td>25</td>
       <td>HT03</td>
-      <td>Crear suscripción vía API REST</td>
+      <td>Gestión de perfiles vía API</td>
       <td>  </td>
       <td>5</td>
     </tr>
@@ -1456,14 +1457,14 @@ Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b
               <tr>
       <td>27</td>
       <td>HT05</td>
-      <td>Crear suscripción vía API REST</td>
+      <td>Obtener suscripciones por residente</td>
       <td>  </td>
       <td>3</td>
     </tr>
               <tr>
       <td>28</td>
       <td>HT06</td>
-      <td>Crear suscripción vía API REST</td>
+      <td>Obtener todas las suscripciones del sistema</td>
       <td>  </td>
       <td>2</td>
     </tr>
@@ -1478,7 +1479,155 @@ Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b
 
 ### 4.1.1. Design Purpose
 
+El propósito del diseño arquitectónico del sistema AquaConecta es definir una solución tecnológica integral que soporte de manera robusta los procesos de monitoreo, gestión y distribución de agua potable en comunidades vulnerables. Dado que el sistema combina dispositivos físicos (sensores IoT en tanques domésticos) con aplicaciones digitales (plataforma web para proveedores y aplicación móvil para habitantes), la arquitectura debe responder a una serie de desafíos estratégicos:
+
+- **Conectar el mundo físico con el digital**: Integrar los sensores IoT instalados en los tanques de agua de los habitantes con la nube y las aplicaciones cliente, asegurando que los datos sobre cantidad y calidad del agua se transmitan y procesen en tiempo real.
+
+- **Soportar distintos perfiles de usuarios**: Diseñar un ecosistema donde proveedores de agua y habitantes puedan acceder a información confiable, cada uno con vistas y permisos específicos. Esto implica manejar autenticación segura, gestión de perfiles y trazabilidad de acciones.
+
+- **Asegurar la sostenibilidad y escalabilidad**: La arquitectura debe ser lo suficientemente flexible para comenzar en un piloto acotado (Pueblo Nuevo, Chincha) y escalar gradualmente hacia más comunidades sin que el desempeño del sistema se degrade. Se busca garantizar que, a medida que se integren más sensores y usuarios, la infraestructura tecnológica pueda crecer horizontal y verticalmente.
+
+- **Garantizar atributos de calidad críticos**:
+
+  **Disponibilidad**: Que el sistema esté accesible incluso en entornos con conectividad limitada.
+
+  **Seguridad**: Protección de datos sensibles de usuarios y de métricas ambientales.
+
+  **Rendimiento**: Procesar datos en tiempo real sin retrasos que afecten la toma de decisiones.
+
+  **Mantenibilidad**: Facilitar la incorporación de nuevas funcionalidades, como predicción de consumo mediante machine learning o integración con chatbots de soporte.
+
+- **Apoyar la toma de decisiones basada en datos**: El diseño arquitectónico busca transformar datos crudos provenientes de los sensores en información visual, comprensible y accionable para habitantes y proveedores. Esto incluye reportes, alertas automáticas y dashboards que contribuyan a mejorar la eficiencia del servicio.
+
 ### 4.1.2. Attribute-Driven Design Inputs
+
+#### 4.1.2.1 Primary Functionality (Primary User Stories)
+
+El núcleo funcional de AquaConecta se centra en habilitar la trazabilidad y transparencia en el acceso al agua potable, tanto para los habitantes como para los proveedores. Se identifican como funcionalidades primarias las siguientes:
+
+- **Monitoreo de agua en tiempo real (HU01, HU02, HU03, HU04)**:
+Estas historias permiten que los habitantes visualicen el nivel de agua, métricas de su tanque y la calidad del recurso, mientras que los proveedores pueden conocer la disponibilidad de agua en cada vivienda. El objetivo es ofrecer información confiable y en tiempo real que guíe la toma de decisiones sobre consumo y distribución.
+
+- **Gestión de solicitudes y problemas (HU05, HU06)**:
+A través de estas funcionalidades, los proveedores reciben solicitudes de reabastecimiento y reportes de incidencias de los habitantes, lo que mejora la eficiencia operativa y la capacidad de respuesta ante situaciones críticas.
+
+- **Gestión de suscripciones y residentes (HU18, HU19, HU20, HU22)**:
+Estas historias aseguran que cada habitante esté vinculado a sensores activos en sus tanques mediante una suscripción gestionada por el proveedor. Permiten registrar nuevos residentes, añadir sensores adicionales y consultar el estado de la suscripción, garantizando un monitoreo continuo y confiable.
+
+En conjunto, estas historias de usuario constituyen la columna vertebral del sistema AquaConecta, ya que sin ellas no sería posible habilitar el servicio principal: el monitoreo y gestión inteligente del agua potable en comunidades con acceso limitado.
+
+#### 4.1.2.2 Quality attribute Scenarios
+
+
+#### Escenario 1: Disponibilidad en la consulta de datos
+
+
+| **Campo** | **Descripción** |
+|-----------|----------------|
+| **ID** | QA-01 |
+| **Atributo** | Disponibilidad |
+| **Fuente** | Habitante |
+| **Estímulo** | Consulta el nivel de agua en su aplicación móvil |
+| **Artefacto** | Aplicación móvil – módulo de visualización de tanque |
+| **Entorno** | Conectividad móvil limitada (3G/4G) |
+| **Respuesta** | El sistema retorna el nivel de agua registrado más reciente, incluso si no hay conexión estable |
+| **Medida** | Tiempo de respuesta < 3 segundos en el 99% de las consultas |
+
+**Descripción:** Cada vez que un habitante consulta el estado de su tanque, el sistema debe mostrar de manera inmediata la última medición registrada, ya sea desde la nube o desde un caché local en el dispositivo. En caso de baja conectividad, la app debe funcionar en modo offline y sincronizar automáticamente los datos al restablecerse la red, garantizando que ninguna lectura se pierda o muestre valores desactualizados por más de 15 minutos.
+
+#### Escenario 2: Seguridad en autenticación
+
+| **Campo** | **Descripción** |
+|-----------|----------------|
+| **ID** | QA-02 |
+| **Atributo** | Seguridad |
+| **Fuente** | Proveedor |
+| **Estímulo** | Intenta iniciar sesión desde la plataforma web |
+| **Artefacto** | Módulo de autenticación web |
+| **Entorno** | Usuario externo accediendo desde red pública |
+| **Respuesta** | El sistema valida credenciales mediante autenticación segura y encripta la sesión |
+| **Medida** | 100% de los datos transmitidos deben estar cifrados (TLS 1.2+) |
+
+**Descripción:** Cada intento de inicio de sesión debe validar credenciales mediante un servidor seguro, con encriptación en tránsito (TLS 1.2+) y en reposo (AES-256). Si se detectan intentos de acceso no autorizados, el sistema debe registrar el evento y bloquear al usuario tras 5 intentos fallidos consecutivos. Además, todas las sesiones deben expirar automáticamente tras 15 minutos de inactividad para reducir riesgos de secuestro de sesión.
+
+#### Escenario 3: Escalabilidad en la gestión de sensores
+
+| **Campo** | **Descripción** |
+|-----------|----------------|
+| **ID** | QA-03 |
+| **Atributo** | Escalabilidad |
+| **Fuente** | Sistema (incremento en la red IoT) |
+| **Estímulo** | Se duplican los sensores activos en la comunidad (de 500 a 1000) |
+| **Artefacto** | API backend de recepción de datos IoT |
+| **Entorno** | Operación normal con crecimiento de usuarios |
+| **Respuesta** | El sistema procesa los datos sin pérdida ni retraso significativo |
+| **Medida** | Latencia promedio de actualización < 5 segundos por sensor |
+
+**Descripción:** Cuando se incremente el número de sensores conectados, el backend debe ser capaz de recibir y almacenar lecturas concurrentes en tiempo real sin pérdida de paquetes. Todas las nuevas mediciones deben reflejarse correctamente en los dashboards de proveedores y habitantes en un tiempo máximo de 5 segundos desde su recepción. Además, el sistema debe escalar horizontalmente con la incorporación de más instancias de procesamiento en la nube sin requerir interrupciones en el servicio.
+
+#### Escenario 4: Confiabilidad ante desconexión de sensores
+
+| **Campo** | **Descripción** |
+|-----------|----------------|
+| **ID** | QA-04 |
+| **Atributo** | Confiabilidad |
+| **Fuente** | Sensor IoT en tanque domiciliario |
+| **Estímulo** | El sensor pierde conexión con el servidor central |
+| **Artefacto** | Microcontrolador IoT con almacenamiento local |
+| **Entorno** | Red inestable en zonas rurales |
+| **Respuesta** | El sensor almacena temporalmente los datos y los envía cuando se restablece la conexión |
+| **Medida** | Reintento automático con sincronización en un máximo de 5 minutos |
+
+**Descripción:** Ante una pérdida de conectividad, el sensor debe continuar realizando mediciones locales en intervalos de 5 minutos y almacenarlas en memoria. Una vez reestablecida la conexión, el dispositivo debe transmitir de forma ordenada y sin pérdida todos los datos acumulados al servidor, asegurando consistencia en las gráficas de consumo. En ningún caso deben existir huecos en el historial de datos superiores a 10 minutos.
+
+#### Escenario 5: Usabilidad en la interfaz de usuario
+
+| **Campo** | **Descripción** |
+|-----------|----------------|
+| **ID** | QA-05 |
+| **Atributo** | Usabilidad |
+| **Fuente** | Habitante |
+| **Estímulo** | Ingresa a la aplicación móvil para verificar el estado de su suscripción y tanque |
+| **Artefacto** | Interfaz gráfica móvil |
+| **Entorno** | Usuario con conocimientos básicos de tecnología |
+| **Respuesta** | El sistema presenta el estado del agua y de la suscripción en máximo 3 pasos de navegación |
+| **Medida** | 90% de los usuarios pueden completar la tarea sin necesidad de soporte |
+
+**Descripción:** La aplicación debe mostrar en la pantalla principal el nivel actual de agua y el estado de la suscripción, con iconografía clara y colores diferenciados para estados críticos (ej. tanque vacío o sensor inactivo). Todas las interacciones deben requerir un máximo de 3 clics, y los textos deben estar redactados en un lenguaje sencillo. El diseño debe validarse mediante pruebas de usabilidad con al menos 10 habitantes del piloto, asegurando que la mayoría complete las tareas sin asistencia externa.
+
+#### 4.1.2.3 Constraints
+
+El diseño arquitectónico de AquaConecta se encuentra condicionado por un conjunto de restricciones que definen los límites técnicos, operativos y organizacionales dentro de los cuales debe desarrollarse la solución. A continuación, se detallan las principales restricciones identificadas.
+
+**Restricciones Tecnológicas**:
+
+- Hardware IoT: El sistema debe operar con microcontroladores de bajo costo (ej. ESP32/ESP8266) programados en C++, capaces de medir niveles y calidad del agua.
+
+- Arquitectura IoT: Se debe incorporar un nodo Edge (raspberry pi u otro gateway ligero) que procese localmente los datos de los sensores. Este nodo realizará filtrado, agregación y envío diferido hacia la nube, garantizando resiliencia en entornos con conectividad limitada.
+
+- Estilo arquitectónico backend: El backend debe implementarse bajo un monolito modular, con separación de capas (presentación, lógica de negocio y persistencia). Esta decisión se debe a que el equipo es reducido y se prioriza la simplicidad, mantenibilidad y menor costo de despliegue inicial frente a arquitecturas distribuidas más complejas.
+
+- Aplicaciones cliente: Web desarrollada con Angular y móvil desarrollada con Flutter (Android/iOS).
+
+- Infraestructura en la nube: Despliegue en servicios escalables tipo PaaS/IaaS (ej. AWS, GCP o Azure), con soporte para balanceo de carga y almacenamiento relacional/noSQL.
+
+**Restricciones Operativas**:
+
+- Conectividad limitada: El sistema debe garantizar operación en zonas rurales con acceso intermitente a internet, habilitando almacenamiento temporal en sensores y sincronización a través del edge node.
+
+- Entorno geográfico: El piloto inicial está delimitado al asentamiento humano 28 de Julio en Pueblo Nuevo, Chincha, lo que condiciona la instalación y pruebas de campo a esa realidad local.
+
+- Integración con actores externos: La plataforma debe ser capaz de interoperar con sistemas de municipalidades, EPS Semapach y ONGs mediante reportes exportables o servicios API.
+
+- Mantenimiento en campo: Los sensores deben ser fáciles de instalar y reemplazar, con soporte remoto desde el edge node para actualizaciones de firmware.
+
+**Restricciones Económicas y Organizacionales**:
+
+- Financiamiento inicial limitado: El proyecto depende de alianzas con ONGs como AquaFund y Water.org, lo que obliga a priorizar hardware IoT de bajo costo y servicios cloud costo-eficientes.
+
+- Implementación por fases: La arquitectura debe permitir un despliegue incremental (MVP → piloto → expansión regional) evitando reestructuraciones costosas.
+
+- Recursos humanos: Dado el tamaño reducido del equipo, se prioriza el uso de frameworks maduros y librerías existentes sobre desarrollos personalizados.
 
 ### 4.1.3. Architectural Design Backlog
 
