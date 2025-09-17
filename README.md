@@ -1227,6 +1227,8 @@ El apartado de User Stories permite identificar las diversas situaciones que exp
 |**HU20**|**Ver suscripciones activas por residente**|<p>**Como** proveedor, </p><p>**Quiero** visualizar las suscripciones activas asociadas a los sensores de cada residente,</p><p>**Para** conocer el estado de monitoreo de mis habitantes.</p>|<p>**Escenario 1: Registro de nuevo sensor<br>Dado** que el proveedor está revisando la información de sus sensores,<br>**Cuando**decide agregar uno nuevo,<br>**Entonces** es llevado al formulario para registrar la suscripción correspondiente.</p><p>**Escenario 2: Activación de suscripción tras pago exitoso<br>Dado** que el proveedor completa los datos del sensor y realiza el pago,<br>**Cuando** la transacción se confirma con éxito,<br>**Entonces** se muestra que la suscripción quedó activa y vinculada al sensor y al residente.</p>||
 |**HU21**|**Ver todas las suscripciones del sistema**|<p>**Como** administrador,</p><p>**Quiero** visualizar todas las suscripciones del sistema, </p><p>**Para** supervisar el uso de la plataforma por parte de proveedores y residentes.</p><p></p>|<p>**Escenario 1: Visualización de todas las suscripciones del sistema<br>Dado** que el administrador quiere revisar las suscripciones registradas,<br>**Cuando** accede a la opción correspondiente,<br>**Entonces** se muestra una lista con todas las suscripciones, incluyendo proveedor, residente, sensor y estado.</p><p>**Escenario 2: No hay suscripciones registradas<br>Dado** que el administrador intenta revisar las suscripciones,<br>**Cuando** no se encuentra ninguna registrada,<br>**Entonces** se muestra un mensaje indicando que no existen registros disponibles.</p>||
 |**HU22**|**Visualizar suscripción del residente**|<p>**Como residente,** </p><p>**Quiero consultar el estado de mi suscripción** </p><p>**Para saber si mi sensor está activo y en funcionamiento.**</p>|<p>**Escenario 1: Visualizar suscripción del residente<br>Dado** que el residente inicia sesión,<br>**Cuando** revisa la opción “Mi suscripción”,<br>**Entonces** se muestra la información del sensor asociado y el estado actual de la suscripción (activa o inactiva).</p><p>**Escenario 2: Sin suscripción registrada<br>Dado** que el residente no tiene ninguna suscripción activa,<br>**Cuando** accede a “Mi suscripción”,<br>**Entonces** se muestra un mensaje indicando que aún no tiene sensores registrados o suscritos.</p>||
+|**HU23**|**Chatbot de asistencia inteligente**|<p>**Como residente,** </p><p>**Quiero interactuar con un chatbot en la aplicación móvil para consultar el nivel de agua, estado de mi suscripción o solicitar reabastecimiento,** </p><p>**Para obtener respuestas rápidas y asistencia sin necesidad de conocimientos técnicos ni navegación compleja en la app.**</p>|<p>**Escenario 1: Consulta de nivel de agua por chatbot<br>Dado** que el residente abre el chatbot en la app móvil,<br>**Cuando** escribe "¿Cuánto agua tengo en mi tanque?",<br>**Entonces** el chatbot responde con el nivel de agua más reciente registrado por el sensor.</p><p>**Escenario 2: Solicitud de reabastecimiento por chatbot<br>Dado** que el habitante interactúa con el chatbot,<br>**Cuando** escribe "Necesito más agua" o selecciona la opción de solicitar reabastecimiento,<br>**Entonces**el chatbot genera automáticamente una solicitud en el sistema y envía confirmación al usuario.</p>||
+|**HU24**|**CPredicción de consumo y solicitud automática**|<p>**Como proveedor,** </p><p>**Quiero que el sistema use un modelo de machine learning,** </p><p>**Para predecir el consumo de agua de los residentes y generar solicitudes automáticas de reabastecimiento.**</p>|<p>**Escenario 1: Predicción de consumo en base a patrones históricos<br>Dado** que el sistema ha almacenado al menos 30 días de datos de consumo de un residente,<br>**Cuando** el modelo de ML procesa los patrones de consumo,<br>**Entonces** predice con un margen de error máximo del 10% el nivel estimado de agua que tendrá el residente en los próximos 3 días.</p><p>**Escenario 2: Generación automática de solicitud de reabastecimiento<br>Dado** que el modelo de ML predice que el nivel del tanque bajará de 20% en menos de 48 horas,<br>**Cuando** el sistema valida la predicción,<br>**Entonces** genera automáticamente una solicitud de reabastecimiento y la asigna al proveedor correspondiente.</p>||
 |**HT04**|**Crear suscripción a través de API REST**|<p>**Como** desarrollador,</p><p>**Quiero** crear una suscripción a través de la API</p><p>**Para** que cada sensor quede vinculado a un residente y a un proveedor, y así se habilite el monitoreo.</p><p></p>|<p>**Escenario 1: Crear suscripción con datos válidos<br>Dado** que el endpoint POST /subscriptions está disponible,<br>**Cuando** se envía una solicitud con los valores sensorId, residentId y providerId,<br>**Entonces** se responde con un código 201 Created,<br>**Y** en el cuerpo de la respuesta se incluye el subscriptionId, la fechaInicio y el estado con valor ACTIVA.</p><p>**Escenario 2: Crear suscripción para un sensor ya suscrito<br>Dado** que el endpoint POST /subscriptions está disponible,<br>**Y** el sensor ya cuenta con una suscripción activa,<br>**Cuando** se intenta crear otra suscripción usando el mismo sensorId,<br>**Entonces** se responde con un código 409 Conflict,<br>**Y** en el cuerpo se muestra el mensaje: "Ya existe una suscripción activa para este sensor."</p>||
 |**HT05**|<p>**Obtener suscripciones por residente**</p><p></p>|<p>**Como** desarrollador,** </p><p>**Quiero** exponer un endpoint que permita obtener las suscripciones asociadas a un residente, </p><p>**Para** que puedan ser consultadas fácilmente cuando se necesite.</p><p></p>|<p>**Escenario 1: Residente con suscripciones registradas<br>Dado** que el endpoint GET /residents/{id}/subscriptions está disponible,<br>**Cuando** se realiza una solicitud utilizando un residentId válido,<br>**Entonces** se responde con un código 200 OK,<br>**Y** el cuerpo de la respuesta incluye una lista de suscripciones, cada una con su sensorId, estado, fechaInicio y fechaFin.</p><p>**Escenario 2: Residente sin suscripciones<br>Dado** que el endpoint GET /residents/{id}/subscriptions está disponible,<br>**Cuando** se consulta a un residente que no tiene suscripciones registradas,<br>**Entonces** se responde con un código 200 OK,<br>**Y** el cuerpo de la respuesta contiene una lista vacía o un mensaje que indica que no hay suscripciones registradas.</p>||
 |**HT06**|**Obtener todas las suscripciones del sistema**|<p>**Como** desarrollador,</p><p>**Q**uiero exponer un endpoint que permita listar todas las suscripciones registradas,** </p><p>**Para** que el administrador pueda supervisar su uso y gestión.</p><p></p>|<p>**Escenario 1: Usuario con rol administrador accede al listado<br>Dado** que el endpoint GET /subscriptions está disponible,<br>**Cuando** un usuario autenticado con rol ADMIN realiza la solicitud,<br>**Entonces** se responde con un código 200 OK,<br>**Y** en el cuerpo se devuelve una lista de suscripciones que incluye la información del sensor, proveedor, residente y el estado de cada una.</p><p>**Escenario 2: Usuario sin permisos accede al listado<br>Dado** que el endpoint GET /subscriptions está disponible,<br>**Cuando** un usuario autenticado sin el rol ADMIN intenta acceder,<br>**Entonces** se responde con un código 403 Forbidden,<br>**Y** se incluye un mensaje que indica que no cuenta con los permisos necesarios para acceder a este recurso.</p>||
@@ -1428,41 +1430,58 @@ Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b
     </tr>
           <tr>
       <td>23</td>
+      <td>HU23</td>
+      <td>Chatbot de asistencia inteligente</td>
+      <td>Como habitante,
+Quiero interactuar con un chatbot en la aplicación móvil para consultar el nivel de agua, estado de mi suscripción o solicitar reabastecimiento,
+Para obtener respuestas rápidas y asistencia en la app.</td>
+      <td>5</td>
+    </tr>
+          <tr>
+      <td>24</td>
+      <td>HU24</td>
+      <td>Predicción de consumo y solicitud automática</td>
+      <td>Como proveedor,
+Quiero que el sistema use un modelo de machine learning para predecir el consumo de agua de los residentes y generar solicitudes automáticas de reabastecimiento.</td>
+      <td>8</td>
+    </tr>
+          <tr>
+      <td>25</td>
       <td>HT01</td>
       <td>Registro de credenciales de acceso</td>
       <td>             </td>
       <td>5</td>
     </tr>
           <tr>
-      <td>24</td>
+      <td>26</td>
       <td>HT02</td>
       <td>Inicio de sesión API</td>
       <td> </td>
       <td>5</td>
     </tr>
           <tr>
-      <td>25</td>
+      <td>27</td>
       <td>HT03</td>
       <td>Gestión de perfiles vía API</td>
       <td>  </td>
       <td>5</td>
     </tr>
           <tr>
-      <td>26</td>
+      <td>28</td>
       <td>HT04</td>
       <td>Crear suscripción vía API REST</td>
       <td>  </td>
       <td>8</td>
     </tr>
               <tr>
-      <td>27</td>
+      <td>29</td>
       <td>HT05</td>
       <td>Obtener suscripciones por residente</td>
       <td>  </td>
       <td>3</td>
     </tr>
               <tr>
-      <td>28</td>
+      <td>30</td>
       <td>HT06</td>
       <td>Obtener todas las suscripciones del sistema</td>
       <td>  </td>
@@ -1513,6 +1532,9 @@ A través de estas funcionalidades, los proveedores reciben solicitudes de reaba
 
 - **Gestión de suscripciones y residentes (HU18, HU19, HU20, HU22)**:
 Estas historias aseguran que cada habitante esté vinculado a sensores activos en sus tanques mediante una suscripción gestionada por el proveedor. Permiten registrar nuevos residentes, añadir sensores adicionales y consultar el estado de la suscripción, garantizando un monitoreo continuo y confiable.
+
+- **Funcionalidades emergentes de inteligencia artificial (HU23, HU24)**:
+Estas historias representan la innovación central del sistema. El chatbot inteligente (HU23) permite a los habitantes interactuar fácilmente con la plataforma para consultar niveles de agua, estado de sus suscripciones o generar solicitudes, sin necesidad de conocimientos técnicos. Por su parte, la predicción de consumo y generación automática de solicitudes (HU24) habilita a los proveedores a optimizar la distribución anticipándose a la demanda, mediante modelos de machine learning que aprenden patrones de uso y reducen el riesgo de desabastecimiento.
 
 En conjunto, estas historias de usuario constituyen la columna vertebral del sistema AquaConecta, ya que sin ellas no sería posible habilitar el servicio principal: el monitoreo y gestión inteligente del agua potable en comunidades con acceso limitado.
 
@@ -1595,6 +1617,21 @@ En conjunto, estas historias de usuario constituyen la columna vertebral del sis
 
 **Descripción:** La aplicación debe mostrar en la pantalla principal el nivel actual de agua y el estado de la suscripción, con iconografía clara y colores diferenciados para estados críticos (ej. tanque vacío o sensor inactivo). Todas las interacciones deben requerir un máximo de 3 clics, y los textos deben estar redactados en un lenguaje sencillo. El diseño debe validarse mediante pruebas de usabilidad con al menos 10 habitantes del piloto, asegurando que la mayoría complete las tareas sin asistencia externa.
 
+#### Escenario 6: Precisión en la predicción de consumo
+
+| **Campo** | **Descripción** |
+|-----------|----------------|
+| **ID** | QA-06 |
+| **Atributo** | Exactitud / Confiabilidad |
+| **Fuente** | Proveedor del servicio de agua |
+| **Estímulo** | El proveedor consulta las predicciones de consumo generadas por el modelo de machine learning. |
+| **Artefacto** | Módulo de predicción de consumo (ML). |
+| **Entorno** | El sistema cuenta con un histórico de al menos 30 días de datos de consumo de cada residente. |
+| **Respuesta** | El modelo de ML calcula el consumo esperado para los próximos 3 días y actualiza el sistema con los valores proyectados. |
+| **Medida** | El margen de error de las predicciones no debe superar el 10% respecto al consumo real registrado. |
+
+**Descripción:** El sistema de predicción debe ser capaz de anticipar la demanda de agua de cada residente con una precisión suficiente para que los proveedores puedan planificar de forma eficiente las rutas de distribución. La exactitud del modelo se evalúa comparando los consumos reales con las predicciones realizadas, y el error aceptable es de hasta un 10%. Esto asegura que las solicitudes automáticas de reabastecimiento se generen de forma confiable, evitando tanto el desabastecimiento como los envíos innecesarios.
+
 #### 4.1.2.3 Constraints
 
 El diseño arquitectónico de AquaConecta se encuentra condicionado por un conjunto de restricciones que definen los límites técnicos, operativos y organizacionales dentro de los cuales debe desarrollarse la solución. A continuación, se detallan las principales restricciones identificadas.
@@ -1611,6 +1648,8 @@ El diseño arquitectónico de AquaConecta se encuentra condicionado por un conju
 
 - Infraestructura en la nube: Despliegue en servicios escalables tipo PaaS/IaaS (ej. AWS, GCP o Azure), con soporte para balanceo de carga y almacenamiento relacional/noSQL.
 
+- Inteligencia artificial: La arquitectura debe integrar un motor de IA conversacional para soporte al usuario y un módulo de machine learning predictivo para anticipar patrones de consumo, ya sea alojados en la nube o en el edge, con capacidad de entrenar y actualizar modelos.
+
 **Restricciones Operativas**:
 
 - Conectividad limitada: El sistema debe garantizar operación en zonas rurales con acceso intermitente a internet, habilitando almacenamiento temporal en sensores y sincronización a través del edge node.
@@ -1621,6 +1660,8 @@ El diseño arquitectónico de AquaConecta se encuentra condicionado por un conju
 
 - Mantenimiento en campo: Los sensores deben ser fáciles de instalar y reemplazar, con soporte remoto desde el edge node para actualizaciones de firmware.
 
+- Disponibilidad de datos históricos: Para entrenar el modelo predictivo, el sistema debe garantizar el almacenamiento seguro y estructurado de al menos 30 días de datos de consumo antes de que el módulo ML pueda ser operativo.
+
 **Restricciones Económicas y Organizacionales**:
 
 - Financiamiento inicial limitado: El proyecto depende de alianzas con ONGs como AquaFund y Water.org, lo que obliga a priorizar hardware IoT de bajo costo y servicios cloud costo-eficientes.
@@ -1628,6 +1669,8 @@ El diseño arquitectónico de AquaConecta se encuentra condicionado por un conju
 - Implementación por fases: La arquitectura debe permitir un despliegue incremental (MVP → piloto → expansión regional) evitando reestructuraciones costosas.
 
 - Recursos humanos: Dado el tamaño reducido del equipo, se prioriza el uso de frameworks maduros y librerías existentes sobre desarrollos personalizados.
+
+- Capacitación de usuarios: Se deben considerar talleres o capacitaciones básicas para que los habitantes puedan interactuar fácilmente con el chatbot, especialmente en comunidades con baja alfabetización digital.
 
 ### 4.1.3. Architectural Design Backlog
 
