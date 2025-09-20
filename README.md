@@ -1683,7 +1683,7 @@ El diseño arquitectónico de AquaConecta se encuentra condicionado por un conju
 
 Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURAL, donde construimos todo el flujo del sistema. Iniciamos con la fase de **Exploración No Estructurada**, en la que intercambiamos ideas y discutimos libremente los eventos del dominio, guiándonos por las recomendaciones establecidas para esta etapa.
 
-![alt text](./assets/img/eventStor.png)
+![alt text](./assets/img/eventStor1.png)
 
 #### 4.2.2. Candidate Context Discovery.
 
@@ -1691,25 +1691,33 @@ El proceso de Candidate Context Discovery fue ejecutado con el objetivo de estab
 
 ![alt text](assets/bounded/bounded-operation-and-monitoring.jpg)
 
-* Assets and Resource Management
+* User & Access Management
 
-  Administra los recursos del sistema, como los sensores, actuadores y otros componentes necesarios para el buen funcionamiento del sistema.
+  Administra el registro, autenticación y gestión de perfiles de proveedores y residentes. Permite la creación de cuentas, asignación de credenciales y actualización de información personal o de empresa. Garantiza el acceso seguro y controlado al sistema, funcionando como la puerta de entrada para todos los actores.
 
-* Operation and Monitoring
+* Subscriptions
 
-  Gestiona y supervisa el estado del agua en los tanques de los habitantes. Permite a usuarios visualizar estos datos en tiempo real y generar alertas o solicitudes de recarga. También habilita a los proveedores a monitorear las condiciones del agua y responder a situaciones críticas.  
+  Gestiona la relación entre residentes, proveedores y sensores. Cada suscripción activa asegura que un tanque de agua cuente con un sensor vinculado y operativo. Controla la creación, cancelación y administración de suscripciones, permitiendo que los proveedores gestionen fácilmente a sus residentes y los sensores asociados.
+
+* Monitoring
+
+  Supervisa y administra los datos provenientes de los sensores instalados en los tanques. Ofrece a los residentes una vista detallada del nivel, calidad y pH del agua en tiempo real, mientras que los proveedores pueden visualizar y gestionar la información de todos sus residentes. También almacena el historial de consumo y genera alertas en caso de anomalías o condiciones críticas.
+
+* Requests
+
+  Centraliza la gestión de solicitudes y reportes de los residentes. Permite generar solicitudes de reabastecimiento de agua y reportes de problemas relacionados con sensores o calidad del recurso. Los proveedores reciben estas solicitudes, actualizan su estado y gestionan la atención correspondiente. Este Bounded Context es clave para coordinar la interacción diaria entre residentes y proveedores.
 
 * Analytics
 
-  Permite visualizar reportes históricos y actuales sobre el estado del agua (nivel, calidad, consumo), tanto en tiempo real como en reportes agregados semanales o mensuales, facilitando la toma de decisiones y el monitoreo eficiente del servicio.  
+  Consolida y presenta métricas globales y reportes históricos. Integra información de Monitoring, Subscriptions y Requests para ofrecer un panorama completo del servicio. Los administradores pueden visualizar indicadores como promedios de nivel y calidad del agua, número de solicitudes atendidas y métricas financieras, facilitando decisiones estratégicas y de mejora del servicio.
 
-* User & Profile Management
+* Conversational Support
 
-  Gestiona el registro y la autenticación de los proveedores y habitantes, así como la actualización de sus datos personales. Proporciona credenciales de acceso y asegura que los usuarios puedan interactuar con la plataforma.  
+  Habilita la interacción inteligente entre residentes y el sistema a través de un asistente conversacional. Permite consultar el estado del tanque, reportar problemas o solicitar agua usando lenguaje natural. Actúa como interfaz de usuario simplificada y accesible, transformando los mensajes en comandos que se procesan en Requests y Monitoring.
 
-* Subscription & Payment  
+* Predictive Analytics
 
-  Gestiona la compra, registro y pago de sensores vinculados a usuarios, así como la suscripción al servicio mensual. Asegura que los sensores sean registrados correctamente, vinculados a un proveedor y que se registre el pago inicial y mensual de la suscripción.  
+  Analiza datos históricos y actuales para generar predicciones de consumo y detectar patrones críticos. A partir de estas predicciones, puede emitir alertas preventivas o generar solicitudes automáticas de reabastecimiento. Además, alimenta al módulo de Analytics con métricas de predicción y desempeño del modelo. Representa una capacidad diferenciadora al anticipar la demanda de agua y optimizar la distribución.
 
 #### 4.2.3. Domain Message Flows Modeling.
 
@@ -1717,8 +1725,8 @@ En esta sección, aplicamos Domain Storytelling para modelar cómo los bounded c
 
 - **Scenario 1: Habitante revisa el estado del agua de su tanque**
   
-El habitante solicita el estado del agua a través del Central System, que procesa la consulta mediante comandos y eventos. El Container 4.1.1.1 Candidate Context Discovery.
-Context y Analytics Context colaboran para devolver y maximizar la información del nivel del agua, mostrando los resultados en la aplicación.
+El habitante consulta desde la app móvil el estado de su tanque de agua. El módulo de Monitoring recupera datos del sensor asociado, mostrando nivel, calidad y consumo reciente. Si no hay transmisión, se notifica indisponibilidad. En casos críticos, el sistema genera una alerta preventiva para el usuario.
+
 ![alt text](./assets/bounded/sh1.png)
 
 - **Scenario 2: Habitante gestiona su plan de subscripción.**
