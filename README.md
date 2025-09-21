@@ -474,9 +474,10 @@ Son instituciones que, aunque actualmente funcionan como aliados estratégicos, 
   </tr>
   <tr>
     <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="5">Para proporcionar información valiosa acerca de los competidores, lo cual nos servirá para mejorar la calidad de nuestra aplicación.</td>
   </tr>
   <tr>
-    <td colspan="5">Para proporcionar información valiosa acerca de los competidores, lo cual nos servirá para mejorar la calidad de nuestra aplicación.</td>
+    <td colspan="5"></td>
   </tr>
   <tr>
     <td colspan="3"></td>
@@ -548,7 +549,6 @@ Son instituciones que, aunque actualmente funcionan como aliados estratégicos, 
     </td>
   </tr>
   <tr>
-    <td colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
     <td colspan="2">Productos & Servicios</td>
     <td colspan="1" valign="top">
       Distribución de agua potable y monitoreo en tiempo real del nivel y calidad del agua a través de sensores.
@@ -564,6 +564,7 @@ Son instituciones que, aunque actualmente funcionan como aliados estratégicos, 
     </td>
   </tr>
   <tr>
+    <td colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
     <td colspan="2">Precios & Costos</td>
     <td colspan="1" valign="top">
       Precios personalizados que se ajustan a las necesidades específicas de cada cliente.
@@ -594,10 +595,11 @@ Son instituciones que, aunque actualmente funcionan como aliados estratégicos, 
     </td>
   </tr>
   <tr>
-    <td colspan="1" rowspan="5"><p>Análisis SWOT</p></td>
-    <td colspan="6">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva.</td>
+    <td colspan="2">Análisis SWOT - Introducción</td>
+    <td colspan="4">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva.</td>
   </tr>
   <tr>
+    <td colspan="1" rowspan="4"><p>Análisis SWOT</p></td>
     <td colspan="2">Fortalezas</td>
     <td colspan="1" valign="top">
       Implementación de tecnologías IoT para el monitoreo en tiempo real del agua.
