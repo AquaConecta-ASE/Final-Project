@@ -1670,6 +1670,26 @@ El diseño arquitectónico de AquaConecta se encuentra condicionado por un conju
 
 ### 4.1.4. Architectural Design Decisions
 
+A continuación, se detallan las decisiones arquitectónicas clave tomadas para el desarrollo de AquaConecta, basadas en los requisitos funcionales, atributos de calidad y restricciones del proyecto.
+
+#### 4.1.4.1. Adopción de un Monolito Modular con Separación de Capas
+
+* **Decisión:** Se optó por una arquitectura de **monolito modular** para el backend en lugar de microservicios. La lógica de negocio estará organizada en módulos que se corresponden con los Bounded Contexts identificados (ej. `Monitoring`, `Subscriptions`, `Requests`). Internamente, cada módulo seguirá un patrón de capas (Presentación, Lógica de Negocio, Acceso a Datos).
+* **Justificación:** Esta decisión responde a la restricción de un **equipo de desarrollo reducido** y la necesidad de una **implementación inicial rápida y de bajo costo**. Un monolito modular simplifica el despliegue, las pruebas y el mantenimiento en las primeras fases del proyecto. La modularidad interna permitirá una futura migración a microservicios si la escalabilidad lo requiere, mitigando el riesgo de un rediseño completo.
+* **Alternativas Consideradas:** Se evaluó una arquitectura de microservicios, pero se descartó debido a la complejidad operativa (gestión de servicios, comunicación entre procesos, despliegue distribuido) y los costos iniciales más elevados, que no se justifican para la etapa de piloto del proyecto.
+
+#### 4.1.4.2. Implementación de un Edge Node para Procesamiento de Datos IoT
+
+* **Decisión:** Se implementará un **Edge Node** (utilizando un dispositivo como Raspberry Pi) que actuará como intermediario entre los sensores IoT y la nube. Este nodo será responsable de la agregación de datos, el filtrado de ruido y el almacenamiento temporal (caché) antes de enviar la información al backend.
+* **Justificación:** Esta arquitectura responde directamente a la restricción de **conectividad limitada** en zonas rurales. El Edge Node garantiza la **confiabilidad** y **disponibilidad** del sistema, ya que los sensores pueden seguir operando y almacenando datos localmente incluso sin una conexión a Internet estable. Además, mejora el **rendimiento** al reducir la cantidad de datos brutos enviados a la nube.
+* **Alternativas Consideradas:** Una conexión directa de los sensores a la nube (vía MQTT o HTTP) fue considerada. Sin embargo, esta opción fue descartada por su alta dependencia de la conectividad y el mayor riesgo de pérdida de datos en entornos inestables.
+
+#### 4.1.4.3. Uso de Flutter para el Desarrollo de la Aplicación Móvil
+
+* **Decisión:** La aplicación móvil para residentes se desarrollará utilizando el framework **Flutter**.
+* **Justificación:** Flutter permite crear una base de código única para plataformas Android e iOS, lo cual es ideal para un equipo pequeño, ya que reduce el tiempo y el costo de desarrollo y mantenimiento. Esto responde a las restricciones **económicas y organizacionales**. Además, su rendimiento nativo y la flexibilidad en el diseño de interfaces facilitan la creación de una experiencia de usuario fluida y accesible, cumpliendo con el atributo de **usabilidad**.
+* **Alternativas Consideradas:** Se consideró el desarrollo nativo para Android (Kotlin) e iOS (Swift), pero fue descartado por requerir el doble de esfuerzo de desarrollo. También se evaluaron otras tecnologías multiplataforma como React Native, pero se prefirió Flutter por su rendimiento y el ecosistema de widgets.
+
 ### 4.1.5. Quality Attribute Scenario Refirements
 
 ## 4.2. Strategic-Level Domain-Driven Design
