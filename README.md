@@ -27,8 +27,8 @@
   </thead>
   <tbody>
     <tr>
-      <td> </td>
-      <td>U</td>
+      <td> Periche Quiroga, Piero Fernando </td>
+      <td>U202210192</td>
     </tr>
     <tr>
       <td> </td>
@@ -434,10 +434,37 @@ A partir de todo lo que hemos investigado, creamos el Lean UX Canvas.
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
-- AguaClara: Iniciativa tecnológica centrada en brindar acceso a agua potable en comunidades rurales mediante plantas de tratamiento modulares de bajo costo. Su enfoque se basa en la sostenibilidad, el empoderamiento comunitario y la facilidad de mantenimiento, ofreciendo soluciones que pueden ser operadas y mantenidas por las mismas comunidades, aunque con limitadas capacidades digitales o de monitoreo en tiempo real.
-- Ingeniería Ambiental SAC: Empresa peruana especializada en el diseño e implementación de proyectos ambientales, especialmente en el área de tratamiento y distribución de agua potable. Ofrece servicios de ingeniería, consultoría y ejecución de sistemas hidráulicos convencionales, dirigidos principalmente a entidades públicas, empresas privadas y gobiernos regionales, con un enfoque más técnico que tecnológico.
-- Transporte de Agua Potable Espinoza: Negocio local dedicado al suministro de agua potable mediante camiones cisterna, atendiendo zonas urbanas y periurbanas con escaso acceso a redes de agua. Su modelo de negocio se basa en la distribución directa bajo demanda, sin integrar herramientas tecnológicas de monitoreo o control de calidad del recurso hídrico.
 
+#### a) Competidores directos
+Corresponden a organizaciones y soluciones que utilizan tecnologías IoT y plataformas digitales para la gestión del agua:
+
+- **Xylem (internacional):** empresa global especializada en tecnología del agua, con soluciones de monitoreo de redes y sensores de calidad.
+- **Kamstrup (internacional):** fabricante de medidores inteligentes de agua con transmisión de datos en tiempo real.
+- **Agualimpia (Perú):** organización que ha desarrollado proyectos piloto de telemetría en comunidades rurales, aunque con un enfoque más orientado al tratamiento del agua.
+- **Isla Urbana (México):** iniciativa que implementa sistemas de captación y monitoreo de agua de lluvia, con aplicaciones tecnológicas a nivel comunitario.
+
+Estos actores comparten el uso de tecnologías inteligentes; sin embargo, su foco principal está en redes urbanas consolidadas o en proyectos de captación de agua, mientras que **AquaConecta** se orienta a la trazabilidad del consumo y a la optimización de la distribución mediante cisternas en comunidades vulnerables.
+
+---
+
+#### b) Competidores indirectos
+Se trata de los proveedores de agua existentes que operan bajo esquemas manuales y con limitada digitalización:
+
+- **EPS SEMAPACH S.A. (Chincha):** empresa municipal responsable del servicio de agua potable en la zona, cuyo modelo actual presenta deficiencias en continuidad y trazabilidad.
+- **Camiones cisterna privados:** proveedores informales que abastecen a los hogares sin red de distribución formal, con ausencia de control de calidad y planificación.
+- **Juntas administradoras de agua rural (JAAR):** organizaciones comunitarias que gestionan el servicio en áreas rurales, sin apoyo de herramientas tecnológicas.
+
+La diferencia principal con **AquaConecta** radica en que estas entidades cumplen la función de abastecimiento, pero sin mecanismos de monitoreo en tiempo real ni registros automatizados que garanticen transparencia y eficiencia.
+
+---
+
+#### c) Competidores potenciales
+Son instituciones que, aunque actualmente funcionan como aliados estratégicos, podrían desarrollar o financiar soluciones tecnológicas similares:
+
+- **Water.org:** organización internacional que promueve mecanismos de financiamiento para proyectos de agua y saneamiento, con capacidad para incorporar modelos tecnológicos en el futuro.
+- **AquaFund del BID:** programa que financia proyectos innovadores en agua y saneamiento en América Latina.
+
+---
 
 ### 2.1.1. Análisis competitivo
 
