@@ -885,7 +885,7 @@ Nombre: André Alonso Arroyo Ormeño
     
 <img src="./assets/img/entrevista_andre.png"> 
 
-
+[Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201719831_upc_edu_pe/ESHvuiS-1uxFoVubElY_50MB_Tk9hX2iy3uX2VsVH50gxA)
 </div>
 
 André, Coordinador de monitoreo de calidad de agua de 28 años que coordina el monitoreo en Pueblo Nuevo, comenta que sus mayores retos son la ausencia de datos en tiempo real, los tiempos muertos entre muestreo y resultados de laboratorio, y la dispersión de la información en planillas. Detalla que hoy el proceso incluye inspección en campo, mediciones rápidas in situ (cloro, pH, temperatura) y envío a laboratorio para análisis fisicoquímicos y microbiológicos; el control de cloro/pH es semanal o quincenal y el microbiológico mensual, con campañas extraordinarias ante incidentes. Le gustaría monitorear en tiempo real cloro, turbidez, pH, temperatura, conductividad, presión, caudal y nivel de tanque. Actualmente almacenan datos en Excel/Sheets y usan QGIS para mapas. Ante problemas, notifican, aíslan tramos, ajustan dosificación de cloro, purgan la red y activan abastecimiento alterno, informando a la comunidad. Los costos clave son transporte/viáticos, insumos y análisis de laboratorio. La detección puede darse en horas, pero la confirmación tarda 3–7 días. Considera que un sistema IoT permitiría alertas tempranas, mayor trazabilidad y transparencia, además de optimizar rutas y mantenimiento. Ve como imprescindibles alertas configurables, dashboard web/móvil con históricos, georreferenciación, modo offline/energía solar, gestión de roles y API para integrar con sistemas existentes.
