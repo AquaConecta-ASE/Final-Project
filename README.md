@@ -27,8 +27,8 @@
   </thead>
   <tbody>
     <tr>
-      <td> </td>
-      <td>U</td>
+      <td>Oliveira Paucar, Mauricio</td>
+      <td>U201719831</td>
     </tr>
     <tr>
       <td> </td>
@@ -396,6 +396,7 @@ La misión de AquaConecta es desarrollar y ofrecer soluciones tecnológicas basa
 ### 1.1.2. Perfiles de los integrantes
 | Nombre                   | Descripción | Foto |
 |--------------------------|-------------|------|
+| Mauricio Oliveira Paucar | Tengo 25 años, me gusta mucho aprender cosas nuevas sobre mi carrera, trabajar en equipo de manera proactiva y lograr los objetivos junto a mis compañeros. Me considero una persona ambiciosa, ya que mi meta es llegar a obtener un alto cargo en una empresa que me agrade o formar mi propia empresa relacionada al software. <br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con Angular y Vue<br>- Desarrollo Backend con Java, .NET y Spring Boot<br>- Manejo intermedio de SQL Server y MongoDB<br>- Experiencia en Docker, Git y Domain-Driven Design (DDD) |<img src="./assets/img/oliveirapaucarimg.png" width="900" height="150"> |
 | Nombre | info.<br><br>**Habilidades Técnicas**<br>- info<br>- info<br>- info<br>- info |
 | Joaquin Antonio Cortez Quezada | Soy Joaquin Antonio Cortez Quezada, actualmente estoy cursando el octavo ciclo de la carrera de Ingeniería de Software en la UPC (Universidad Peruana de Ciencias Aplicadas). Me considero una persona perseverante, responsable, con la capacidad de aprender y adaptarme de forma rápida para enfrentar diversos desafíos tecnológicos.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Backend con **Java** y **Spring Boot**<br>- Conocimientos en **C++**, **Python**<br>- Manejo intermedio de **MySQL**, **PostgreSQL** | <img src="./assets/img/cortezquezadaimg.jpeg" width="350" height="170"> |
 | Piero Fernando Periche Quiroga | Soy Piero Fernando Periche Quiroga, estoy cursando el octavo ciclo de la carrera de Ingeniería de Software en la UPC. Soy una persona responsable, perseverante y con la capacidad de aprender y aportar buenas ideas al equipo frente a los problemas que se puedan presentar.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Vue** y **Angular**<br>- Desarrollo Backend con **Java** y **C#**<br>- Conocimiento en **MySQL** y **MongoDB** | <img src="https://i.imgur.com/IIMIR5W.jpeg" width="350" height="170"> |
