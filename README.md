@@ -1659,6 +1659,15 @@ El diseño arquitectónico de AquaConecta se encuentra condicionado por un conju
 
 ### 4.1.3. Architectural Design Backlog
 
+| Prioridad | ID de Tarea | Tarea de Diseño Arquitectónico | Justificación | Atributos de Calidad Relacionados |
+| :--- | :--- | :--- | :--- | :--- |
+| **1** | ADB-01 | Definir el esquema de comunicación y almacenamiento de datos para operación offline | Esencial para garantizar la **disponibilidad** y **confiabilidad** en zonas con conectividad intermitente, lo cual es una restricción clave del proyecto. | Disponibilidad, Confiabilidad |
+| **2** | ADB-02 | Diseñar el modelo de autenticación y autorización basado en roles | Crítico para la **seguridad** del sistema, protegiendo los datos de los residentes y asegurando que solo los proveedores autorizados gestionen la información. | Seguridad |
+| **3** | ADB-03 | Estructurar la API REST del monolito modular para la ingesta de datos IoT | Fundamental para el **rendimiento** y la **escalabilidad**, permitiendo procesar datos de múltiples sensores en tiempo real sin degradar el servicio. | Rendimiento, Escalabilidad |
+| **4** | ADB-04 | Diseñar la arquitectura del Edge Node para el procesamiento local de datos | Clave para mejorar el **rendimiento** y la **disponibilidad**, ya que reduce la latencia y la dependencia de la nube al filtrar y agregar datos en el borde de la red. | Rendimiento, Disponibilidad, Confiabilidad |
+| **5** | ADB-05 | Definir la estrategia de despliegue en la nube (PaaS/IaaS) | Necesario para la **escalabilidad** y **mantenibilidad**, permitiendo un crecimiento flexible de la infraestructura y facilitando las actualizaciones. | Escalabilidad, Mantenibilidad |
+| **6** | ADB-06 | Integrar el motor de IA conversacional y el módulo de Machine Learning | Importante para la **usabilidad** y la **funcionalidad avanzada**, diferenciando la solución al ofrecer soporte inteligente y predicciones de consumo. | Usabilidad, Confiabilidad |
+
 ### 4.1.4. Architectural Design Decisions
 
 ### 4.1.5. Quality Attribute Scenario Refirements
