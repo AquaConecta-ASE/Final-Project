@@ -27,20 +27,20 @@
   </thead>
   <tbody>
     <tr>
-      <td>Oliveira Paucar, Mauricio</td>
-      <td>U201719831</td>
+      <td> Periche Quiroga, Piero Fernando </td>
+      <td>U202210192</td>
     </tr>
     <tr>
-      <td> </td>
-      <td>U </td>
+      <td>Oliveira Paucar, Mauricio</td>
+      <td>U201719831 </td>
     </tr>
     <tr>
       <td>Cortez Quezada, Joaquin Antonio</td>
       <td>U202212648</td>
     </tr>
     <tr>
-      <td> </td>
-      <td>U </td>
+      <td> Mathias Adriano Hidalgo López </td>
+      <td>u202213222 </td>
     </tr>
   </tbody>
 </table>
@@ -56,76 +56,12 @@
 
 |**Versión**|**Fecha**|**Autor**|                                   **Descripción de modificación**                                   |
 | :-: | :-: | :-: |:---------------------------------------------------------------------------------------------------:|
-|1\.0|7/04/2025|  i       |                                       i                                |
-|1\.1|9/04/2025|    i     |                 i                                        |
-|1\.2|10/04/2025|     i       |               i                                      |
-|1\.3|11/04/2025|       i     |                   i                                |
-|1\.4|12/04/2025|       i     |                    i                     |
-|1\.5|14/04/2025|       i    |                    i                         |
-|1\.6|15/04/2025|       i     |             i                   |
-|1\.7|15/04/2024|     i       |                   i                          |
-|1\.8|16/04/2024| i |         i                                    |
-|1\.9|16/04/2024| i |       i                                |
-|2\.0|19/04/2025|   i   |         i            |
-|2\.1|20/04/2025|   i     |  i         |
-|2\.2|20/04/2025| i |i|
-|2\.3|20/04/2025| i | i |
-|2\.4|24/04/2025| i | i |
-|2\.5|24/04/2025| i | i |
-|2\.6|25/04/2025| i | i |
-|2\.7|25/04/2025| i | i |
-|2\.8|25/04/2025| i | i |
-|2\.9|25/04/2025| i | i |
-|3\.0|25/04/2025| i | i |
-|3\.1|06/05/2025| i | i |
-|3\.2|07/05/2025| i | i |
-|3.3|08/06/2025| i | i |
-|3.4|10/06/2025| i | i |
-|3.5|12/06/2025| i | i |
-|3.6|13/06/2025| i | i |
-|3.7|14/06/2025| i | i |
-|3.8|15/06/2025| i | i |
-|3.9|16/06/2025| i | i |
-
+|TB1|20/09/2025| Cortez Quezada Joaquin Antonio, Oliveira Paucar Mauricio, Periche Quiroga Piero, Hidalgo Lopez Mathias Adriano | Capítulos dentro del desarrollo del  proyecto: <br>• Capitulo I: Introducción  <br>• Capitulo II: Requirements  Elicitation & Analysis <br>• Capitulo III: Requirements Specification <br>• Capítulo IV: Product Architecture Design |
+|1\.1|9/04/2025|    i     |        i   |
 
 
 </div>
 
-# Project Report Collaboration Insights
-
-## Repositorios:
-
-- Informe: [https://github.com/IronCoders-IOT/Final-Project](https://github.com/IronCoders-IOT/Final-Project)
-
-- Frontend: [https://github.com/IronCoders-IOT/Frontend](https://github.com/IronCoders-IOT/Frontend)
-
-- Backend: [https://github.com/IronCoders-IOT/Backend](https://github.com/IronCoders-IOT/Backend)
-
-- Mobile: [https://github.com/IronCoders-IOT/mobile_iot](https://github.com/IronCoders-IOT/mobile_iot)
-
-- Embedded: [https://github.com/IronCoders-IOT/Embedded](https://github.com/IronCoders-IOT/Embedded)
-
-- Edge: [https://github.com/IronCoders-IOT/Edge](https://github.com/IronCoders-IOT/Edge)
-
-- Landing Page: [https://github.com/IronCoders-IOT/Landing-Page](https://github.com/IronCoders-IOT/Landing-Page)
-
-### TB1
-
-Para la entrega del TB1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
-
-Se muestran evidencias de los commits realizados en la entrega de la TB2 en el informe.
-
-
-[Colaboraciones del repositorio]
-
-![alt text](assets/img/tb2-1.png)
-![alt text](assets/img/tb2-2.png)
-
-[Registro de los commits donde se realizaron la mayor cantidad]
-![alt text](assets/img/commits-ironcoders.png)
-En ambos casos se puede observar el incremento de modificaciones y revisiones en los dias jueves y una cantidad mayor de cambios que commits durante esos días.
-
----
 
 # Contenido
 
@@ -182,171 +118,26 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 
 [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
 
-[4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)   
-[4.1.1. Event Storming](#411-event-storming)             
-[4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)    
-[4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)    
-[4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)    
-[4.1.2. Context Mapping](#412-context-mapping)    
-[4.1.3. Software Architecture](#413-software-architecture)    
-[4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)        
-[4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-container-level-diagrams)      
-[4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)      
-[4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)       
+[4.1. Strategic-Level Atrribute-Driven Desing](#41-strategic-level-domain-driven-design)   
+[4.1.1. Design Purpose](#411-event-storming)             
+[4.1.2. Attribute-Driven Design Inputs](#4111-candidate-context-discovery)    
+[4.1.3. Architectural Design Backlog](#4112-domain-message-flows-modeling)    
+[4.1.4. Architectural Design Decisions](#4113-bounded-context-canvases)    
+[4.1.5. Quality Attribute Scenario Refirements](#412-context-mapping)
 
-[4.2.1. Bounded Context: Operation and Monitoring](#421-bounded-context-operation-and-monitoring)   
-[4.2.1.1. Domain Layer](#4211-domain-layer)    
-[4.2.1.2. Interface Layer](#4212-interface-layer)    
-[4.2.1.3. Application Layer](#4213-application-layer)    
-[4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)    
-[4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)     
-[4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)     
-[4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)      
-[4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)      
+[4.2. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)   
+[4.2.1. Event Storming](#411-event-storming)             
+[4.2.2. Candidate Context Discovery](#4111-candidate-context-discovery)    
+[4.2.3. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)    
+[4.2.4. Bounded Context Canvases](#4113-bounded-context-canvases)    
+[4.2.5. Context Mapping](#412-context-mapping)
 
-[4.2.2. Bounded Context: Analytics](#422-bounded-context-analytics)    
-[4.2.2.1. Domain Layer](#4221-domain-layer)    
-[4.2.2.2. Interface Layer](#4222-interface-layer)    
-[4.2.2.3. Application Layer](#4223-application-layer)    
-[4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)    
-[4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)    
-[4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)    
-[4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)    
-[4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)     
-
-[4.2.3. Bounded Context: Consulting](#423-bounded-context-consulting)     
-[4.2.3.1. Domain Layer](#4231-domain-layer)     
-[4.2.3.2. Interface Layer](#4232-interface-layer)     
-[4.2.3.3. Application Layer](#4233-application-layer)    
-[4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)    
-[4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)    
-[4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)    
-[4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)     
-[4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)      
-
-[4.2.4. Bounded Context: Subscription](#424-bounded-context-subscription)     
-[4.2.4.1. Domain Layer](#4241-domain-layer)     
-[4.2.4.2. Interface Layer](#4242-interface-layer)     
-[4.2.4.3. Application Layer](#4243-application-layer)    
-[4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)    
-[4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)    
-[4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)    
-[4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)    
-[4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)    
-
-[4.2.5. Bounded Context: Payment](#425-bounded-context-payment)    
-[4.2.5.1. Domain Layer](#4251-domain-layer)    
-[4.2.5.2. Interface Layer](#4252-interface-layer)    
-[4.2.5.3. Application Layer](#4253-application-layer)    
-[4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)    
-[4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)    
-[4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)    
-[4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)    
-[4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)     
-
-[4.2.6. Bounded Context: Automation](#426-bounded-context-automation)    
-[4.2.6.1. Domain Layer](#4261-domain-layer)     
-[4.2.6.2. Interface Layer](#4262-interface-layer)     
-[4.2.6.3. Application Layer](#4263-application-layer)    
-[4.2.6.4. Infrastructure Layer](#4264-infrastructure-layer)    
-[4.2.6.5. Bounded Context Software Architecture Component Level Diagrams](#4265-bounded-context-software-architecture-component-level-diagrams)    
-[4.2.6.6. Bounded Context Software Architecture Code Level Diagrams](#4266-bounded-context-software-architecture-code-level-diagrams)    
-[4.2.6.6.1. Bounded Context Domain Layer Class Diagrams](#42661-bounded-context-domain-layer-class-diagrams)    
-[4.2.6.6.2. Bounded Context Database Design Diagram](#42662-bounded-context-database-design-diagram)     
-
-[4.2.7. Bounded Context: Installation](#427-bounded-context-installation)     
-[4.2.7.1. Domain Layer](#4271-domain-layer)     
-[4.2.7.2. Interface Layer](#4272-interface-layer)     
-[4.2.7.3. Application Layer](#4273-application-layer)     
-[4.2.7.4. Infrastructure Layer](#4274-infrastructure-layer)     
-[4.2.7.5. Bounded Context Software Architecture Component Level Diagrams](#4275-bounded-context-software-architecture-component-level-diagrams)     
-[4.2.7.6. Bounded Context Software Architecture Code Level Diagrams](#4276-bounded-context-software-architecture-code-level-diagrams)     
-[4.2.7.6.1. Bounded Context Domain Layer Class Diagrams](#42761-bounded-context-domain-layer-class-diagrams)     
-[4.2.7.6.2. Bounded Context Database Design Diagram](#42762-bounded-context-database-design-diagram)     
-
-[4.2.8. Bounded Context: Identity and Access Management](#428-bounded-context-identity-and-access-management)     
-[4.2.8.1. Domain Layer](#4281-domain-layer)     
-[4.2.8.2. Interface Layer](#4282-interface-layer)     
-[4.2.8.3. Application Layer](#4283-application-layer)     
-[4.2.8.4. Infrastructure Layer](#4284-infrastructure-layer)     
-[4.2.8.5. Bounded Context Software Architecture Component Level Diagrams](#4285-bounded-context-software-architecture-component-level-diagrams)     
-[4.2.8.6. Bounded Context Software Architecture Code Level Diagrams](#4286-bounded-context-software-architecture-code-level-diagrams)     
-[4.2.8.6.1. Bounded Context Domain Layer Class Diagrams](#42861-bounded-context-domain-layer-class-diagrams)     
-[4.2.8.6.2. Bounded Context Database Design Diagram](#42862-bounded-context-database-design-diagram)     
-
-[4.2.9. Bounded Context: Notifications](#429-bounded-context-notifications)     
-[4.2.9.1. Domain Layer](#4291-domain-layer)     
-[4.2.9.2. Interface Layer](#4292-interface-layer)     
-[4.2.9.3. Application Layer](#4293-application-layer)     
-[4.2.9.4. Infrastructure Layer](#4294-infrastructure-layer)     
-[4.2.9.5. Bounded Context Software Architecture Component Level Diagrams](#4295-bounded-context-software-architecture-component-level-diagrams)     
-[4.2.9.6. Bounded Context Software Architecture Code Level Diagrams](#4296-bounded-context-software-architecture-code-level-diagrams)     
-[4.2.9.6.1. Bounded Context Domain Layer Class Diagrams](#42961-bounded-context-domain-layer-class-diagrams)     
-[4.2.9.6.2. Bounded Context Database Design Diagram](#42962-bounded-context-database-design-diagram)     
-
-[Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-
-[5.1 Style Guidelines](#51-style-guidelines)  
-[5.1.1. General Style Guidelines](#511-general-style-guidelines)  
-[5.1.2. Web Style Guidelines](#512-web-style-guidelines)  
-
-[5.2 Software Architecture](#52-software-architecture)  
-[5.2.1 Organization System](#521-organization-system)  
-[5.2.2 Labeling System](#522-labeling-system)  
-[5.2.3 SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)  
-[5.2.4 Searching Systems](#524-searching-systems)  
-[5.2.5 Navigation Systems](#525-navigation-systems)  
-
-[5.3 Landing Page UI Design](#53-landing-page-ui-design)  
-[5.3.1 Landing Page Wireframe](#531-landing-page-wireframe)  
-[5.3.2 Landing Page Mock Up](#532-landing-page-mock-up)  
-
-[5.4 Applications UX/UI Design](#54-applications-uxui-design)  
-[5.4.1 Applications Wireframes](#541-applications-wireframes)  
-[5.4.2 Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)  
-[5.4.3 Applications Mockups](#543-applications-mockups)  
-[5.4.4 Applications User Flow Diagrams](#544-applications-user-flow-diagrams)  
-
-[5.5 Applications Prototyping](#55-applications-prototyping)  
-
-[Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
-
-[6.1. Software Configuration Management](#61-software-configuration-management)  
-[6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)  
-[6.1.2. Source Code Management](#612-source-code-management)  
-[6.1.3. Guía de Estilo y Convenciones del Código Fuente](#613-guía-de-estilo-y-convenciones-del-código-fuente)  
-[6.1.4. Configuración para el Despliegue de Software](#614-configuración-para-el-despliegue-de-software)  
-
-[6.2. Implementación de Landing Page, Servicios y Aplicaciones](#62-implementación-de-landing-page-servicios-y-aplicaciones)  
-[6.2.1. Sprint 1](#621-sprint-1)  
-[6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)  
-[6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)  
-[6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)  
-[6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)  
-[6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)  
-[6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)  
-[6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)  
-[6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)  
-[6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)  
-
-[6.2.2. Sprint 2](#622-sprint-2)  
-[6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)  
-[6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)  
-[6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)  
-[6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)  
-[6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)  
-[6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)  
-[6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)  
-[6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)  
-[6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)  
-
-[6.3 Validation Interviews](#63-validation-interviews)  
-[6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)  
-[6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)  
-[6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)  
-
-[6.4. Video About-the-Product](#64-video-about-the-product)
-             
+[4.3. Software Architecture](#413-software-architecture)    
+[4.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)        
+[4.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-container-level-diagrams)      
+[4.3.3. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)   
+[4.3.4 Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)  
+         
 
 [Conclusiones](#conclusiones)
 
@@ -360,18 +151,20 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 
 # Student Outcome
 El curso contribuye al cumplimiento del Student Outcome ABET:
-ABET – EAC - Student Outcome 5
-Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros
-juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
-establecen objetivos, planifican tareas y cumplen objetivos.
-En el siguiente cuadro se describe las acciones realizadas y enunciados de
-conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
-del ABET – EAC - Student Outcome 5.
+ABET – EAC - Student Outcome 3 <br>
+Capacidad de comunicarse efectivamente con un rango de audiencias.  
+Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando 
+estrategias de aprendizaje apropiadas. 
+En el siguiente cuadro se describe las acciones realizadas de cada integrante y enunciados de 
+conclusiones por parte del equipo, que permiten sustentar al haber alcanzado el logro del ABET – 
+EAC –Student Outcome 3.
+
 
 | **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
 |-------------------------|-------------------------|------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Nombre** <br>**TB1:**<br> i <br>**TP1:**<br> i <br>**TB2:**<br> i <br><br> **Nombre** <br>**TB1:**<br> i <br>**TP1:**<br> i <br>**TB2:**<br> i <br>| Conclucion |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Nombre** <br>**TB1:**<br> i <br>**TP1:**<br> i <br>**TB2:**<br> i <br><br> **Nombre** <br>**TB1:**<br> i <br>**TP1:**<br> i <br>**TB2:**<br> i <br> | conclusion.
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Joaquin Cortez Quezada** <br>**TB1:**<br> En el desarrollo de la TB1, realicé una profunda investigación sobre el problema a solucionar, considerando el aspecto social y económico, además, identifiqué posibles bounded context con el proceso de EventStorming exponiendo los procesos de forma clara y entendible estableciendo el lenguaje ubicuo en cada uno.<br><br>**Oliveira Paucar, Mauricio** <br>**TB1:**<br> Durante el desarrollo del proyecto, elaboré el modelado C4 de la solución, estructurando los diferentes niveles de abstracción necesarios para comprender el sistema. Este trabajo me permitió comunicar de manera clara y objetiva tanto la visión general como los detalles técnicos, adaptando la explicación según el público al que se dirigía, en este caso a mis compañeros del equipo y docente. <br><br>**Piero Periche Quiroga** <br>**TB1:**<br> En el desarrollo de la tb1, me encargue del analisis del proyecto, con el desarrollo del c4 model y el proceso de EventStorming, mostrando y explicando de forma clara y precisa los procesos. <br>**TP1:**<br>  [descripción] <br>**TB2:**<br> [descripción]<br><br>**Hidalgo Lopez Mathias Adriano** <br>**TB1:**<br> Durante la fase de investigación, conduje entrevistas con dos grupos distintos: residentes de las comunidades afectadas y proveedores del servicio de agua. Para lograr una comunicación efectiva, adapté mi lenguaje y enfoque: con los residentes, utilicé un tono empático para comprender sus necesidades diarias, mientras que con los proveedores, empleé un lenguaje más técnico para discutir los desafíos operativos. Además, expuse oralmente al equipo las decisiones de diseño arquitectónico (como la elección de un monolito modular y el uso de un Edge Node), traduciendo conceptos técnicos complejos en justificaciones claras y comprensibles para todos. <br>**TP1:**<br>  [descripción] <br>**TB2:**<br> [descripción]| **TB1:**<br>La comunicación oral permitió presentar con claridad la problemática social del acceso al agua y sus causas, así como los resultados del EventStorming y los bounded contexts. Esto facilitó que los hallazgos y decisiones arquitectónicas fueran entendidos por públicos de distintas especialidades y niveles.<br><br>|
+| Comunica por escrito con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Joaquin Cortez Quezada** <br>**TB1:**<br> Participé en la elaboración de la documentación escrita del proyecto, estructurando de manera clara y objetiva los apartados técnicos y conceptuales. Redacté descripciones de historias de usuario, escenarios de calidad, bounded context canvas y el context mapping, empleando un lenguaje accesible tanto para compañeros de ingeniería como para un público no especializado. <br><br>**Oliveira Paucar, Mauricio** <br>**TB1:**<br> En el marco del proyecto, desarrollé el modelado C4 de la solución, documentando de manera estructurada los distintos niveles de abstracción requeridos. Este trabajo escrito permitió presentar con objetividad tanto la visión general como los detalles técnicos, de modo que mis compañeros pudieran comprender la propuesta desde una perspectiva de ingeniería, y al mismo tiempo el docente evaluador tuviera claridad sobre la coherencia y justificación del diseño planteado. <br><br>**Piero Periche Quiroga** <br>**TB1:**<br> En el proyecto desarrollé y aporte en el modelado c4 model de la solucion, documentando de forma clara los niveles de arquitectura requeridos. Esto permitio dejar en claro los detalles de arquitectura, para que asi la solucion tenga una vista clara desde la vision de ingeniería. <br>**TP1:**<br>  [descripción] <br>**TB2:**<br> [descripción]<br><br>**Hidaldo Lopez Mathias Adriano** <br>**TB1:**<br> Participé activamente en la redacción de la documentación del proyecto, especialmente en las secciones de diseño de software (4.1.3, 4.1.4 y 4.1.5). Mi objetivo fue estructurar estas secciones de forma clara y objetiva, explicando decisiones complejas como la arquitectura de monolito modular y el Edge Node, detallando no solo los aspectos técnicos, sino también sus justificaciones y las alternativas consideradas. Esto asegura que la información sea comprensible tanto para un público técnico (compañeros y profesor) como para una audiencia no especializada que necesite entender el porqué del diseño. <br>**TP1:**<br>  [descripción] <br>**TB2:**<br> [descripción] | **TB1:**<br>La comunicación escrita permitió documentar de forma objetiva la problemática identificada, sus causas y las soluciones propuestas mediante historias de usuario, escenarios y canvases. Esto aseguró que los resultados fueran comprensibles y útiles para diferentes públicos dentro del proyecto.<br><br> |
+
 
 # Capítulo I: Introducción
 
@@ -396,10 +189,10 @@ La misión de AquaConecta es desarrollar y ofrecer soluciones tecnológicas basa
 ### 1.1.2. Perfiles de los integrantes
 | Nombre                   | Descripción | Foto |
 |--------------------------|-------------|------|
-| Mauricio Oliveira Paucar | Tengo 25 años, me gusta mucho aprender cosas nuevas sobre mi carrera, trabajar en equipo de manera proactiva y lograr los objetivos junto a mis compañeros. Me considero una persona ambiciosa, ya que mi meta es llegar a obtener un alto cargo en una empresa que me agrade o formar mi propia empresa relacionada al software. <br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con Angular y Vue<br>- Desarrollo Backend con Java, .NET y Spring Boot<br>- Manejo intermedio de SQL Server y MongoDB<br>- Experiencia en Docker, Git y Domain-Driven Design (DDD) |<img src="./assets/img/oliveirapaucarimg.png" width="900" height="150"> |
-| Nombre | info.<br><br>**Habilidades Técnicas**<br>- info<br>- info<br>- info<br>- info |
+|  Mauricio Oliveira Paucar | Tengo 25 años, me gusta mucho aprender cosas nuevas sobre mi carrera, trabajar en equipo de manera proactiva y lograr los objetivos junto a mis compañeros. Me considero una persona ambiciosa, ya que mi meta es llegar a obtener un alto cargo en una empresa que me agrade o formar mi propia empresa relacionada al software. <br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con Angular y Vue<br>- Desarrollo Backend con Java, .NET y Spring Boot<br>- Manejo intermedio de SQL Server y MongoDB<br>- Experiencia en Docker, Git y Domain-Driven Design (DDD) |<img src="./assets/img/oliveirapaucarimg.png" width="350" height="170"> |
 | Joaquin Antonio Cortez Quezada | Soy Joaquin Antonio Cortez Quezada, actualmente estoy cursando el octavo ciclo de la carrera de Ingeniería de Software en la UPC (Universidad Peruana de Ciencias Aplicadas). Me considero una persona perseverante, responsable, con la capacidad de aprender y adaptarme de forma rápida para enfrentar diversos desafíos tecnológicos.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Backend con **Java** y **Spring Boot**<br>- Conocimientos en **C++**, **Python**<br>- Manejo intermedio de **MySQL**, **PostgreSQL** | <img src="./assets/img/cortezquezadaimg.jpeg" width="350" height="170"> |
 | Piero Fernando Periche Quiroga | Soy Piero Fernando Periche Quiroga, estoy cursando el octavo ciclo de la carrera de Ingeniería de Software en la UPC. Soy una persona responsable, perseverante y con la capacidad de aprender y aportar buenas ideas al equipo frente a los problemas que se puedan presentar.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Vue** y **Angular**<br>- Desarrollo Backend con **Java** y **C#**<br>- Conocimiento en **MySQL** y **MongoDB** | <img src="https://i.imgur.com/IIMIR5W.jpeg" width="350" height="170"> |
+| Mathias Adriano Hidalgo Lopez | Soy Mahtias Adriano Hidalgo Lopez, Actualmente curso el octavo ciclo d ela carrera de ingenieria de software en la UPC. Me caracterizo por ser una persona responsable, empatica, trabajadora, con una capacidad de captar la informacion al instante.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Vue** y **Angular**<br>- Desarrollo Backend con **Java** y **C#**<br>- Conocimiento en **MySQL** y **MongoDB** | <img src="./assets/img/Carnet1.jpg" width="350" height="170"> |
 
 
 
@@ -411,21 +204,15 @@ Gracias a sus sensores y acceso desde dispositivos móviles o web, la solución 
 
 ### 1.2.1. Antecedentes y problemática
 
-En la provincia de **Chincha** (región Ica), miles de familias enfrentan serias dificultades de acceso al agua potable. Según ([Infobae](https://www.infobae.com/peru/2024/09/08/alarma-por-la-falta-de-acceso-continuo-a-agua-potable-en-ica-solo-el-133-de-los-hogares-cuenta-con-el-servicio-las-24-horas/?utm_source=chatgpt.com)) (2024), sólo el 13.3% de los hogares cuentan con suministro continuo durante las 24 horas, mientras que la mayoría depende del abastecimiento mediante camiones cisterna. Esta situación, aunque resuelve temporalmente la necesidad, genera nuevos desafíos en la gestión y el control del recurso.
+El acceso limitado al agua potable representa uno de los desafíos más críticos que enfrenta la región Ica. Según el Instituto Nacional de Estadística e Informática (INEI), Ica es la tercera región del Perú con el menor porcentaje de hogares que cuentan con acceso continuo a este servicio básico, con apenas el 13.3% de los hogares. Esta estadística revela una realidad alarmante: 9 de cada 10 hogares no tienen acceso a agua durante las 24 horas del día [(INEI, citado en Infobae, 2024)](https://www.infobae.com/peru/2024/05/16/inei-la-pobreza-y-un-deficiente-manejo-del-gobierno-para-enfrentar-la-crisis-economica-que-afecta-a-millones-de-peruanos/).
 
-El problema se ha evidenciado con mayor fuerza en noviembre de 2024, cuando comunidades como el **asentamiento humano 28 de Julio, en el distrito de Pueblo Nuevo (Chincha)**, quedaron sin agua potable en sus viviendas durante varios días consecutivos. Según el ([Diario Correo](https://diariocorreo.pe/edicion/ica/chincha-miles-de-familias-padecen-por-falta-de-agua-hasta-por-una-semana-noticia/?ref=dcr#google_vignette)) (2024), cientos de familias tuvieron que recurrir a cisternas y almacenar agua en condiciones precarias, con un impacto directo en la higiene personal, la alimentación y la salud de niños y adultos mayores.
+En la provincia de Chincha específicamente, miles de familias enfrentan serias dificultades de acceso al agua potable bajo la responsabilidad de la Empresa de Servicio Municipal de Agua Potable y Alcantarillado de Chincha Sociedad Anónima –EPS SEMAPACH S.A., mientras que la mayoría de hogares depende del abastecimiento mediante camiones cisterna. La magnitud del problema ha generado una creciente tensión social, evidenciada cuando los pobladores de Chincha, cansados del deficiente servicio de agua que les brinda SEMAPACH, organizaron un plantón en 2025 para exigir mejor servicio de agua potable (Diario Correo, 2025).
 
-#### Principales problemáticas identificadas:
+El problema se evidenció con particular intensidad en noviembre de 2024, cuando comunidades como el asentamiento humano 28 de Julio, en el distrito de Pueblo Nuevo (Chincha), quedaron sin agua potable en sus viviendas durante varios días consecutivos. Este mismo asentamiento forma parte de las comunidades que participaron en las protestas de 2025, demostrando la persistencia del problema. Según el [Diario Correo (2024)](https://diariocorreo.pe/edicion/ica/chincha-miles-de-familias-padecen-por-falta-de-agua-hasta-por-una-semana-noticia/?ref=dcr#google_vignette), cientos de familias tuvieron que recurrir a cisternas y almacenar agua en condiciones precarias, con un impacto directo en la higiene personal, la alimentación y la salud de niños y adultos mayores.
 
-- **Falta de trazabilidad y control por vivienda:** no hay un registro automatizado de cuánta agua se entrega a cada familia.  
-- **Distribución ineficiente:** algunas zonas no reciben agua a tiempo o quedan fuera de la planificación.  
-- **Riesgos en la calidad del agua:** no siempre se verifica si el agua distribuida por cisterna cumple los estándares de salubridad.  
-- **Dependencia de métodos manuales:** muchas decisiones logísticas se toman sin apoyo de datos en tiempo real.  
-- **Problemas sanitarios:** el almacenamiento en baldes o tanques sin tapa incrementa el riesgo de enfermedades como el dengue.  
+Esta situación genera múltiples problemáticas: falta de trazabilidad y control por vivienda, ya que no hay un registro automatizado de cuánta agua se entrega a cada familia; distribución ineficiente donde algunas zonas no reciben agua a tiempo o quedan fuera de la planificación; riesgos en la calidad del agua, pues no siempre se verifica si el agua distribuida por cisterna cumple los estándares de salubridad; dependencia de métodos manuales donde muchas decisiones logísticas se toman sin apoyo de datos en tiempo real; y problemas sanitarios graves, ya que el almacenamiento en baldes o tanques sin tapa incrementa el riesgo de enfermedades como el dengue.
 
-Esta realidad evidencia la necesidad de adoptar soluciones tecnológicas, como sistemas de monitoreo IoT y plataformas digitales, que permitan optimizar la planificación de reparto, mejorar la transparencia y garantizar la calidad del agua entregada.
-
-**AquaConecta** surge como respuesta a este contexto, ofreciendo una plataforma que combina **sensores IoT instalados en tanques de las viviendas** con una aplicación web y móvil para proveedores y usuarios. De esta manera, se recopilan datos en tiempo real sobre cantidad y calidad de agua, lo que facilita la trazabilidad, priorización de zonas críticas y una gestión más eficiente del recurso. Con ello, no solo se mejora la distribución, sino que se promueve una transformación digital de los servicios de agua en beneficio de comunidades vulnerables como las de Pueblo Nuevo.
+Esta realidad evidencia la necesidad urgente de adoptar soluciones tecnológicas, como sistemas de monitoreo IoT y plataformas digitales, que permitan optimizar la planificación de reparto, mejorar la transparencia y garantizar la calidad del agua entregada. AquaConecta surge como respuesta a este contexto, ofreciendo una plataforma que combina sensores IoT instalados en tanques de las viviendas con una aplicación web y móvil para proveedores y usuarios. De esta manera, se recopilan datos en tiempo real sobre cantidad y calidad de agua, lo que facilita la trazabilidad, priorización de zonas críticas y una gestión más eficiente del recurso. Con ello, no solo se mejora la distribución, sino que se promueve una transformación digital de los servicios de agua en beneficio de comunidades vulnerables como las de Pueblo Nuevo.
 
 Asimismo, para garantizar la sostenibilidad del proyecto, se consideran como **aliados estratégicos potenciales** al programa **AquaFund del BID**, que financia proyectos innovadores de agua y saneamiento en zonas rurales, y a Water.org, cuyo modelo **Water Credit** puede facilitar que las familias financien la instalación de sensores en sus tanques. Estos actores representan un soporte clave para el despliegue del piloto en Chincha y su futura escalabilidad a otras comunidades.
 
@@ -642,16 +429,43 @@ A partir de todo lo que hemos investigado, creamos el Lean UX Canvas.
 ## 1.3. Segmentos objetivo.
 | Variables    | Segmento 1 - Habitantes | Segmento 2 - Proveedores |
 |--------------|-------------------------|---------------------------|
-| Geográfica   | Comunidades rurales, asentamientos urbanos marginales o zonas residenciales donde el acceso a agua segura puede ser limitado o de baja calidad. | Empresas de servicios hidráulicos, ONG ambientales o proveedores locales de tecnología situados en zonas rurales, periurbanas o cercanas a zonas de alta necesidad hídrica. |
+| Geográfica   | Familias del AA.HH. 28 de Julio en Pueblo Nuevo (Chincha) y zonas similares, con acceso intermitente al agua potable mediante cisternas y sin información clara sobre su cantidad y calidad. | Empresas de servicios hidráulicos, ONG ambientales o proveedores locales de tecnología situados en zonas rurales, periurbanas o cercanas a zonas de alta necesidad hídrica. |
 | Demográfica  | Personas de diversa edad y género, principalmente familias o individuos interesados en mejorar su acceso a agua segura y en cuidar su entorno ambiental. | Profesionales técnicos o comerciales, de edad adulta, con formación o experiencia en gestión de recursos hídricos, instalación de sensores IoT o mantenimiento de redes de agua. |
 | Psicológica  | Alta preocupación por la salud, calidad del agua y sostenibilidad. Buscan soluciones simples y accesibles para controlar su propio consumo y asegurar el bienestar familiar. | Enfoque orientado a brindar servicios de alta eficiencia. Valoran la innovación tecnológica para monitorear remotamente sensores, optimizar el uso del agua, cumplir estándares ambientales y ofrecer mantenimiento predictivo. |
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
-- AguaClara: Iniciativa tecnológica centrada en brindar acceso a agua potable en comunidades rurales mediante plantas de tratamiento modulares de bajo costo. Su enfoque se basa en la sostenibilidad, el empoderamiento comunitario y la facilidad de mantenimiento, ofreciendo soluciones que pueden ser operadas y mantenidas por las mismas comunidades, aunque con limitadas capacidades digitales o de monitoreo en tiempo real.
-- Ingeniería Ambiental SAC: Empresa peruana especializada en el diseño e implementación de proyectos ambientales, especialmente en el área de tratamiento y distribución de agua potable. Ofrece servicios de ingeniería, consultoría y ejecución de sistemas hidráulicos convencionales, dirigidos principalmente a entidades públicas, empresas privadas y gobiernos regionales, con un enfoque más técnico que tecnológico.
-- Transporte de Agua Potable Espinoza: Negocio local dedicado al suministro de agua potable mediante camiones cisterna, atendiendo zonas urbanas y periurbanas con escaso acceso a redes de agua. Su modelo de negocio se basa en la distribución directa bajo demanda, sin integrar herramientas tecnológicas de monitoreo o control de calidad del recurso hídrico.
 
+#### a) Competidores directos
+Corresponden a organizaciones y soluciones que utilizan tecnologías IoT y plataformas digitales para la gestión del agua:
+
+- **Xylem (internacional):** empresa global especializada en tecnología del agua, con soluciones de monitoreo de redes y sensores de calidad.
+- **Kamstrup (internacional):** fabricante de medidores inteligentes de agua con transmisión de datos en tiempo real.
+- **Agualimpia (Perú):** organización que ha desarrollado proyectos piloto de telemetría en comunidades rurales, aunque con un enfoque más orientado al tratamiento del agua.
+- **Isla Urbana (México):** iniciativa que implementa sistemas de captación y monitoreo de agua de lluvia, con aplicaciones tecnológicas a nivel comunitario.
+
+Estos actores comparten el uso de tecnologías inteligentes; sin embargo, su foco principal está en redes urbanas consolidadas o en proyectos de captación de agua, mientras que **AquaConecta** se orienta a la trazabilidad del consumo y a la optimización de la distribución mediante cisternas en comunidades vulnerables.
+
+---
+
+#### b) Competidores indirectos
+Se trata de los proveedores de agua existentes que operan bajo esquemas manuales y con limitada digitalización:
+
+- **EPS SEMAPACH S.A. (Chincha):** empresa municipal responsable del servicio de agua potable en la zona, cuyo modelo actual presenta deficiencias en continuidad y trazabilidad.
+- **Camiones cisterna privados:** proveedores informales que abastecen a los hogares sin red de distribución formal, con ausencia de control de calidad y planificación.
+- **Juntas administradoras de agua rural (JAAR):** organizaciones comunitarias que gestionan el servicio en áreas rurales, sin apoyo de herramientas tecnológicas.
+
+La diferencia principal con **AquaConecta** radica en que estas entidades cumplen la función de abastecimiento, pero sin mecanismos de monitoreo en tiempo real ni registros automatizados que garanticen transparencia y eficiencia.
+
+---
+
+#### c) Competidores potenciales
+Son instituciones que, aunque actualmente funcionan como aliados estratégicos, podrían desarrollar o financiar soluciones tecnológicas similares:
+
+- **Water.org:** organización internacional que promueve mecanismos de financiamiento para proyectos de agua y saneamiento, con capacidad para incorporar modelos tecnológicos en el futuro.
+- **AquaFund del BID:** programa que financia proyectos innovadores en agua y saneamiento en América Latina.
+
+---
 
 ### 2.1.1. Análisis competitivo
 
@@ -661,9 +475,10 @@ A partir de todo lo que hemos investigado, creamos el Lean UX Canvas.
   </tr>
   <tr>
     <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="5">Para proporcionar información valiosa acerca de los competidores, lo cual nos servirá para mejorar la calidad de nuestra aplicación.</td>
   </tr>
   <tr>
-    <td colspan="5">Para proporcionar información valiosa acerca de los competidores, lo cual nos servirá para mejorar la calidad de nuestra aplicación.</td>
+    <td colspan="5"></td>
   </tr>
   <tr>
     <td colspan="3"></td>
@@ -735,7 +550,6 @@ A partir de todo lo que hemos investigado, creamos el Lean UX Canvas.
     </td>
   </tr>
   <tr>
-    <td colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
     <td colspan="2">Productos & Servicios</td>
     <td colspan="1" valign="top">
       Distribución de agua potable y monitoreo en tiempo real del nivel y calidad del agua a través de sensores.
@@ -751,6 +565,7 @@ A partir de todo lo que hemos investigado, creamos el Lean UX Canvas.
     </td>
   </tr>
   <tr>
+    <td colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
     <td colspan="2">Precios & Costos</td>
     <td colspan="1" valign="top">
       Precios personalizados que se ajustan a las necesidades específicas de cada cliente.
@@ -781,10 +596,11 @@ A partir de todo lo que hemos investigado, creamos el Lean UX Canvas.
     </td>
   </tr>
   <tr>
-    <td colspan="1" rowspan="5"><p>Análisis SWOT</p></td>
-    <td colspan="6">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva.</td>
+    <td colspan="2">Análisis SWOT - Introducción</td>
+    <td colspan="4">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva.</td>
   </tr>
   <tr>
+    <td colspan="1" rowspan="4"><p>Análisis SWOT</p></td>
     <td colspan="2">Fortalezas</td>
     <td colspan="1" valign="top">
       Implementación de tecnologías IoT para el monitoreo en tiempo real del agua.
@@ -903,30 +719,29 @@ Por último, ante la escasa presencia digital y la falta de innovación tecnoló
 **Entrevistas usuario segmento (Habitantes)**
 
 **Segmento Doméstico**  
-Nombre: Rodrigo Noreña Nuñez
+Nombre: Marilyn Lopez Tineo
 <br>
 - Edad: 20
 <br>
-- Ocupación: Estudiante de Arquitectura
+- Ocupación: Estudiante de Gerencia
 <br>
 - Browser: Google Chrome
 <br>
-- Device: Teléfono Iphone
+- Device: Teléfono Samsum
 <br>
-- Distrito: Chincha Alta
+- Distrito: San Martin-Tarapoto
 <br>
-- Timing: 0:00
+  [link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213222_upc_edu_pe/EdnO3obrxGxOiLsD_5HvpcQBoz5dMgew1ZBBfGTt6G7zsQ?e=QVokj8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 <br>
-- Marca: Techo
-<br>
+
 <div style="text-align: center;">
-  <img src="./assets/images-interviews/domestico/interview-domestico1.png" 
+  <img src="./assets/img/InterviewMarilyn.png" 
        alt="Entrevista 1 Segmento habitantes" 
        width="500"/>
 </div>
 
 
-Rodrigo Noreña, un joven residente de Chincha, nos cuenta que desde pequeño recuerda cómo llegaban cisternas a su barrio para repartir agua a las viviendas. Comenta que ni él ni sus vecinos sabían con certeza cuánta agua recibían ni qué tan limpia era. Aunque hoy el servicio ha mejorado en algunas zonas, muchas personas siguen sin tener información clara sobre la calidad del agua que consumen. Rodrigo menciona que nunca ha visto un reporte oficial ni ha recibido alertas cuando el agua podría estar contaminada, y cree que sería muy útil contar con un sistema de monitoreo que no solo informe a tiempo, sino que también permita a los vecinos involucrarse activamente en el cuidado del recurso. Para él, el agua es clave para la salud, y confía en que más transparencia y tecnología podrían mejorar mucho la vida en su comunidad.
+Marilyn, una joven residente de Tarapoto, nos cuenta que desde pequeño recuerda cómo llega y recibe el agua a su hogar a travez de una pileta ubicada a unas cuantas cuadras de su vivienda. Tambien comenta que en su distrito estan desarrollando un proyecto en el cual aun no esta del todo completo y parece ser que pinta para el fracaso. Ademas que el agua que le llega a su hogar a veces esta en mal estado, sea por pequeñas particulas o este de otro color, siendo mas el marron. Ella estaria dispuesta a participar en el proyecto para ayudar a que el agua sea mas pura para el consumo y uso diario en su distrito.
 
 Nombre: Jorge Medina Flores
 <br>
@@ -1053,6 +868,27 @@ Nombre: Kamila Panduro
 Kamila, trabajadora de una empresa proveedora de agua, señaló que los principales retos que enfrentan son la falta de equipos modernos, personal capacitado y los altos costos logísticos para llegar a zonas rurales. El proceso de análisis actual es lento, ya que deben recolectar muestras y enviarlas a laboratorios, lo que puede tomar varios días.
 Indicó que utilizan principalmente hojas de cálculo y registros físicos, y en algunos casos herramientas como QGIS, pero no cuentan con un sistema digital integrado. Kamila considera que un sistema IoT sería clave para mejorar su trabajo, ya que permitiría una detección inmediata de problemas, reduciría costos y fortalecería la confianza de la comunidad. Sugiere que la solución incluya alertas automáticas, acceso a datos históricos y sensores que funcionen sin conexión constante.
 
+Nombre: André Alonso Arroyo Ormeño
+<br>
+- Edad: 28
+<br>
+- Ocupación: Coordinador de monitoreo de calidad de agua
+<br>
+- Browser: Google Chrome
+<br>
+- Device: Samsung (móvil) / Acer (laptop)
+<br>
+- Distrito: Pueblo Nuevo, Chincha (Ica)
+
+<br>
+<div style="text-align: center;">
+    
+<img src="./assets/img/entrevista_andre.png"> 
+
+[Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201719831_upc_edu_pe/ESHvuiS-1uxFoVubElY_50MB_Tk9hX2iy3uX2VsVH50gxA)
+</div>
+
+André, Coordinador de monitoreo de calidad de agua de 28 años que coordina el monitoreo en Pueblo Nuevo, comenta que sus mayores retos son la ausencia de datos en tiempo real, los tiempos muertos entre muestreo y resultados de laboratorio, y la dispersión de la información en planillas. Detalla que hoy el proceso incluye inspección en campo, mediciones rápidas in situ (cloro, pH, temperatura) y envío a laboratorio para análisis fisicoquímicos y microbiológicos; el control de cloro/pH es semanal o quincenal y el microbiológico mensual, con campañas extraordinarias ante incidentes. Le gustaría monitorear en tiempo real cloro, turbidez, pH, temperatura, conductividad, presión, caudal y nivel de tanque. Actualmente almacenan datos en Excel/Sheets y usan QGIS para mapas. Ante problemas, notifican, aíslan tramos, ajustan dosificación de cloro, purgan la red y activan abastecimiento alterno, informando a la comunidad. Los costos clave son transporte/viáticos, insumos y análisis de laboratorio. La detección puede darse en horas, pero la confirmación tarda 3–7 días. Considera que un sistema IoT permitiría alertas tempranas, mayor trazabilidad y transparencia, además de optimizar rutas y mantenimiento. Ve como imprescindibles alertas configurables, dashboard web/móvil con históricos, georreferenciación, modo offline/energía solar, gestión de roles y API para integrar con sistemas existentes.
 
 ### 2.2.3. Análisis de entrevistas
 **Segmento 1: Habitantes**
@@ -1345,39 +1181,39 @@ El apartado de User Stories permite identificar las diversas situaciones que exp
 | - | - | - | - | - |
 |**EP01**|**Dashboard and Analytics**|<p>**Como** usuario,</p><p>**Quiero** visualizar métricas de los sensores</p><p>**Para** garantizar un seguimiento continuo de mis tanques de agua.</p>|||
 |**HU01**|**Ver nivel actual del agua de los habitantes**|<p>**Como** proveedor, </p><p>**Quiero** visualizar el nivel actual del agua de un habitante </p><p>**Para** conocer la cantidad disponible.</p>|<p>**Escenario 1: Vista general de todos los clientes**<br>**Dado** que el proveedor accede al dashboard de métricas,<br>**Cuando** visualiza la pantalla principal,<br>**Entonces** el sistema muestra el número total de clientes activos, consumo promedio y alertas pendientes.</p><p>**Escenario 2: Ver detalles por cliente<br>Dado** que el proveedor ver la información de residente,<br>**Cuando** selecciona un residente en específico,<br>**Entonces** el sistema muestra las métricas agrupadas por esa zona.</p>|**EP01**|
-|**HU02**|**Ver nivel actual del agua**|<p>**Como** habitante, </p><p>**Quiero** visualizar mi nivel actual del agua** </p><p>**Para** conocer la cantidad disponible y solicitar el reabastecimiento correspondiente.</p>|<p>**Escenario 1: Vista resumen móvil<br>Dado** que el habitante accede desde su dispositivo móvil,<br>**Cuando** ingresa a la pantalla principal,<br>**Entonces** el sistema muestra un resumen con consumo actual, promedio del mes y nivel del tanque.</p><p>**Escenario 2: Notificaciones de métricas<br>Dado** que el habitante tiene habilitadas las notificaciones,<br>**Cuando** su consumo es total<br>**Entonces** recibe una notificación con el resumen del consumo.</p>|**EP01**|
-|**HU03**|<p>**Ver calidad del agua**</p><p></p><p></p>|<p>**Como** habitante, </p><p>**Quiero** consultar la calidad actual del agua </p><p>**Para** determinar si es apta para consumo.</p>|<p>**Escenario 1: Vista resumen móvil<br>Dado** que el habitante accede desde su dispositivo móvil,<br>**Cuando** ingresa a la pantalla principal,<br>**Entonces** el sistema muestra un resumen con consumo actual, promedio del mes y nivel del tanque.</p><p>**Escenario 2: Notificaciones de métricas<br>Dado** que el habitante tiene habilitadas las notificaciones,<br>**Cuando** su consumo es tota**l<br>Entonces** recibe una notificación con el resumen del consumo.</p>|**EP01**|
-|<p>**HU04**</p>|**Obtener el nivel de agua en el tanque**|<p>**Como** habitante,</p><p>**Quiero** que el sistema mida el nivel de agua en mi tanque,</p><p>**Para** saber cuánta agua tengo disponible y cuándo debo recargarlo.</p>|<p>**Escenario 1: El sistema muestra correctamente la distancia medida<br>Dado** que el tanque tiene agua y el sensor funciona correctamente,<br>**Cuando** el sistema mide el nivel de agua,<br>**Entonces** la información se procesa y se registra para mostrar cuántos centímetros de agua hay disponibles.</p><p>**Escenario 2: El sistema detecta que el nivel es muy bajo<br>Dado** que el nivel del agua es inferior a 10 cm,<br>**Cuando** se realiza la medición,<br>**Entonces** se activa una alerta visual (LED encendido) indicando bajo nivel de agua para que el habitante lo revise.</p><p>**Escenario 3: El sensor no responde<br>Dado** que el sensor de nivel no emite señal,<br>**Cuando** el sistema intenta realizar una medición,<br>**Entonces** se muestra un mensaje de error para que el técnico pueda revisar la conexión.</p>|**EP01**|
-|<p>**HU05**</p>|**Conocer la calidad del agua que consumo**|<p>**Como** habitante,</p><p>**Quiero** que el sistema mida la calidad del agua,</p><p>**Para** saber si es segura para el consumo de mi familia.</p>|<p>**Escenario 1: Lectura de TDS exitosa<br>Dado** que el sensor de calidad está funcionando,<br>**Cuando** se mide el nivel de sólidos disueltos (TDS),<br>**Entonces** el sistema calcula el valor en ppm y lo clasifica como excelente, buena, aceptable, mala, no potable o contaminada.</p><p>**Escenario 2: El sistema informa cuando el agua no es apta<br>Dado** que el valor de TDS supera los 600 ppm,<br>**Cuando** se realiza la medición,<br>**Entonces** el sistema muestra una advertencia indicando que el agua no debe consumirse.</p>|**EP01**|
-|<p>**HU06**</p>|**Recibir datos actualizados constantemente**|<p>**Como** habitante,</p><p>**Quiero** que el sistema realice lecturas frecuentes del agua,</p><p>**Para** asegurarme de que la información sobre el nivel y la calidad esté siempre actualizada</p>|**Escenario 1: Lectura automática cada segundo<br>Dado** que el sistema está encendido,<br>**Cuando** pasa un segundo,<br>**Entonces** se ejecutan nuevas mediciones de nivel y calidad de agua sin que el usuario tenga que hacer nada.|**EP01**|
+|**HU02**|**Ver métricas de del tanque de agua**|<p>**Como** habitante, </p><p>**Quiero** visualizar el resumen de métricas de mi tanque</p><p>**Para** conocer la cantidad disponible y solicitar el reabastecimiento correspondiente.</p>|<p>**Escenario 1: El sistema muestra correctamente la distancia medida<br>Dado** que el tanque tiene agua y el sensor funciona correctamente,<br>**Cuando** el sistema mide el nivel de agua,<br>**Entonces** la información se procesa y se registra para mostrar cuántos centímetros de agua hay disponibles.</p><p>**Escenario 2: Vista resumen móvil<br>Dado** que el habitante accede desde su dispositivo móvil,<br>**Cuando** ingresa a la pantalla principal,<br>**Entonces** el sistema muestra un resumen con consumo actual, promedio del mes y nivel del tanque.</p><p>**Escenario 3: Notificaciones de métricas<br>Dado** que el habitante tiene habilitadas las notificaciones,<br>**Cuando** su consumo es total<br>**Entonces** recibe una notificación con el resumen del consumo.</p>|**EP01**|
+|**HU03**|<p>**Ver calidad del agua**</p><p></p><p></p>|<p>**Como** habitante, </p><p>**Quiero** que el sistema mida la calidad del agua, </p><p>**Para** saber si es segura para el consumo de mi familia.</p>|<p>**Escenario 1: Lectura de TDS exitosa<br>Dado** que el sensor de calidad está funcionando <br>**Cuando** se mide el nivel de sólidos disueltos (TDS),<br>**Entonces** el sistema calcula el valor en ppm y lo clasifica como excelente, buena, aceptable, mala, no potable o contaminada.</p><p>**Escenario 2: El sistema informa cuando el agua no es apta<br>Dado** que el valor de TDS supera los 600 ppm,<br>**Cuando** se realiza la medición,<br>**Entonces** el sistema muestra una advertencia indicando que el agua no debe consumirse.</p>|**EP01**|
+|<p>**HU04**</p>|**Recibir datos actualizados constantemente**|<p>**Como** habitante,</p><p>**Quiero** que el sistema realice lecturas frecuentes del agua,</p><p>**Para** asegurarme de que la información sobre el nivel y la calidad esté siempre actualizada</p>|**Escenario 1: Lectura automática cada segundo<br>Dado** que el sistema está encendido,<br>**Cuando** pasa un segundo,<br>**Entonces** se ejecutan nuevas mediciones de nivel y calidad de agua sin que el usuario tenga que hacer nada.<br><br><p>**Escenario 2: Reintento ante fallo de lectura<br>Dado** que el sistema intenta actualizar los datos automáticamente, <br>**Cuando** una lectura falla por pérdida de conexión o error del sensor, <br>**Entonces** el sistema reintenta la actualización en el siguiente ciclo y muestra un mensaje de advertencia si el problema persiste.</p>|**EP01**|
 |**EP02**|**Profile and Preferences**|<p>**Como** proveedor,</p><p>**Quiero** observar información detallada de mi empresa,</p><p>**Para** tomar decisiones informadas sobre el sistema</p>|||
-|**HU07**|**Historial de alertas**|<p>**Como** proveedor,</p><p>**Quiero** revisar un historial de alertas,</p><p>**Para** conocer eventos pasados y tomar decisiones informadas sobre el sistema.</p>||**EP02**|
-|<p>**HU08**</p>|**Visualizar perfil del proveedor**|<p>**Como** proveedor, </p><p>**Quiero** ver mi perfil con información detallada de mi empresa,</p><p>**Para** confirmar y conocer los datos registrados.</p>|<p>**Escenario 1: Visualización de información detallada<br>Dado que** el proveedor** visualiza su información detallada<br>**Cuando** accede a su perfil de usuario<br>**Entonces** el sistema muestra todos sus datos registrados como nombre, email, RUC.</p><p>**Escenario 2: Visualización de suscripciones activas**<br>**Dado que** el proveedor visualiza la información de suscripciones<br>**Cuando** accede a su perfil de usuario<br>**Entonces** se muestra el número de suscripciones activas</p>|**EP02**|
-|<p>**HU09**</p>|**Visualización y Edición del perfil de usuario móvil**|<p>**Como** habitante,</p><p>**Quiero** ver y editar mi información personal desde la aplicación móvil,</p><p>**Para** mantener mis datos actualizados fácilmente.</p>|<p>**Escenario 1: Acceso al perfil desde menú<br>Dado** que el usuario accede al menú de la aplicación<br>**Cuando** se dirige a la sección de perfil<br>**Entonces** el sistema muestra su información personal actual</p><p>**Escenario 2: Edición exitosa de perfil<br>Dado** que el usuario móvil accede a la pantalla de perfil<br>**Cuando** accede a la edición de sus datos<br>**Y** los actualiza<br>**Entonces** el sistema confirma los cambios con un mensaje</p><p>**Escenario 3: Error por formato inválido<br>Dado** que el usuario intenta ingresar un número de teléfono inválido<br>**Cuando** intenta guardar los datos<br>**Entonces** el sistema bloquea el envío y muestra un mensaje de error.</p>|**EP02**|
-|<p>**HU10**</p>|**Visualización y Edición del perfil de usuario web**|<p>**Como** proveedor,</p><p>**Quiero** acceder y modificar mi perfil desde la plataforma web,</p><p>**Para** gestionar mis datos de contacto y empresa de manera segura.</p>|<p>**Escenario 1: Acceso al perfil desde la pantalla principal<br>Dado** que el usuario accede a la pantalla principal de la web<br>**Cuando** se dirige a la sección de perfil <br>**Entonces** el sistema muestra su información personal actual </p><p>**Escenario 2: Edición exitosa de perfil<br>Dado** que el usuario web accede a la pantalla de perfil<br>**Cuando** accede a la edición de sus datos<br>**Y** los actualiza<br>**Entonces** el sistema confirma los cambios con un mensaje</p><p>**Escenario 3: Error por formato inválido<br>Dado** que el usuario intenta ingresar un número de teléfono inválido<br>**Cuando** intenta guardar los datos<br>**Entonces** el sistema bloquea el envío y muestra un mensaje de error.</p>|**EP02**|
+|**HU05**|**Historial de alertas**|<p>**Como** proveedor,</p><p>**Quiero** ver una lista con todos reportes de los problemas que han tenido mis clientes, </p><p>**Para** tener un registro del problema y poder solucionarlo lo antes posible.</p>|**Escenario 1: Visualizar la sección de reportes**<br>**Dado** que el proveedor se encuentra en la página principal del sistema, <br>**Cuando** se dirige a la sección de reporte de problemas, <br>**Entonces** el sistema muestra la lista de los reportes generados por los clientes del proveedor con el nombre del residente, titulo del reporte, fecha de emisión y estado del reporte.<br><br><p>**Escenario 2: Visualizar detalles del reporte**<br>**Dado** que el proveedor visualiza su lista de reportes por cliente, <br>**Cuando** seleciona un reporte que requiere atención inmediata, <br>**Entonces** el sistema muestra detalles adicionales como descripción del problem.</p><br><p>**Escenario 3: Atender reporte generado por cliente**<br>**Dado** que el proveedor visualiza los datos adicionales de un reporte , <br>**Cuando** selecciona el botón de status, <br>**Y** lo actualiza dependiendo del estado en el que se encuentra el reporte, <br>**Entonces** el sistema actualiza el estado del reporte para el habitante.</p>|**EP02**|
+|<p>**HU06**</p>|**Gestionar solicitudes de agua de residentes**|<p>**Como** proveedor, </p><p>**Quiero** visualizar y gestionar las solicitudes de agua de mis residentes,</p><p>**Para** atender eficientemente las necesidades de suministro de agua de mi comunidad.</p>|<p>**Escenario 1: Visualización de solicitudes de agua<br>Dado que** eel proveedor accede a la sección de solicitudes de agua<br>**Cuando** navega a sus Peticiones de Agua, <br>**Entonces** puede ver una lista de todas las solicitudes de agua registradas, <br>**Y** se visualiza el estado actual de cada solicitud.</p><p>**Escenario 2: Revisión de detalles de solicitud específica**<br>**Dado que** proveedor está viendo la lista de solicitudes<br>**Cuando** selecciona una solicitud especifica, <br>**Entonces** el sistema le da acceso a los detalles completos de la solicitud</p><p>**Escenario 3: : Actualización de fecha de entrega de agua**<br>**Dado que** el proveedor está revisando una solicitud de agua,<br>**Cuando** selecciona una nueva fecha de entrega, <br>**Y** confirma la actualización, <br>**Entonces** el sistema actualiza la fecha de entrega programada</p>|**EP02**|
+|<p>**HU07**</p>|**Visualizar suscripciones activas del proveedor**|<p>**Como** proveedor, </p><p>**Quiero** ver todas las suscripciones de usuarios activas</p><p>**Para** tener un registro de todos mis usuarios/habitantes activos</p>|<p>**Escenario 1: Visualización de información detallada<br>Dado que** el proveedor** visualiza su información detallada<br>**Cuando** accede a su perfil de usuario<br>**Entonces** el sistema muestra todos sus datos registrados como nombre, email, RUC.</p><p>**Escenario 2: Visualización de suscripciones activas**<br>**Dado que** el proveedor visualiza la informacion de su cuenta, <br>**Cuando** ingresa a la seccion de sus suscripciones <br>**Entonces** se muestra el número de suscripciones activas</p>|**EP02**|
 |**EP03**|**Landing Page** |**Como** usuario interesado en soluciones de acceso a agua,<br>**Quiero** navegar por una página clara, informativa y responsiva,                  **Para** comprender los beneficios de Aqua Conecta, explorar planes y contactar al equipo fácilmente.|||
-|**HU13**|**Presentación clara de beneficios de valor**|**Como** visitante del sitio web,<br>**Quiero** visualizar claramente los beneficios de la plataforma Aqua Conecta,<br>**Para** entender cómo puede mejorar el acceso y control del agua en mi comunidad.|<p>**Escenario 1: Visualización de información importante de AquaConecta<br>Dado** que el visitante accede a la landing page desde cualquier dispositivo,                               **Cuando** navega hacia la sección “¿Por qué elegir Aqua Conecta?”,                    **Entonces** visualiza un mensaje informativo sobre AquaConecta.</p><p>**Escenario 2:  Visualizar beneficios principales<br>Dado** que el visitante quiere conocer sobre los beneficios,<br>**Cuando** sigue en la sección de beneficios<br>**Entonces** visualiza una lista detallada de todos los beneficios que se ofrecen</p>|**EP03**|
-|**HU14**|**Información sobre segmentación de perfiles de usuario**|<p>**Como** usuario potencial**,**</p><p>**Quiero** identificar si la solución Aqua Conecta está dirigida a mi tipo de necesidad</p><p>**Para** saber si puedo beneficiarme directamente de sus servicios.</p>|<p>**Escenario 1: Comprensión de públicos objetivos para habitantes<br>Dado** que un visitante desea saber si la solución se alinea con sus necesidades,<br>**Cuando** accede a la sección “A quiénes queremos ayudar”,<br>**Entonces** puede leer y diferenciar los beneficios específicos para el segmento de habitantes.</p><p>**Escenario 2: Comprensión de públicos objetivos para proveedores<br>Dado** que un visitante desea saber si la solución se alinea con sus necesidades,<br>**Cuando** accede a la sección “A quiénes queremos ayudar”,<br>**Entonces** puede leer y diferenciar los beneficios específicos para el segmento de proveedores.</p><p></p>|**EP03**|
-|**HU15**|**Comunicación del problema y la solución**|<p>**Como** visitante interesado,</p><p>**Quiero** entender el contexto del problema del acceso al agua y cómo AquaConecta lo resuelve,</p><p>**Para** evaluar el valor real que la solución puede aportar a mi comunidad o negocio.</p>|<p>**Escenario 1: Explicación clara sobre el desafío actual<br>Dado** que un visitante necesita entender el contexto de la crisis de agua,<br>**Cuando** llega a la sección “La problemática del agua”,<br>**Entonces** visualiza información y porcentajes sobre la problemática que está abordando.</p><p>**Escenario 2: Explicación clara sobre la solución<br>Dado** que un visitante necesita conocer en qué consiste la solución,<br>**Cuando** llega a la sección “Nuestra Solución”,<br>**Entonces** visualiza información sobre la implementación de la solución.</p>|**EP03**|
-|**HU16**|**Comparación de planes y acciones de compra**|<p>**Como** visitante interesado en adquirir un servicio,</p><p>**Quiero** revisar los planes, precios y características de AquaConecta,</p><p>**Para** decidir si deseo solicitar un plan o contactar por asesoría.</p>|<p>**Escenario 1: Visualización de planes y precios<br>Dado** que un visitante desea conocer los planes disponibles,<br>**Cuando** navega a la sección “Nuestros Servicios”**,<br>Entonces** puede ver los planes disponibles, su precio y características, con opción para solicitar o agendar.</p><p>**Escenario 2: Visualización de servicios<br>Dado** que un visitante desea conocer los servicios disponibles,<br>**Cuando** navega a la sección “Nuestros Servicios”**,<br>Entonces** puede ver los servicios disponibles con su información.</p>|**EP03**|
-|**HU17**|**Envío efectivo de consultas por formulario**|<p>**Como** usuario con preguntas o interés en Aqua Conecta,</p><p>**Quiero** poder llenar y enviar un formulario de contacto,</p><p>**Para** recibir asistencia, cotización o más información directamente del equipo**.**</p>|<p>**Escenario 1: Visualización del formulario de contacto<br>Dado** que un visitante tiene preguntas o desea más información,<br>**Cuando** se dirige a la sección “Contacta con nosotros”,<br>**Entonces** puede visualizar todas las secciones del formulario de contacto.</p><p>**Escenario 2: Envío de formulario de contacto<br>Cuando** un visitante quiere enviar su información de contacto<br>**Cuando** completa el formulario<br>**Entonces** se le enviaran todos los datos de contacto.</p>|**EP03**|
+|**HU08**|**Presentación clara de beneficios de valor**|**Como** visitante del sitio web,<br>**Quiero** visualizar claramente los beneficios de la plataforma Aqua Conecta,<br>**Para** entender cómo puede mejorar el acceso y control del agua en mi comunidad.|<p>**Escenario 1: Visualización de información importante de AquaConecta<br>Dado** que el visitante accede a la landing page desde cualquier dispositivo,                               **Cuando** navega hacia la sección “¿Por qué elegir Aqua Conecta?”,                    **Entonces** visualiza un mensaje informativo sobre AquaConecta.</p><p>**Escenario 2:  Visualizar beneficios principales<br>Dado** que el visitante quiere conocer sobre los beneficios,<br>**Cuando** sigue en la sección de beneficios<br>**Entonces** visualiza una lista detallada de todos los beneficios que se ofrecen</p>|**EP03**|
+|**HU09**|**Información sobre segmentación de perfiles de usuario**|<p>**Como** usuario potencial**,**</p><p>**Quiero** identificar si la solución Aqua Conecta está dirigida a mi tipo de necesidad</p><p>**Para** saber si puedo beneficiarme directamente de sus servicios.</p>|<p>**Escenario 1: Comprensión de públicos objetivos para habitantes<br>Dado** que un visitante desea saber si la solución se alinea con sus necesidades,<br>**Cuando** accede a la sección “A quiénes queremos ayudar”,<br>**Entonces** puede leer y diferenciar los beneficios específicos para el segmento de habitantes.</p><p>**Escenario 2: Comprensión de públicos objetivos para proveedores<br>Dado** que un visitante desea saber si la solución se alinea con sus necesidades,<br>**Cuando** accede a la sección “A quiénes queremos ayudar”,<br>**Entonces** puede leer y diferenciar los beneficios específicos para el segmento de proveedores.</p><p></p>|**EP03**|
+|**HU10**|**Comunicación del problema y la solución**|<p>**Como** visitante interesado,</p><p>**Quiero** entender el contexto del problema del acceso al agua y cómo AquaConecta lo resuelve,</p><p>**Para** evaluar el valor real que la solución puede aportar a mi comunidad o negocio.</p>|<p>**Escenario 1: Explicación clara sobre el desafío actual<br>Dado** que un visitante necesita entender el contexto de la crisis de agua,<br>**Cuando** llega a la sección “La problemática del agua”,<br>**Entonces** visualiza información y porcentajes sobre la problemática que está abordando.</p><p>**Escenario 2: Explicación clara sobre la solución<br>Dado** que un visitante necesita conocer en qué consiste la solución,<br>**Cuando** llega a la sección “Nuestra Solución”,<br>**Entonces** visualiza información sobre la implementación de la solución.</p>|**EP03**|
+|**HU11**|**Comparación de planes y acciones de compra**|<p>**Como** visitante interesado en adquirir un servicio,</p><p>**Quiero** revisar los planes, precios y características de AquaConecta,</p><p>**Para** decidir si deseo solicitar un plan o contactar por asesoría.</p>|<p>**Escenario 1: Visualización de planes y precios<br>Dado** que un visitante desea conocer los planes disponibles,<br>**Cuando** navega a la sección “Nuestros Servicios”**,<br>Entonces** puede ver los planes disponibles, su precio y características, con opción para solicitar o agendar.</p><p>**Escenario 2: Visualización de servicios<br>Dado** que un visitante desea conocer los servicios disponibles,<br>**Cuando** navega a la sección “Nuestros Servicios”**,<br>Entonces** puede ver los servicios disponibles con su información.</p>|**EP03**|
+|**HU12**|**Envío efectivo de consultas por formulario**|<p>**Como** usuario con preguntas o interés en Aqua Conecta,</p><p>**Quiero** poder llenar y enviar un formulario de contacto,</p><p>**Para** recibir asistencia, cotización o más información directamente del equipo**.**</p>|<p>**Escenario 1: Visualización del formulario de contacto<br>Dado** que un visitante tiene preguntas o desea más información,<br>**Cuando** se dirige a la sección “Contacta con nosotros”,<br>**Entonces** puede visualizar todas las secciones del formulario de contacto.</p><p>**Escenario 2: Envío de formulario de contacto<br>Cuando** un visitante quiere enviar su información de contacto<br>**Cuando** completa el formulario<br>**Entonces** se le enviaran todos los datos de contacto.</p>|**EP03**|
 |**EP04**|**Identity and Access Management**|<p>**Como** usuario de la plataforma,</p><p>**Quiero** poder crear una cuenta, iniciar sesión y gestionar mi información personal, </p><p>**Para** acceder a los servicios del sistema de forma segura y personalizada.</p>|||
-|**HU18**|**Registro de usuario Web**|<p>**Como** proveedor,</p><p>**Quiero** registrarme desde la plataforma web ingresando mis datos,</p><p>**Para** crear una cuenta y comenzar a gestionar mis servicios.</p>|<p>**Escenario 1: Registro completo desde el sitio web<br>Dado** que el usuario está en el formulario de registro<br>**Cuando** completa sus datos correctamente<br>**Entonces** se crea su cuenta y es redirigido al login.</p><p>**Escenario 2: Validación de campos vacíos<br>Dado** que el usuario no completa todos los campos requeridos<br>**Cuando** intenta registrar los datos<br>**Entonces** el sistema muestra mensajes de validación en los campos incompletos</p>|**EP04**|
-|**HU19**|**Inicio de sesión de usuario móvil**|<p>**Como** habitante,</p><p>**Quiero** iniciar sesión desde la aplicación móvil,</p><p>**Para** acceder a mi cuenta y monitorear el estado del agua en mi hogar.</p>|<p>**Escenario 1: Inicio de sesión exitoso<br>Dado** que el usuario ingresa sus credenciales válidas en la aplicación<br>**Cuando** se encuentra en la sección de login<br>**Entonces** el sistema valida los datos y redirígeme al panel principal </p><p>**Escenario 2: Contraseña Incorrecta<br>Dado** que el usuario ingresa un nombre de usuario correcto pero contraseña incorrecta<br>**Cuando** intenta iniciar sesión<br>**Entonces** el sistema muestra un mensaje de error</p>|**EP04**|
-|**HU20**|**Inicio de sesión de usuario web.**|<p>**Como** proveedor,</p><p>**Quiero** ingresar a la plataforma web con mis credenciales,</p><p>**Para** gestionar mis servicios y usuarios asociados de forma segura.</p>|<p>**Escenario 1: Inicio de sesión exitoso<br>Dado** que el usuario ingresa sus credenciales válidas en la aplicación<br>**Cuando** se encuentra en la sección de login<br>**Entonces** el sistema valida los datos y redirígeme a la lista de residentes.</p><p>**Escenario 2: Contraseña Incorrecta<br>Dado** que el usuario ingresa un nombre de usuario correcto pero contraseña incorrecta<br>**Cuando** intenta iniciar sesión<br>**Entonces** el sistema muestra un mensaje de error.</p>|**EP04**|
-|**HU21**|**Visualización y Edición del perfil de usuario móvil**|<p>**Como** habitante,</p><p>**Quiero** ver y editar mi información personal desde la aplicación móvil,</p><p>**Para** mantener mis datos actualizados fácilmente.</p>|<p>**Escenario 1: Acceso al perfil desde menú<br>Dado** que el usuario accede al menú de la aplicación<br>**Cuando** se dirige a la sección de perfil<br>**Entonces** el sistema muestra su información personal actual</p><p>**Escenario 2: Edición exitosa de perfil<br>Dado** que el usuario móvil accede a la pantalla de perfil<br>**Cuando** accede a la edición de sus datos<br>**Y** los actualiza<br>**Entonces** el sistema confirma los cambios con un mensaje</p><p>**Escenario 3: Error por formato inválido<br>Dado** que el usuario intenta ingresar un número de teléfono inválido<br>**Cuando** intenta guardar los datos<br>**Entonces** el sistema bloquea el envío y muestra un mensaje de error.</p>|**EP04**|
-|**HU22**|**Visualización y Edición del perfil de usuario web**|<p>**Como** proveedor,</p><p>**Quiero** acceder y modificar mi perfil desde la plataforma web,</p><p>**Para** gestionar mis datos de contacto y empresa de manera segura.</p>|<p>**Escenario 1: Acceso al perfil desde la pantalla principal<br>Dado** que el usuario accede a la pantalla principal de la web<br>**Cuando** se dirige a la sección de perfil <br>**Entonces** el sistema muestra su información personal actual </p><p>**Escenario 2: Edición exitosa de perfil<br>Dado** que el usuario web accede a la pantalla de perfil<br>**Cuando** accede a la edición de sus datos<br>**Y** los actualiza<br>**Entonces** el sistema confirma los cambios con un mensaje</p><p>**Escenario 3: Error por formato inválido<br>Dado** que el usuario intenta ingresar un número de teléfono inválido<br>**Cuando** intenta guardar los datos<br>**Entonces** el sistema bloquea el envío y muestra un mensaje de error.</p>|**EP04**|
-|**HT05**|**Registro de credenciales de acceso**|<p>**Como** desarrollador,</p><p>**Quiero** implementar un endpoint para registrar nuevas cuentas de usuario,</p><p>**Para** permitir el acceso inicial a la plataforma de forma segura.</p>|<p>**Escenario 1: Registro exitoso de usuario a través de la API<br>Dado** que el endpoint "/api/v1/authentication/sign-up" está disponible  <br>**Cuando** se envía una solicitud POST con un username y password válidos  <br>**Entonces** se recibe una respuesta con estado 201  <br>**Y** el cuerpo de la respuesta incluye los datos del nuevo usuario junto con un identificador único.</p><p>**Escenario 2: Credenciales inválidas<br>Dado** que el endpoint "/api/v1/authentication/sign-up" está disponible  <br>**Cuando** se envía una solicitud POST con un rol incorrecto<br>**Entonces** se recibe una respuesta con estado 400.</p>|**EP04**|
-|**HT06**|**Inicio de sesión de usuario a través de la API**|<p>**Como** desarrollador,</p><p>**Quiero** permitir que los usuarios inicien sesión mediante la API,</p><p>**Para** autenticar su identidad y generar tokens válidos de acceso.</p>|<p>**Escenario 1: Inicio de sesión exitoso <br>Dado** que el endpoint "/api/v1/authentication/sign-in" está disponible<br>**Cuando** se envía una solicitud POST con un correo electrónico y contraseña válidos<br>**Entonces** se recibe una respuesta con estado 200<br>**Y** el cuerpo de la respuesta incluye un token de autenticación válido y datos básicos del usuario.</p><p>**Escenario 2: Fallo al iniciar sesión con credenciales incorrectas<br>Dado** que el endpoint "/api/v1/authentication/sign-in" está disponible<br>**Cuando** se envía una solicitud POST con un correo electrónico o contraseña incorrectos<br>**Entonces** se recibe una respuesta con estado 401<br>**Y** el cuerpo de la respuesta incluye el mensaje "Credenciales incorrectas".</p>|**EP04**|
-|**HT07**|**Gestión de perfiles a través de la API**|<p>**Como** desarrollador,</p><p>**Quiero** permitir que los usuarios inicien sesión mediante la API,</p><p>**Para** autenticar su identidad y generar tokens válidos de acceso.</p>|<p>**Escenario 1: Inicio de sesión exitoso <br>Dado** que el endpoint "/api/v1/authentication/sign-in" está disponible<br>**Cuando** se envía una solicitud POST con un correo electrónico y contraseña válidos<br>**Entonces** se recibe una respuesta con estado 200<br>**Y** el cuerpo de la respuesta incluye un token de autenticación válido y datos básicos del usuario</p><p>**Escenario 2: Fallo al iniciar sesión con credenciales incorrectas<br>Dado** que el endpoint "/api/v1/authentication/sign-in" está disponible<br>**Cuando** se envía una solicitud POST con un correo electrónico o contraseña incorrectos<br>**Entonces** se recibe una respuesta con estado 401<br>**Y** el cuerpo de la respuesta incluye el mensaje "Credenciales incorrectas".</p>|**EP04**|
+|**HU13**|**Registro de usuario Web**|<p>**Como** proveedor,</p><p>**Quiero** registrarme desde la plataforma web ingresando mis datos,</p><p>**Para** crear una cuenta y comenzar a gestionar mis servicios.</p>|<p>**Escenario 1: Registro completo desde el sitio web<br>Dado** que el usuario está en el formulario de registro<br>**Cuando** completa sus datos correctamente<br>**Entonces** se crea su cuenta y es redirigido al login.</p><p>**Escenario 2: Validación de campos vacíos<br>Dado** que el usuario no completa todos los campos requeridos<br>**Cuando** intenta registrar los datos<br>**Entonces** el sistema muestra mensajes de validación en los campos incompletos</p>|**EP04**|
+|**HU14**|**Inicio de sesión de usuario móvil**|<p>**Como** habitante,</p><p>**Quiero** iniciar sesión desde la aplicación móvil,</p><p>**Para** acceder a mi cuenta y monitorear el estado del agua en mi hogar.</p>|<p>**Escenario 1: Inicio de sesión exitoso<br>Dado** que el usuario ingresa sus credenciales válidas en la aplicación<br>**Cuando** se encuentra en la sección de login<br>**Entonces** el sistema valida los datos y redirígeme al panel principal </p><p>**Escenario 2: Contraseña Incorrecta<br>Dado** que el usuario ingresa un nombre de usuario correcto pero contraseña incorrecta<br>**Cuando** intenta iniciar sesión<br>**Entonces** el sistema muestra un mensaje de error</p>|**EP04**|
+|**HU15**|**Inicio de sesión de usuario web.**|<p>**Como** proveedor,</p><p>**Quiero** ingresar a la plataforma web con mis credenciales,</p><p>**Para** gestionar mis servicios y usuarios asociados de forma segura.</p>|<p>**Escenario 1: Inicio de sesión exitoso<br>Dado** que el usuario ingresa sus credenciales válidas en la aplicación<br>**Cuando** se encuentra en la sección de login<br>**Entonces** el sistema valida los datos y redirígeme a la lista de residentes.</p><p>**Escenario 2: Contraseña Incorrecta<br>Dado** que el usuario ingresa un nombre de usuario correcto pero contraseña incorrecta<br>**Cuando** intenta iniciar sesión<br>**Entonces** el sistema muestra un mensaje de error.</p>|**EP04**|
+|**HU16**|**Visualización y Edición del perfil de usuario móvil**|<p>**Como** habitante,</p><p>**Quiero** ver y editar mi información personal desde la aplicación móvil,</p><p>**Para** mantener mis datos actualizados fácilmente.</p>|<p>**Escenario 1: Acceso al perfil desde menú<br>Dado** que el usuario accede al menú de la aplicación<br>**Cuando** se dirige a la sección de perfil<br>**Entonces** el sistema muestra su información personal actual</p><p>**Escenario 2: Edición exitosa de perfil<br>Dado** que el usuario móvil accede a la pantalla de perfil<br>**Cuando** accede a la edición de sus datos<br>**Y** los actualiza<br>**Entonces** el sistema confirma los cambios con un mensaje</p><p>**Escenario 3: Error por formato inválido<br>Dado** que el usuario intenta ingresar un número de teléfono inválido<br>**Cuando** intenta guardar los datos<br>**Entonces** el sistema bloquea el envío y muestra un mensaje de error.</p>|**EP04**|
+|**HU17**|**Visualización y Edición del perfil de usuario web**|<p>**Como** proveedor,</p><p>**Quiero** acceder y modificar mi perfil desde la plataforma web,</p><p>**Para** gestionar mis datos de contacto y empresa de manera segura.</p>|<p>**Escenario 1: Acceso al perfil desde la pantalla principal<br>Dado** que el usuario accede a la pantalla principal de la web<br>**Cuando** se dirige a la sección de perfil <br>**Entonces** el sistema muestra su información personal actual </p><p>**Escenario 2: Edición exitosa de perfil<br>Dado** que el usuario web accede a la pantalla de perfil<br>**Cuando** accede a la edición de sus datos<br>**Y** los actualiza<br>**Entonces** el sistema confirma los cambios con un mensaje</p><p>**Escenario 3: Error por formato inválido<br>Dado** que el usuario intenta ingresar un número de teléfono inválido<br>**Cuando** intenta guardar los datos<br>**Entonces** el sistema bloquea el envío y muestra un mensaje de error.</p>|**EP04**|
+|**HT01**|**Registro de credenciales de acceso**|<p>**Como** desarrollador,</p><p>**Quiero** implementar un endpoint para registrar nuevas cuentas de usuario,</p><p>**Para** permitir el acceso inicial a la plataforma de forma segura.</p>|<p>**Escenario 1: Registro exitoso de usuario a través de la API<br>Dado** que el endpoint "/api/v1/authentication/sign-up" está disponible  <br>**Cuando** se envía una solicitud POST con un username y password válidos  <br>**Entonces** se recibe una respuesta con estado 201  <br>**Y** el cuerpo de la respuesta incluye los datos del nuevo usuario junto con un identificador único.</p><p>**Escenario 2: Credenciales inválidas<br>Dado** que el endpoint "/api/v1/authentication/sign-up" está disponible  <br>**Cuando** se envía una solicitud POST con un rol incorrecto<br>**Entonces** se recibe una respuesta con estado 400.</p>|**EP04**|
+|**HT02**|**Inicio de sesión de usuario a través de la API**|<p>**Como** desarrollador,</p><p>**Quiero** permitir que los usuarios inicien sesión mediante la API,</p><p>**Para** autenticar su identidad y generar tokens válidos de acceso.</p>|<p>**Escenario 1: Inicio de sesión exitoso <br>Dado** que el endpoint "/api/v1/authentication/sign-in" está disponible<br>**Cuando** se envía una solicitud POST con un correo electrónico y contraseña válidos<br>**Entonces** se recibe una respuesta con estado 200<br>**Y** el cuerpo de la respuesta incluye un token de autenticación válido y datos básicos del usuario.</p><p>**Escenario 2: Fallo al iniciar sesión con credenciales incorrectas<br>Dado** que el endpoint "/api/v1/authentication/sign-in" está disponible<br>**Cuando** se envía una solicitud POST con un correo electrónico o contraseña incorrectos<br>**Entonces** se recibe una respuesta con estado 401<br>**Y** el cuerpo de la respuesta incluye el mensaje "Credenciales incorrectas".</p>|**EP04**|
+|**HT03**|**Gestión de perfiles a través de la API**|<p>**Como** desarrollador,</p><p>**Quiero** permitir que los usuarios inicien sesión mediante la API,</p><p>**Para** autenticar su identidad y generar tokens válidos de acceso.</p>|<p>**Escenario 1: Inicio de sesión exitoso <br>Dado** que el endpoint "/api/v1/authentication/sign-in" está disponible<br>**Cuando** se envía una solicitud POST con un correo electrónico y contraseña válidos<br>**Entonces** se recibe una respuesta con estado 200<br>**Y** el cuerpo de la respuesta incluye un token de autenticación válido y datos básicos del usuario</p><p>**Escenario 2: Fallo al iniciar sesión con credenciales incorrectas<br>Dado** que el endpoint "/api/v1/authentication/sign-in" está disponible<br>**Cuando** se envía una solicitud POST con un correo electrónico o contraseña incorrectos<br>**Entonces** se recibe una respuesta con estado 401<br>**Y** el cuerpo de la respuesta incluye el mensaje "Credenciales incorrectas".</p>|**EP04**|
 |**EP05**|**Subscriptions and Payments**|<p>**Como** usuario del sistema,</p><p>**Quiero** gestionar y consultar suscripciones asociadas a sensores IoT,</p><p>**Para** asegurar un monitoreo adecuado de los dispositivos asignados a los residentes, con control de acceso y estado.</p><p></p>|||
-|**HU23**|**Crear suscripción al agregar sensor**|<p>**Como** proveedor, </p><p>**Quiero** agregar un nuevo sensor </p><p>**Para** que se registre automáticamente una suscripción individual que habilite el monitoreo del dispositivo.</p>|<p>**Escenario 1: Redirección al crear un nuevo sensor<br>Dado** que el proveedor está revisando los sensores,<br>**Cuando** hace clic en "Agregar sensor",<br>**Entonces** es llevado al formulario para registrar la suscripción.</p><p>**Escenario 2: Creación de suscripción tras pago exitoso<br>Dado** que el proveedor completa los datos del sensor y realiza el pago,<br>**Cuando** la transacción se confirma con éxito,<br>**Entonces** se muestra que la suscripción quedó activa y vinculada al sensor y al residente.</p>||
-|**HU24**|**Ver suscripciones activas por residente**|<p>**Como** proveedor, </p><p>**Quiero** visualizar las suscripciones activas asociadas a los sensores de cada residente, </p><p>**Para** conocer el estado de monitoreo de mis habitantes.</p>|<p>**Escenario 1: Registro de nuevo sensor<br>Dado** que el proveedor está revisando la información de sus sensores,<br>**Cuando** decide agregar uno nuevo,<br>**Entonces** es llevado al formulario para registrar la suscripción correspondiente.</p><p>**Escenario 2: Activación de suscripción tras pago exitoso<br>Dado** que el proveedor completa los datos del sensor y realiza el pago,<br>**Cuando** la transacción se confirma con éxito,<br>**Entonces** se muestra que la suscripción quedó activa y vinculada al sensor y al residente.</p>||
-|**HU25**|**Ver todas las suscripciones del sistema**|<p>**Como** administrador,</p><p>**Quiero** visualizar todas las suscripciones del sistema, </p><p>**Para** supervisar el uso de la plataforma por parte de proveedores y residentes.</p><p></p>|<p>**Escenario 1: Visualización de todas las suscripciones del sistema<br>Dado** que el administrador quiere revisar las suscripciones registradas,<br>**Cuando** accede a la opción correspondiente,<br>**Entonces** se muestra una lista con todas las suscripciones, incluyendo proveedor, residente, sensor y estado.</p><p>**Escenario 2: No hay suscripciones registradas<br>Dado** que el administrador intenta revisar las suscripciones,<br>**Cuando** no se encuentra ninguna registrada,<br>**Entonces** se muestra un mensaje indicando que no existen registros disponibles.</p>||
-|**HU26**|**Visualizar suscripción del residente**|<p>**Como residente,** </p><p>**Quiero consultar el estado de mi suscripción** </p><p>**Para saber si mi sensor está activo y en funcionamiento.**</p>|<p>**Escenario 1: Visualizar suscripción del residente<br>Dado** que el residente inicia sesión,<br>**Cuando** revisa la opción “Mi suscripción”,<br>**Entonces** se muestra la información del sensor asociado y el estado actual de la suscripción (activa o inactiva).</p><p>**Escenario 2: Sin suscripción registrada<br>Dado** que el residente no tiene ninguna suscripción activa,<br>**Cuando** accede a “Mi suscripción”,<br>**Entonces** se muestra un mensaje indicando que aún no tiene sensores registrados o suscritos.</p>||
-|**HT08**|**Crear suscripción a través de API REST**|<p>**Como** desarrollador,</p><p>**Quiero** crear una suscripción a través de la API</p><p>**Para** que cada sensor quede vinculado a un residente y a un proveedor, y así se habilite el monitoreo.</p><p></p>|<p>**Escenario 1: Crear suscripción con datos válidos<br>Dado** que el endpoint POST /subscriptions está disponible,<br>**Cuando** se envía una solicitud con los valores sensorId, residentId y providerId,<br>**Entonces** se responde con un código 201 Created,<br>**Y** en el cuerpo de la respuesta se incluye el subscriptionId, la fechaInicio y el estado con valor ACTIVA.</p><p>**Escenario 2: Crear suscripción para un sensor ya suscrito<br>Dado** que el endpoint POST /subscriptions está disponible,<br>**Y** el sensor ya cuenta con una suscripción activa,<br>**Cuando** se intenta crear otra suscripción usando el mismo sensorId,<br>**Entonces** se responde con un código 409 Conflict,<br>**Y** en el cuerpo se muestra el mensaje: "Ya existe una suscripción activa para este sensor."</p>||
-|**HT09**|<p>**Obtener suscripciones por residente**</p><p></p>|<p>**Como** desarrollador,** </p><p>**Quiero** exponer un endpoint que permita obtener las suscripciones asociadas a un residente, </p><p>**Para** que puedan ser consultadas fácilmente cuando se necesite.</p><p></p>|<p>**Escenario 1: Residente con suscripciones registradas<br>Dado** que el endpoint GET /residents/{id}/subscriptions está disponible,<br>**Cuando** se realiza una solicitud utilizando un residentId válido,<br>**Entonces** se responde con un código 200 OK,<br>**Y** el cuerpo de la respuesta incluye una lista de suscripciones, cada una con su sensorId, estado, fechaInicio y fechaFin.</p><p>**Escenario 2: Residente sin suscripciones<br>Dado** que el endpoint GET /residents/{id}/subscriptions está disponible,<br>**Cuando** se consulta a un residente que no tiene suscripciones registradas,<br>**Entonces** se responde con un código 200 OK,<br>**Y** el cuerpo de la respuesta contiene una lista vacía o un mensaje que indica que no hay suscripciones registradas.</p>||
-|**HT10**|**Obtener todas las suscripciones del sistema**|<p>**Como** desarrollador,</p><p>**Q**uiero exponer un endpoint que permita listar todas las suscripciones registradas,** </p><p>**Para** que el administrador pueda supervisar su uso y gestión.</p><p></p>|<p>**Escenario 1: Usuario con rol administrador accede al listado<br>Dado** que el endpoint GET /subscriptions está disponible,<br>**Cuando** un usuario autenticado con rol ADMIN realiza la solicitud,<br>**Entonces** se responde con un código 200 OK,<br>**Y** en el cuerpo se devuelve una lista de suscripciones que incluye la información del sensor, proveedor, residente y el estado de cada una.</p><p>**Escenario 2: Usuario sin permisos accede al listado<br>Dado** que el endpoint GET /subscriptions está disponible,<br>**Cuando** un usuario autenticado sin el rol ADMIN intenta acceder,<br>**Entonces** se responde con un código 403 Forbidden,<br>**Y** se incluye un mensaje que indica que no cuenta con los permisos necesarios para acceder a este recurso.</p>||
+|**HU18**|**Registrar un nuevo residente**|<p>**Como** proveedor, </p><p>**Quiero** registrar un nuevo residente </p><p>**Para** que se genere automáticamente una suscripción que incluya el sensor y habilite el monitoreo del servicio de agua.</p>|<p>**Escenario 1: Redirección al formulario de registro de residente<br>Dado** que el proveedor está en la lista de residentes,<br>**Cuando** se dirige a "Nuevo Residente",<br>**Entonces** es llevado al formulario de registro que incluye información del residente y procesamiento de pago.</p><p>**Escenario 2: Activación de suscripción tras completar registro y pago<br>Dado** que el proveedor completa los datos del residente en el formulario (nombre, apellido, documento, email, teléfono, dirección),<br>**Y** el sistema de pago MercadoPago procesa exitosamente el monto de S/ 200.00,<br>**Cuando** se confirma la transacción de pago,<br>**Entonces** se muestra que la suscripción quedó activa y vinculada al sensor y al residente.</p> <p>**Escenario 3: Manejo de error en el pago<br>Dado** que el proveedor completa los datos del residente, <br>**Cuando** el procesamiento del pago falla o es rechazado,<br>**Entonces** se muestra un mensaje de error específicon,<br>**Y** no se crea el residente ni la suscripción.</p>||
+|**HU19**|**Añadir una nueva suscripción a un residente ya registrado**|<p>**Como** proveedor, </p><p>**Quiero** agregar una nueva suscripción a un residente ya registrado , </p><p>**Para** que mi cliente pueda tener varios sensores asignados a sus tanques de agua.</p>|<p>**Escenario 1: Visualizar lista de residentes<br>Dado** que el proveedor quiere buscar a un residente en especifico,<br>**Cuando** se dirige a su lista de residentes,<br>**Y** ingresa su nombre o id en la barra de búsqueda<br>**Entonces** el sistema le muestra el residente que esta buscando.</p><p>**Escenario 2: Agregar una nueva suscripció<br>Dado** que el proveedor encontró al residente,<br>**Cuando** lo selecciona,<br>**Y** agrega una nueva suscripción <br>**Entonces** el sistema le mostrar una ventana emergente donde se registra la cantidad de litro que tendrá el tanque.</p><p>**Escenario 3: Finalizar pago de nueva suscripción<br>Dado** que el proveedor ingreso el tamaño de almacenamiento del tanque,<br>**Cuando** confirma el pago,<br>**Entonces** el sistema muestra un mensaje de confirmación.</p>||
+|**HU20**|**Ver suscripciones activas por residente**|<p>**Como** proveedor, </p><p>**Quiero** visualizar las suscripciones activas asociadas a los sensores de cada residente,</p><p>**Para** conocer el estado de monitoreo de mis habitantes.</p>|<p>**Escenario 1: Registro de nuevo sensor<br>Dado** que el proveedor está revisando la información de sus sensores,<br>**Cuando**decide agregar uno nuevo,<br>**Entonces** es llevado al formulario para registrar la suscripción correspondiente.</p><p>**Escenario 2: Activación de suscripción tras pago exitoso<br>Dado** que el proveedor completa los datos del sensor y realiza el pago,<br>**Cuando** la transacción se confirma con éxito,<br>**Entonces** se muestra que la suscripción quedó activa y vinculada al sensor y al residente.</p>||
+|**HU21**|**Ver todas las suscripciones del sistema**|<p>**Como** administrador,</p><p>**Quiero** visualizar todas las suscripciones del sistema, </p><p>**Para** supervisar el uso de la plataforma por parte de proveedores y residentes.</p><p></p>|<p>**Escenario 1: Visualización de todas las suscripciones del sistema<br>Dado** que el administrador quiere revisar las suscripciones registradas,<br>**Cuando** accede a la opción correspondiente,<br>**Entonces** se muestra una lista con todas las suscripciones, incluyendo proveedor, residente, sensor y estado.</p><p>**Escenario 2: No hay suscripciones registradas<br>Dado** que el administrador intenta revisar las suscripciones,<br>**Cuando** no se encuentra ninguna registrada,<br>**Entonces** se muestra un mensaje indicando que no existen registros disponibles.</p>||
+|**HU22**|**Visualizar suscripción del residente**|<p>**Como residente,** </p><p>**Quiero consultar el estado de mi suscripción** </p><p>**Para saber si mi sensor está activo y en funcionamiento.**</p>|<p>**Escenario 1: Visualizar suscripción del residente<br>Dado** que el residente inicia sesión,<br>**Cuando** revisa la opción “Mi suscripción”,<br>**Entonces** se muestra la información del sensor asociado y el estado actual de la suscripción (activa o inactiva).</p><p>**Escenario 2: Sin suscripción registrada<br>Dado** que el residente no tiene ninguna suscripción activa,<br>**Cuando** accede a “Mi suscripción”,<br>**Entonces** se muestra un mensaje indicando que aún no tiene sensores registrados o suscritos.</p>||
+|**HU23**|**Chatbot de asistencia inteligente**|<p>**Como residente,** </p><p>**Quiero interactuar con un chatbot en la aplicación móvil para consultar el nivel de agua, estado de mi suscripción o solicitar reabastecimiento,** </p><p>**Para obtener respuestas rápidas y asistencia sin necesidad de conocimientos técnicos ni navegación compleja en la app.**</p>|<p>**Escenario 1: Consulta de nivel de agua por chatbot<br>Dado** que el residente abre el chatbot en la app móvil,<br>**Cuando** escribe "¿Cuánto agua tengo en mi tanque?",<br>**Entonces** el chatbot responde con el nivel de agua más reciente registrado por el sensor.</p><p>**Escenario 2: Solicitud de reabastecimiento por chatbot<br>Dado** que el habitante interactúa con el chatbot,<br>**Cuando** escribe "Necesito más agua" o selecciona la opción de solicitar reabastecimiento,<br>**Entonces**el chatbot genera automáticamente una solicitud en el sistema y envía confirmación al usuario.</p>||
+|**HU24**|**CPredicción de consumo y solicitud automática**|<p>**Como proveedor,** </p><p>**Quiero que el sistema use un modelo de machine learning,** </p><p>**Para predecir el consumo de agua de los residentes y generar solicitudes automáticas de reabastecimiento.**</p>|<p>**Escenario 1: Predicción de consumo en base a patrones históricos<br>Dado** que el sistema ha almacenado al menos 30 días de datos de consumo de un residente,<br>**Cuando** el modelo de ML procesa los patrones de consumo,<br>**Entonces** predice con un margen de error máximo del 10% el nivel estimado de agua que tendrá el residente en los próximos 3 días.</p><p>**Escenario 2: Generación automática de solicitud de reabastecimiento<br>Dado** que el modelo de ML predice que el nivel del tanque bajará de 20% en menos de 48 horas,<br>**Cuando** el sistema valida la predicción,<br>**Entonces** genera automáticamente una solicitud de reabastecimiento y la asigna al proveedor correspondiente.</p>||
+|**HT04**|**Crear suscripción a través de API REST**|<p>**Como** desarrollador,</p><p>**Quiero** crear una suscripción a través de la API</p><p>**Para** que cada sensor quede vinculado a un residente y a un proveedor, y así se habilite el monitoreo.</p><p></p>|<p>**Escenario 1: Crear suscripción con datos válidos<br>Dado** que el endpoint POST /subscriptions está disponible,<br>**Cuando** se envía una solicitud con los valores sensorId, residentId y providerId,<br>**Entonces** se responde con un código 201 Created,<br>**Y** en el cuerpo de la respuesta se incluye el subscriptionId, la fechaInicio y el estado con valor ACTIVA.</p><p>**Escenario 2: Crear suscripción para un sensor ya suscrito<br>Dado** que el endpoint POST /subscriptions está disponible,<br>**Y** el sensor ya cuenta con una suscripción activa,<br>**Cuando** se intenta crear otra suscripción usando el mismo sensorId,<br>**Entonces** se responde con un código 409 Conflict,<br>**Y** en el cuerpo se muestra el mensaje: "Ya existe una suscripción activa para este sensor."</p>||
+|**HT05**|<p>**Obtener suscripciones por residente**</p><p></p>|<p>**Como** desarrollador, </p><p>**Quiero** exponer un endpoint que permita obtener las suscripciones asociadas a un residente, </p><p>**Para** que puedan ser consultadas fácilmente cuando se necesite.</p><p></p>|<p>**Escenario 1: Residente con suscripciones registradas<br>Dado** que el endpoint GET /residents/{id}/subscriptions está disponible,<br>**Cuando** se realiza una solicitud utilizando un residentId válido,<br>**Entonces** se responde con un código 200 OK,<br>**Y** el cuerpo de la respuesta incluye una lista de suscripciones, cada una con su sensorId, estado, fechaInicio y fechaFin.</p><p>**Escenario 2: Residente sin suscripciones<br>Dado** que el endpoint GET /residents/{id}/subscriptions está disponible,<br>**Cuando** se consulta a un residente que no tiene suscripciones registradas,<br>**Entonces** se responde con un código 200 OK,<br>**Y** el cuerpo de la respuesta contiene una lista vacía o un mensaje que indica que no hay suscripciones registradas.</p>||
+|**HT06**|**Obtener todas las suscripciones del sistema**|<p>**Como** desarrollador,</p><p>**Q**uiero exponer un endpoint que permita listar todas las suscripciones registradas,** </p><p>**Para** que el administrador pueda supervisar su uso y gestión.</p><p></p>|<p>**Escenario 1: Usuario con rol administrador accede al listado<br>Dado** que el endpoint GET /subscriptions está disponible,<br>**Cuando** un usuario autenticado con rol ADMIN realiza la solicitud,<br>**Entonces** se responde con un código 200 OK,<br>**Y** en el cuerpo se devuelve una lista de suscripciones que incluye la información del sensor, proveedor, residente y el estado de cada una.</p><p>**Escenario 2: Usuario sin permisos accede al listado<br>Dado** que el endpoint GET /subscriptions está disponible,<br>**Cuando** un usuario autenticado sin el rol ADMIN intenta acceder,<br>**Entonces** se responde con un código 403 Forbidden,<br>**Y** se incluye un mensaje que indica que no cuenta con los permisos necesarios para acceder a este recurso.</p>||
 
 
 
@@ -1405,7 +1241,6 @@ En el caso del proveedor, el Impact Mapping se enfocó en facilitar la gestión 
 
 El Product Backlog es una lista priorizada de tareas, funcionalidades y requisitos necesarios para el desarrollo del proyecto, asegurando que se trabaje en los elementos más importantes y alineados con los objetivos del proyecto. Cada ítem del backlog incluye una descripción, prioridad y título.
 
-Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b57c2bf31dfa3af03aE721DBE0/aquaconecta-product-backlog
 
 <table>
   <thead>
@@ -1420,145 +1255,222 @@ Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b
   <tbody>
     <tr>
       <td>1</td>
-      <td>HU13</td>
-      <td>Presentación clara de beneficios de valor</td>
-      <td>Como visitante del sitio web, quiero visualizar claramente los beneficios de la plataforma Aqua Conecta para entender cómo puede mejorar el acceso y control del agua en mi comunidad.</td>
+      <td>HU01</td>
+      <td>Ver nivel actual del agua de los habitantes</td>
+      <td>Como proveedor, quiero visualizar el nivel actual del agua de un habitante, para conocer la cantidad disponible.</td>
       <td>3</td>
     </tr>
     <tr>
       <td>2</td>
-      <td>HU14</td>
-      <td>Información sobre segmentación de perfiles de usuario</td>
-      <td>Como usuario potencial, quiero identificar si la solución Aqua Conecta está dirigida a mi tipo de necesidad saber si puedo beneficiarme directamente de sus servicios.</td>
+      <td>HU02</td>
+      <td>Ver métricas del tanque de agua</td>
+      <td>Como habitante, Quiero visualizar el resumen de métricas de mi tanque Para conocer la cantidad disponible y solicitar el reabastecimiento correspondiente.</td>
       <td>3</td>
     </tr>
     <tr>
       <td>3</td>
-      <td>HU15</td>
-      <td>Comunicación del problema y la solución</td>
-      <td>Como visitante interesado, entender el contexto del problema del acceso al agua y cómo Aqua Conecta lo resuelve, evaluar el valor real que la solución puede aportar a mi comunidad o negocio.</td>
+      <td>HU03</td>
+      <td>Ver calidad del agua</td>
+      <td>Como habitante, Quiero que el sistema mida la calidad del agua, Para saber si es segura para el consumo de mi familia.</td>
       <td>2</td>
     </tr>
     <tr>
       <td>4</td>
-      <td>HU16</td>
-      <td>Comparación de planes y acciones de compra</td>
-      <td>Como visitante interesado, quiero revisar los planes, precios y características de AquaConecta, para decidir si deseo solicitar un plan o contactar por asesoría.</td>
+      <td>HU04</td>
+      <td>Recibir datos actualizados constantemente</td>
+      <td>Como habitante, Quiero que el sistema realice lecturas frecuentes del agua, Para asegurarme de que la información sobre el nivel y la calidad esté siempre actualizada.</td>
       <td>2</td>
     </tr>
     <tr>
       <td>5</td>
-      <td>HU17</td>
-      <td>Envío efectivo de consultas por formulario</td>
-      <td>usuario con preguntas o interés en Aqua Conecta, quiero poder llenar y enviar un formulario de contacto para recibir asistencia, cotización o más información directamente del equipo.</td>
+      <td>HU05</td>
+      <td>Historial de problemas de habitantes</td>
+      <td>Como proveedor, Quiero ver una lista con todos reportes de los problemas que han tenido mis clientes, Para tener un registro del problema y poder solucionarlo lo antes posible.</td>
       <td>2</td>
     </tr>
     <tr>
       <td>6</td>
-      <td>HU03</td>
-      <td>Ver calidad del agua</td>
-      <td>Como habitante, quiero consultar la calidad actual del agua determinar si es apta para consumo.</td>
+      <td>HU06</td>
+      <td>Gestionar solicitudes de agua de residentes</td>
+      <td>Como proveedor, Quiero visualizar y gestionar las solicitudes de agua de mis residentes, Para atender eficientemente las necesidades de suministro de agua de mi comunidad.</td>
       <td>3</td>
     </tr>
     <tr>
       <td>7</td>
       <td>HU07</td>
-      <td>Historial de alertas</td>
-      <td>Como usuario, quiero revisar un historial de alertas para conocer eventos pasados y tomar decisiones informadas sobre el sistema.</td>
-      <td>3</td>
+      <td>Visualizar suscripciones activas del proveedor</td>
+      <td>Como proveedor, Quiero ver todas las suscripciones de usuarios activas Para tener un registro de todos mis usuarios/habitantes activos.</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>8</td>
-      <td>HU06</td>
-      <td>Recibir solicitud de reabastecimiento</td>
-      <td>Como proveedor, quiero gestionar las solicitudes de reabastecimiento para tener un control sobre las solicitudes recibidas.</td>
-      <td>5</td>
+      <td>HU08</td>
+      <td>Presentación clara de beneficios de valor</td>
+      <td>Como visitante del sitio web, Quiero visualizar claramente los beneficios de la plataforma Aqua Conecta, Para entender cómo puede mejorar el acceso y control del agua en mi comunidad.</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>9</td>
-      <td>HU11</td>
-      <td>Visualizar perfil del proveedor</td>
-      <td>Como proveedor, quiero ver mi perfil con información detallada de mi empresa para confirmar y conocer los datos registrados.</td>
-      <td>3</td>
+      <td>HU09</td>
+      <td>Información sobre segmentación de perfiles de usuario</td>
+      <td>Como usuario potencial, Quiero identificar si la solución Aqua Conecta está dirigida a mi tipo de necesidad Para saber si puedo beneficiarme directamente de sus servicios.</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>10</td>
-      <td>HU01</td>
-      <td>Ver nivel actual del agua de los habitantes</td>
-      <td>Como proveedor, quiero visualizar el nivel actual del agua de un habitante para conocer la cantidad disponible.</td>
-      <td>5</td>
+      <td>HU10</td>
+      <td>Comunicación del problema y la solución</td>
+      <td>Como visitante interesado, Quiero entender el contexto del problema del acceso al agua y cómo AquaConecta lo resuelve, Para evaluar el valor real que la solución puede aportar a mi comunidad o negocio.</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>11</td>
-      <td>HU02</td>
-      <td>Ver nivel actual del agua</td>
-      <td>Como habitante, quiero visualizar mi nivel actual del agua para conocer la cantidad disponible y solicitar el reabastecimiento correspondiente.</td>
-      <td>3</td>
+      <td>HU11</td>
+      <td>Comparación de planes y acciones de compra</td>
+      <td>Como visitante interesado en adquirir un servicio, Quiero revisar los planes, precios y características de AquaConecta, Para decidir si deseo solicitar un plan o contactar por asesoría.</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>12</td>
-      <td>HU05</td>
-      <td>Recibir alerta por nivel bajo</td>
-      <td>Como usuario, quiero recibir alertas si el nivel de agua es bajo para comunicar de manera anticipada la necesidad de agua.</td>
-      <td>5</td>
+      <td>HU12</td>
+      <td>Envío efectivo de consultas por formulario	</td>
+      <td>Como usuario con preguntas o interés en Aqua Conecta, Quiero poder llenar y enviar un formulario de contacto, Para recibir asistencia, cotización o más información directamente del equipo.</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>13</td>
-      <td>HU04</td>
-      <td>Configurar tipo de alertas</td>
-      <td>Como habitante, quiero configurar qué tipo de alertas deseo recibir para estar informado.</td>
-      <td>2</td>
+      <td>HU13</td>
+      <td>Registro de usuario web</td>
+      <td>Como proveedor, Quiero registrarme desde la plataforma web ingresando mis datos, Para crear una cuenta y comenzar a gestionar mis servicios.</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>14</td>
-      <td>HU09</td>
-      <td>Registrar sensores</td>
-      <td>Como proveedor, quiero registrar nuevos sensores en el sistemas para ampliar la red de monitoreo.</td>
-      <td>2</td>
+      <td>HU14</td>
+      <td>Inicio de sesión de usuario móvil</td>
+      <td>Como habitante, Quiero iniciar sesión desde la aplicación móvil, Para acceder a mi cuenta y monitorear el estado del agua en mi hogar.</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>15</td>
-      <td>HU10</td>
-      <td>Ver estado de suscripción</td>
-      <td>Como usuario, quiero visualizar el estado de la suscripción de los habitantes para monitorear y administrar el estado de los planes activos de mis clientes.</td>
+      <td>HU15</td>
+      <td>Inicio de sesión web</td>
+      <td>Como proveedor, Quiero ingresar a la plataforma web con mis credenciales, Para gestionar mis servicios y usuarios asociados de forma segura.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>HU16</td>
+      <td>Visualización y edición de perfil móvil</td>
+      <td>Como habitante, Quiero ver y editar mi información personal desde la aplicación móvil, Para mantener mis datos actualizados fácilmente.</td>
       <td>3</td>
     </tr>
     <tr>
       <td>17</td>
-      <td>HU12</td>
-      <td>Acceso desde dispositivo móvil</td>
-      <td>Como proveedor, quiero  acceder a la plataforma desde su celular
- para monitorear y gestionar información de forma práctica y en cualquier momento.</td>
-      <td>5</td>
+      <td>HU17</td>
+      <td>Visualización y edición de perfil web</td>
+      <td>Como proveedor, Quiero acceder y modificar mi perfil desde la plataforma web,Para gestionar mis datos de contacto y empresa de manera segura.
+</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>18</td>
-      <td>HT01</td>
-      <td>API para recepción de datos</td>
-      <td>Como desarrollador, quiero implementar un endpoint REST para integrar datos de sensores IoT para asegurar la integración y el flujo continuo de información hacia el sistema..</td>
+      <td>HU18</td>
+      <td>Registrar nuevo residente</td>
+      <td>Como proveedor, Quiero registrar un nuevo residente Para que se genere automáticamente una suscripción que incluya el sensor y habilite el monitoreo del servicio de agua.</td>
       <td>8</td>
     </tr>
     <tr>
       <td>19</td>
-      <td>HT03</td>
-      <td>Servicio de alertas automáticas</td>
-      <td>Como desarrollador, quiero implementar un servicio que detecte condiciones críticas y dispare alertas automáticas para que el sistema notifique al usuario en tiempo real.</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>HT04</td>
-      <td>Registro y auditoría de accesos API</td>
-      <td>Como desarrollador, quiero registrar todas las solicitudes a los endpoints protegidos para mantener un control y detectar posibles accesos indebidos.
+      <td>HU19</td>
+      <td>Añadir una nueva suscripción a un residente ya registrado</td>
+      <td>Como proveedor, Quiero agregar una nueva suscripción a un residente ya registrado , Para que mi cliente pueda tener varios sensores asignados a sus tanques de agua.
     </td>
       <td>5</td>
     </tr>
     <tr>
-      <td>21</td>
-      <td>HT02</td>
-      <td>Servicio de actualización automática de datos</td>
-      <td>Como desarrollador, quiero desarrollar un servicio que procese y actualice datos de sensores cada minuto para mantener el monitoreo en tiempo real sin intervención del usuario.</td>
+      <td>20</td>
+      <td>HU20</td>
+      <td>Ver suscripciones activas por residente</td>
+      <td>Como proveedor, Quiero visualizar las suscripciones activas asociadas a los sensores de cada residente, Para conocer el estado de monitoreo de mis habitantes.</td>
       <td>5</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>HU21</td>
+      <td> Ver todas las suscripciones del sistema	</td>
+      <td>Como administrador, Quiero visualizar todas las suscripciones del sistema, Para supervisar el uso de la plataforma por parte de proveedores y residentes.</td>
+      <td>3</td>
+    </tr>
+      <tr>
+      <td>22</td>
+      <td>HU22</td>
+      <td>Visualizar suscripción del residente	</td>
+      <td>Como residente, Quiero consultar el estado de mi suscripción Para saber si mi sensor está activo y en funcionamiento.</td>
+      <td>2</td>
+    </tr>
+          <tr>
+      <td>23</td>
+      <td>HU23</td>
+      <td>Chatbot de asistencia inteligente</td>
+      <td>Como habitante,
+Quiero interactuar con un chatbot en la aplicación móvil para consultar el nivel de agua, estado de mi suscripción o solicitar reabastecimiento,
+Para obtener respuestas rápidas y asistencia en la app.</td>
+      <td>5</td>
+    </tr>
+          <tr>
+      <td>24</td>
+      <td>HU24</td>
+      <td>Predicción de consumo y solicitud automática</td>
+      <td>Como proveedor,
+Quiero que el sistema use un modelo de machine learning para predecir el consumo de agua de los residentes y generar solicitudes automáticas de reabastecimiento.</td>
+      <td>8</td>
+    </tr>
+          <tr>
+      <td>25</td>
+      <td>HT01</td>
+      <td>Registro de credenciales de acceso</td>
+      <td>Como desarrollador, Quiero implementar un endpoint para registrar nuevas cuentas de usuario, Para permitir el acceso inicial a la plataforma de forma segura.</td>
+      <td>5</td>
+    </tr>
+          <tr>
+      <td>26</td>
+      <td>HT02</td>
+      <td>Inicio de sesión API</td>
+      <td>Como desarrollador, Quiero permitir que los usuarios inicien sesión mediante la API, Para autenticar su identidad y generar tokens válidos de acceso.
+</td>
+      <td>5</td>
+    </tr>
+          <tr>
+      <td>27</td>
+      <td>HT03</td>
+      <td>Gestión de perfiles vía API</td>
+      <td>Como desarrollador, Quiero permitir que los usuarios inicien sesión mediante la API, Para autenticar su identidad y generar tokens válidos de acceso.
+</td>
+      <td>5</td>
+    </tr>
+          <tr>
+      <td>28</td>
+      <td>HT04</td>
+      <td>Crear suscripción vía API REST</td>
+      <td> Como desarrollador, Quiero crear una suscripción a través de la API Para que cada sensor quede vinculado a un residente y a un proveedor, y así se habilite el monitoreo
+</td>
+      <td>8</td>
+    </tr>
+              <tr>
+      <td>29</td>
+      <td>HT05</td>
+      <td>Obtener suscripciones por residente</td>
+      <td>Como desarrollador, Quiero exponer un endpoint que permita obtener las suscripciones asociadas a un residente, Para que puedan ser consultadas fácilmente cuando se necesite.
+</td>
+      <td>3</td>
+    </tr>
+              <tr>
+      <td>30</td>
+      <td>HT06</td>
+      <td>Obtener todas las suscripciones del sistema</td>
+      <td>Como desarrollador, Quiero exponer un endpoint que permita listar todas las suscripciones registradas, Para que el administrador pueda supervisar su uso y gestión.</td>
+      <td>2</td>
     </tr>
   </tbody>
 </table>
@@ -1566,107 +1478,368 @@ Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b
 
 
 # Chapter IV: Solution Software Design
-## 4.1. Strategic-Level Domain-Driven Design
-### 4.1.1. EventStorming
+
+## 4.1. Strategic-Level Atrribute-Driven Desing
+
+### 4.1.1. Design Purpose
+
+El propósito del diseño arquitectónico del sistema AquaConecta es definir una solución tecnológica integral que soporte de manera robusta los procesos de monitoreo, gestión y distribución de agua potable en comunidades vulnerables. Dado que el sistema combina dispositivos físicos (sensores IoT en tanques domésticos) con aplicaciones digitales (plataforma web para proveedores y aplicación móvil para habitantes), la arquitectura debe responder a una serie de desafíos estratégicos:
+
+- **Conectar el mundo físico con el digital**: Integrar los sensores IoT instalados en los tanques de agua de los habitantes con la nube y las aplicaciones cliente, asegurando que los datos sobre cantidad y calidad del agua se transmitan y procesen en tiempo real.
+
+- **Soportar distintos perfiles de usuarios**: Diseñar un ecosistema donde proveedores de agua y habitantes puedan acceder a información confiable, cada uno con vistas y permisos específicos. Esto implica manejar autenticación segura, gestión de perfiles y trazabilidad de acciones.
+
+- **Asegurar la sostenibilidad y escalabilidad**: La arquitectura debe ser lo suficientemente flexible para comenzar en un piloto acotado (Pueblo Nuevo, Chincha) y escalar gradualmente hacia más comunidades sin que el desempeño del sistema se degrade. Se busca garantizar que, a medida que se integren más sensores y usuarios, la infraestructura tecnológica pueda crecer horizontal y verticalmente.
+
+- **Garantizar atributos de calidad críticos**:
+
+  **Disponibilidad**: Que el sistema esté accesible incluso en entornos con conectividad limitada.
+
+  **Seguridad**: Protección de datos sensibles de usuarios y de métricas ambientales.
+
+  **Rendimiento**: Procesar datos en tiempo real sin retrasos que afecten la toma de decisiones.
+
+  **Mantenibilidad**: Facilitar la incorporación de nuevas funcionalidades, como predicción de consumo mediante machine learning o integración con chatbots de soporte.
+
+- **Apoyar la toma de decisiones basada en datos**: El diseño arquitectónico busca transformar datos crudos provenientes de los sensores en información visual, comprensible y accionable para habitantes y proveedores. Esto incluye reportes, alertas automáticas y dashboards que contribuyan a mejorar la eficiencia del servicio.
+
+### 4.1.2. Attribute-Driven Design Inputs
+
+#### 4.1.2.1 Primary Functionality (Primary User Stories)
+
+El núcleo funcional de AquaConecta se centra en habilitar la trazabilidad y transparencia en el acceso al agua potable, tanto para los habitantes como para los proveedores. Se identifican como funcionalidades primarias las siguientes:
+
+- **Monitoreo de agua en tiempo real (HU01, HU02, HU03, HU04)**:
+Estas historias permiten que los habitantes visualicen el nivel de agua, métricas de su tanque y la calidad del recurso, mientras que los proveedores pueden conocer la disponibilidad de agua en cada vivienda. El objetivo es ofrecer información confiable y en tiempo real que guíe la toma de decisiones sobre consumo y distribución.
+
+- **Gestión de solicitudes y problemas (HU05, HU06)**:
+A través de estas funcionalidades, los proveedores reciben solicitudes de reabastecimiento y reportes de incidencias de los habitantes, lo que mejora la eficiencia operativa y la capacidad de respuesta ante situaciones críticas.
+
+- **Gestión de suscripciones y residentes (HU18, HU19, HU20, HU22)**:
+Estas historias aseguran que cada habitante esté vinculado a sensores activos en sus tanques mediante una suscripción gestionada por el proveedor. Permiten registrar nuevos residentes, añadir sensores adicionales y consultar el estado de la suscripción, garantizando un monitoreo continuo y confiable.
+
+- **Funcionalidades emergentes de inteligencia artificial (HU23, HU24)**:
+Estas historias representan la innovación central del sistema. El chatbot inteligente (HU23) permite a los habitantes interactuar fácilmente con la plataforma para consultar niveles de agua, estado de sus suscripciones o generar solicitudes, sin necesidad de conocimientos técnicos. Por su parte, la predicción de consumo y generación automática de solicitudes (HU24) habilita a los proveedores a optimizar la distribución anticipándose a la demanda, mediante modelos de machine learning que aprenden patrones de uso y reducen el riesgo de desabastecimiento.
+
+En conjunto, estas historias de usuario constituyen la columna vertebral del sistema AquaConecta, ya que sin ellas no sería posible habilitar el servicio principal: el monitoreo y gestión inteligente del agua potable en comunidades con acceso limitado.
+
+#### 4.1.2.2 Quality attribute Scenarios
+
+
+#### Escenario 1: Disponibilidad en la consulta de datos
+
+
+| **Campo** | **Descripción** |
+|-----------|----------------|
+| **ID** | QA-01 |
+| **Atributo** | Disponibilidad |
+| **Fuente** | Habitante |
+| **Estímulo** | Consulta el nivel de agua en su aplicación móvil |
+| **Artefacto** | Aplicación móvil – módulo de visualización de tanque |
+| **Entorno** | Conectividad móvil limitada (3G/4G) |
+| **Respuesta** | El sistema retorna el nivel de agua registrado más reciente, incluso si no hay conexión estable |
+| **Medida** | Tiempo de respuesta < 3 segundos en el 99% de las consultas |
+
+**Descripción:** Cada vez que un habitante consulta el estado de su tanque, el sistema debe mostrar de manera inmediata la última medición registrada, ya sea desde la nube o desde un caché local en el dispositivo. En caso de baja conectividad, la app debe funcionar en modo offline y sincronizar automáticamente los datos al restablecerse la red, garantizando que ninguna lectura se pierda o muestre valores desactualizados por más de 15 minutos.
+
+#### Escenario 2: Seguridad en autenticación
+
+| **Campo** | **Descripción** |
+|-----------|----------------|
+| **ID** | QA-02 |
+| **Atributo** | Seguridad |
+| **Fuente** | Proveedor |
+| **Estímulo** | Intenta iniciar sesión desde la plataforma web |
+| **Artefacto** | Módulo de autenticación web |
+| **Entorno** | Usuario externo accediendo desde red pública |
+| **Respuesta** | El sistema valida credenciales mediante autenticación segura y encripta la sesión |
+| **Medida** | 100% de los datos transmitidos deben estar cifrados (TLS 1.2+) |
+
+**Descripción:** Cada intento de inicio de sesión debe validar credenciales mediante un servidor seguro, con encriptación en tránsito (TLS 1.2+) y en reposo (AES-256). Si se detectan intentos de acceso no autorizados, el sistema debe registrar el evento y bloquear al usuario tras 5 intentos fallidos consecutivos. Además, todas las sesiones deben expirar automáticamente tras 15 minutos de inactividad para reducir riesgos de secuestro de sesión.
+
+#### Escenario 3: Escalabilidad en la gestión de sensores
+
+| **Campo** | **Descripción** |
+|-----------|----------------|
+| **ID** | QA-03 |
+| **Atributo** | Escalabilidad |
+| **Fuente** | Sistema (incremento en la red IoT) |
+| **Estímulo** | Se duplican los sensores activos en la comunidad (de 500 a 1000) |
+| **Artefacto** | API backend de recepción de datos IoT |
+| **Entorno** | Operación normal con crecimiento de usuarios |
+| **Respuesta** | El sistema procesa los datos sin pérdida ni retraso significativo |
+| **Medida** | Latencia promedio de actualización < 5 segundos por sensor |
+
+**Descripción:** Cuando se incremente el número de sensores conectados, el backend debe ser capaz de recibir y almacenar lecturas concurrentes en tiempo real sin pérdida de paquetes. Todas las nuevas mediciones deben reflejarse correctamente en los dashboards de proveedores y habitantes en un tiempo máximo de 5 segundos desde su recepción. Además, el sistema debe escalar horizontalmente con la incorporación de más instancias de procesamiento en la nube sin requerir interrupciones en el servicio.
+
+#### Escenario 4: Confiabilidad ante desconexión de sensores
+
+| **Campo** | **Descripción** |
+|-----------|----------------|
+| **ID** | QA-04 |
+| **Atributo** | Confiabilidad |
+| **Fuente** | Sensor IoT en tanque domiciliario |
+| **Estímulo** | El sensor pierde conexión con el servidor central |
+| **Artefacto** | Microcontrolador IoT con almacenamiento local |
+| **Entorno** | Red inestable en zonas rurales |
+| **Respuesta** | El sensor almacena temporalmente los datos y los envía cuando se restablece la conexión |
+| **Medida** | Reintento automático con sincronización en un máximo de 5 minutos |
+
+**Descripción:** Ante una pérdida de conectividad, el sensor debe continuar realizando mediciones locales en intervalos de 5 minutos y almacenarlas en memoria. Una vez reestablecida la conexión, el dispositivo debe transmitir de forma ordenada y sin pérdida todos los datos acumulados al servidor, asegurando consistencia en las gráficas de consumo. En ningún caso deben existir huecos en el historial de datos superiores a 10 minutos.
+
+#### Escenario 5: Usabilidad en la interfaz de usuario
+
+| **Campo** | **Descripción** |
+|-----------|----------------|
+| **ID** | QA-05 |
+| **Atributo** | Usabilidad |
+| **Fuente** | Habitante |
+| **Estímulo** | Ingresa a la aplicación móvil para verificar el estado de su suscripción y tanque |
+| **Artefacto** | Interfaz gráfica móvil |
+| **Entorno** | Usuario con conocimientos básicos de tecnología |
+| **Respuesta** | El sistema presenta el estado del agua y de la suscripción en máximo 3 pasos de navegación |
+| **Medida** | 90% de los usuarios pueden completar la tarea sin necesidad de soporte |
+
+**Descripción:** La aplicación debe mostrar en la pantalla principal el nivel actual de agua y el estado de la suscripción, con iconografía clara y colores diferenciados para estados críticos (ej. tanque vacío o sensor inactivo). Todas las interacciones deben requerir un máximo de 3 clics, y los textos deben estar redactados en un lenguaje sencillo. El diseño debe validarse mediante pruebas de usabilidad con al menos 10 habitantes del piloto, asegurando que la mayoría complete las tareas sin asistencia externa.
+
+#### Escenario 6: Precisión en la predicción de consumo
+
+| **Campo** | **Descripción** |
+|-----------|----------------|
+| **ID** | QA-06 |
+| **Atributo** | Exactitud / Confiabilidad |
+| **Fuente** | Proveedor del servicio de agua |
+| **Estímulo** | El proveedor consulta las predicciones de consumo generadas por el modelo de machine learning. |
+| **Artefacto** | Módulo de predicción de consumo (ML). |
+| **Entorno** | El sistema cuenta con un histórico de al menos 30 días de datos de consumo de cada residente. |
+| **Respuesta** | El modelo de ML calcula el consumo esperado para los próximos 3 días y actualiza el sistema con los valores proyectados. |
+| **Medida** | El margen de error de las predicciones no debe superar el 10% respecto al consumo real registrado. |
+
+**Descripción:** El sistema de predicción debe ser capaz de anticipar la demanda de agua de cada residente con una precisión suficiente para que los proveedores puedan planificar de forma eficiente las rutas de distribución. La exactitud del modelo se evalúa comparando los consumos reales con las predicciones realizadas, y el error aceptable es de hasta un 10%. Esto asegura que las solicitudes automáticas de reabastecimiento se generen de forma confiable, evitando tanto el desabastecimiento como los envíos innecesarios.
+
+#### 4.1.2.3 Constraints
+
+El diseño arquitectónico de AquaConecta se encuentra condicionado por un conjunto de restricciones que definen los límites técnicos, operativos y organizacionales dentro de los cuales debe desarrollarse la solución. A continuación, se detallan las principales restricciones identificadas.
+
+**Restricciones Tecnológicas**:
+
+- Hardware IoT: El sistema debe operar con microcontroladores de bajo costo (ej. ESP32/ESP8266) programados en C++, capaces de medir niveles y calidad del agua.
+
+- Arquitectura IoT: Se debe incorporar un nodo Edge (raspberry pi u otro gateway ligero) que procese localmente los datos de los sensores. Este nodo realizará filtrado, agregación y envío diferido hacia la nube, garantizando resiliencia en entornos con conectividad limitada.
+
+- Estilo arquitectónico backend: El backend debe implementarse bajo un monolito modular, con separación de capas (presentación, lógica de negocio y persistencia). Esta decisión se debe a que el equipo es reducido y se prioriza la simplicidad, mantenibilidad y menor costo de despliegue inicial frente a arquitecturas distribuidas más complejas.
+
+- Aplicaciones cliente: Web desarrollada con Angular y móvil desarrollada con Flutter (Android/iOS).
+
+- Infraestructura en la nube: Despliegue en servicios escalables tipo PaaS/IaaS (ej. AWS, GCP o Azure), con soporte para balanceo de carga y almacenamiento relacional/noSQL.
+
+- Inteligencia artificial: La arquitectura debe integrar un motor de IA conversacional para soporte al usuario y un módulo de machine learning predictivo para anticipar patrones de consumo, ya sea alojados en la nube o en el edge, con capacidad de entrenar y actualizar modelos.
+
+**Restricciones Operativas**:
+
+- Conectividad limitada: El sistema debe garantizar operación en zonas rurales con acceso intermitente a internet, habilitando almacenamiento temporal en sensores y sincronización a través del edge node.
+
+- Entorno geográfico: El piloto inicial está delimitado al asentamiento humano 28 de Julio en Pueblo Nuevo, Chincha, lo que condiciona la instalación y pruebas de campo a esa realidad local.
+
+- Integración con actores externos: La plataforma debe ser capaz de interoperar con sistemas de municipalidades, EPS Semapach y ONGs mediante reportes exportables o servicios API.
+
+- Mantenimiento en campo: Los sensores deben ser fáciles de instalar y reemplazar, con soporte remoto desde el edge node para actualizaciones de firmware.
+
+- Disponibilidad de datos históricos: Para entrenar el modelo predictivo, el sistema debe garantizar el almacenamiento seguro y estructurado de al menos 30 días de datos de consumo antes de que el módulo ML pueda ser operativo.
+
+**Restricciones Económicas y Organizacionales**:
+
+- Financiamiento inicial limitado: El proyecto depende de alianzas con ONGs como AquaFund y Water.org, lo que obliga a priorizar hardware IoT de bajo costo y servicios cloud costo-eficientes.
+
+- Implementación por fases: La arquitectura debe permitir un despliegue incremental (MVP → piloto → expansión regional) evitando reestructuraciones costosas.
+
+- Recursos humanos: Dado el tamaño reducido del equipo, se prioriza el uso de frameworks maduros y librerías existentes sobre desarrollos personalizados.
+
+- Capacitación de usuarios: Se deben considerar talleres o capacitaciones básicas para que los habitantes puedan interactuar fácilmente con el chatbot, especialmente en comunidades con baja alfabetización digital.
+
+### 4.1.3. Architectural Design Backlog
+
+| Prioridad | ID de Tarea | Tarea de Diseño Arquitectónico | Justificación | Atributos de Calidad Relacionados |
+| :--- | :--- | :--- | :--- | :--- |
+| **1** | ADB-01 | Definir el esquema de comunicación y almacenamiento de datos para operación offline | Esencial para garantizar la **disponibilidad** y **confiabilidad** en zonas con conectividad intermitente, lo cual es una restricción clave del proyecto. | Disponibilidad, Confiabilidad |
+| **2** | ADB-02 | Diseñar el modelo de autenticación y autorización basado en roles | Crítico para la **seguridad** del sistema, protegiendo los datos de los residentes y asegurando que solo los proveedores autorizados gestionen la información. | Seguridad |
+| **3** | ADB-03 | Estructurar la API REST del monolito modular para la ingesta de datos IoT | Fundamental para el **rendimiento** y la **escalabilidad**, permitiendo procesar datos de múltiples sensores en tiempo real sin degradar el servicio. | Rendimiento, Escalabilidad |
+| **4** | ADB-04 | Diseñar la arquitectura del Edge Node para el procesamiento local de datos | Clave para mejorar el **rendimiento** y la **disponibilidad**, ya que reduce la latencia y la dependencia de la nube al filtrar y agregar datos en el borde de la red. | Rendimiento, Disponibilidad, Confiabilidad |
+| **5** | ADB-05 | Definir la estrategia de despliegue en la nube (PaaS/IaaS) | Necesario para la **escalabilidad** y **mantenibilidad**, permitiendo un crecimiento flexible de la infraestructura y facilitando las actualizaciones. | Escalabilidad, Mantenibilidad |
+| **6** | ADB-06 | Integrar el motor de IA conversacional y el módulo de Machine Learning | Importante para la **usabilidad** y la **funcionalidad avanzada**, diferenciando la solución al ofrecer soporte inteligente y predicciones de consumo. | Usabilidad, Confiabilidad |
+
+### 4.1.4. Architectural Design Decisions
+
+A continuación, se detallan las decisiones arquitectónicas clave tomadas para el desarrollo de AquaConecta, basadas en los requisitos funcionales, atributos de calidad y restricciones del proyecto.
+
+#### 4.1.4.1. Adopción de un Monolito Modular con Separación de Capas
+
+* **Decisión:** Se optó por una arquitectura de **monolito modular** para el backend en lugar de microservicios. La lógica de negocio estará organizada en módulos que se corresponden con los Bounded Contexts identificados (ej. `Monitoring`, `Subscriptions`, `Requests`). Internamente, cada módulo seguirá un patrón de capas (Presentación, Lógica de Negocio, Acceso a Datos).
+* **Justificación:** Esta decisión responde a la restricción de un **equipo de desarrollo reducido** y la necesidad de una **implementación inicial rápida y de bajo costo**. Un monolito modular simplifica el despliegue, las pruebas y el mantenimiento en las primeras fases del proyecto. La modularidad interna permitirá una futura migración a microservicios si la escalabilidad lo requiere, mitigando el riesgo de un rediseño completo.
+* **Alternativas Consideradas:** Se evaluó una arquitectura de microservicios, pero se descartó debido a la complejidad operativa (gestión de servicios, comunicación entre procesos, despliegue distribuido) y los costos iniciales más elevados, que no se justifican para la etapa de piloto del proyecto.
+
+#### 4.1.4.2. Implementación de un Edge Node para Procesamiento de Datos IoT
+
+* **Decisión:** Se implementará un **Edge Node** (utilizando un dispositivo como Raspberry Pi) que actuará como intermediario entre los sensores IoT y la nube. Este nodo será responsable de la agregación de datos, el filtrado de ruido y el almacenamiento temporal (caché) antes de enviar la información al backend.
+* **Justificación:** Esta arquitectura responde directamente a la restricción de **conectividad limitada** en zonas rurales. El Edge Node garantiza la **confiabilidad** y **disponibilidad** del sistema, ya que los sensores pueden seguir operando y almacenando datos localmente incluso sin una conexión a Internet estable. Además, mejora el **rendimiento** al reducir la cantidad de datos brutos enviados a la nube.
+* **Alternativas Consideradas:** Una conexión directa de los sensores a la nube (vía MQTT o HTTP) fue considerada. Sin embargo, esta opción fue descartada por su alta dependencia de la conectividad y el mayor riesgo de pérdida de datos en entornos inestables.
+
+#### 4.1.4.3. Uso de Flutter para el Desarrollo de la Aplicación Móvil
+
+* **Decisión:** La aplicación móvil para residentes se desarrollará utilizando el framework **Flutter**.
+* **Justificación:** Flutter permite crear una base de código única para plataformas Android e iOS, lo cual es ideal para un equipo pequeño, ya que reduce el tiempo y el costo de desarrollo y mantenimiento. Esto responde a las restricciones **económicas y organizacionales**. Además, su rendimiento nativo y la flexibilidad en el diseño de interfaces facilitan la creación de una experiencia de usuario fluida y accesible, cumpliendo con el atributo de **usabilidad**.
+* **Alternativas Consideradas:** Se consideró el desarrollo nativo para Android (Kotlin) e iOS (Swift), pero fue descartado por requerir el doble de esfuerzo de desarrollo. También se evaluaron otras tecnologías multiplataforma como React Native, pero se prefirió Flutter por su rendimiento y el ecosistema de widgets.
+
+### 4.1.5. Quality Attribute Scenario Refirements
+
+| Escenario (Refinado) | ID | Atributo | Descripción Refinada |
+| :--- | :--- | :--- | :--- |
+| **Disponibilidad en la consulta de datos** | QA-01-R | Disponibilidad | En un entorno de **conectividad intermitente**, la app móvil usará el **caché local** sincronizado por el **Edge Node**. La respuesta en la UI no superará los **3 segundos**. La sincronización entre el Edge y la nube se hará en lotes cada **5 minutos**, evitando pérdidas de datos superiores a este intervalo. |
+| **Seguridad en autenticación** | QA-02-R | Seguridad | La autenticación se hará con **OAuth 2.0 (JWT)**. La comunicación será vía **HTTPS (TLS 1.3)**. El sistema bloqueará cuentas tras **5 intentos fallidos** y los tokens de sesión expirarán tras **15 minutos** de inactividad. |
+| **Escalabilidad en la gestión de sensores** | QA-03-R | Escalabilidad | Al duplicar los sensores (500 a 1000), el backend en **PaaS** escalará horizontalmente. El **Edge Node** pre-procesará los datos para reducir la carga. La latencia total desde la captura hasta la visualización no superará los **5 segundos**. |
+
+## 4.2. Strategic-Level Domain-Driven Design
+### 4.2.1. EventStorming
 
 Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURAL, donde construimos todo el flujo del sistema. Iniciamos con la fase de **Exploración No Estructurada**, en la que intercambiamos ideas y discutimos libremente los eventos del dominio, guiándonos por las recomendaciones establecidas para esta etapa.
 
-![alt text](./assets/img/eventStor.png)
+![alt text](./assets/img/eventStor1.png)
 
-#### 4.1.1.1 Candidate Context Discovery.
+#### 4.2.2. Candidate Context Discovery.
 
 El proceso de Candidate Context Discovery fue ejecutado con el objetivo de establecer una aproximación inicial a los posibles bounded contexts presentes en el dominio. Se aplicó la técnica start-with-value, orientada a identificar los elementos core del dominio que representan el mayor valor estratégico para el negocio. Como resultado de esta exploración, se determinaron los siguientes bounded contexts:
 
-![alt text](assets/bounded/bounded-operation-and-monitoring.jpg)
+![alt text](assets/bounded/all-bounded%20contexts1.png)
+![alt text](assets/bounded/all-bounded%20contexts2.png)
 
-* Assets and Resource Management
+* User & Access Management
 
-  Administra los recursos del sistema, como los sensores, actuadores y otros componentes necesarios para el buen funcionamiento del sistema.
+  Administra el registro, autenticación y gestión de perfiles de proveedores y residentes. Permite la creación de cuentas, asignación de credenciales y actualización de información personal o de empresa. Garantiza el acceso seguro y controlado al sistema, funcionando como la puerta de entrada para todos los actores.
 
-* Operation and Monitoring
+* Subscriptions
 
-  Gestiona y supervisa el estado del agua en los tanques de los habitantes. Permite a usuarios visualizar estos datos en tiempo real y generar alertas o solicitudes de recarga. También habilita a los proveedores a monitorear las condiciones del agua y responder a situaciones críticas.  
+  Gestiona la relación entre residentes, proveedores y sensores. Cada suscripción activa asegura que un tanque de agua cuente con un sensor vinculado y operativo. Controla la creación, cancelación y administración de suscripciones, permitiendo que los proveedores gestionen fácilmente a sus residentes y los sensores asociados.
+
+* Monitoring
+
+  Supervisa y administra los datos provenientes de los sensores instalados en los tanques. Ofrece a los residentes una vista detallada del nivel, calidad y pH del agua en tiempo real, mientras que los proveedores pueden visualizar y gestionar la información de todos sus residentes. También almacena el historial de consumo y genera alertas en caso de anomalías o condiciones críticas.
+
+* Requests
+
+  Centraliza la gestión de solicitudes y reportes de los residentes. Permite generar solicitudes de reabastecimiento de agua y reportes de problemas relacionados con sensores o calidad del recurso. Los proveedores reciben estas solicitudes, actualizan su estado y gestionan la atención correspondiente. Este Bounded Context es clave para coordinar la interacción diaria entre residentes y proveedores.
 
 * Analytics
 
-  Permite visualizar reportes históricos y actuales sobre el estado del agua (nivel, calidad, consumo), tanto en tiempo real como en reportes agregados semanales o mensuales, facilitando la toma de decisiones y el monitoreo eficiente del servicio.  
+  Consolida y presenta métricas globales y reportes históricos. Integra información de Monitoring, Subscriptions y Requests para ofrecer un panorama completo del servicio. Los administradores pueden visualizar indicadores como promedios de nivel y calidad del agua, número de solicitudes atendidas y métricas financieras, facilitando decisiones estratégicas y de mejora del servicio.
 
-* User & Profile Management
+* Conversational Support
 
-  Gestiona el registro y la autenticación de los proveedores y habitantes, así como la actualización de sus datos personales. Proporciona credenciales de acceso y asegura que los usuarios puedan interactuar con la plataforma.  
+  Habilita la interacción inteligente entre residentes y el sistema a través de un asistente conversacional. Permite consultar el estado del tanque, reportar problemas o solicitar agua usando lenguaje natural. Actúa como interfaz de usuario simplificada y accesible, transformando los mensajes en comandos que se procesan en Requests y Monitoring.
 
-* Subscription & Payment  
+* Predictive Analytics
 
-  Gestiona la compra, registro y pago de sensores vinculados a usuarios, así como la suscripción al servicio mensual. Asegura que los sensores sean registrados correctamente, vinculados a un proveedor y que se registre el pago inicial y mensual de la suscripción.  
+  Analiza datos históricos y actuales para generar predicciones de consumo y detectar patrones críticos. A partir de estas predicciones, puede emitir alertas preventivas o generar solicitudes automáticas de reabastecimiento. Además, alimenta al módulo de Analytics con métricas de predicción y desempeño del modelo. Representa una capacidad diferenciadora al anticipar la demanda de agua y optimizar la distribución.
 
-#### 4.1.1.2 Domain Message Flows Modeling.
+#### 4.2.3. Domain Message Flows Modeling.
 
 En esta sección, aplicamos Domain Storytelling para modelar cómo los bounded contexts colaboran mediante flujos de mensajes, resolviendo los casos de uso del negocio. Esta técnica nos permitió visualizar las interacciones entre actores (usuarios, sistemas y servicios), secuenciar los pasos clave y validar el modelo con expertos del dominio. Estos diagramas clarifican dependencias, identifican riesgos y facilitan la alineación entre equipos técnicos y de negocio, asegurando una arquitectura coherente con las necesidades del dominio. 
 
-- **Scenario 1: Habitante revisa el estado del agua de su tanque**
+- **Scenario 1: Habitante revisa el estado del agua de su tanque.**
   
-El habitante solicita el estado del agua a través del Central System, que procesa la consulta mediante comandos y eventos. El Container 4.1.1.1 Candidate Context Discovery.
-Context y Analytics Context colaboran para devolver y maximizar la información del nivel del agua, mostrando los resultados en la aplicación.
-![alt text](./assets/bounded/sh1.png)
+El habitante consulta desde la app móvil el estado de su tanque de agua. El módulo de Monitoring recupera datos del sensor asociado, mostrando nivel, calidad y consumo reciente. Si no hay transmisión, se notifica indisponibilidad. En casos críticos, el sistema genera una alerta preventiva para el usuario.
 
-- **Scenario 2: Habitante gestiona su plan de subscripción.**
+![alt text](./assets/bounded/c1.png)
+
+- **Scenario 2:  Proveedor registra y habilita suscripcion de habitante.**
   
-El habitante se registra en la plataforma y el sistema IAM le asigna credenciales. Luego, el Subscription Context activa un plan de suscripción vinculado a su vivienda (NCasa), registrando la constancia del plan seleccionado.
-![alt text](./assets/bounded/sh2.png)
-- **Scenario 3: Subscripción y Pago**
+El proveedor accede a la plataforma web para registrar a un nuevo habitante. El módulo de User & Profile Management valida y guarda sus datos, y luego el módulo de Subscription crea una nueva suscripción vinculada a un sensor activo. Si el registro falla (datos incompletos o duplicados), se notifica al proveedor para corregirlos antes de habilitar la suscripción.
+![alt text](./assets/bounded/c2.png)
+- **Scenario 3: Residente solicita abastecimiento de agua a su proveedor.**
 
-El proveedor programa una suscripción en la aplicación, seleccionando un habitante. El Payment Context procesa el pago (por el sensor y el servicio mensual), confirmando la activación del plan y vinculándolo al Subscription Context.
-![alt text](./assets/bounded/sh3.png)
-- **Scenario 4: Proveedor actualiza la cantidad de sensores y tanques del habitante**
+El residente ingresa a la app móvil y crea una solicitud de abastecimiento de agua. El sistema de Requests recibe el pedido y consulta al módulo de User & Profile Management para validar los datos del residente y su suscripción activa. Una vez confirmada la información, la solicitud se registra y queda visible para el proveedor. Si la suscripción no es válida o el residente no tiene sensores activos, la solicitud se rechaza con una notificación en la app.
+![alt text](./assets/bounded/c3.png)
+- **Scenario 4: Proveedor consulta predicciones de consumo de su residente y genera reabasteciento.**
 
-El proveedor modifica la cantidad de tanques y sensores asociados al habitante. El sistema actualiza estos datos en cascada, reflejando los cambios en los registros y generando eventos para sincronizar la información en otros contextos, como análisis de seguridad o grupos de datos.
-![alt text](./assets/bounded/sh4.png)
-#### 4.1.1.3 Bounded Context Canvases. 
+El proveedor accede a la plataforma web para consultar el patrón de consumo de un residente. El módulo de Predictive Analytics, utilizando datos históricos de Monitoring, genera una proyección del consumo futuro y estima la fecha en que el tanque alcanzará niveles críticos. Con base en esta información, el proveedor puede decidir generar automáticamente una solicitud de reabastecimiento en el módulo de Requests. Si no existen suficientes datos históricos, el sistema informa que no es posible generar una predicción en ese momento.
+![alt text](./assets/bounded/c4.png)
+
+- **Scenario 4: Residente realiza consulta al chatbot.**
+
+El residente accede a la aplicación móvil y abre el chatbot integrado para resolver una consulta sobre el servicio de agua. El chatbot, basado en un modelo de IA conversacional, procesa la pregunta y accede a información del sistema, como su suscripción, historial de consumo o estado de solicitudes, para brindar una respuesta inmediata. Si la consulta excede las capacidades del asistente virtual, el chatbot deriva automáticamente el caso al módulo de Requests, generando un ticket que será atendido por el proveedor.
+![alt text](./assets/bounded/c5.png)
+
+#### 4.2.4. Bounded Context Canvases. 
+
+- Bounded context Subscription & Payment
+
+Este canvas gestiona la creación y administración de suscripciones que vinculan a los residentes con sus sensores y proveedores. Garantiza que cada suscripción esté activa y asociada a un sensor para habilitar el monitoreo del tanque. Las decisiones de negocio incluyen validar que un residente esté registrado antes de generar la suscripción y cancelar automáticamente aquellas que se desactiven por decisión del proveedor o el administrador. El lenguaje ubicuo abarca términos como “Suscripción activa”, “Sensor asignado” y “Estado de suscripción”.
+
+![alt text](./assets/bounded/sus%20can.png)
+
+- Bounded context Monitoring
+
+Este canvas administra la captura de datos de los sensores y la visualización en tiempo real del estado del agua. Asegura que residentes y proveedores accedan a métricas actualizadas y que las alertas críticas se emitan sin retrasos. Sus decisiones de negocio incluyen definir intervalos de actualización y enviar notificaciones cuando se superan umbrales de calidad o cantidad. El lenguaje ubicuo incluye “Lectura de sensor”, “Alerta de umbral” e “Historial de consumo”. Las métricas miden precisión de lecturas y latencia de alertas, mientras que las preguntas abiertas tratan sobre protocolos de conectividad y manejo de fallos de sensores.
+
+![alt text](./assets/bounded/moni%20can.png)
 
 - Bounded context Analytics
 
-Este canvas está diseñado para visualizar y analizar datos históricos y en tiempo real sobre el estado del agua, incluyendo nivel, calidad y consumo. Su propósito principal es facilitar la toma de decisiones mediante reportes semanales o mensuales, así como el monitoreo eficiente del servicio. La información se clasifica en roles de dominio como "analysis context", y se utilizan términos específicos como "Water Status" y "Water Quality" para estandarizar la comunicación. Las métricas de verificación incluyen el tiempo de generación de reportes y la precisión de los filtros aplicados. Entre las preguntas abiertas destacan la necesidad de definir el nivel de detalle esperado por los usuarios y si se debe permitir la exportación de reportes.
-![alt text](./assets/bounded/sh5.png)
+Este canvas se centra en consolidar datos de consumo, calidad y suscripciones en reportes accesibles para el administrador. Garantiza que los reportes reflejen fielmente la operación global del sistema y sirvan para auditorías o decisiones estratégicas. Las decisiones de negocio determinan que solo el administrador puede acceder a métricas agregadas y que los históricos se mantengan disponibles. El lenguaje ubicuo incluye “Reporte de consumo agregado” y “Indicador de calidad promedio”. Sus métricas se enfocan en la frecuencia y exactitud de generación de reportes, mientras que las preguntas abiertas discuten exportación de datos y nivel de detalle requerido.
 
-- Bounded context Operation and Monitoring
+![alt text](./assets/bounded/litys%20can.png)
 
-Este canvas se enfoca en gestionar y supervisar el estado del agua en los tanques, permitiendo a usuarios y proveedores visualizar datos en tiempo real, generar alertas y solicitar recargas. Incluye suposiciones clave, como el acceso constante a internet y la atención inmediata a alertas por parte de los proveedores. La clasificación estratégica lo ubica como un dominio "core", con métricas que miden el tiempo de respuesta y el porcentaje de solicitudes atendidas. Términos como "Maintenance alert" y "Problem analysis" forman parte de su lenguaje ubicuo. Las preguntas abiertas abordan situaciones como la inactividad de sensores y la priorización de solicitudes.
-![alt text](operation-and-monitoring-bouded-context-canvases.jpg)
 
 - Bounded context User & Profile Management
 
-Este canvas administra el registro y autenticación de proveedores y habitantes, garantizando el acceso a la plataforma y la actualización de datos personales. Las reglas de negocio exigen que solo usuarios registrados interactúen con el sistema y que las credenciales se entreguen tras verificación. Términos como "Registered person" y "Updated context information" estandarizan la comunicación. Las métricas miden incidencias de acceso y tiempos de activación, mientras que las preguntas abiertas abordan conflictos potenciales, como la asignación errónea de sensores.
-![alt text](./assets/bounded/sh8.png)
+Este canvas regula la autenticación, registro y mantenimiento de perfiles de residentes y proveedores. Asegura que el acceso al sistema sea seguro y que cada usuario gestione sus propios datos. Sus decisiones de negocio incluyen exigir credenciales únicas, restringir cambios de perfil a usuarios legítimos y verificar a los proveedores antes de permitirles registrar residentes. El lenguaje ubicuo abarca “Credenciales de acceso” y “Perfil de usuario”. Las métricas incluyen tasas de registro exitoso y accesos fallidos, y las preguntas abiertas se centran en posibles integraciones con sistemas externos de autenticación o gestión de fraudes.
+
+![alt text](./assets/bounded/iam%20can.png)
 
 
-Bounded context Subscription & Payment
+- Bounded context Requests
 
-Este canvas gestiona la compra, registro y pago de sensores, así como suscripciones mensuales al servicio. Asegura que los sensores se vinculen correctamente a proveedores y que los pagos se registren antes de la activación. Las decisiones de negocio incluyen validar pagos y verificar disponibilidad de sensores, mientras que el lenguaje ubicuo define términos como "Active subscription" y "Payment period". Las métricas evalúan registros exitosos y tiempos de activación, y las preguntas abiertas exploran escenarios como fallos de pago o responsabilidades por sensores defectuosos.
-![alt text](./assets/bounded/sh7.png)
+Este canvas administra las solicitudes de reabastecimiento y reportes de problemas generados por residentes. Asegura que los proveedores tengan un canal transparente para gestionar dichas solicitudes y mantener informados a los usuarios. Las decisiones de negocio incluyen vincular cada request a una suscripción activa y exigir a los proveedores que actualicen su estado. El lenguaje ubicuo usa términos como “Solicitud de agua” y “Estado de request”. Las métricas miden tiempos de respuesta y tasas de resolución, mientras que las preguntas abiertas se centran en mecanismos de priorización y notificación automática.
 
-### 4.1.2. Context Mapping.
+![alt text](./assets/bounded/req%20can.png)
 
-En este diagrama se visualiza las relaciones clave entre los bounded contexts del sistema, destacando la colaboración entre User & Profile Management, Subscription & Payment, Operation and Monitoring y Analytics Context, aplicando patrones DDD como Anti-Corruption Layer y Customer/Supplier (contratos claros en pagos) para garantizar una integración eficiente y escalable.
+- Bounded context Predictive Analytics
 
-![Context Mapping](./assetsimg/context-mapping.png)
+Este canvas analiza datos históricos de consumo para generar predicciones sobre futuros niveles de agua. Permite a los proveedores anticipar necesidades de reabastecimiento y evitar desabastecimientos. Las decisiones de negocio establecen que toda predicción se base en datos recientes y requiera validación humana antes de ejecutar acciones. El lenguaje ubicuo incluye “Predicción de consumo” y “Estimación de desabastecimiento”. Sus métricas evalúan precisión y rapidez de las predicciones, y las preguntas abiertas abarcan el horizonte temporal del modelo y el tipo de técnicas de análisis a usar.
+
+![alt text](./assets/bounded/ml%20can.png)
 
 
-### 4.1.3. Software Architecture.
+- Bounded context Conversational Support
 
-#### 4.1.3.1. Software Architecture System Landscape Diagram.
+Este canvas integra un asistente conversacional para responder dudas frecuentes de residentes y derivar consultas complejas a Requests. Su objetivo es mejorar la experiencia de usuario con atención inmediata. Las decisiones de negocio definen que el chatbot debe resolver un alto porcentaje de consultas frecuentes y registrar tickets automáticamente en casos no cubiertos. El lenguaje ubicuo incluye “Consulta automática” y “Derivación de ticket”. Las métricas consideran porcentaje de consultas resueltas y tiempos de respuesta, mientras que las preguntas abiertas discuten el uso de modelos propios o externos y el soporte multilingüe.
+
+![alt text](./assets/bounded/chatbot%20can.png)
+
+### 4.2.5. Context Mapping.
+
+En este diagrama se visualiza las relaciones clave entre los bounded contexts del sistema.
+
+
+
+![Context Mapping](./assets/bounded/Captura%20de%20pantalla%202025-09-20%20185751.png)
+
+
+### 4.3. Software Architecture.
+
+#### 4.3.1. Software Architecture System Landscape Diagram.
 ![alt text](<./assets/img/Software Architecture Context Level Diagrams..png>)
-#### 4.1.3.2. Software Architecture Context Level Diagrams.
+#### 4.3.2. Software Architecture Context Level Diagrams.
 
 En el diagrama de contexto se observa que el Proveedor gestiona usuarios y sensores a través de la plataforma web, el Administrador supervisa operaciones globales como aprobación de solicitudes y asignación de planes, y los Residentes reciben alertas y monitorean el consumo mediante una aplicación móvil. El sistema central AquaConecta se integra con Mercado Pago para procesar pagos y con los dispositivos hardware IoT, que capturan y transmiten datos de nivel y calidad del agua.
 
 ![alt text](<./assets/img/Software Architecture Context Level Diagrams..png>)
 
-#### 4.1.3.3. Software Architecture Container Level Diagrams.
+#### 4.3.3. Software Architecture Container Level Diagrams.
 
 El diagrama de contenedores muestra cómo interactúan los distintos usuarios y componentes del sistema. Los usuarios incluyen: residentes (que usan una app móvil para monitorear consumo y recibir alertas), proveedores (que gestionan sensores desde una plataforma web) y administradores (que configuran y supervisan el sistema). En el núcleo, el hardware AquaConecta mide calidad y nivel del agua, enviando datos a una app embebida que los recolecta. Luego, la Edge Processing App analiza la información y la guarda en una base SQLite. Una API REST en Spring Boot conecta las aplicaciones con una base de datos MySQL centralizada. La app móvil permite a los residentes interactuar, mientras que la web permite gestionar sensores, usuarios y planes. Además, el sistema se integra con Mercado Pago para gestionar pagos de servicios.
 
 ![alt text](<./assets/img/Software Architecture Container Level Diagrams.png>)
-#### 4.1.3.4. Software Architecture Deployment Diagrams.
+#### 4.3.4. Software Architecture Deployment Diagrams.
 
 El diagrama de despliegue muestra cómo se distribuyen los distintos componentes de software en su entorno de ejecución. El sistema está compuesto por una aplicación web desarrollada con Angular y una aplicación móvil desarrollada con Flutter, ambas desplegadas sobre Firebase. Estas aplicaciones se comunican mediante JSON/HTTPS con una API REST construida con Spring Boot (Java), que encapsula toda la lógica de negocio organizada por contextos delimitados. La API, a su vez, realiza operaciones de lectura y escritura sobre una base de datos MySQL, que almacena información de usuarios, suscripciones, sensores, alertas y registros administrativos. Además, el backend se integra con el sistema de pagos externo Mercado Pago, utilizado para procesar transacciones.
 
@@ -1674,1476 +1847,21 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 
 
 
-## 4.2. Tactical-Level Domain-Driven Design
-### 4.2.1. Bounded Context: Subscription & Payment
-
-#### 4.2.1.1. Domain Layer.
-En el núcleo del dominio se han definido los siguientes Agregados, que representan los conceptos más importantes del Bounded Context de Suscripciones.
-
-
-
-
-## `Aggregates` 
-
-
-### `Subscription` 
-
-Representa la suscripción de un sensor. 
-#### Atributos principales:
-
-| Atributo     | Tipo                | Descripción                                                 |
-|--------------|---------------------|-------------------------------------------------------------|
-| `id`         | `Int`               | Identificador único de la suscripción                       |
-| `startDate`  | `Date`              | Fecha de inicio de la suscripción                           |
-| `endDate`    | `Date`              | Fecha de fin de la suscripción                              |
-| `status`     | `SubscriptionStatus`| Estado actual de la suscripción (`ACTIVE`, `EXPIRED`, etc.) |
-| `sensorId`   | `Int`               | Identificador del sensor asociado                           |
-| `residentId` | `Int`               | Identificador del residente asociado                        |
-
-#### Constructores:
-
-- Por parámetros individuales 
-- A partir de `CreateSubscriptionCommand`
-- A partir de `UpdateSubscriptionStatusCommand`
-- A partir de `UpdateSubscriptionEndDateCommand`
----
-
-
-### `Payment` 
-
-Representa el pago de una suscripción. 
-#### Atributos principales:
-
-| Atributo         | Tipo              | Descripción                         |
-|------------------|-------------------|-------------------------------------|
-| `id`             | `Int`             | Identificador único del pago        |
-| `subscriptionId` | `Int`             | Relación con la suscripción asociada|
-| `amount`         | `Decimal`         | Monto del pago                      |
-| `status`         | `PaymentStatus`   | Estado del pago (PENDING, SUCCESS, etc.) |
-| `method`         | `PaymentMethod`   | Método de pago (CARD, YAPE, etc.)   |
-| `paidAt`         | `Date`            | Fecha en la que se realizó el pago  |    |
-
-#### Constructores:
-
-- Por parámetros individuales 
-- A partir de `CreatePaymentCommand`
----
-
-Los siguientes enumerados (enums) representan valores fijos que controlan el estado y comportamiento de las entidades del sistema dentro del contexto de suscripciones y pagos. Se utilizan para asegurar consistencia, facilitar validaciones y mejorar la legibilidad del código, evitando el uso de strings sueltos o valores mágicos.
-
-
-### `SubscriptionStatus(Enum)` 
-
-| Valor       | Descripción                                                  |
-|-------------|--------------------------------------------------------------|
-| ACTIVE      | La suscripción está activa y el sensor está en funcionamiento |
-| EXPIRED     | La suscripción ha terminado su periodo de vigencia            |
-| CANCELLED   | La suscripción fue cancelada antes de su vencimiento          |
-| PENDING     | La suscripción ha sido creada pero aún no se ha activado      |
-
-### `PaymentStatus (Enum)` 
-
- | Valor       | Descripción                                 |
-|-------------|----------------------------------------------|
-| PENDING     | El pago ha sido iniciado pero no completado  |
-| SUCCESS     | El pago se procesó correctamente             |
-| FAILED      | El intento de pago falló                     |
-| CANCELLED   | El pago fue cancelado por el usuario o sistema |
-
-### `PaymentMethod  (Enum)` 
-
-| Valor         | Descripción                             |
-|---------------|------------------------------------------|
-| CARD          | Pago realizado con tarjeta               |
-| YAPE          | Pago a través de la app Yape             |
-| PLIN          | Pago a través de la app Plin             |
-| BANK_TRANSFER | Transferencia bancaria                   |
-
-
-## `Commands` 
-
-### `Subscription Commands` 
-
-| Comando                         | Descripción                                                         |
-|--------------------------------|----------------------------------------------------------------------|
-| `CreateSubscriptionCommand`    | Crea una nueva suscripción, asignando un sensor a un residente con fechas definidas |
-| `CancelSubscriptionCommand`    | Cancela una suscripción activa antes de su fecha de fin             |
-| `UpdateSubscriptionEndDateCommand` | Modifica la fecha de finalización de la suscripción                 |
-| `ExpireSubscriptionCommand`    | Marca una suscripción como expirada si ha superado su fecha de fin  |
-| `ActivateSubscriptionCommand`  | Cambia el estado de una suscripción a `ACTIVE`                      |
-
-
-### `Payment Commands` 
-| Comando                     | Descripción                                                       |
-|----------------------------|--------------------------------------------------------------------|
-| `CreatePaymentCommand`     | Registra un nuevo pago asociado a una suscripción                 |
-| `UpdatePaymentStatusCommand` | Cambia el estado de un pago (`PENDING`, `SUCCESS`, `FAILED`, etc.) |
-
-
-## `Queries` 
-
-
-### `Subscription Queries` 
-| Query                                | Descripción                                                                      |
-|-------------------------------------|----------------------------------------------------------------------------------|
-| `GetSubscriptionByIdQuery`          | Obtiene una suscripción específica por su ID                                    |
-| `GetSubscriptionsByResidentIdQuery`| Lista todas las suscripciones activas o históricas de un residente              |
-| `GetActiveSubscriptionBySensorIdQuery` | Devuelve la suscripción activa de un sensor determinado                         |
-| `GetAllActiveSubscriptionsQuery`    | Lista todas las suscripciones activas del sistema                               |
-
-
-### `Payment Queries` 
-| Query                              | Descripción                                                    |
-|-----------------------------------|----------------------------------------------------------------|
-| `GetPaymentByIdQuery`             | Obtiene los detalles de un pago específico por su ID          |
-| `GetPaymentsBySubscriptionIdQuery`| Lista todos los pagos hechos para una suscripción dada        |
-| `GetRecentPaymentsByResidentIdQuery` | Devuelve los pagos recientes realizados por un residente      |
-
-## `Repositories (Interfaces)` 
-| Archivo                     | Descripción breve                                                                 |
-|----------------------------|-------------------------------------------------------------------------------------|
-| ISubscriptionRepository.cs | Define operaciones sobre suscripciones: `FindByIdAsync`, `FindByResidentIdAsync`, `FindActiveBySensorIdAsync`, `SaveAsync`, `UpdateStatusAsync` |
-| IPaymentRepository.cs      | Define operaciones sobre pagos: `FindByIdAsync`, `FindBySubscriptionIdAsync`, `SaveAsync`, `UpdateStatusAsync`             |
-
-
-## `Services` 
-### `Subscription` 
-
-| Archivo                          | Descripción breve                                                                 |
-|----------------------------------|-------------------------------------------------------------------------------------|
-| ISubscriptionCommandService.cs  | Define comandos como crear, cancelar o renovar suscripciones.                     |
-| ISubscriptionQueryService.cs    | Define consultas para obtener suscripciones (por residente, por sensor, por estado, por id). |
-
-### `Payment` 
-
-| Archivo                      | Descripción breve                                                                 |
-|------------------------------|-------------------------------------------------------------------------------------|
-| IPaymentCommandService.cs   | Define comandos como registrar pago, actualizar estado o reintentar un pago.      |
-| IPaymentQueryService.cs     | Define consultas para obtener pagos (por suscripción, por estado, por método, por id). |
-
-
-#### 4.2.1.2. Interface Layer.
-
-La carpeta `Interfaces/REST` expone los endpoints HTTP que permiten a clientes externos interactuar con la aplicación transformando solicitudes en comandos o queries y devolviendo respuestas.
-
-## `Resources` 
-Las clases `Resource` actúan como intermediarias que trasladan datos entre la API REST y la capa de aplicación.
-
-| Archivo                           | Función                                                                 |
-|----------------------------------|-------------------------------------------------------------------------|
-| `CreateSubscriptionResource.cs`  | Recibe datos para registrar una nueva suscripción desde el cliente.    |
-| `CancelSubscriptionResource.cs`  | Permite cancelar una suscripción existente.                            |
-| `SubscriptionResource.cs`        | Devuelve información de una suscripción (GET).                         |
-| `CreatePaymentResource.cs`       | Recibe datos para registrar un nuevo pago asociado a una suscripción.  |
-| `PaymentResource.cs`             | Devuelve detalles del pago realizado (GET).                            |
-
-
-## `Transform/Assemblers` 
-
-Las clases ubicadas en la carpeta **Transform** (o también conocidas como **Assemblers**) se encargan de:
-
-- Traducir los objetos **Resource** en **Command Objects** que serán procesados por la capa de aplicación.  
-- Convertir las entidades del dominio en objetos **Resource** que se utilizarán para construir las respuestas de la API.
-
-| Archivo                                             | Función                                                                 |
-|-----------------------------------------------------|-------------------------------------------------------------------------|
-| `CreateSubscriptionCommandFromResourceAssembler.cs` | Transforma `CreateSubscriptionResource` en `CreateSubscriptionCommand`. |
-| `CreatePaymentCommandFromResourceAssembler.cs`      | Transforma `CreatePaymentResource` en `CreatePaymentCommand`.           |
-| `SubscriptionResourceFromEntityAssembler.cs`        | Convierte una entidad `Subscription` en un `SubscriptionResource` limpio. |
-| `PaymentResourceFromEntityAssembler.cs`             | Convierte una entidad `Payment` en un `PaymentResource` limpio.         |
-
-
-## `Controllers` 
-Cada entidad principal dentro del Bounded Context *Subscription & Payment* dispone de un **REST Controller**, encargado de exponer los endpoints públicos y coordinar la lógica de ejecución de la aplicación.
-
-| Controlador              | Ruta base típica | Responsabilidad principal                                                                 |
-|--------------------------|------------------|--------------------------------------------------------------------------------------------|
-| `SubscriptionController.cs` | `/api/subscription` | Gestiona la creación, actualización y consulta de suscripciones.                          |
-| `PaymentController.cs`      | `/api/payment`      | Maneja operaciones de pagos: registrar, consultar historial y actualizar estado de pago.  |
-
-#### 4.2.1.3. Application Layer.
-
-### Servicios de Aplicación – Gestión de Flujos de Negocio
-
-## `CommandServices` 
-| Clase                             | Descripción                                                                                              |
-|----------------------------------|----------------------------------------------------------------------------------------------------------|
-| `SubscriptionCommandService.cs`  | Gestiona la lógica para crear nuevas suscripciones, actualizar su estado o renovarlas.                   |
-| `PaymentCommandService.cs`       | Maneja los procesos de creación de pagos, validación del estado y aplicación del método de pago.         |
-
-## `QueryServices` 
-| Clase                             | Descripción                                                                                              |
-|----------------------------------|----------------------------------------------------------------------------------------------------------|
-| `SubscriptionQueryService.cs`    | Permite consultar suscripciones por estado, residente, fechas o sensor asociado.                         |
-| `PaymentQueryService.cs`         | Proporciona consultas sobre los pagos realizados, incluyendo filtros por suscripción,
-
-
-#### 4.2.1.4. Infrastructure Layer.
-
-### Implementación de Repositories
-
-| Clase                      | Interfaz implementada       | Función principal |
-|---------------------------|------------------------------|-------------------|
-| `SubscriptionRepository.cs` | `ISubscriptionRepository`   | Implementa la lógica de persistencia y consultas sobre suscripciones (`Subscription`), permitiendo operaciones como buscar por residente, sensor o estado. |
-| `PaymentRepository.cs`      | `IPaymentRepository`        | Gestiona el acceso a datos y operaciones sobre pagos (`Payment`), incluyendo la creación, actualización y consultas por suscripción o estado del pago. |
-
-#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
-
-El diagrama de componentes muestra como la aplicación web desarrollada con Angular accede a endpoints relacionados con suscripciones y pagos expuestos por controladores REST en Spring Boot, como Subscription Controller y Payment Controller. Estos controladores delegan la lógica a servicios como Subscription Service y Payment Service, que gestionan el ciclo de vida de las suscripciones y los pagos, respectivamente. A su vez, estos servicios acceden a capas de consulta (Subscription Query Service y Payment Query Service) para recuperar información, y escriben datos mediante los repositorios Subscription Repository y Payment Repository, que usan Spring Data JPA para interactuar con la base de datos MySQL.
-
-![alt text](<./assets/img/Subscription-Bounded-Context.png>)
-
-
-#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
-
-
-##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
-La imagen muestra un diagrama de clases que describe la interacción entre los servicios y repositorios de suscripciones y pagos. Incluye **ISubscriptionRepository**, que maneja las operaciones de suscripciones como búsqueda y actualización, y **ISubscriptionCommandService**, que gestiona comandos para crear, cancelar, activar o expirar suscripciones. **ISubscriptionQueryService** se encarga de consultar información de suscripciones, mientras que **Payment** representa los detalles de los pagos. **IPaymentRepository**, **IPaymentCommandService**, y **IPaymentQueryService** gestionan operaciones similares para los pagos, como su creación, actualización y consulta, garantizando que el sistema pueda manejar tanto suscripciones como pagos de manera independiente y eficiente.
-
-![alt text](./assets/img/subscription.png)
-
-##### 4.2.1.6.2. Bounded Context Database Design Diagram.
-El diagrama muestra las relaciones entre las tablas **sensors**, **subscriptions**, **payments** y **residents**. La tabla **sensors** contiene información sobre los sensores, como tipo, descripción y estado. La tabla **subscriptions** almacena los detalles de las suscripciones, incluyendo las fechas de inicio y fin, el estado de la suscripción, y las relaciones con los sensores y residentes. La tabla **payments** registra los pagos realizados, con datos como el monto, el método de pago, el estado, la fecha de pago y su relación con la suscripción correspondiente. Finalmente, **residents** contiene los datos de los residentes, como nombre, apellido y un ID de perfil relacionado.
-
-![alt text](<./assets/img/db design diagram subsc.png>)
-
-## `subscriptions` 
-| Atributo     | Tipo       | Descripción                                              |
-|--------------|------------|----------------------------------------------------------|
-| id           | int        | Identificador único de la suscripción                    |
-| start_date   | datetime   | Fecha de inicio de la suscripción                        |
-| end_date     | datetime   | Fecha de finalización de la suscripción                  |
-| status       | string     | Estado actual (ACTIVE, EXPIRED, CANCELLED, etc.)         |
-| sensor_id    | int        | Relación con el sensor asignado                          |
-| resident_id  | int        | Relación con el residente al que pertenece la suscripción|
-
-## `payments` 
-| Atributo         | Tipo       | Descripción                                                |
-|------------------|------------|------------------------------------------------------------|
-| id               | int        | Identificador único del pago                               |
-| amount           | decimal    | Monto total del pago realizado                             |
-| status           | string     | Estado del pago (PENDING, SUCCESS, FAILED, CANCELLED)      |
-| paid_at          | datetime   | Fecha en la que se efectuó el pago                         |
-| method           | string     | Método de pago (YAPE, PLIN, BANK_TRANSFER, CARD, etc.)     |
-| subscription_id  | int        | Relación con la suscripción a la que corresponde el pago   |
-
-
-### 4.2.2. Bounded Context: User & Profile Managment
-#### 4.2.2.1. Domain Layer.
--En el núcleo del dominio se han definido los siguientes Agregados, que representan los conceptos más importantes del Bounded Context de usuarios y perfiles.
-
-
-## `Aggregates`
-
-### `User`
-
-Representa una cuenta de usuario dentro del sistema, asociada a un perfil y un rol.
-
-#### Atributos principales:
-
-| Atributo     | Tipo        | Descripción                                                   |
-|--------------|-------------|---------------------------------------------------------------|
-| `id`         | `Int`       | Identificador único del usuario                               |
-| `username`   | `String`    | Nombre de usuario utilizado para autenticación                |
-| `password`   | `String`    | Contraseña cifrada del usuario                                |
-| `role`       | `UserRole`  | Rol del usuario dentro del sistema (`ADMIN`, `PROVIDER`, etc.)|
-| `createdAt`  | `Date`      | Fecha de creación de la cuenta                                |
-| `profileId`  | `Int`       | Relación con el perfil de usuario (`Profile`)                 |
-
-#### Constructores:
-
-- Por parámetros individuales  
-- A partir de `RegisterUserCommand`  
-- A partir de `UpdateUserPasswordCommand`
-
-
-### `Profile`
-
-Representa la información personal complementaria de un usuario dentro del sistema.
-
-#### Atributos principales:
-
-| Atributo         | Tipo     | Descripción                                      |
-|------------------|----------|--------------------------------------------------|
-| `id`             | `Int`    | Identificador único del perfil                  |
-| `documentType`   | `String` | Tipo de documento de identidad (DNI, CE, etc.)  |
-| `documentNumber` | `String` | Número del documento de identidad               |
-| `address`        | `String` | Dirección del usuario                           |
-| `phone`          | `String` | Número de teléfono del usuario                  |
-
-#### Constructores:
-
-- Por parámetros individuales  
-- A partir de `CreateProfileCommand`  
-- A partir de `UpdateProfileInfoCommand`
-
-
-### `Provider`
-
-Representa un proveedor del servicio que puede gestionar sensores, suscripciones y residentes.
-
-#### Atributos principales:
-
-| Atributo   | Tipo     | Descripción                                          |
-|------------|----------|------------------------------------------------------|
-| `id`       | `Int`    | Identificador único del proveedor                    |
-| `userId`   | `Int`    | Relación con el usuario asociado (`User`)           |
-| `taxName`  | `String` | Nombre comercial o razón social del proveedor        |
-| `ruc`      | `String` | Registro Único de Contribuyentes (identificación fiscal) |
-
-#### Constructores:
-
-- Por parámetros individuales  
-- A partir de `RegisterProviderCommand`  
-- A partir de `UpdateProviderInfoCommand`
-
-
-
-### `Resident`
-
-Representa a un habitante asociado a un proveedor, que recibe el servicio a través de sensores.
-
-#### Atributos principales:
-
-| Atributo     | Tipo     | Descripción                                          |
-|--------------|----------|------------------------------------------------------|
-| `id`         | `Int`    | Identificador único del residente                    |
-| `firstName`  | `String` | Nombre del residente                                 |
-| `lastName`   | `String` | Apellido del residente                               |
-| `userId`     | `Int`    | Relación con el usuario asociado (`User`)           |
-| `providerId` | `Int`    | Relación con el proveedor que gestiona al residente  |
-
-#### Constructores:
-
-- Por parámetros individuales  
-- A partir de `RegisterResidentCommand`  
-- A partir de `UpdateResidentInfoCommand`
-
----
-
-Los siguientes enumerados (enums) representan valores fijos que definen el comportamiento y las características de las entidades dentro del contexto de gestión de usuarios, perfiles, proveedores y residentes. Su uso permite mantener la consistencia del sistema, facilitar las validaciones y mejorar la legibilidad del código, evitando el uso de valores literales o cadenas sueltas.
-
-### `UserRole (Enum)` 
-
-| Valor     | Descripción                                                    |
-|-----------|----------------------------------------------------------------|
-| ADMIN     | Usuario con permisos de administración sobre todo el sistema   |
-| PROVIDER  | Usuario que gestiona sensores, residentes y suscripciones      |
-| RESIDENT  | Usuario final que recibe el servicio y visualiza información   |
-
-## `Commands`
-### `User Commands`
-
-| Comando                      | Descripción                                                                 |
-|-----------------------------|-----------------------------------------------------------------------------|
-| `RegisterUserCommand`       | Registra un nuevo usuario en el sistema con su rol y datos de acceso       |
-| `UpdateUserPasswordCommand` | Permite actualizar la contraseña de un usuario existente                   |
-
-
-### `Profile Commands`
-| Comando                      | Descripción                                                                 |
-|-----------------------------|-----------------------------------------------------------------------------|
-| `CreateProfileCommand`      | Crea el perfil personal asociado a un usuario                               |
-| `UpdateProfileInfoCommand`  | Actualiza la información de documento, dirección o teléfono del perfil      |
-
-### `Provider Commands`
-| Comando                         | Descripción                                                              |
-|--------------------------------|---------------------------------------------------------------------------|
-| `RegisterProviderCommand`       | Registra un nuevo proveedor del servicio asociado a un usuario            |
-| `UpdateProviderInfoCommand`     | Actualiza la razón social (`taxName`) o el RUC del proveedor              |
-| `RegisterResidentCommand` | Comando que se ejecuta cuando un proveedor registra a un nuevo residente asociado a él |
-
-### `Resident Commands`
-| Comando                          | Descripción                                                              |
-|---------------------------------|---------------------------------------------------------------------------|
-| `RegisterResidentCommand`       | Registra un nuevo residente asociado a un proveedor                      |
-| `UpdateResidentInfoCommand`     | Actualiza el nombre o apellido de un residente                           |
-
-
-## `Queries` 
-
-### `User Queries`
-| Query                     | Descripción                                                                |
-|--------------------------|----------------------------------------------------------------------------|
-| `GetUserByIdQuery`       | Obtiene los datos de un usuario específico por su ID                       |
-| `GetUsersByRoleQuery`    | Lista todos los usuarios que tienen un rol específico (`ADMIN`, `PROVIDER`, etc.) |
-
-### `Profile Queries`
-| Query                      | Descripción                                                              |
-|---------------------------|---------------------------------------------------------------------------|
-| `GetProfileByUserIdQuery` | Obtiene el perfil asociado a un usuario específico                       |
-| `GetProfileByIdQuery`     | Recupera el perfil directamente por su identificador único               |
-
-### `Provider  Queries`
-
-| Query                      | Descripción                                                               |
-|---------------------------|----------------------------------------------------------------------------|
-| `GetProviderByIdQuery`    | Recupera la información de un proveedor por su ID                         |
-| `GetProviderByUserIdQuery`| Obtiene los datos del proveedor asociado a un usuario                     |
-| `GetAllProvidersQuery`    | Lista todos los proveedores registrados en el sistema                     |
-
-### `Resident   Queries`
-| Query                         | Descripción                                                            |
-|------------------------------|-------------------------------------------------------------------------|
-| `GetResidentByIdQuery`       | Recupera un residente específico por su ID                             |
-| `GetResidentsByProviderIdQuery` | Lista todos los residentes registrados bajo un proveedor              |
-| `GetResidentByUserIdQuery`   | Obtiene el residente vinculado a un usuario determinado                |
-
-## `Services` 
-
-### `User`
-| Archivo                      | Descripción breve                                                                 |
-|-----------------------------|-------------------------------------------------------------------------------------|
-| IUserCommandService.cs      | Define comandos para registrar usuarios, cambiar rol o actualizar contraseña.      |
-| IUserQueryService.cs        | Permite consultas de usuarios por ID o por rol.                                   |
-
-### `Profile`
-| Archivo                      | Descripción breve                                                                   |
-|-----------------------------|---------------------------------------------------------------------------------------|
-| IProfileCommandService.cs   | Maneja la creación y actualización de perfiles personales.                          |
-| IProfileQueryService.cs     | Permite obtener perfiles por ID o por usuario asociado.                             |
-
-### `Provider`
-| Archivo                        | Descripción breve                                                                   |
-|-------------------------------|---------------------------------------------------------------------------------------|
-| IProviderCommandService.cs     | Define comandos para registrar o actualizar información de proveedores.             |
-| IProviderQueryService.cs       | Permite consultar proveedores por ID o por usuario asociado.                        |
-
-### `Resident`
-| Archivo                        | Descripción breve                                                                   |
-|-------------------------------|---------------------------------------------------------------------------------------|
-| IResidentCommandService.cs     | Gestiona el registro y actualización de datos personales de los residentes.         |
-| IResidentQueryService.cs       | Consulta residentes por ID, usuario o proveedor al que están asociados.             |
-
-
-
-
-#### 4.2.2.2. Interface Layer.
-La carpeta `Interfaces/REST` expone los endpoints HTTP que permiten a clientes externos interactuar con la aplicación transformando solicitudes en comandos o queries y devolviendo respuestas.
-
-## `Resources`
-Las clases `Resource` actúan como intermediarias que trasladan datos entre la API REST y la capa de aplicación.
-
-| Archivo                           | Función                                                                 |
-|----------------------------------|-------------------------------------------------------------------------|
-| `RegisterUserResource.cs`        | Recibe los datos necesarios para registrar un nuevo usuario.           |
-| `UpdateUserPasswordResource.cs`  | Permite actualizar la contraseña del usuario.                          |
-| `UserResource.cs`                | Devuelve la información del usuario (GET).                             |
-| `CreateProfileResource.cs`       | Recibe los datos para crear un perfil de usuario.                      |
-| `UpdateProfileResource.cs`       | Permite actualizar dirección, documento o teléfono del perfil.         |
-| `ProfileResource.cs`             | Devuelve los datos de perfil asociados a un usuario.                   |
-| `RegisterProviderResource.cs`    | Recibe datos para registrar un nuevo proveedor.                        |
-| `UpdateProviderInfoResource.cs`  | Permite actualizar la razón social o el RUC de un proveedor.           |
-| `ProviderResource.cs`            | Devuelve información pública de un proveedor (GET).                    |
-| `RegisterResidentResource.cs`    | Recibe los datos necesarios para registrar un residente.               |
-| `UpdateResidentInfoResource.cs`  | Permite modificar los datos personales del residente.                  |
-| `ResidentResource.cs`            | Devuelve la información de un residente (GET).                         |
-
-## `Transform/Assemblers` 
-Las clases ubicadas en la carpeta **Transform** (o también conocidas como **Assemblers**) se encargan de:
-
-- Traducir los objetos **Resource** en **Command Objects** que serán procesados por la capa de aplicación.  
-- Convertir las entidades del dominio en objetos **Resource** que se utilizarán para construir las respuestas de la API.
-
-| Archivo                                               | Función                                                                 |
-|-------------------------------------------------------|-------------------------------------------------------------------------|
-| `RegisterUserCommandFromResourceAssembler.cs`         | Transforma `RegisterUserResource` en `RegisterUserCommand`.            |
-| `UpdateUserPasswordCommandFromResourceAssembler.cs`   | Transforma `UpdateUserPasswordResource` en `UpdateUserPasswordCommand`.|
-| `UserResourceFromEntityAssembler.cs`                  | Convierte una entidad `User` en un `UserResource` limpio.              |
-| `CreateProfileCommandFromResourceAssembler.cs`        | Transforma `CreateProfileResource` en `CreateProfileCommand`.          |
-| `UpdateProfileCommandFromResourceAssembler.cs`        | Transforma `UpdateProfileResource` en `UpdateProfileInfoCommand`.      |
-| `ProfileResourceFromEntityAssembler.cs`               | Convierte una entidad `Profile` en un `ProfileResource`.               |
-| `RegisterProviderCommandFromResourceAssembler.cs`     | Transforma `RegisterProviderResource` en `RegisterProviderCommand`.    |
-| `UpdateProviderCommandFromResourceAssembler.cs`       | Transforma `UpdateProviderInfoResource` en `UpdateProviderInfoCommand`.|
-| `ProviderResourceFromEntityAssembler.cs`              | Convierte una entidad `Provider` en un `ProviderResource`.             |
-| `RegisterResidentCommandFromResourceAssembler.cs`     | Transforma `RegisterResidentResource` en `RegisterResidentCommand`.    |
-| `UpdateResidentCommandFromResourceAssembler.cs`       | Transforma `UpdateResidentInfoResource` en `UpdateResidentInfoCommand`.|
-| `ResidentResourceFromEntityAssembler.cs`              | Convierte una entidad `Resident` en un `ResidentResource`.             |
-
-
-## `Controllers` 
-Cada entidad principal dentro del Bounded Context User & Identity Management dispone de un **REST Controller**, encargado de exponer los endpoints públicos y coordinar la lógica de ejecución de la aplicación.
-
-| Controlador               | Ruta base típica     | Responsabilidad principal                                                                   |
-|---------------------------|----------------------|----------------------------------------------------------------------------------------------|
-| `UserController.cs`       | `/api/users`         | Gestiona el registro, autenticación, y actualización del usuario.                           |
-| `ProfileController.cs`    | `/api/profiles`      | Permite la creación, modificación y consulta del perfil de un usuario.                      |
-| `ProviderController.cs`   | `/api/providers`     | Gestiona el registro de proveedores y la actualización de su información fiscal.            |
-| `ResidentController.cs`   | `/api/residents`     | Maneja el registro de residentes y sus datos personales asociados al proveedor.             |
-
-
-#### 4.2.2.3. Application Layer.
-
-### Servicios de Aplicación – Gestión de Flujos de Negocio
-
-## `CommandServices` 
-
-| Clase                             | Descripción                                                                                      |
-|----------------------------------|--------------------------------------------------------------------------------------------------|
-| `UserCommandService.cs`          | Gestiona el registro de usuarios, cambio de rol y actualización de contraseña.                   |
-| `ProfileCommandService.cs`       | Maneja la creación y actualización de perfiles personales.                                       |
-| `ProviderCommandService.cs`      | Administra el registro de proveedores y edición de su información fiscal (razón social y RUC).   |
-| `ResidentCommandService.cs`      | Gestiona el registro de residentes y la modificación de sus datos personales.                    |
-
-## `QueryServices` 
-
-| Clase                             | Descripción                                                                                     |
-|----------------------------------|-------------------------------------------------------------------------------------------------|
-| `UserQueryService.cs`            | Permite consultar usuarios por ID o por rol.                                                    |
-| `ProfileQueryService.cs`         | Recupera perfiles asociados a usuarios o directamente por ID.                                   |
-| `ProviderQueryService.cs`        | Obtiene la información de proveedores por ID o usuario asociado.                                |
-| `ResidentQueryService.cs`        | Permite listar residentes por proveedor o consultar uno específico por ID o usuario.            |
-
-#### 4.2.2.4. Infrastructure Layer.
-### Implementación de Repositories
-
-| Clase                        | Interfaz implementada       | Función principal                                                                 |
-|-----------------------------|------------------------------|-----------------------------------------------------------------------------------|
-| `UserRepository.cs`         | `IUserRepository`           | Gestiona la persistencia y consultas de usuarios, incluyendo búsquedas por ID o rol. |
-| `ProfileRepository.cs`      | `IProfileRepository`        | Administra el acceso a datos de perfiles, permitiendo crear, editar y consultar por usuario. |
-| `ProviderRepository.cs`     | `IProviderRepository`       | Implementa la lógica para registrar y actualizar información fiscal de proveedores. |
-| `ResidentRepository.cs`     | `IResidentRepository`       | Permite almacenar y recuperar información de residentes asociados a un proveedor.  |
-
-
-#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
-
-El diagrama de contexto muestra como la aplicación web se conecta con una serie de controladores REST (User Controller, Profile Controller, Provider Controller, Resident Controller) que exponen los endpoints necesarios para gestionar autenticación, perfiles, proveedores y residentes. Cada controlador delega su lógica a servicios específicos como User Service, Profile Service, Provider Service y Resident Service, los cuales se encargan de procesar operaciones como registros, validaciones, actualizaciones y asociaciones entre entidades. A su vez, los servicios interactúan con repositorios (User Repository, Profile Repository, Provider Repository, Resident Repository) implementados con Spring Data JPA para persistir y recuperar datos desde la base de datos MySQL. Paralelamente, existen servicios de consulta (Query Services) que permiten acceder a los datos actuales de forma segura y eficiente para su visualización o edición.
-
-![alt text](./assets/img/structurizr-101355-User-Profile-Management-Bounded-Context.png)
-#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
-#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
-El diagrama muestra la estructura de un sistema que gestiona **proveedores**, **residentes**, **usuarios** y **perfiles**. Cada entidad tiene servicios de consulta, comando y repositorio para realizar operaciones como creación, actualización y consulta de datos. **Provider** y **Resident** están vinculados, permitiendo la gestión de información de proveedores y residentes, mientras que **User** maneja roles como ADMIN, PROVIDER y RESIDENT, permitiendo la administración de usuarios. **Profile** almacena información personal de los usuarios, como documentos y datos de contacto. Los servicios proporcionan la funcionalidad necesaria para gestionar estas entidades de manera eficiente.
-
-![alt text](<./assets/img/AQUA (16).png>)
-
-#### 4.2.2.6.2. Bounded Context Database Design Diagram.
-El diagrama muestra las relaciones entre las tablas **providers**, **residents**, **users** y **profiles**. Los **providers** están asociados a un **user** mediante el campo `user_id`, y cada **user** tiene un **profile** relacionado, almacenado en la tabla **profiles**, que contiene información personal como tipo de documento, número de documento, dirección y teléfono. Los **residents** están vinculados tanto a un **user** a través del campo `user_id` como a un **provider** mediante el campo `provider_id`. Esta estructura permite gestionar tanto a los usuarios como a los residentes y proveedores, asociando información personal, de contacto y roles en el sistema.
-
-![alt text](<./assets/img/db user bc.png>)
-
-## `users` 
-
-| Atributo     | Tipo       | Descripción                                  |
-|--------------|------------|----------------------------------------------|
-| id           | int        | Identificador único del usuario              |
-| username     | string     | Nombre de usuario del sistema                |
-| password     | string     | Contraseña cifrada del usuario               |
-| role         | string     | Rol del usuario (`ADMIN`, `PROVIDER`, etc.) |
-| createdAt    | datetime   | Fecha de creación del usuario                |
-| profile_id   | int        | FK al perfil asociado                        |
-
-## `profiles` 
-| Atributo         | Tipo     | Descripción                            |
-|------------------|----------|----------------------------------------|
-| id               | int      | Identificador único del perfil         |
-| documentType     | string   | Tipo de documento (DNI, CE, etc.)      |
-| documentNumber   | string   | Número del documento                   |
-| address          | string   | Dirección del usuario                  |
-| phone            | string   | Número telefónico                      |
-
-## `providers` 
-| Atributo     | Tipo     | Descripción                               |
-|--------------|----------|-------------------------------------------|
-| id           | int      | Identificador único del proveedor         |
-| tax_name     | string   | Nombre tributario del proveedor           |
-| ruc          | string   | RUC del proveedor                         |
-| user_id      | int      | FK al usuario asociado                    |
-
-## `residents` 
-
-| Atributo     | Tipo     | Descripción                                  |
-|--------------|----------|----------------------------------------------|
-| id           | int      | Identificador único del residente            |
-| first_name   | string   | Nombres del residente                        |
-| last_name    | string   | Apellidos del residente                      |
-| user_id      | int      | FK al usuario asociado                       |
-| provider_id  | int      | FK al proveedor que administra al residente  |
-
-
-### 4.2.3. Bounded Context: Request Operation and Monitoring
-
-#### 4.2.3.1. Domain Layer.
-- Este bounded context abarca la gestión de solicitudes generales y de agua realizadas por los residentes a los proveedores dentro de una comunidad.
-
----
-
-##  `Aggregates`
-
-### `WaterRequest`
-
-Representa una solicitud específica de agua realizada por un residente.
-
-| Atributo         | Tipo     | Descripción                                                    |
-|------------------|----------|----------------------------------------------------------------|
-| id             | Int      | Identificador único de la solicitud                           |
-| residentId     | Int      | ID del residente que solicita el agua                         |
-| providerId     | Int      | ID del proveedor que entregará el agua                        |
-| requestedLiters| Float    | Litros solicitados                                             |
-| status         | Enum     | Estado: PENDING, DELIVERED, CANCELLED                   |
-| deliveredAt    | DateTime | Fecha y hora de entrega del agua (si aplica)                  |
-
-Constructores:
-
-- Por parámetros individuales
-- A partir de CreateWaterRequestCommand
-
----
-
-### `Request`
-
-Representa una solicitud general realizada por un residente a un proveedor.
-
-| Atributo       | Tipo     | Descripción                                                       |
-|----------------|----------|-------------------------------------------------------------------|
-| id           | Int      | Identificador único de la solicitud                               |
-| residentId   | Int      | ID del residente solicitante                                      |
-| providerId   | Int      | ID del proveedor al que se dirige la solicitud                    |
-| title        | String   | Título de la solicitud                                            |
-| description  | String   | Detalle de la solicitud                                           |
-| status       | Enum     | Estado: OPEN, IN_PROGRESS, RESOLVED, CLOSED               |
-
-Constructores:
-
-- Por parámetros individuales
-- A partir de CreateRequestCommand
-
-
-## `Enumerados (Enums)`
-
-### `WaterRequestStatus`
-
-| Valor       | Descripción                                |
-|-------------|--------------------------------------------|
-| PENDING   | Solicitud pendiente de entrega             |
-| DELIVERED | Agua entregada                             |
-| CANCELLED | Solicitud cancelada                        |
-
-### `RequestStatus`
-
-| Valor         | Descripción                                  |
-|---------------|----------------------------------------------|
-| OPEN        | La solicitud fue creada y está pendiente     |
-| IN_PROGRESS | El proveedor está atendiendo la solicitud    |
-| RESOLVED    | La solicitud fue atendida satisfactoriamente |
-| CLOSED      | La solicitud fue cerrada manualmente         |
-
----
-
-##  `Commands`
-
-### `Water Operation Commands`
-
-| Comando                             | Descripción                                                        |
-|-------------------------------------|--------------------------------------------------------------------|
-| CreateWaterRequestCommand         | Crea una solicitud de agua                                         |
-| UpdateWaterRequestStatusCommand   | Actualiza el estado de una solicitud de agua                       |
-
-### `General Request Commands`
-
-| Comando                        | Descripción                                                        |
-|--------------------------------|--------------------------------------------------------------------|
-| CreateRequestCommand         | Crea una nueva solicitud general                                   |
-| UpdateRequestStatusCommand   | Cambia el estado de una solicitud general                          |
-
----
-
-## `Query`
-
-| Query                                  | Descripción                                                               |
-|----------------------------------------|---------------------------------------------------------------------------|
-| GetWaterRequestsByResidentIdQuery    | Solicitudes de agua por residente                                         |
-| GetPendingWaterRequestsQuery         | Solicitudes de agua pendientes                                            |
-| GetDeliveredWaterRequestsByDateQuery | Solicitudes de agua entregadas en un rango de fechas                     |
-| GetRequestsByStatusQuery             | Lista de solicitudes generales por estado                                |
-| GetRequestsByResidentIdQuery         | Solicitudes generales hechas por un residente                            |
-
----
-
-###  `Repositories (Interfaces)`
-
-| Archivo                          | Descripción                                                         |
-|----------------------------------|---------------------------------------------------------------------|
-| IWaterRequestRepository.cs     | Persistencia y consultas sobre solicitudes de agua                 |
-| IRequestRepository.cs          | Persistencia y consultas sobre solicitudes generales               |
-
----
-
-###  `Services`
-
-| Archivo                          | Descripción                                                         |
-|----------------------------------|---------------------------------------------------------------------|
-| IWaterRequestCommandService.cs | Comandos de solicitudes de agua                                    |
-| IWaterRequestQueryService.cs   | Consultas de solicitudes de agua                                   |
-| IRequestCommandService.cs      | Comandos de solicitudes generales                                  |
-| IRequestQueryService.cs        | Consultas de solicitudes generales                                 |
-
----
-
-#### 4.2.3.2. Interface Layer.
-
-## `Resources`
-
-| Archivo                          | Descripción                                                             |
-|----------------------------------|-------------------------------------------------------------------------|
-| CreateWaterRequestResource.cs | Para registrar solicitud de agua                                       |
-| WaterRequestResource.cs       | JSON de solicitud de agua                                              |
-| CreateRequestResource.cs      | Para registrar solicitud general                                       |
-| RequestResource.cs            | JSON de solicitud general                                              |
-
----
-
-##  `Transform / Assemblers`
-
-| Archivo                                          | Función                                                              |
-|--------------------------------------------------|----------------------------------------------------------------------|
-| CreateWaterRequestCommandFromResourceAssembler.cs | De recurso a comando de agua                                     |
-| WaterRequestResourceFromEntityAssembler.cs     | De entidad WaterRequest a recurso JSON                          |
-| CreateRequestCommandFromResourceAssembler.cs   | De recurso a comando de solicitud general                          |
-| RequestResourceFromEntityAssembler.cs          | De entidad Request a recurso JSON                                |
-
----
-
-## `Controllers`
-
-| Controlador              | Ruta Base             | Descripción                                                           |
-|--------------------------|-----------------------|-----------------------------------------------------------------------|
-| WaterRequestController.cs | /api/water-requests | Manejo de solicitudes de agua                                         |
-| RequestController.cs      | /api/requests       | Manejo de solicitudes generales                                       |
-
----
-##### 4.2.3.3. Application Layer.
-
-## `Command Services`
-
-| Archivo                      | Descripción                                                |
-|------------------------------|------------------------------------------------------------|
-| WaterRequestCommandService.cs | Implementa lógica de comandos para solicitudes de agua |
-| RequestCommandService.cs      | Implementa lógica de comandos para solicitudes generales|
-
-## `Query Services`
-
-| Archivo                     | Descripción                                                  |
-|-----------------------------|--------------------------------------------------------------|
-| WaterRequestQueryService.cs | Consultas específicas de agua                             |
-| RequestQueryService.cs      | Consultas generales de solicitudes                        |
-
-#### 4.2.3.4. Infrastructure Layer.
-
-
-## `Implementación de Repositories`
-
-| Clase                    | Interfaz implementada      | Función principal                                                                 |
-|--------------------------|----------------------------|------------------------------------------------------------------------------------|
-| `WaterRequestRepository.cs` | `IWaterRequestRepository`   | Gestiona la persistencia y consultas de solicitudes de agua por residente, estado o fecha. |
-| `RequestRepository.cs`      | `IRequestRepository`        | Administra solicitudes generales, permitiendo crear, consultar y actualizar por residente o estado. |
-
-
-#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
-
-El diagrama muestra cómo la aplicación web sirve como interfaz para proveedores y administradores, permitiéndoles configurar el sistema, visualizar análisis y gestionar usuarios y sensores. Esta aplicación se comunica con el Request Controller (implementado en Spring Boot), que maneja las solicitudes entrantes para crear, actualizar y gestionar solicitudes. El controlador delega estas operaciones al Request Command Service, que se encarga de realizar los cambios necesarios y almacenar los datos mediante el Request Repository (basado en Spring Data JPA), o al Request Query Service, que filtra y recupera datos según criterios como estado o tipo de solicitud. El Request Repository actúa como puente entre los servicios y la base de datos MySQL, donde se almacenan las solicitudes junto con información de usuarios, suscripciones, sensores, alertas y registros administrativos.
-
-![alt text](<./assets/img/structurizr-101355-RequestManagement.png>)
-
-#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
-##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
-El diagrama muestra cómo se gestionan las **solicitudes generales** y **solicitudes de agua** en el sistema. Las **Request** representan las solicitudes generales de los residentes, mientras que **WaterRequest** se refiere a las solicitudes específicas de agua. Los servicios de comando (**IRequestCommandService** y **IWaterRequestCommandService**) permiten crear y actualizar estas solicitudes, mientras que los repositorios (**IRequestRepository** y **IWaterRequestRepository**) gestionan su persistencia. También hay servicios de consulta (**IRequestQueryService** y **IWaterRequestQueryService**) para obtener solicitudes según diferentes criterios, como estado o residente.
-
-![alt text](<./assets/img/requests.png>)
-##### 4.2.3.6.2. Bounded Context Database Design Diagram.
-El diagrama muestra dos tablas: **requests** y **water\_requests**. La tabla **requests** almacena solicitudes generales de los residentes, incluyendo información como el `title`, `description`, y el `status`, junto con las relaciones a los residentes y proveedores. La tabla **water\_requests** contiene solicitudes específicas de agua, incluyendo el número de litros solicitados (`request_liters`), el estado de la solicitud y la fecha de entrega (`delivered_at`). Ambas tablas están relacionadas a través de los campos `resident_id` y `provider_id`.
-
-![alt text](<./assets/img/requestDiagram.png>)
-
-
-
-
-## 4.2.4. Bounded Context: Dashboard & Analytics
-- Este bounded context abarca la gestión de datos analíticos y reportes generados a partir de las interacciones entre residentes, proveedores y sensores. Su objetivo es proporcionar información valiosa para la toma de decisiones estratégicas y operativas.
-#### 4.2.4.1. Domain Layer.
-
-## `Event`
-
-Representa un evento individual registrado por un sensor de monitoreo ambiental.
-
-| Atributo       | Tipo     | Descripción                                                           |
-|----------------|----------|------------------------------------------------------------------------|
-| `id`           | Int      | Identificador único del evento                                        |
-| `sensorId`     | Int      | Identificador del sensor asociado                                     |
-| `value`        | Float    | Valor registrado por el sensor (ej. nivel de agua)                    |
-| `type`         | Enum     | Tipo de evento: `WATER_LEVEL`, `WATER_QUALITY`, `PRESSURE`, etc.      |
-| `status`       | Enum     | Estado del evento: `NORMAL`, `ALERT`, `CRITICAL`                      |
-| `created_at`   | DateTime | Fecha de creación del evento                                          |
-
-**Constructores:**
-
-- Por parámetros individuales
-- A partir de `RegisterEventCommand`
-
----
-
-## `DeviceMonitoring`
-
-Representa la administración y configuración de un sensor en campo.
-
-| Atributo     | Tipo     | Descripción                                                |
-|--------------|----------|------------------------------------------------------------|
-| `id`         | Int      | Identificador único del sensor                             |
-| `type`       | Enum     | Tipo de sensor (ej. `WATER_LEVEL`, `PRESSURE`, etc.)       |
-| `status`     | Enum     | Estado del sensor: `INSTALLED`, `INACTIVE`, etc.           |
-| `description`| String   | Descripción general del sensor                             |
-| `residentId` | Int      | ID del residente o responsable asociado al sensor          |
-| `location`   | String   | Ubicación o comunidad donde está instalado el sensor       |
-
-**Constructores:**
-
-- Por parámetros individuales
-- A partir de `InstallSensorCommand`
-
-
-## ` Enumerados (Enums)`
-
-### `EventStatus`
-
-| Valor      | Descripción                                     |
-|------------|-------------------------------------------------|
-| `NORMAL`   | Valores dentro de lo aceptable                  |
-| `ALERT`    | Valores fuera del promedio, no críticos         |
-| `CRITICAL` | Riesgo de salud o impacto grave                 |
-
-### `EventType`
-
-| Valor           | Descripción                      |
-|------------------|---------------------------------|
-| `WATER_LEVEL`    | Nivel de agua                   |
-| `WATER_QUALITY`  | Calidad del agua                |
-| `PRESSURE`       | Presión                         |
-| `TEMPERATURE`    | Temperatura                     |
-
-### `SensorStatus`
-
-| Valor        | Descripción                                       |
-|--------------|---------------------------------------------------|
-| `INSTALLED`  | Sensor instalado y operativo                      |
-| `INACTIVE`   | Sensor fuera de servicio temporalmente            |
-| `MAINTENANCE`| Sensor en mantenimiento                           |
-| `FAULTY`     | Sensor con fallas                                 |
-
-
-##  `Commands`
-
-### `Analytics Commands`
-
-| Comando                     | Descripción                                                |
-|-----------------------------|------------------------------------------------------------|
-| `RegisterEventCommand`      | Registra un nuevo evento generado por un sensor           |
-| `UpdateEventStatusCommand`  | Actualiza el estado de un evento específico               |
-
-### `Monitoring Commands`
-
-| Comando                     | Descripción                                                |
-|-----------------------------|------------------------------------------------------------|
-| `InstallSensorCommand`      | Instala un sensor en un lugar determinado                 |
-| `UpdateSensorStatusCommand` | Modifica el estado operativo de un sensor                 |
-
-
-## `Queries`
-
-### `Analytics Queries`
-
-| Query                                  | Descripción                                                                 |
-|----------------------------------------|-----------------------------------------------------------------------------|
-| `GetEventsBySensorIdQuery`            | Lista todos los eventos registrados por un sensor específico               |
-| `GetRecentCriticalEventsQuery`        | Devuelve eventos recientes con estado crítico                              |
-| `GetMonthlyEventsBySensorQuery`       | Devuelve eventos agrupados por mes para un sensor                          |
-| `GenerateSensorReportQuery`           | Genera reporte consolidado con estadísticas de eventos de un sensor        |
-| `GetEventsByDateRangeQuery`           | Lista eventos registrados entre dos fechas (`created_at`)                  |
-| `GetEventsByStatusAndSensorIdQuery`   | Lista eventos filtrados por estado (`status`) y sensor específico          |
-
-### `Monitoring Queries`
-
-| Query                             | Descripción                                                                 |
-|-----------------------------------|-----------------------------------------------------------------------------|
-| `GetSensorsByLocationQuery`       | Lista sensores instalados en una ubicación específica                      |
-| `GetSensorStatusByIdQuery`        | Devuelve el estado actual de un sensor                                     |
-
-
-### ` Repositories (Interfaces)`
-
-| Archivo                | Descripción                                                                |
-|------------------------|----------------------------------------------------------------------------|
-| `IEventRepository.cs`  | Operaciones sobre eventos:                                                 |
-|                        | - `FindBySensorIdAsync`                                                    |
-|                        | - `FindByDateRangeAsync`                                                   |
-|                        | - `FindByStatusAndSensorIdAsync`                                           |
-|                        | - `FindMonthlyAsync`, `SaveAsync`                                          |
-| `IDeviceRepository.cs` | Operaciones sobre devices:                                                 |
-|                        | - `FindByIdAsync`, `FindByLocationAsync`, `UpdateStatusAsync`, `SaveAsync` |
-
-
-## `Services`
-
-### `Analytics Services`
-
-| Archivo                    | Descripción                                                              |
-|----------------------------|--------------------------------------------------------------------------|
-| `IEventCommandService.cs`   | Comandos para registrar y modificar eventos                             |
-| `IEventQueryService.cs`     | Consultas de eventos: por sensor, por mes, por estado, por fechas, etc. |
-
-### `Monitoring Services`
-
-| Archivo                      | Descripción                                                             |
-|------------------------------|-------------------------------------------------------------------------|
-| `ISensorCommandService.cs`    | Comandos para instalación y actualización de sensores                   |
-| `ISensorQueryService.cs`      | Consultas por ubicación o ID del sensor                                |
-
-
-#### 4.2.4.2. Interface Layer.
-### `Resources`
-
-| Archivo                       | Descripción                                                            |
-|-------------------------------|------------------------------------------------------------------------|
-| `RegisterEventResource.cs`    | Recurso para registrar nuevos eventos                                  |
-| `EventResource.cs`            | Recurso JSON para listar eventos                                       |
-| `MonthlyEventsResource.cs`    | Agrupación de eventos por mes                                          |
-| `SensorReportResource.cs`     | Resumen estadístico de sensor                                          |
-| `InstallSensorResource.cs`    | Recurso para registrar un sensor nuevo                                 |
-| `SensorMonitoringResource.cs` | Estado, descripción y ubicación del sensor                             |
-
-
-### `Transform / Assemblers`
-
-| Archivo                                           | Función                                              |
-|--------------------------------------------------|------------------------------------------------------|
-| `RegisterEventCommandFromResourceAssembler.cs`   | Transforma recurso en `RegisterEventCommand`         |
-| `EventResourceFromEntityAssembler.cs`            | Convierte entidad `Event` a recurso JSON             |
-| `MonthlyEventsResourceFromEntityAssembler.cs`    | Agrupa eventos y los transforma a recurso mensual    |
-| `SensorReportResourceFromDataAssembler.cs`       | Convierte datos agregados en un recurso tipo reporte |
-| `InstallSensorCommandFromResourceAssembler.cs`   | Transforma recurso en `InstallSensorCommand`         |
-| `SensorResourceFromEntityAssembler.cs`           | Convierte `Monitoring` en recurso JSON               |
-
----
-
-### ` Controllers`
-
-| Controlador             | Ruta Base          | Descripción                                                      |
-|--------------------------|--------------------|------------------------------------------------------------------|
-| `EventController.cs`     | `/api/events`      | Registro, consulta, filtro por sensor, estado y fechas           |
-| `SensorController.cs`    | `/api/sensors`     | Instalación y gestión de sensores                                |
-
----
-#### 4.2.4.3. Application Layer.
-### `Command Services`
-
-| Archivo                  | Descripción                                                         |
-|--------------------------|---------------------------------------------------------------------|
-| `EventCommandService.cs`  | Lógica para registrar y actualizar eventos                         |
-| `SensorCommandService.cs` | Lógica para instalación y modificación de sensores                 |
-
-### `Query Services`
-
-| Archivo                    | Descripción                                                                 |
-|----------------------------|-----------------------------------------------------------------------------|
-| `EventQueryService.cs`      | Consultas sobre eventos incluyendo:                                         |
-|                            | - Por sensorId                                                              |
-|                            | - Por rango de fechas                                                       |
-|                            | - Por estado y sensorId                                                     |
-|                            | - Agrupados por mes                                                         |
-|                            | - Generación de reporte                                                     |
-| `SensorQueryService.cs`     | Consultas por ubicación, ID o estado de sensor                             |
-
----
-#### 4.2.4.4. Infrastructure Layer.
-
-### `Implementación de Repositories`
-
-| Clase                 | Interfaz implementada | Función principal                                                                 |
-|-----------------------|-----------------------|------------------------------------------------------------------------------------|
-| `EventRepository.cs`  | `IEventRepository`    | Gestiona la persistencia de eventos generados por sensores, incluyendo búsqueda por sensor, fechas o estado. |
-| `DeviceRepository.cs` | `IDeviceRepository`   | Administra la configuración y estado de sensores, incluyendo consultas por ubicación e ID. |
-
-#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
-
-En este diagrama, el REST API actúa como punto de entrada para recibir solicitudes HTTP relacionadas con sensores y eventos. Estas solicitudes son manejadas por controladores específicos: Sensor Controller y Event Controller, que exponen los endpoints necesarios para gestionar sensores y eventos respectivamente. Las operaciones de creación o actualización de sensores se delegan al Sensor Command Service, mientras que las consultas de sensores se manejan a través del Sensor Query Service; ambos interactúan con el Monitoring Repository, el cual almacena y recupera metadatos y estados de sensores. Para los eventos, el Event Command Service gestiona el registro y actualización de eventos, y el Event Query Service permite recuperar información para reportes y métricas del tablero, utilizando datos proporcionados por el Sensor Query Service. Todos los eventos son almacenados en el Event Repository, y tanto este repositorio como el de sensores interactúan con una base de datos MySQL, que almacena información sobre usuarios, sensores, suscripciones, datos de eventos y alertas administrativas.
-
-![alt text](./assets/img/structurizr-101355-dashboardAnalytics.png)
-
-#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
-##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
-Este diagrama muestra la estructura de servicios y repositorios para la gestión de **eventos** y **sensores**. La **Event** tabla registra eventos relacionados con los sensores, como el valor del sensor y el tipo de evento (por ejemplo, calidad de agua baja, presión, etc.). Los servicios de **IEventCommandService** permiten registrar y actualizar el estado de los eventos, mientras que **IEventRepository** gestiona las operaciones de almacenamiento y consulta de eventos. En paralelo, el sistema también gestiona la instalación y el estado de los **sensores** a través de **DeviceMonitoring** y su **DeviceStatus** asociado (activo, inactivo, instalado, defectuoso). Los servicios **ISensorCommandService** y **ISensorQueryService** permiten interactuar con los sensores, incluyendo su instalación y actualización de estado, así como consultas sobre sensores por ubicación o estado.
-![alt text](<./assets/img/events.png>)
-##### 4.2.4.6.2. Bounded Context Database Design Diagram.
-Este diagrama muestra las relaciones entre las tablas **events** y **sensors**. La tabla **events** almacena eventos relacionados con los sensores, incluyendo el **valor** registrado, el **tipo** de evento, y el **estado** del evento. El campo `sensor_id` en la tabla de eventos está relacionado con la tabla **sensors**, que contiene información sobre los sensores, como su **tipo**, **descripción**, **estado**, y la **ubicación** del sensor, así como el **residente\_id** asociado. Cada evento está vinculado a un sensor específico a través de `sensor_id`, permitiendo asociar los eventos a sensores particulares.
-
-![alt text](<./assets/img/dashboard.png>)
-
-## Bounded Context Database Design Diagram
-
-## `events`
-| Columna    | Tipo    |
-|------------|---------|
-| id         | int     |
-| sensor_it  | int     |
-| value      | decimal |
-| type       | string  |
-| status     | string  |
-
-### `sensors`
-| Columna     | Tipo    |
-|-------------|---------|
-| id          | int     |
-| type        | string  |
-| description | string  |
-| status      | string  |
-| resident_id | int     |
-| location    | string  |
-
-### Relación
-- Un `sensor` puede tener múltiples `events`.
-- La relación es de **uno a muchos** (1:N) desde `sensors` hacia `events`.
-
-
-
-## 4.2.5. Bounded Context: Assets and Resources
-### 4.2.5.1 Domain Layer
-
-Mobile App:
-En esta capa se definen las clases que representan las abstracciones del dominio. Se incluyen clases encargadas de la serialización de solicitudes y respuestas, así como aquellas responsables de realizar peticiones a nuestro servicio.
-
-
-## IAM Request
-
-Este es el formato de solicitud para el servicio de IAM. Los campos device_id y api_key son necesarios para autenticar al dispositivo en el sistema.
-
-| **Request**               | 
-|---------------------------|
-| `device_id: str`           |
-| `api_key: str`             |
-
-## IAM Response
-
-Esta es la respuesta que se obtiene cuando la autenticación es exitosa. Devuelve los datos del device_id, api_key y un timestamp de creación.
-
-| **Response**              | 
-|---------------------------|
-| `device_id: str`           |
-| `api_key: str`             |
-| `created_at: datetime`     |
-
-## Water Request
-
-Este es el formato de solicitud para registrar un Water. Los campos como device_id, bpm, y otros son necesarios para crear un nuevo registro de datos de agua.
-
-| **Request**               | 
-|---------------------------|
-| `device_id: str`           |
-| `bpm: float`               |
-| `created_at: datetime`     |
-| `eventType: str`           |
-| `qualityValue: float`      |
-| `levelValue: float`        |
-| `sensorId: str`            |
-
-
-## Water Response
-
-La respuesta a la solicitud de Water Record incluye el id generado para el nuevo registro, junto con los datos proporcionados, como device_id, bpm, y created_at.
-
-
-| **Response**              | 
-|---------------------------|
-| `id: int`                 |
-| `device_id: str`          |
-| `bpm: float`              |
-| `eventType: str`          |
-| `qualityValue: float`     |
-| `levelValue: float`       |
-| `sensorId: str`           |
-| `created_at: datetime`    |
-
-
-## `Entities`
-
-Las siguientes son las entidades del dominio, que representan las abstracciones de los modelos Device y Water.
-
-### Device Entity
-La entidad Device representa la información del dispositivo que se utiliza para la autenticación en el sistema. Incluye un api_key para autenticar el dispositivo y una marca de tiempo created_at.
-
-| **Device**              | 
-|--------------------------|
-| `id: str`          |
-| `api_key: str`            |
-| `created_at: datetime`    |
-
-## `Record`
-
-### Water Record
-
-Water Record Entity
-La entidad Water representa el registro de datos relacionados con el dispositivo de monitoreo de agua, como los bpm (latidos por minuto), el device_id que lo generó y la marca de tiempo created_at.
-
-| **Water**             | 
-|--------------------------|
-| `id: int`                 |
-| `device_id: str`          |
-| `bpm: float`              |
-| `created_at: datetime`    |
-
-
-
-## `Services`
-
-### AuthService
-El AuthService es responsable de autenticar un dispositivo. Toma un objeto Device y verifica si es válido para proceder con la autenticación. En este caso, simplemente verifica si el dispositivo es None o no.
-
-
-| **Service**    | **Method**          | **Description**                                                                 |
-|----------------|---------------------|---------------------------------------------------------------------------------|
-| **AuthService** | `authenticate()`     | Verifica si un dispositivo proporcionado es válido para autenticarlo.           |
-|                |                     | **Args:** `device: Optional[Device]` - El dispositivo a autenticar.              |
-|                |                     | **Returns:** `bool` - Retorna `True` si el dispositivo es válido, de lo contrario `False`. |
-
-
-
-### WaterRecordService
-
-El WaterRecordService se encarga de crear un nuevo registro de datos de agua (representado por WaterRecord). La función create_record toma los parámetros de device_id, bpm, y created_at, y crea un nuevo WaterRecord asegurándose de que los valores sean válidos.
-
-| **Service**        | **Method**         | **Description**                                                                 |
-|--------------------|--------------------|---------------------------------------------------------------------------------|
-| **WaterRecordService** | `create_record()`  | Crea una nueva instancia de **WaterRecord** con los datos proporcionados.      |
-|                    |                    | **Args:**                                                                      |
-|                    |                    | `device_id: str` - Identificador del dispositivo que registra los datos.         |
-|                    |                    | `bpm: float` - Latidos por minuto registrados por el dispositivo.               |
-|                    |                    | `created_at: str | None` - Fecha y hora de creación en formato ISO, o `None` si se usa la hora actual. |
-|                    |                    | **Returns:** `WaterRecord` - Instancia de **WaterRecord** creada con los datos. |
-
-### 4.2.5.2 Infrastructure Layer
-
-## `Repositories`
-
-### DeviceRepository
-El DeviceRepository se encarga de gestionar las entidades Device en el contexto de IAM. Permite encontrar dispositivos por device_id y api_key, así como crear dispositivos de prueba para fines de desarrollo.
-
-
-| **Repository**         | **Method**                    | **Description**                                                                 |
-|------------------------|-------------------------------|---------------------------------------------------------------------------------|
-| **DeviceRepository**    | `find_by_id_and_api_key()`     | Busca un dispositivo por su **device_id** y **api_key**.                       |
-|                        |                               | **Args:** `device_id: str`, `api_key: str` - Identificadores del dispositivo.  |
-|                        |                               | **Returns:** `Device` - El dispositivo si es encontrado, `None` en caso contrario. |
-|                        | `get_or_create_test_device()`  | Obtiene o crea un dispositivo de prueba para desarrollo.                        |
-|                        |                               | **Returns:** `Device` - Un dispositivo de prueba con un **device_id** y **api_key** predefinidos. |
-
-
-
-### WaterRecordRepository
-
-El WaterRecordRepository gestiona los registros de WaterRecord. Su principal función es guardar los registros de datos de agua en la base de datos.
-
-| **Repository**          | **Method**            | **Description**                                                                 |
-|-------------------------|-----------------------|---------------------------------------------------------------------------------|
-| **WaterRecordRepository** | `save()`             | Guarda un registro de agua en la base de datos.                                 |
-|                         |                       | **Args:** `water_record: WaterRecord` - El registro de agua a guardar.          |
-|                         |                       | **Returns:** `WaterRecord` - El registro de agua guardado con su ID asignado.  |
-
-### 4.2.5.3 Interfaces Layer
-
- ## `IAM Service`
- authenticate_request Method
-El método authenticate_request valida el device_id desde el cuerpo de la solicitud y el api_key desde los encabezados. Si alguna de estas credenciales falta o es inválida, devuelve una respuesta con error 401 (No autorizado).
-
-| **Service**           | **Method**            | **Description**                                                                 |
-|-----------------------|-----------------------|---------------------------------------------------------------------------------|
-| **IAM**               | `authenticate_request()` | Valida la autenticación de la solicitud utilizando el **device_id** y **api_key**. |
-|                       |                       | **Args:** `device_id: str` - Identificador del dispositivo.                     |
-|                       |                       | **Args:** `api_key: str` - Clave API del dispositivo.                           |
-|                       |                       | **Returns:** `None` si la autenticación es exitosa, o un `Response` con error 401 si falla. |
-
-
- ## `Water Record Service`
-
-authenticate_request Method
-El método authenticate_request valida si la solicitud contiene un device_id y api_key válidos. Si no se encuentra alguno de los campos o la clave no es correcta, se retorna un error.
-
-| **Service**           | **Method**            | **Description**                                                                 |
-|-----------------------|-----------------------|---------------------------------------------------------------------------------|
-| **WaterRecord**       | `authenticate_request()` | Valida la autenticación de la solicitud utilizando el **device_id** y **api_key**. |
-|                       |                       | **Args:** `device_id: str` - Identificador del dispositivo.                     |
-|                       |                       | **Args:** `api_key: str` - Clave API del dispositivo.                           |
-|                       |                       | **Returns:** `None` si la autenticación es exitosa, o un `Response` con error 401 si falla. |
-
-
-
-
-
-![alt text](assets/img/diagramAssets.png)
-
-
-
-
-# Capítulo V: Solution UI/UX Design
-
-## 5.1 Style Guidelines
-### 5.1.1. General Style Guidelines
-
-
-### 5.1.2. Web Style Guidelines
-
-
-## 5.2 Software Architecture
-
-### 5.2.1 Organization System
-
-
-### 5.2.2 Labeling System
-
-### 5.2.3 SEO Tags and Meta Tags 
-
-
-
-### 5.2.4. Searching Systems 
-
-
-### 5.2.5. Navigation Systems
-
-## 5.3 Landing Page UI Design 
-
-### 5.3.1 Landing Page Wireframe
-
-### 5.3.2 Landing Page Mock Up
-
-
-
-## 5.4 Applications UX/UI Design.
-
-### 5.4.1 Applications Wireframes
-
-https://www.figma.com/design/qX7HAGMI1mEN4ddBdaNBLh/Untitled?node-id=2-753&t=tRdexuYpspb54rXk-0
-
-
-### 5.4.2 Applications Wireflow Diagrams
-
-
-- **User goal:** 
-
-**Proveedores**
-
-- **User goal:** 
-
-**Administrador**
-
-- **User goal:** 
-
-**Aplicación móvil:** 
-
-
-
-- **User goal:** 
-### 5.4.3 Applications Mockups
-
-
-
-
-
-### 5.4.4 Applications User Flow Diagrams
-
-
-
-
-
-## 5.5 Applications Prototyping.
-
-
-
-
-# Capítulo VI: Product Implementation, Validation & Deployment
-
-## 6.1. Software Configuration Management.
-
-
-
-
-## 6.1.1. Software Development Environment Configuration.
-
-
-## 6.1.2. Source Code Management.
-
-
-
-
-## 6.1.3. Guía de Estilo y Convenciones del Código Fuente
-
-
-
-
-## 6.1.4. Configuración para el Despliegue de Software
-
-
-
-## 6.2. Implementación de Landing Page, Servicios y Aplicaciones
-
-## 6.2.1. Sprint 1
-### 6.2.1.1. Sprint Planning 1.
-<table border="1">
-    <thead>
-        <tr>
-            <th>Sprint #</th>
-            <th>Sprint 1</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td colspan="3">Sprint Planning Background</td>
-        </tr>
-        <tr>
-            <td>Date</td>
-            <td>2025-05-14</td>
-        </tr>
-        <tr>
-            <td>Time</td>
-            <td>19:20 PM</td>
-        </tr>
-        <tr>
-            <td>Location</td>
-            <td>La reunión se realizó virtualmente vía Discord</td>
-        </tr>
-        <tr>
-            <td>Prepared By</td>
-            <td>Ramos Argüelles, Alexandra Belen</td>
-        </tr>
-        <tr>
-            <td>Attendees (to planning meeting)</td>
-            <td>
-                Párraga Gamarra, Paolo Gonzalo / Aguilar Castillo, Rodrigo / Carmelino Dueñas, Michael Stefano / Cortez Quezada, Joaquin Antonio / Periche Quiroga, Piero Fernando
-            </td>
-        </tr>
-        <tr>
-            <td>Sprint n – 1 Review Summary</td>
-            <td>No aplica</td>
-        </tr>
-        <tr>
-            <td>Sprint n – 1 Retrospective Summary</td>
-            <td>No aplica</td>
-        </tr>
-        <tr>
-            <td>Sprint n Goal</td>
-            <td>
-              El objetivo de este sprint es desarrollar una landing page funcional y una versión inicial de la aplicación web. Estas primeras versiones permitirán presentar la propuesta de valor del proyecto, mostrar sus beneficios y sentar las bases para futuras funcionalidades orientadas al usuario final.
-            </td>
-        </tr>
-        <tr>
-            <td>Sprint n Velocity</td>
-            <td>26</td>
-        </tr>
-        <tr>
-            <td>Sum of Story Points</td>
-            <td>0 (En esta ocasión al estar en planificación se mantiene como 0)</td>
-        </tr>
-    </tbody>
-</table>
-
-
-
-### 6.2.1.2. Aspect Leaders and Collaborators
-
-La siguiente matriz (LACX) indica los líderes (L) y colaboradores (C) por cada aspecto del sistema abordado en el sprint:
-
-| Team Member (Last Name, First Name)       | GitHub Username       | Management | Subscription & Payment | Analytics | User & Profile |
-|-------------------------------------------|------------------------|------------|--------------------------|-----------|----------------|
-| Aguilar Castillo, Rodrigo                 | RodrAg0lvr            | C          | L                        | C         | C              |
-| Carmelino Dueñas, Michael Stefano         | stxfxno               | C          | C                        | C         | C              |
-| Cortez Quezada, Joaquín Antonio           | Joaqqquin0            | C          | C                        | C         | L              |
-| Párraga Gamarra, Paolo Gonzalo            | PaoloPárragaGamarra   | C          | C                        | C         | C              |
-| Periche Quiroga, Piero                    | PieroPeriche          | C          | C                        | L         | C              |
-| Ramos Argüelles, Alexandra Belén          | AleRamosA             | L          | C                        | C         | C              |
-
-### 6.2.1.3. Sprint Backlog 1
-| Sprint #    | Sprint 1 |           |             |             |                     |             |                                          |
-|-------------|----------|-----------|-------------|-------------|---------------------|-------------|------------------------------------------|
-| User Story  |          | Work-Item / Task |         |             |                     |             |                                          |
-| Id          | Title    | Id        | Title       | Description | Estimation (Hours)   | Assigned To | Status (To-do / InProcess / ToReview / Done) |
-| HU13 | Presentación clara de beneficios de valor | T01 | Crear sección de beneficios | Como visitante quiero visualizar claramente los beneficios de la plataforma. | 6 | Rodrigo Aguilar | Done |
-| HU14 | Información sobre segmentación de perfiles de usuario | T02 | Crear sección de perfiles | Como usuario quiero identificar si la solución está dirigida a mi necesidad. | 5 | Paolo Párraga | Done |
-| HU15 | Comunicación del problema y la solución | T03 | Crear sección problema y solución | Como visitante interesado, quiero entender el contexto del problema y cómo la solución lo resuelve. | 4 | Michael Carmelino | Done |
-| HU16 | Comparación de planes y acciones de compra | T04 | Crear tabla de planes y precios | Como visitante interesado, quiero revisar los planes, precios y características para decidir si deseo solicitar un plan o contactar por asesoría. | 5 | Joaquín Cortez | Done |
-| HU17 | Envío efectivo de consultas por formulario | T05 | Implementar formulario de contacto | Usuario con preguntas o interés, quiero poder llenar y enviar un formulario de contacto para recibir asistencia. | 4 | Alexandra Ramos | Done |
-| HU01 | Ver nivel actual del agua de habitantes | T06 | Mostrar tabla de niveles de agua | Como habitante, quiero consultar la calidad actual del agua para determinar si es apta para consumo. | 6 | Rodrigo Aguilar | Done |
-| HU02 | Ver nivel actual del agua | T07 | Mostrar nivel de agua personal | Como habitante, quiero visualizar mi nivel actual del agua para conocer la cantidad disponible y solicitar el reabastecimiento. | 5 | Paolo Párraga | Done |
-| HU03 | Ver calidad del agua | T08 | Reporte de calidad de agua | Como habitante, quiero consultar la calidad del agua actual para asegurarme que es potable. | 6 | Michael Carmelino | Done |
-| HU07 | Historial de alertas | T09 | Mostrar historial de alertas | Como usuario, quiero revisar un historial de alertas para tomar decisiones informadas. | 5 | Alexandra Ramos | Done |
-| HU11 | Visualizar perfil del proveedor | T11 | Mostrar perfil de proveedor | Como proveedor, quiero ver mi perfil con información detallada de mi empresa. | 4 | Joaquín Cortez | Done |
-
-
-
-
-### 6.2.1.4. Development Evidence for Sprint Review
-
-| Repository                   | Branch  | Commit Id | Commit Message                                                  | Commit Message Body                                           | Committed on (Date) |
-|-----------------------------|---------|-----------|-----------------------------------------------------------------|----------------------------------------------------------------|---------------------|
-| IronCoders-IOT/Final-Project | develop | bf872a5   | feat: update chapter 5                                          |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | f5d5b15   | feat: update chapter 5                                          |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | 2a0e20f   | feat: update chapter 5                                          |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | a8d962a   | Merge pull request #7 from IronCoders-IOT/feature/chapter-2     |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | eae5d2c   | fix: Estrategias y tácticas frente a competidores definition improved |                                                          | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | ea7622e   | Merge pull request #6 from IronCoders-IOT/feature/chapter-1     |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | 94784fc   | fix : Lean Ux Problem Statement definition changed              |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | 8213f1b   | docs: added Aspect Leaders and Collaborators                    |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | 23aeccf   | docs: added deploy configuration                                |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | a19b261   | feat: update chapter 5                                          |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | a9e0a9f   | feat: add chapter 4                                             |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | 5c18fc3   | feat: add chapter 5                                             |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | a3c47dd   | docs: updated insights                                          |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | 8a3a67a   | docs: added sprint backlog 1                                    |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | 23f4ab1   | feat : Applications Wireflow Diagrams added                     |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | 4b7ed47   | docs: added commit analytics                                    |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | d56a030   | docs: added Deployment Evidence                                 |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | 80d2154   | Merge pull request #10 from IronCoders-IOT/feature/chapter-3    |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | 183c98c   | docs: added Conclusions                                         |                                                                | 2025-05-15          |
-| IronCoders-IOT/Final-Project | develop | a76e91f   | feat: update chapter 5                                          |                                                                | 2025-05-15          |
-
-
-
-
-### 6.2.1.5. Testing Suite Evidence for Sprint Review.
-En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramos en una fase de early development, no se llegó a realizar el proceso de testing
-
-
-### 6.2.1.6. Execution Evidence for Sprint Review.
-En nuestro video de exposición presentamos la demo completa de nuestra solución. Además, en la presentación en PowerPoint se incluyen capturas y vistas representativas de la interfaz web, mostrando así evidencia visual del desarrollo realizado.
-
-![alt text](./assets/img/exectEvi.png)
-### 6.2.1.7. Services Documentation Evidence for Sprint Review.
-Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer un despliegue previo a usar la app web en local.
-
-![alt text](./assets/img/fakeApi.png)
-
-### 6.2.1.8. Software Deployment Evidence for Sprint Review.
-![alt text](./assets/img/dp1.png)
-![alt text](./assets/img/dp2.png)
-
-### 6.2.1.9. Team Collaboration Insights during Sprint.
-
-## 6.2.2. Sprint 2
-
-
-# 6.4. Video About-the-Product
-En esta sección colocamos el video de About the Product. En este video se puede visualizar tanto la app web y móvil junto a la implementación IOT para que los usuarios puedan observar cómo funciona nustra solución. Además, contamos con testimonios de los segmentos objetivos correspondientes.
-
-- **Link del video de about the Product:** [https://acortar.link/jNC4LH](https://acortar.link/jNC4LH)
-
-Para poder implementarlo a la Landing Page se ha publicado el video en YouTube y se puede acceder por medio de este enlace:
-[https://youtu.be/nvWwxpBI8HM](https://youtu.be/nvWwxpBI8HM)
-
-Asimismo, se adjunta el link de la Landing Page.
-[https://aquaconecta.netlify.app/](https://aquaconecta.netlify.app/)
-
 
 ## Conclusiones
 ### Conclusiones – TB1
 
+Durante esta primera etapa se realizó una investigación contextual que permitió comprender el entorno y las condiciones en las que se desarrollará la solución. Esto facilitó una visión más precisa de los desafíos y oportunidades del proyecto.
 
-### Video About-the-Team
+Se identificaron de manera clara las necesidades de los usuarios y del mercado objetivo, lo que sirvió como base para definir los alcances y objetivos principales de la solución propuesta.
 
-**Link del video:** 
+A partir de ese análisis, se formuló una propuesta de valor alineada con los problemas detectados, enfocada en brindar una solución práctica y efectiva.
+
+También se elaboró un diseño preliminar de la arquitectura del sistema, estableciendo una guía estructural que orientará el desarrollo técnico en las siguientes fases.
+
+El equipo logró consolidar una visión compartida del funcionamiento general de la aplicación, lo cual facilitará la toma de decisiones y el trabajo colaborativo.
+
+En conjunto, estas acciones sentaron las bases estratégicas para un desarrollo ordenado y coherente en las futuras entregas del proyecto.
 
 # Bibliografía
 
@@ -3151,15 +1869,12 @@ Asimismo, se adjunta el link de la Landing Page.
 
 - Infobae. (2024, septiembre 8). *Alarma por la falta de acceso continuo a agua potable en Ica: solo el 13.3% de los hogares cuenta con el servicio las 24 horas*. Infobae. [https://www.infobae.com/peru/2024/09/08/alarma-por-la-falta-de-acceso-continuo-a-agua-potable-en-ica-solo-el-133-de-los-hogares-cuenta-con-el-servicio-las-24-horas/](https://www.infobae.com/peru/2024/09/08/alarma-por-la-falta-de-acceso-continuo-a-agua-potable-en-ica-solo-el-133-de-los-hogares-cuenta-con-el-servicio-las-24-horas/)
 
-- Superintendencia Nacional de Servicios de Saneamiento (Sunass). (2025, enero 17). *Chincha: Sunass monitoreó camiones cisterna para verificar abastecimiento alternativo de agua potable*. Gobierno del Perú. [https://www.gob.pe/institucion/sunass/noticias/1091902-chincha-sunass-monitoreo-camiones-cisterna-para-verificar-abastecimiento-alternativo-de-agua-potable](https://www.gob.pe/institucion/sunass/noticias/1091902-chincha-sunass-monitoreo-camiones-cisterna-para-verificar-abastecimiento-alternativo-de-agua-potable)
+- Diario Correo (2024). Asentamiento humano 28 de Julio queda sin agua potable durante varios días consecutivos. Diario Correo. <br> https://diariocorreo.pe/edicion/ica/chincha-miles-de-familias-padecen-por-falta-de-agua-hasta-por-una-semana-noticia/?ref=dcr#google_vignette
 
-- Diario Correo. (2025, febrero 21). *Más de 20 mil vecinos de Pueblo Nuevo y Chincha Alta tendrán acceso al agua y alcantarillado*. Diario Correo. [https://diariocorreo.pe/edicion/ica/mas-de-20-mil-vecinos-de-pueblo-nuevo-y-chincha-alta-tendran-acceso-al-agua-y-alcantarillado-noticia/](https://diariocorreo.pe/edicion/ica/mas-de-20-mil-vecinos-de-pueblo-nuevo-y-chincha-alta-tendran-acceso-al-agua-y-alcantarillado-noticia/)
 
-- Infobae. (2025, febrero 14). *Ica en peligro de quedarse sin agua potable: EPS activa planes de contingencia por intensas lluvias en la región*. Infobae. [https://www.infobae.com/peru/2025/02/14/ica-en-peligro-de-quedarse-sin-agua-potable-eps-activa-planes-de-contingencia-por-intensas-lluvias-en-la-region/](https://www.infobae.com/peru/2025/02/14/ica-en-peligro-de-quedarse-sin-agua-potable-eps-activa-planes-de-contingencia-por-intensas-lluvias-en-la-region/)
+- Diario Correo (2025). Pobladores de Chincha protestan por deficiente servicio de agua de SEMAPACH. Diario Correo. <br> https://diariocorreo.pe/edicion/ica/chincha-planton-contra-semapach-por-mejor-servicio-de-agua-potable-noticia/?ref=dcr
 
 - Superintendencia Nacional de Servicios de Saneamiento (Sunass). (2025, febrero 28). *Sunass monitorea abastecimiento y continuidad del agua potable en más de 200 colegios de Ica*. Gobierno del Perú. [https://www.gob.pe/institucion/sunass/noticias/1118140-sunass-monitorea-abastecimiento-y-continuidad-del-agua-potable-en-mas-de-200-colegios-de-ica](https://www.gob.pe/institucion/sunass/noticias/1118140-sunass-monitorea-abastecimiento-y-continuidad-del-agua-potable-en-mas-de-200-colegios-de-ica)
-
-- Perú Construye. (2024, agosto 21). *Chincha: Pozo de agua potable en Alto Larán incrementará la producción de agua para más de 9 mil pobladores*. Perú Construye. [https://peruconstruye.net/2024/08/21/chincha-pozo-de-agua-potable-en-alto-laran/](https://peruconstruye.net/2024/08/21/chincha-pozo-de-agua-potable-en-alto-laran/)
 
 - Superintendencia Nacional de Servicios de Saneamiento (Sunass). (2025, enero 10). *Sunass fiscaliza a Semapach ante interrupción del servicio de agua potable en Chincha*. Gobierno del Perú. [https://www.gob.pe/institucion/sunass/noticias/886137-ica-sunass-fiscaliza-a-semapach-ante-interrupcion-del-servicio-de-agua-potable-en-chincha](https://www.gob.pe/institucion/sunass/noticias/886137-ica-sunass-fiscaliza-a-semapach-ante-interrupcion-del-servicio-de-agua-potable-en-chincha)
 
@@ -3168,8 +1883,4 @@ Asimismo, se adjunta el link de la Landing Page.
 
 # Anexos
 - **Link del video de exposición TB1:** [https://acortar.link/0RLUZm](https://acortar.link/0RLUZm)
-- **Link del video de exposición TB2:** [https://acortar.link/EKH6Nd](https://acortar.link/EKH6Nd)
-- **Link del video de exposición TF1:** []()
-- **Link del video  About the Team:** [https://acortar.link/znOIlf](https://acortar.link/znOIlf)
-- **Link dek video de about the Product:** [https://acortar.link/jNC4LH](https://acortar.link/jNC4LH)
 
