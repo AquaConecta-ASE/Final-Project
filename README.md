@@ -56,76 +56,12 @@
 
 |**Versión**|**Fecha**|**Autor**|                                   **Descripción de modificación**                                   |
 | :-: | :-: | :-: |:---------------------------------------------------------------------------------------------------:|
-|1\.0|7/04/2025|  i       |                                       i                                |
-|1\.1|9/04/2025|    i     |                 i                                        |
-|1\.2|10/04/2025|     i       |               i                                      |
-|1\.3|11/04/2025|       i     |                   i                                |
-|1\.4|12/04/2025|       i     |                    i                     |
-|1\.5|14/04/2025|       i    |                    i                         |
-|1\.6|15/04/2025|       i     |             i                   |
-|1\.7|15/04/2024|     i       |                   i                          |
-|1\.8|16/04/2024| i |         i                                    |
-|1\.9|16/04/2024| i |       i                                |
-|2\.0|19/04/2025|   i   |         i            |
-|2\.1|20/04/2025|   i     |  i         |
-|2\.2|20/04/2025| i |i|
-|2\.3|20/04/2025| i | i |
-|2\.4|24/04/2025| i | i |
-|2\.5|24/04/2025| i | i |
-|2\.6|25/04/2025| i | i |
-|2\.7|25/04/2025| i | i |
-|2\.8|25/04/2025| i | i |
-|2\.9|25/04/2025| i | i |
-|3\.0|25/04/2025| i | i |
-|3\.1|06/05/2025| i | i |
-|3\.2|07/05/2025| i | i |
-|3.3|08/06/2025| i | i |
-|3.4|10/06/2025| i | i |
-|3.5|12/06/2025| i | i |
-|3.6|13/06/2025| i | i |
-|3.7|14/06/2025| i | i |
-|3.8|15/06/2025| i | i |
-|3.9|16/06/2025| i | i |
-
+|TB1|20/09/2025| Cortez Quezada Joaquin Antonio, nombre | Capítulos dentro del desarrollo del  proyecto: <br>• Capitulo I: Introducción  <br>• Capitulo II: Requirements  Elicitation & Analysis <br>• Capitulo III: Requirements Specification <br>• Capítulo IV: Product Architecture Design |
+|1\.1|9/04/2025|    i     |        i   |
 
 
 </div>
 
-# Project Report Collaboration Insights
-
-## Repositorios:
-
-- Informe: [https://github.com/IronCoders-IOT/Final-Project](https://github.com/IronCoders-IOT/Final-Project)
-
-- Frontend: [https://github.com/IronCoders-IOT/Frontend](https://github.com/IronCoders-IOT/Frontend)
-
-- Backend: [https://github.com/IronCoders-IOT/Backend](https://github.com/IronCoders-IOT/Backend)
-
-- Mobile: [https://github.com/IronCoders-IOT/mobile_iot](https://github.com/IronCoders-IOT/mobile_iot)
-
-- Embedded: [https://github.com/IronCoders-IOT/Embedded](https://github.com/IronCoders-IOT/Embedded)
-
-- Edge: [https://github.com/IronCoders-IOT/Edge](https://github.com/IronCoders-IOT/Edge)
-
-- Landing Page: [https://github.com/IronCoders-IOT/Landing-Page](https://github.com/IronCoders-IOT/Landing-Page)
-
-### TB1
-
-Para la entrega del TB1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
-
-Se muestran evidencias de los commits realizados en la entrega de la TB2 en el informe.
-
-
-[Colaboraciones del repositorio]
-
-![alt text](assets/img/tb2-1.png)
-![alt text](assets/img/tb2-2.png)
-
-[Registro de los commits donde se realizaron la mayor cantidad]
-![alt text](assets/img/commits-ironcoders.png)
-En ambos casos se puede observar el incremento de modificaciones y revisiones en los dias jueves y una cantidad mayor de cambios que commits durante esos días.
-
----
 
 # Contenido
 
@@ -215,18 +151,20 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 
 # Student Outcome
 El curso contribuye al cumplimiento del Student Outcome ABET:
-ABET – EAC - Student Outcome 5
-Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros
-juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
-establecen objetivos, planifican tareas y cumplen objetivos.
-En el siguiente cuadro se describe las acciones realizadas y enunciados de
-conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
-del ABET – EAC - Student Outcome 5.
+ABET – EAC - Student Outcome 3 <br>
+Capacidad de comunicarse efectivamente con un rango de audiencias.  
+Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando 
+estrategias de aprendizaje apropiadas. 
+En el siguiente cuadro se describe las acciones realizadas de cada integrante y enunciados de 
+conclusiones por parte del equipo, que permiten sustentar al haber alcanzado el logro del ABET – 
+EAC –Student Outcome 3.
+
 
 | **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
 |-------------------------|-------------------------|------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Nombre** <br>**TB1:**<br> i <br>**TP1:**<br> i <br>**TB2:**<br> i <br><br> **Nombre** <br>**TB1:**<br> i <br>**TP1:**<br> i <br>**TB2:**<br> i <br>| Conclucion |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Nombre** <br>**TB1:**<br> i <br>**TP1:**<br> i <br>**TB2:**<br> i <br><br> **Nombre** <br>**TB1:**<br> i <br>**TP1:**<br> i <br>**TB2:**<br> i <br> | conclusion.
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Joaquin Cortez Quezada** <br>**TB1:**<br> En el desarrollo de la TB1, realicé una profunda investigación sobre el problema a solucionar, considerando el aspecto social y económico, además, identifiqué posibles bounded context con el proceso de EventStorming exponiendo los procesos de forma clara y entendible estableciendo el lenguaje ubicuo en cada uno<br><br>**Nombre** <br>**TB1:**<br> [descripción] <br>**TP1:**<br> [descripción] <br>**TB2:**<br> [descripción] | **TB1:**<br>La comunicación oral permitió presentar con claridad la problemática social del acceso al agua y sus causas, así como los resultados del EventStorming y los bounded contexts. Esto facilitó que los hallazgos y decisiones arquitectónicas fueran entendidos por públicos de distintas especialidades y niveles.<br><br>|
+| Comunica por escrito con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Joaquin Cortez Quezada** <br>**TB1:**<br> Participé en la elaboración de la documentación escrita del proyecto, estructurando de manera clara y objetiva los apartados técnicos y conceptuales. Redacté descripciones de historias de usuario, escenarios de calidad, bounded context canvas y el context mapping, empleando un lenguaje accesible tanto para compañeros de ingeniería como para un público no especializado. <br><br>**Nombre** <br>**TB1:**<br> [descripción] <br>**TP1:**<br> [descripción] <br>**TB2:**<br> [descripción] | **TB1:**<br>La comunicación escrita permitió documentar de forma objetiva la problemática identificada, sus causas y las soluciones propuestas mediante historias de usuario, escenarios y canvases. Esto aseguró que los resultados fueran comprensibles y útiles para diferentes públicos dentro del proyecto.<br><br> |
+
 
 # Capítulo I: Introducción
 
@@ -1224,7 +1162,7 @@ El apartado de User Stories permite identificar las diversas situaciones que exp
 |**HU23**|**Chatbot de asistencia inteligente**|<p>**Como residente,** </p><p>**Quiero interactuar con un chatbot en la aplicación móvil para consultar el nivel de agua, estado de mi suscripción o solicitar reabastecimiento,** </p><p>**Para obtener respuestas rápidas y asistencia sin necesidad de conocimientos técnicos ni navegación compleja en la app.**</p>|<p>**Escenario 1: Consulta de nivel de agua por chatbot<br>Dado** que el residente abre el chatbot en la app móvil,<br>**Cuando** escribe "¿Cuánto agua tengo en mi tanque?",<br>**Entonces** el chatbot responde con el nivel de agua más reciente registrado por el sensor.</p><p>**Escenario 2: Solicitud de reabastecimiento por chatbot<br>Dado** que el habitante interactúa con el chatbot,<br>**Cuando** escribe "Necesito más agua" o selecciona la opción de solicitar reabastecimiento,<br>**Entonces**el chatbot genera automáticamente una solicitud en el sistema y envía confirmación al usuario.</p>||
 |**HU24**|**CPredicción de consumo y solicitud automática**|<p>**Como proveedor,** </p><p>**Quiero que el sistema use un modelo de machine learning,** </p><p>**Para predecir el consumo de agua de los residentes y generar solicitudes automáticas de reabastecimiento.**</p>|<p>**Escenario 1: Predicción de consumo en base a patrones históricos<br>Dado** que el sistema ha almacenado al menos 30 días de datos de consumo de un residente,<br>**Cuando** el modelo de ML procesa los patrones de consumo,<br>**Entonces** predice con un margen de error máximo del 10% el nivel estimado de agua que tendrá el residente en los próximos 3 días.</p><p>**Escenario 2: Generación automática de solicitud de reabastecimiento<br>Dado** que el modelo de ML predice que el nivel del tanque bajará de 20% en menos de 48 horas,<br>**Cuando** el sistema valida la predicción,<br>**Entonces** genera automáticamente una solicitud de reabastecimiento y la asigna al proveedor correspondiente.</p>||
 |**HT04**|**Crear suscripción a través de API REST**|<p>**Como** desarrollador,</p><p>**Quiero** crear una suscripción a través de la API</p><p>**Para** que cada sensor quede vinculado a un residente y a un proveedor, y así se habilite el monitoreo.</p><p></p>|<p>**Escenario 1: Crear suscripción con datos válidos<br>Dado** que el endpoint POST /subscriptions está disponible,<br>**Cuando** se envía una solicitud con los valores sensorId, residentId y providerId,<br>**Entonces** se responde con un código 201 Created,<br>**Y** en el cuerpo de la respuesta se incluye el subscriptionId, la fechaInicio y el estado con valor ACTIVA.</p><p>**Escenario 2: Crear suscripción para un sensor ya suscrito<br>Dado** que el endpoint POST /subscriptions está disponible,<br>**Y** el sensor ya cuenta con una suscripción activa,<br>**Cuando** se intenta crear otra suscripción usando el mismo sensorId,<br>**Entonces** se responde con un código 409 Conflict,<br>**Y** en el cuerpo se muestra el mensaje: "Ya existe una suscripción activa para este sensor."</p>||
-|**HT05**|<p>**Obtener suscripciones por residente**</p><p></p>|<p>**Como** desarrollador,** </p><p>**Quiero** exponer un endpoint que permita obtener las suscripciones asociadas a un residente, </p><p>**Para** que puedan ser consultadas fácilmente cuando se necesite.</p><p></p>|<p>**Escenario 1: Residente con suscripciones registradas<br>Dado** que el endpoint GET /residents/{id}/subscriptions está disponible,<br>**Cuando** se realiza una solicitud utilizando un residentId válido,<br>**Entonces** se responde con un código 200 OK,<br>**Y** el cuerpo de la respuesta incluye una lista de suscripciones, cada una con su sensorId, estado, fechaInicio y fechaFin.</p><p>**Escenario 2: Residente sin suscripciones<br>Dado** que el endpoint GET /residents/{id}/subscriptions está disponible,<br>**Cuando** se consulta a un residente que no tiene suscripciones registradas,<br>**Entonces** se responde con un código 200 OK,<br>**Y** el cuerpo de la respuesta contiene una lista vacía o un mensaje que indica que no hay suscripciones registradas.</p>||
+|**HT05**|<p>**Obtener suscripciones por residente**</p><p></p>|<p>**Como** desarrollador, </p><p>**Quiero** exponer un endpoint que permita obtener las suscripciones asociadas a un residente, </p><p>**Para** que puedan ser consultadas fácilmente cuando se necesite.</p><p></p>|<p>**Escenario 1: Residente con suscripciones registradas<br>Dado** que el endpoint GET /residents/{id}/subscriptions está disponible,<br>**Cuando** se realiza una solicitud utilizando un residentId válido,<br>**Entonces** se responde con un código 200 OK,<br>**Y** el cuerpo de la respuesta incluye una lista de suscripciones, cada una con su sensorId, estado, fechaInicio y fechaFin.</p><p>**Escenario 2: Residente sin suscripciones<br>Dado** que el endpoint GET /residents/{id}/subscriptions está disponible,<br>**Cuando** se consulta a un residente que no tiene suscripciones registradas,<br>**Entonces** se responde con un código 200 OK,<br>**Y** el cuerpo de la respuesta contiene una lista vacía o un mensaje que indica que no hay suscripciones registradas.</p>||
 |**HT06**|**Obtener todas las suscripciones del sistema**|<p>**Como** desarrollador,</p><p>**Q**uiero exponer un endpoint que permita listar todas las suscripciones registradas,** </p><p>**Para** que el administrador pueda supervisar su uso y gestión.</p><p></p>|<p>**Escenario 1: Usuario con rol administrador accede al listado<br>Dado** que el endpoint GET /subscriptions está disponible,<br>**Cuando** un usuario autenticado con rol ADMIN realiza la solicitud,<br>**Entonces** se responde con un código 200 OK,<br>**Y** en el cuerpo se devuelve una lista de suscripciones que incluye la información del sensor, proveedor, residente y el estado de cada una.</p><p>**Escenario 2: Usuario sin permisos accede al listado<br>Dado** que el endpoint GET /subscriptions está disponible,<br>**Cuando** un usuario autenticado sin el rol ADMIN intenta acceder,<br>**Entonces** se responde con un código 403 Forbidden,<br>**Y** se incluye un mensaje que indica que no cuenta con los permisos necesarios para acceder a este recurso.</p>||
 
 
@@ -1253,7 +1191,6 @@ En el caso del proveedor, el Impact Mapping se enfocó en facilitar la gestión 
 
 El Product Backlog es una lista priorizada de tareas, funcionalidades y requisitos necesarios para el desarrollo del proyecto, asegurando que se trabaje en los elementos más importantes y alineados con los objetivos del proyecto. Cada ítem del backlog incluye una descripción, prioridad y título.
 
-Trello: https://trello.com/invite/b/681ce595232e3fbaeaa4c343/ATTI7255de783994d6b57c2bf31dfa3af03aE721DBE0/aquaconecta-product-backlog
 
 <table>
   <thead>
@@ -1443,42 +1380,46 @@ Quiero que el sistema use un modelo de machine learning para predecir el consumo
       <td>25</td>
       <td>HT01</td>
       <td>Registro de credenciales de acceso</td>
-      <td>             </td>
+      <td>Como desarrollador, Quiero implementar un endpoint para registrar nuevas cuentas de usuario, Para permitir el acceso inicial a la plataforma de forma segura.</td>
       <td>5</td>
     </tr>
           <tr>
       <td>26</td>
       <td>HT02</td>
       <td>Inicio de sesión API</td>
-      <td> </td>
+      <td>Como desarrollador, Quiero permitir que los usuarios inicien sesión mediante la API, Para autenticar su identidad y generar tokens válidos de acceso.
+</td>
       <td>5</td>
     </tr>
           <tr>
       <td>27</td>
       <td>HT03</td>
       <td>Gestión de perfiles vía API</td>
-      <td>  </td>
+      <td>Como desarrollador, Quiero permitir que los usuarios inicien sesión mediante la API, Para autenticar su identidad y generar tokens válidos de acceso.
+</td>
       <td>5</td>
     </tr>
           <tr>
       <td>28</td>
       <td>HT04</td>
       <td>Crear suscripción vía API REST</td>
-      <td>  </td>
+      <td> Como desarrollador, Quiero crear una suscripción a través de la API Para que cada sensor quede vinculado a un residente y a un proveedor, y así se habilite el monitoreo
+</td>
       <td>8</td>
     </tr>
               <tr>
       <td>29</td>
       <td>HT05</td>
       <td>Obtener suscripciones por residente</td>
-      <td>  </td>
+      <td>Como desarrollador, Quiero exponer un endpoint que permita obtener las suscripciones asociadas a un residente, Para que puedan ser consultadas fácilmente cuando se necesite.
+</td>
       <td>3</td>
     </tr>
               <tr>
       <td>30</td>
       <td>HT06</td>
       <td>Obtener todas las suscripciones del sistema</td>
-      <td>  </td>
+      <td>Como desarrollador, Quiero exponer un endpoint que permita listar todas las suscripciones registradas, Para que el administrador pueda supervisar su uso y gestión.</td>
       <td>2</td>
     </tr>
   </tbody>
@@ -1683,7 +1624,8 @@ Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURA
 
 El proceso de Candidate Context Discovery fue ejecutado con el objetivo de establecer una aproximación inicial a los posibles bounded contexts presentes en el dominio. Se aplicó la técnica start-with-value, orientada a identificar los elementos core del dominio que representan el mayor valor estratégico para el negocio. Como resultado de esta exploración, se determinaron los siguientes bounded contexts:
 
-![alt text](assets/bounded/bounded-operation-and-monitoring.jpg)
+![alt text](assets/bounded/all-bounded%20contexts1.png)
+![alt text](assets/bounded/all-bounded%20contexts2.png)
 
 * User & Access Management
 
@@ -1717,52 +1659,84 @@ El proceso de Candidate Context Discovery fue ejecutado con el objetivo de estab
 
 En esta sección, aplicamos Domain Storytelling para modelar cómo los bounded contexts colaboran mediante flujos de mensajes, resolviendo los casos de uso del negocio. Esta técnica nos permitió visualizar las interacciones entre actores (usuarios, sistemas y servicios), secuenciar los pasos clave y validar el modelo con expertos del dominio. Estos diagramas clarifican dependencias, identifican riesgos y facilitan la alineación entre equipos técnicos y de negocio, asegurando una arquitectura coherente con las necesidades del dominio. 
 
-- **Scenario 1: Habitante revisa el estado del agua de su tanque**
+- **Scenario 1: Habitante revisa el estado del agua de su tanque.**
   
 El habitante consulta desde la app móvil el estado de su tanque de agua. El módulo de Monitoring recupera datos del sensor asociado, mostrando nivel, calidad y consumo reciente. Si no hay transmisión, se notifica indisponibilidad. En casos críticos, el sistema genera una alerta preventiva para el usuario.
 
-![alt text](./assets/bounded/sh1.png)
+![alt text](./assets/bounded/c1.png)
 
-- **Scenario 2: Habitante gestiona su plan de subscripción.**
+- **Scenario 2:  Proveedor registra y habilita suscripcion de habitante.**
   
-El habitante se registra en la plataforma y el sistema IAM le asigna credenciales. Luego, el Subscription Context activa un plan de suscripción vinculado a su vivienda (NCasa), registrando la constancia del plan seleccionado.
-![alt text](./assets/bounded/sh2.png)
-- **Scenario 3: Subscripción y Pago**
+El proveedor accede a la plataforma web para registrar a un nuevo habitante. El módulo de User & Profile Management valida y guarda sus datos, y luego el módulo de Subscription crea una nueva suscripción vinculada a un sensor activo. Si el registro falla (datos incompletos o duplicados), se notifica al proveedor para corregirlos antes de habilitar la suscripción.
+![alt text](./assets/bounded/c2.png)
+- **Scenario 3: Residente solicita abastecimiento de agua a su proveedor.**
 
-El proveedor programa una suscripción en la aplicación, seleccionando un habitante. El Payment Context procesa el pago (por el sensor y el servicio mensual), confirmando la activación del plan y vinculándolo al Subscription Context.
-![alt text](./assets/bounded/sh3.png)
-- **Scenario 4: Proveedor actualiza la cantidad de sensores y tanques del habitante**
+El residente ingresa a la app móvil y crea una solicitud de abastecimiento de agua. El sistema de Requests recibe el pedido y consulta al módulo de User & Profile Management para validar los datos del residente y su suscripción activa. Una vez confirmada la información, la solicitud se registra y queda visible para el proveedor. Si la suscripción no es válida o el residente no tiene sensores activos, la solicitud se rechaza con una notificación en la app.
+![alt text](./assets/bounded/c3.png)
+- **Scenario 4: Proveedor consulta predicciones de consumo de su residente y genera reabasteciento.**
 
-El proveedor modifica la cantidad de tanques y sensores asociados al habitante. El sistema actualiza estos datos en cascada, reflejando los cambios en los registros y generando eventos para sincronizar la información en otros contextos, como análisis de seguridad o grupos de datos.
-![alt text](./assets/bounded/sh4.png)
+El proveedor accede a la plataforma web para consultar el patrón de consumo de un residente. El módulo de Predictive Analytics, utilizando datos históricos de Monitoring, genera una proyección del consumo futuro y estima la fecha en que el tanque alcanzará niveles críticos. Con base en esta información, el proveedor puede decidir generar automáticamente una solicitud de reabastecimiento en el módulo de Requests. Si no existen suficientes datos históricos, el sistema informa que no es posible generar una predicción en ese momento.
+![alt text](./assets/bounded/c4.png)
+
+- **Scenario 4: Residente realiza consulta al chatbot.**
+
+El residente accede a la aplicación móvil y abre el chatbot integrado para resolver una consulta sobre el servicio de agua. El chatbot, basado en un modelo de IA conversacional, procesa la pregunta y accede a información del sistema, como su suscripción, historial de consumo o estado de solicitudes, para brindar una respuesta inmediata. Si la consulta excede las capacidades del asistente virtual, el chatbot deriva automáticamente el caso al módulo de Requests, generando un ticket que será atendido por el proveedor.
+![alt text](./assets/bounded/c5.png)
+
 #### 4.2.4. Bounded Context Canvases. 
+
+- Bounded context Subscription & Payment
+
+Este canvas gestiona la creación y administración de suscripciones que vinculan a los residentes con sus sensores y proveedores. Garantiza que cada suscripción esté activa y asociada a un sensor para habilitar el monitoreo del tanque. Las decisiones de negocio incluyen validar que un residente esté registrado antes de generar la suscripción y cancelar automáticamente aquellas que se desactiven por decisión del proveedor o el administrador. El lenguaje ubicuo abarca términos como “Suscripción activa”, “Sensor asignado” y “Estado de suscripción”.
+
+![alt text](./assets/bounded/sus%20can.png)
+
+- Bounded context Monitoring
+
+Este canvas administra la captura de datos de los sensores y la visualización en tiempo real del estado del agua. Asegura que residentes y proveedores accedan a métricas actualizadas y que las alertas críticas se emitan sin retrasos. Sus decisiones de negocio incluyen definir intervalos de actualización y enviar notificaciones cuando se superan umbrales de calidad o cantidad. El lenguaje ubicuo incluye “Lectura de sensor”, “Alerta de umbral” e “Historial de consumo”. Las métricas miden precisión de lecturas y latencia de alertas, mientras que las preguntas abiertas tratan sobre protocolos de conectividad y manejo de fallos de sensores.
+
+![alt text](./assets/bounded/moni%20can.png)
 
 - Bounded context Analytics
 
-Este canvas está diseñado para visualizar y analizar datos históricos y en tiempo real sobre el estado del agua, incluyendo nivel, calidad y consumo. Su propósito principal es facilitar la toma de decisiones mediante reportes semanales o mensuales, así como el monitoreo eficiente del servicio. La información se clasifica en roles de dominio como "analysis context", y se utilizan términos específicos como "Water Status" y "Water Quality" para estandarizar la comunicación. Las métricas de verificación incluyen el tiempo de generación de reportes y la precisión de los filtros aplicados. Entre las preguntas abiertas destacan la necesidad de definir el nivel de detalle esperado por los usuarios y si se debe permitir la exportación de reportes.
-![alt text](./assets/bounded/sh5.png)
+Este canvas se centra en consolidar datos de consumo, calidad y suscripciones en reportes accesibles para el administrador. Garantiza que los reportes reflejen fielmente la operación global del sistema y sirvan para auditorías o decisiones estratégicas. Las decisiones de negocio determinan que solo el administrador puede acceder a métricas agregadas y que los históricos se mantengan disponibles. El lenguaje ubicuo incluye “Reporte de consumo agregado” y “Indicador de calidad promedio”. Sus métricas se enfocan en la frecuencia y exactitud de generación de reportes, mientras que las preguntas abiertas discuten exportación de datos y nivel de detalle requerido.
 
-- Bounded context Operation and Monitoring
+![alt text](./assets/bounded/litys%20can.png)
 
-Este canvas se enfoca en gestionar y supervisar el estado del agua en los tanques, permitiendo a usuarios y proveedores visualizar datos en tiempo real, generar alertas y solicitar recargas. Incluye suposiciones clave, como el acceso constante a internet y la atención inmediata a alertas por parte de los proveedores. La clasificación estratégica lo ubica como un dominio "core", con métricas que miden el tiempo de respuesta y el porcentaje de solicitudes atendidas. Términos como "Maintenance alert" y "Problem analysis" forman parte de su lenguaje ubicuo. Las preguntas abiertas abordan situaciones como la inactividad de sensores y la priorización de solicitudes.
-![alt text](operation-and-monitoring-bouded-context-canvases.jpg)
 
 - Bounded context User & Profile Management
 
-Este canvas administra el registro y autenticación de proveedores y habitantes, garantizando el acceso a la plataforma y la actualización de datos personales. Las reglas de negocio exigen que solo usuarios registrados interactúen con el sistema y que las credenciales se entreguen tras verificación. Términos como "Registered person" y "Updated context information" estandarizan la comunicación. Las métricas miden incidencias de acceso y tiempos de activación, mientras que las preguntas abiertas abordan conflictos potenciales, como la asignación errónea de sensores.
-![alt text](./assets/bounded/sh8.png)
+Este canvas regula la autenticación, registro y mantenimiento de perfiles de residentes y proveedores. Asegura que el acceso al sistema sea seguro y que cada usuario gestione sus propios datos. Sus decisiones de negocio incluyen exigir credenciales únicas, restringir cambios de perfil a usuarios legítimos y verificar a los proveedores antes de permitirles registrar residentes. El lenguaje ubicuo abarca “Credenciales de acceso” y “Perfil de usuario”. Las métricas incluyen tasas de registro exitoso y accesos fallidos, y las preguntas abiertas se centran en posibles integraciones con sistemas externos de autenticación o gestión de fraudes.
+
+![alt text](./assets/bounded/iam%20can.png)
 
 
-Bounded context Subscription & Payment
+- Bounded context Requests
 
-Este canvas gestiona la compra, registro y pago de sensores, así como suscripciones mensuales al servicio. Asegura que los sensores se vinculen correctamente a proveedores y que los pagos se registren antes de la activación. Las decisiones de negocio incluyen validar pagos y verificar disponibilidad de sensores, mientras que el lenguaje ubicuo define términos como "Active subscription" y "Payment period". Las métricas evalúan registros exitosos y tiempos de activación, y las preguntas abiertas exploran escenarios como fallos de pago o responsabilidades por sensores defectuosos.
-![alt text](./assets/bounded/sh7.png)
+Este canvas administra las solicitudes de reabastecimiento y reportes de problemas generados por residentes. Asegura que los proveedores tengan un canal transparente para gestionar dichas solicitudes y mantener informados a los usuarios. Las decisiones de negocio incluyen vincular cada request a una suscripción activa y exigir a los proveedores que actualicen su estado. El lenguaje ubicuo usa términos como “Solicitud de agua” y “Estado de request”. Las métricas miden tiempos de respuesta y tasas de resolución, mientras que las preguntas abiertas se centran en mecanismos de priorización y notificación automática.
+
+![alt text](./assets/bounded/req%20can.png)
+
+- Bounded context Predictive Analytics
+
+Este canvas analiza datos históricos de consumo para generar predicciones sobre futuros niveles de agua. Permite a los proveedores anticipar necesidades de reabastecimiento y evitar desabastecimientos. Las decisiones de negocio establecen que toda predicción se base en datos recientes y requiera validación humana antes de ejecutar acciones. El lenguaje ubicuo incluye “Predicción de consumo” y “Estimación de desabastecimiento”. Sus métricas evalúan precisión y rapidez de las predicciones, y las preguntas abiertas abarcan el horizonte temporal del modelo y el tipo de técnicas de análisis a usar.
+
+![alt text](./assets/bounded/ml%20can.png)
+
+
+- Bounded context Conversational Support
+
+Este canvas integra un asistente conversacional para responder dudas frecuentes de residentes y derivar consultas complejas a Requests. Su objetivo es mejorar la experiencia de usuario con atención inmediata. Las decisiones de negocio definen que el chatbot debe resolver un alto porcentaje de consultas frecuentes y registrar tickets automáticamente en casos no cubiertos. El lenguaje ubicuo incluye “Consulta automática” y “Derivación de ticket”. Las métricas consideran porcentaje de consultas resueltas y tiempos de respuesta, mientras que las preguntas abiertas discuten el uso de modelos propios o externos y el soporte multilingüe.
+
+![alt text](./assets/bounded/chatbot%20can.png)
 
 ### 4.2.5. Context Mapping.
 
-En este diagrama se visualiza las relaciones clave entre los bounded contexts del sistema, destacando la colaboración entre User & Profile Management, Subscription & Payment, Operation and Monitoring y Analytics Context, aplicando patrones DDD como Anti-Corruption Layer y Customer/Supplier (contratos claros en pagos) para garantizar una integración eficiente y escalable.
+En este diagrama se visualiza las relaciones clave entre los bounded contexts del sistema.
 
-![Context Mapping](./assetsimg/context-mapping.png)
+
+
+![Context Mapping](./assets/bounded/Captura%20de%20pantalla%202025-09-20%20185751.png)
 
 
 ### 4.3. Software Architecture.
