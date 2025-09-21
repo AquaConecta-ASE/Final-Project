@@ -718,21 +718,19 @@ Por último, ante la escasa presencia digital y la falta de innovación tecnoló
 **Entrevistas usuario segmento (Habitantes)**
 
 **Segmento Doméstico**  
-Nombre: Rodrigo Noreña Nuñez
+Nombre: Marilyn Lopez Tineo
 <br>
 - Edad: 20
 <br>
-- Ocupación: Estudiante de Arquitectura
+- Ocupación: Estudiante de Gerencia
 <br>
 - Browser: Google Chrome
 <br>
-- Device: Teléfono Iphone
+- Device: Teléfono Samsum
 <br>
-- Distrito: Chincha Alta
+- Distrito: San Martin-Tarapoto
 <br>
-- Timing: 0:00
-<br>
-- Marca: Techo
+  [link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213222_upc_edu_pe/EdnO3obrxGxOiLsD_5HvpcQBoz5dMgew1ZBBfGTt6G7zsQ?e=QVokj8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 <br>
 <div style="text-align: center;">
   <img src="./assets/images-interviews/domestico/interview-domestico1.png" 
@@ -741,7 +739,7 @@ Nombre: Rodrigo Noreña Nuñez
 </div>
 
 
-Rodrigo Noreña, un joven residente de Chincha, nos cuenta que desde pequeño recuerda cómo llegaban cisternas a su barrio para repartir agua a las viviendas. Comenta que ni él ni sus vecinos sabían con certeza cuánta agua recibían ni qué tan limpia era. Aunque hoy el servicio ha mejorado en algunas zonas, muchas personas siguen sin tener información clara sobre la calidad del agua que consumen. Rodrigo menciona que nunca ha visto un reporte oficial ni ha recibido alertas cuando el agua podría estar contaminada, y cree que sería muy útil contar con un sistema de monitoreo que no solo informe a tiempo, sino que también permita a los vecinos involucrarse activamente en el cuidado del recurso. Para él, el agua es clave para la salud, y confía en que más transparencia y tecnología podrían mejorar mucho la vida en su comunidad.
+Marilyn, una joven residente de Tarapoto, nos cuenta que desde pequeño recuerda cómo llega y recibe el agua a su hogar a travez de una pileta ubicada a unas cuantas cuadras de su vivienda. Tambien comenta que en su distrito estan desarrollando un proyecto en el cual aun no esta del todo completo y parece ser que pinta para el fracaso. Ademas que el agua que le llega a su hogar a veces esta en mal estado, sea por pequeñas particulas o este de otro color, siendo mas el marron. Ella estaria dispuesta a participar en el proyecto para ayudar a que el agua sea mas pura para el consumo y uso diario en su distrito.
 
 Nombre: Jorge Medina Flores
 <br>
