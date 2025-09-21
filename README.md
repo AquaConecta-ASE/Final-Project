@@ -1692,6 +1692,12 @@ A continuación, se detallan las decisiones arquitectónicas clave tomadas para 
 
 ### 4.1.5. Quality Attribute Scenario Refirements
 
+| Escenario (Refinado) | ID | Atributo | Descripción Refinada |
+| :--- | :--- | :--- | :--- |
+| **Disponibilidad en la consulta de datos** | QA-01-R | Disponibilidad | En un entorno de **conectividad intermitente**, la app móvil usará el **caché local** sincronizado por el **Edge Node**. La respuesta en la UI no superará los **3 segundos**. La sincronización entre el Edge y la nube se hará en lotes cada **5 minutos**, evitando pérdidas de datos superiores a este intervalo. |
+| **Seguridad en autenticación** | QA-02-R | Seguridad | La autenticación se hará con **OAuth 2.0 (JWT)**. La comunicación será vía **HTTPS (TLS 1.3)**. El sistema bloqueará cuentas tras **5 intentos fallidos** y los tokens de sesión expirarán tras **15 minutos** de inactividad. |
+| **Escalabilidad en la gestión de sensores** | QA-03-R | Escalabilidad | Al duplicar los sensores (500 a 1000), el backend en **PaaS** escalará horizontalmente. El **Edge Node** pre-procesará los datos para reducir la carga. La latencia total desde la captura hasta la visualización no superará los **5 segundos**. |
+
 ## 4.2. Strategic-Level Domain-Driven Design
 ### 4.2.1. EventStorming
 
