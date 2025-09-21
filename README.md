@@ -732,8 +732,9 @@ Nombre: Marilyn Lopez Tineo
 <br>
   [link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213222_upc_edu_pe/EdnO3obrxGxOiLsD_5HvpcQBoz5dMgew1ZBBfGTt6G7zsQ?e=QVokj8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 <br>
+
 <div style="text-align: center;">
-  <img src="./assets/images-interviews/domestico/interview-domestico1.png" 
+  <img src="./assets/img/InterviewMarilyn.png" 
        alt="Entrevista 1 Segmento habitantes" 
        width="500"/>
 </div>
