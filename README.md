@@ -39,8 +39,8 @@
       <td>U202212648</td>
     </tr>
     <tr>
-      <td> </td>
-      <td>U </td>
+      <td> Mathias Adriano Hidalgo López </td>
+      <td>u202213222 </td>
     </tr>
   </tbody>
 </table>
