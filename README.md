@@ -868,6 +868,27 @@ Nombre: Kamila Panduro
 Kamila, trabajadora de una empresa proveedora de agua, señaló que los principales retos que enfrentan son la falta de equipos modernos, personal capacitado y los altos costos logísticos para llegar a zonas rurales. El proceso de análisis actual es lento, ya que deben recolectar muestras y enviarlas a laboratorios, lo que puede tomar varios días.
 Indicó que utilizan principalmente hojas de cálculo y registros físicos, y en algunos casos herramientas como QGIS, pero no cuentan con un sistema digital integrado. Kamila considera que un sistema IoT sería clave para mejorar su trabajo, ya que permitiría una detección inmediata de problemas, reduciría costos y fortalecería la confianza de la comunidad. Sugiere que la solución incluya alertas automáticas, acceso a datos históricos y sensores que funcionen sin conexión constante.
 
+Nombre: André Alonso Arroyo Ormeño
+<br>
+- Edad: 28
+<br>
+- Ocupación: Coordinador de monitoreo de calidad de agua
+<br>
+- Browser: Google Chrome
+<br>
+- Device: Samsung (móvil) / Acer (laptop)
+<br>
+- Distrito: Pueblo Nuevo, Chincha (Ica)
+
+<br>
+<div style="text-align: center;">
+    
+<img src="./assets/img/entrevista_andre.png"> 
+
+
+</div>
+
+André, Coordinador de monitoreo de calidad de agua de 28 años que coordina el monitoreo en Pueblo Nuevo, comenta que sus mayores retos son la ausencia de datos en tiempo real, los tiempos muertos entre muestreo y resultados de laboratorio, y la dispersión de la información en planillas. Detalla que hoy el proceso incluye inspección en campo, mediciones rápidas in situ (cloro, pH, temperatura) y envío a laboratorio para análisis fisicoquímicos y microbiológicos; el control de cloro/pH es semanal o quincenal y el microbiológico mensual, con campañas extraordinarias ante incidentes. Le gustaría monitorear en tiempo real cloro, turbidez, pH, temperatura, conductividad, presión, caudal y nivel de tanque. Actualmente almacenan datos en Excel/Sheets y usan QGIS para mapas. Ante problemas, notifican, aíslan tramos, ajustan dosificación de cloro, purgan la red y activan abastecimiento alterno, informando a la comunidad. Los costos clave son transporte/viáticos, insumos y análisis de laboratorio. La detección puede darse en horas, pero la confirmación tarda 3–7 días. Considera que un sistema IoT permitiría alertas tempranas, mayor trazabilidad y transparencia, además de optimizar rutas y mantenimiento. Ve como imprescindibles alertas configurables, dashboard web/móvil con históricos, georreferenciación, modo offline/energía solar, gestión de roles y API para integrar con sistemas existentes.
 
 ### 2.2.3. Análisis de entrevistas
 **Segmento 1: Habitantes**
