@@ -1754,18 +1754,26 @@ En este diagrama se visualiza las relaciones clave entre los bounded contexts de
 ### 4.3. Software Architecture.
 
 #### 4.3.1. Software Architecture System Landscape Diagram.
-![alt text](<./assets/img/Software Architecture Context Level Diagrams..png>)
+![alt text](<./assets/img/Software Architecture Context Level Diagrams-2.png>)
 #### 4.3.2. Software Architecture Context Level Diagrams.
 
-En el diagrama de contexto se observa que el Proveedor gestiona usuarios y sensores a través de la plataforma web, el Administrador supervisa operaciones globales como aprobación de solicitudes y asignación de planes, y los Residentes reciben alertas y monitorean el consumo mediante una aplicación móvil. El sistema central AquaConecta se integra con Mercado Pago para procesar pagos y con los dispositivos hardware IoT, que capturan y transmiten datos de nivel y calidad del agua.
+En el diagrama de contexto se muestra la interacción de los diferentes actores con el sistema central AquaConecta. Los residentes utilizan la aplicación móvil para monitorear en tiempo real el nivel y la calidad del agua, recibir alertas, solicitar reabastecimientos e interactuar con un chatbot asistido por un servicio externo de NLP. Los proveedores acceden a la plataforma web para gestionar residentes, suscripciones, solicitudes y visualizar predicciones de consumo generadas por el módulo de Analítica Predictiva. Los administradores supervisan las operaciones globales a través de reportes y paneles analíticos.
 
-![alt text](<./assets/img/Software Architecture Context Level Diagrams..png>)
+El sistema central se integra con los dispositivos IoT instalados en los tanques, que capturan métricas de agua y transmiten los datos a través de un nodo de procesamiento en el borde (Edge Node). Asimismo, se conecta con Mercado Pago para la gestión de transacciones seguras y con servicios externos de Machine Learning y NLP que fortalecen las capacidades de predicción y soporte conversacional.
+
+![alt text](<./assets/img/Software Architecture Context Level Diagrams-2.png>)
 
 #### 4.3.3. Software Architecture Container Level Diagrams.
 
-El diagrama de contenedores muestra cómo interactúan los distintos usuarios y componentes del sistema. Los usuarios incluyen: residentes (que usan una app móvil para monitorear consumo y recibir alertas), proveedores (que gestionan sensores desde una plataforma web) y administradores (que configuran y supervisan el sistema). En el núcleo, el hardware AquaConecta mide calidad y nivel del agua, enviando datos a una app embebida que los recolecta. Luego, la Edge Processing App analiza la información y la guarda en una base SQLite. Una API REST en Spring Boot conecta las aplicaciones con una base de datos MySQL centralizada. La app móvil permite a los residentes interactuar, mientras que la web permite gestionar sensores, usuarios y planes. Además, el sistema se integra con Mercado Pago para gestionar pagos de servicios.
+El diagrama de contenedores muestra cómo interactúan los diferentes usuarios y componentes del sistema. Los principales usuarios son: residentes, que utilizan una aplicación móvil para monitorear el consumo de agua, recibir alertas, solicitar reabastecimientos e interactuar con un chatbot; proveedores, que gestionan residentes, suscripciones y solicitudes desde una plataforma web; y administradores, que supervisan el desempeño global y los reportes analíticos.
 
-![alt text](<./assets/img/Software Architecture Container Level Diagrams.png>)
+En el núcleo, los sensores AquaConecta miden la calidad y el nivel del agua en los tanques de los residentes. Los datos son recolectados por una aplicación embebida y enviados al nodo de procesamiento en el borde (Edge Node), que los preprocesa y almacena temporalmente en SQLite antes de transmitirlos a la plataforma central.
+
+El Backend API (Spring Boot) expone servicios REST y conecta con la base de datos central MySQL, donde se gestionan usuarios, perfiles, monitoreo, suscripciones y solicitudes. Los módulos de Monitoreo y Analytics ofrecen paneles de control para proveedores y administradores, mientras que el módulo de Analítica Predictiva utiliza servicios de machine learning para pronosticar patrones de consumo y recomendar reabastecimientos proactivos.
+
+Además, el módulo de Chatbot emplea un servicio externo de NLP para asistir a los residentes en sus consultas y escalar incidencias al contexto de Solicitudes cuando sea necesario. Las operaciones de pago se realizan mediante la integración con Mercado Pago, garantizando la gestión segura de transacciones.
+
+![alt text](<./assets/img/Software Architecture Container Level Diagrams-2.png>)
 #### 4.3.4. Software Architecture Deployment Diagrams.
 
 El diagrama de despliegue muestra cómo se distribuyen los distintos componentes de software en su entorno de ejecución. El sistema está compuesto por una aplicación web desarrollada con Angular y una aplicación móvil desarrollada con Flutter, ambas desplegadas sobre Firebase. Estas aplicaciones se comunican mediante JSON/HTTPS con una API REST construida con Spring Boot (Java), que encapsula toda la lógica de negocio organizada por contextos delimitados. La API, a su vez, realiza operaciones de lectura y escritura sobre una base de datos MySQL, que almacena información de usuarios, suscripciones, sensores, alertas y registros administrativos. Además, el backend se integra con el sistema de pagos externo Mercado Pago, utilizado para procesar transacciones.
