@@ -1780,7 +1780,976 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 
 ![alt text](<./assets/img/deployment.jpeg>)
 
+# Chapter V: Tactical-Level Software Design
 
+### 4.1 Analytics Bounded Context
+
+#### 4.1.1 Domain Layer
+
+### **Data Transfer Objects (DTOs)**
+
+  - DashboardSummaryDto:
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| `totalProviders` | `long` | Número total de proveedores registrados en el sistema |
+| `totalResidents` | `long` | Número total de residentes registrados en el sistema |
+| `activeSubscriptions` | `long` | Cantidad de suscripciones actualmente activas |
+| `totalIncome` | `float` | Ingresos totales acumulados de todas las suscripciones |
+| `monthlyIncome` | `float` | Ingresos generados en el mes actual |
+
+### **Servicios de Dominio**
+| Servicio | Tipo | Responsabilidad |
+|----------|------|----------------|
+| `DashboardQueryService` | Query Service | Obtiene métricas consolidadas del sistema, estadísticas de usuarios activos, reportes de consumo y datos de monitoreo |
+
+#### 4.1.2 Interface Layer
+
+### **Controladores REST**
+| Controlador | Responsabilidad |
+|-------------|----------------|
+| `DashboardController` | Expone endpoints para obtener métricas consolidadas, dashboards personalizados por tipo de usuario y reportes ejecutivos |
+
+#### 4.1.3 Application Layer
+
+#### **Servicios de Aplicación**
+| Tipo   | Responsabilidad |
+|------|----------------|
+| **Command Services** |   Procesamiento de comandos para configuración de dashboards personalizados |
+| **Query Services** | Orquestación de consultas complejas que involucran múltiples bounded contexts |
+| **Data Aggregation Services**  | Consolidación de datos provenientes de Profiles, Requests, Monitoring y Subscriptions |
+
+#### 4.1.4 Infrastructure Layer
+
+#### **Componentes de Infraestructura**
+| Componente | Responsabilidad |
+|------------|----------------|
+| **Cache Management** | Sistema de cache para optimizar consultas frecuentes de métricas |
+| **Data Integration** | Servicios de integración con otros bounded contexts vía ACL |
+| **Reporting Engine** | Motor de generación de reportes en tiempo real |
+| **Analytics Services** | Procesamiento de analytics y KPIs del negocio |
+
+#### 4.1.5 Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.1.6 Bounded Context Software Architecture Code Level Diagrams
+#### 4.1.6.1 Bounded Context Domain Layer Class Diagrams
+#### 4.1.6.2 Bounded Context Database Design Diagram
+
+---
+### 4.2 Monitoring Bounded Context
+
+#### 4.2.1 Domain Layer
+
+#### **Aggregates**
+
+- Device Aggregate:
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| `type` | `String` | Tipo de dispositivo IoT (sensor de nivel, calidad, etc.) |
+| `status` | `String` | Estado actual del dispositivo (activo, inactivo, mantenimiento) |
+| `description` | `String` | Descripción detallada del dispositivo y su función |
+| `residentId` | `Long` | Identificador del residente propietario del dispositivo |
+
+- Event Aggregate:
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| `eventType` | `String` | Tipo de evento generado (alerta, medición, falla) |
+| `qualityValue` | `String` | Valor de calidad del agua medido por el sensor |
+| `levelValue` | `String` | Nivel de agua registrado en el tanque |
+| `sensorId` | `Long` | Identificador del sensor que generó el evento |
+
+#### **Device Commands y Queries**
+
+- Device Commands:
+
+| Comando | Propósito |
+|---------|-----------|
+| `CreateDeviceCommand` | Registrar nuevo dispositivo IoT en el sistema |
+| `UpdateDeviceCommand` | Actualizar configuración y estado del dispositivo |
+| `DeleteDeviceCommand` | Remover dispositivo del sistema |
+
+- Device Queries:
+
+| Query | Propósito |
+|-------|-----------|
+| `GetDeviceByIdQuery` | Obtener información específica de un dispositivo |
+| `GetDevicesByResidentIdQuery` | Listar dispositivos de un residente específico |
+| `GetActiveDevicesQuery` | Obtener todos los dispositivos activos del sistema |
+
+#### **Event Commands y Queries**
+
+- Event Commands:
+
+| Comando | Propósito |
+|---------|-----------|
+| `CreateEventCommand` | Registrar nuevo evento de monitoreo |
+| `ProcessEventCommand` | Procesar y categorizar eventos recibidos |
+| `ArchiveEventCommand` | Archivar eventos antiguos |
+
+- Event Queries:
+
+| Query | Propósito |
+|-------|-----------|
+| `GetEventByIdQuery` | Obtener detalles de un evento específico |
+| `GetEventsBySensorIdQuery` | Historial de eventos de un sensor |
+| `GetRecentEventsQuery` | Eventos recientes para dashboard |
+| `GetEventsByDateRangeQuery` | Eventos en rango de fechas específico |
+
+#### **Servicios de Dominio**
+
+| Servicio | Tipo | Responsabilidad |
+|----------|------|----------------|
+| `DeviceCommandService` | Command Service | Gestión del ciclo de vida de dispositivos, validación de configuraciones |
+| `DeviceQueryService` | Query Service | Consultas complejas sobre dispositivos y su estado |
+| `EventCommandService` | Command Service | Procesamiento y almacenamiento de eventos, reglas de negocio para alertas |
+| `EventQueryService` | Query Service | Análisis histórico de eventos, generación de reportes de monitoreo |
+
+
+#### 4.2.2 Interface Layer
+
+#### **Controladores REST**
+| Controlador | Responsabilidad |
+|-------------|----------------|
+| `DeviceController` | CRUD de dispositivos, configuración de parámetros, gestión de estados |
+| `EventController` | Recepción de eventos IoT, consultas de historial, gestión de alertas |
+
+#### **Anti-Corruption Layer (ACL)**
+| Facade | Responsabilidad |
+|---------|----------------|
+| `MonitoringContextFacade` | Exposición controlada de información de dispositivos y eventos para otros contextos |
+
+#### 4.2.3 Application Layer
+
+#### **Servicios de Aplicación**
+| Implementación | Responsabilidad |
+|----------------|----------------|
+| `DeviceCommandServiceImpl` | Lógica de negocio para creación, actualización y eliminación de dispositivos |
+| `DeviceQueryServiceImpl` | Implementación de consultas complejas, filtros y búsquedas avanzadas |
+| `EventCommandServiceImpl` | Procesamiento de eventos en tiempo real, aplicación de reglas de alertas |
+| `EventQueryServiceImpl` | Generación de reportes, análisis de tendencias, consultas de performance |
+| `AlertProcessingService` | Servicio especializado en detección y notificación de alertas críticas |
+| `DataValidationService` | Validación de integridad de datos recibidos de sensores IoT |
+
+#### 4.2.4 Infrastructure Layer
+
+#### **Repositorios JPA**
+| Repositorio | Responsabilidad |
+|-------------|----------------|
+| `DeviceRepository` | Persistencia de dispositivos con consultas optimizadas |
+| `EventRepository` | Almacenamiento masivo de eventos con estrategias de particionamiento |
+
+#### **Servicios de Infraestructura**
+| Servicio | Responsabilidad |
+|----------|----------------|
+| **IoT Gateway** | Comunicación con dispositivos físicos vía protocolos IoT (MQTT, CoAP) |
+| **Time Series Database** | Almacenamiento especializado para datos temporales de sensores |
+| **Real-time Processing** | Procesamiento en tiempo real de streams de datos IoT |
+| **Device Configuration** | Gestión remota de configuración de dispositivos |
+
+
+#### 4.2.5 Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.2.6 Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.6.1 Bounded Context Domain Layer Class Diagrams
+#### 4.2.6.2 Bounded Context Database Design Diagram
+
+---
+
+### 4.3 User & Profile Bounded Context
+
+#### 4.3.1 Domain Layer
+
+#### **Aggregates**
+
+- Profile Aggregate:
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| `name` | `PersonName` | Value Object que encapsula firstName y lastName |
+| `email` | `String` | Correo electrónico para comunicaciones |
+| `direction` | `String` | Dirección física completa del perfil |
+| `documentNumber` | `String` | Número de documento de identidad |
+| `documentType` | `String` | Tipo de documento (DNI, pasaporte, etc.) |
+| `userId` | `Long` | Referencia al usuario del sistema IAM |
+| `phone` | `String` | Número de teléfono de contacto |
+
+- Provider Aggregate:
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| `taxName` | `String` | Razón social o nombre comercial del proveedor |
+| `ruc` | `String` | Registro Único de Contribuyente para identificación fiscal |
+| `userId` | `Long` | Referencia al usuario del sistema IAM |
+
+- Resident Aggregate:
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| `firstName` | `String` | Primer nombre del residente |
+| `lastName` | `String` | Apellido del residente |
+| `userId` | `Long` | Referencia al usuario del sistema IAM |
+| `providerId` | `Long` | Referencia al proveedor que atiende al residente |
+
+#### **Value Objects**
+
+- PersonName:
+
+| Value Object | Atributos | Descripción |
+|--------------|-----------|-------------|
+| `PersonName` | `firstName: String`, `lastName: String` | Encapsula el nombre completo con validaciones de negocio |
+
+#### **Profile Commands y Queries**
+
+- Profile Commands:
+
+| Comando | Propósito |
+|---------|-----------|
+| `CreateProfileCommand` | Crear nuevo perfil base en el sistema |
+| `UpdateProfileCommand` | Actualizar información del perfil existente |
+
+- Profile Queries:
+
+| Query | Propósito |
+|-------|-----------|
+| `GetProfileByUserIdQuery` | Obtener perfil asociado a un usuario específico |
+| `GetProfileByIdQuery` | Obtener perfil por su identificador único |
+
+#### **Provider Commands y Queries**
+
+- Provider Commands:
+
+| Comando | Propósito |
+|---------|-----------|
+| `CreateProviderCommand` | Registrar nuevo proveedor de servicios |
+| `UpdateProviderCommand` | Actualizar información comercial del proveedor |
+
+- Provider Queries:
+
+| Query | Propósito |
+|-------|-----------|
+| `GetProviderByUserIdQuery` | Obtener información del proveedor por usuario |
+| `GetProviderByIdQuery` | Obtener proveedor por identificador |
+| `GetAllProvidersQuery` | Listar todos los proveedores activos |
+
+#### **Resident Commands y Queries**
+
+- Resident Commands:
+
+| Comando | Propósito |
+|---------|-----------|
+| `CreateResidentCommand` | Registrar nuevo residente en el sistema |
+| `UpdateResidentCommand` | Actualizar información personal del residente |
+
+- Resident Queries:
+
+| Query | Propósito |
+|-------|-----------|
+| `GetResidentByUserIdQuery` | Obtener residente asociado a un usuario |
+| `GetResidentsByProviderIdQuery` | Listar residentes atendidos por un proveedor |
+| `GetWaterRequestsByResidentIdQuery` | Obtener solicitudes de agua de un residente |
+
+#### **Servicios de Dominio**
+
+| Servicio | Tipo | Responsabilidad |
+|----------|------|----------------|
+| `ProfileCommandService` | Command Service | Gestión del ciclo de vida de perfiles, validaciones de integridad |
+| `ProfileQueryService` | Query Service | Consultas complejas sobre perfiles y relaciones |
+| `ProviderCommandService` | Command Service | Lógica de negocio específica para proveedores |
+| `ResidentCommandService` | Command Service | Gestión de residentes y sus relaciones con proveedores |
+
+#### 4.3.2 Interface Layer
+
+#### **Controladores REST**
+
+| Controlador | Responsabilidad |
+|-------------|----------------|
+| `ProfilesController` | CRUD de perfiles generales, gestión de información común |
+| `ProviderController` | Operaciones específicas de proveedores, gestión comercial |
+| `ResidentController` | Gestión de residentes, asignación de proveedores |
+
+##### Anti-Corruption Layer (ACL)
+| Facade | Responsabilidad |
+|---------|----------------|
+| `ProfilesContextFacade` | Exposición de información de perfiles para integración |
+| `ProviderContextFacade` | Servicios específicos de proveedores para otros contextos |
+| `ResidentContextFacade` | Información de residentes para solicitudes y suscripciones |
+
+#### 4.3.3 Application Layer
+
+#### **Servicios de Aplicación**
+| Implementación | Responsabilidad |
+|----------------|----------------|
+| `ProfileCommandServiceImpl` | Coordinación de creación y actualización de perfiles |
+| `ProfileQueryServiceImpl` | Implementación de búsquedas y filtros avanzados |
+| `ProviderManagementService` | Servicios de alto nivel para gestión integral de proveedores |
+| `ResidentManagementService` | Orquestación de operaciones complejas de residentes |
+| `ProfileValidationService` | Validación de reglas de negocio y consistencia de datos |
+| `RelationshipService` | Gestión de relaciones entre proveedores y residentes |
+
+#### 4.3.4 Infrastructure Layer
+
+#### **Repositorios JPA**
+| Repositorio | Responsabilidad |
+|-------------|----------------|
+| `ProfileRepository` | Persistencia de perfiles con consultas optimizadas |
+| `ProviderRepository` | Gestión de datos de proveedores con índices especializados |
+| `ResidentRepository` | Almacenamiento de residentes con relaciones complejas |
+
+#### **Servicios de Infraestructura**
+| Servicio | Responsabilidad |
+|----------|----------------|
+| **Document Validation** | Integración con servicios externos para validación de documentos |
+| **Notification Services** | Sistema de notificaciones para cambios en perfiles |
+| **Data Synchronization** | Sincronización con sistemas externos de clientes |
+
+
+#### 4.3.5 Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.3.6 Bounded Context Software Architecture Code Level Diagrams
+#### 4.3.6.1 Bounded Context Domain Layer Class Diagrams
+#### 4.3.6.2 Bounded Context Database Design Diagram
+
+---
+
+### 4.4 Requests Bounded Context
+
+#### 4.4.1 Domain Layer
+
+#### **Aggregates**
+
+- WaterSupplyRequest Aggregate:
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| `residentId` | `Long` | Identificador del residente que realiza la solicitud |
+| `providerId` | `Long` | Identificador del proveedor asignado para atender |
+| `requestedLiters` | `String` | Cantidad de litros de agua solicitados |
+| `emissionDate` | `String` | Fecha y hora de emisión de la solicitud |
+| `status` | `String` | Estado actual (pendiente, en proceso, completada, cancelada) |
+| `deliveredAt` | `LocalDateTime` | Fecha y hora de entrega del suministro |
+
+- IssueReport Aggregate:
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| `residentId` | `Long` | Identificador del residente que reporta el problema |
+| `providerId` | `Long` | Identificador del proveedor responsable de resolver |
+| `title` | `String` | Título descriptivo del problema reportado |
+| `description` | `String` | Descripción detallada del problema o incidencia |
+| `emissionDate` | `String` | Fecha y hora del reporte |
+| `status` | `String` | Estado del reporte (abierto, en revisión, resuelto, cerrado) |
+
+#### **WaterSupplyRequest Commands y Queries**
+
+- WaterSupplyRequest Commands:
+
+| Comando | Propósito |
+|---------|-----------|
+| `CreateWaterSupplyRequestCommand` | Generar nueva solicitud de suministro de agua |
+| `UpdateWaterSupplyRequestCommand` | Actualizar estado y información de entrega |
+| `CancelWaterSupplyRequestCommand` | Cancelar solicitud pendiente |
+
+- WaterSupplyRequest Queries:
+
+| Query | Propósito |
+|-------|-----------|
+| `GetAllWaterSupplyRequestsQuery` | Obtener todas las solicitudes del sistema |
+| `GetWaterSupplyRequestByIdQuery` | Obtener solicitud específica por identificador |
+| `GetWaterSupplyRequestsByResidentIdQuery` | Historial de solicitudes de un residente |
+| `GetAllWaterSupplyRequestsByProviderQuery` | Solicitudes asignadas a un proveedor |
+| `GetPendingWaterSupplyRequestsQuery` | Solicitudes pendientes de atención |
+
+#### **IssueReport Commands y Queries**
+
+- IssueReport Commands:
+
+| Comando | Propósito |
+|---------|-----------|
+| `CreateIssueReportCommand` | Crear nuevo reporte de problema |
+| `UpdateIssueReportCommand` | Actualizar estado y resolución del reporte |
+| `CloseIssueReportCommand` | Cerrar reporte resuelto |
+
+- IssueReport Queries:
+
+| Query | Propósito |
+|-------|-----------|
+| `GetAllIssueReportsQuery` | Obtener todos los reportes del sistema |
+| `GetIssueReportByIdQuery` | Obtener reporte específico por identificador |
+| `GetAllIssueReportsByResidentIdQuery` | Reportes realizados por un residente |
+| `GetAllIssueReportsByProviderIdQuery` | Reportes asignados a un proveedor |
+| `GetOpenIssueReportsQuery` | Reportes pendientes de resolución |
+
+#### **Servicios de Dominio**
+| Servicio | Tipo | Responsabilidad |
+|----------|------|----------------|
+| `WaterSupplyRequestCommandService` | Command Service | Gestión del ciclo de vida de solicitudes, validaciones de negocio |
+| `WaterSupplyRequestQueryService` | Query Service | Consultas complejas sobre solicitudes y métricas |
+| `IssueReportCommandService` | Command Service | Procesamiento de reportes, asignación automática |
+| `IssueReportQueryService` | Query Service | Análisis de reportes, tendencias y estadísticas |
+
+
+#### 4.4.2 Interface Layer
+
+#### **Controladores REST**
+| Controlador | Responsabilidad |
+|-------------|----------------|
+| `WaterSupplyRequestController` | CRUD de solicitudes, gestión de estados, asignaciones |
+| `IssueReportController` | Gestión de reportes, seguimiento de resoluciones |
+
+#### **Anti-Corruption Layer (ACL)**
+| Facade | Responsabilidad |
+|---------|----------------|
+| `WaterSupplyRequestContextFacade` | Integración de solicitudes con otros contextos |
+| `IssueReportContextFacade` | Exposición de información de reportes |
+
+#### 4.4.3 Application Layer
+
+#### **Servicios de Aplicación**
+| Implementación | Responsabilidad |
+|----------------|----------------|
+| `WaterSupplyRequestCommandServiceImpl` | Orquestación de creación y actualización de solicitudes |
+| `WaterSupplyRequestQueryServiceImpl` | Implementación de búsquedas y reportes de solicitudes |
+| `IssueReportCommandServiceImpl` | Coordinación de creación y seguimiento de reportes |
+| `IssueReportQueryServiceImpl` | Análisis y consultas complejas de reportes |
+| `RequestAssignmentService` | Asignación automática de solicitudes a proveedores |
+| `NotificationService` | Notificaciones automáticas sobre cambios de estado |
+| `SLAMonitoringService` | Monitoreo de tiempos de respuesta y SLAs |
+
+#### 4.4.4 Infrastructure Layer
+
+#### **Repositorios JPA**
+| Repositorio | Responsabilidad |
+|-------------|----------------|
+| `WaterSupplyRequestRepository` | Persistencia optimizada para consultas por estado y fecha |
+| `IssueReportRepository` | Almacenamiento con búsqueda full-text en descripciones |
+
+#### **Servicios de Infraestructura**
+| Servicio | Responsabilidad |
+|----------|----------------|
+| **Workflow Engine** | Motor de flujo de trabajo para estados de solicitudes |
+| **Priority Assignment** | Sistema de priorización automática de solicitudes |
+| **Delivery Tracking** | Integración con sistemas de tracking de entregas |
+| **Analytics Engine** | Procesamiento de métricas de performance y satisfacción |
+
+#### 4.4.5 Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.4.6 Bounded Context Software Architecture Code Level Diagrams
+#### 4.4.6.1 Bounded Context Domain Layer Class Diagrams
+#### 4.4.6.2 Bounded Context Database Design Diagram
+
+---
+
+### 4.5 Subscriptions Bounded Context
+
+#### 4.5.1 Domain Layer
+
+#### **Aggregates**
+
+- Subscription Aggregate:
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| `startDate` | `LocalDate` | Fecha de inicio de la suscripción al servicio |
+| `endDate` | `LocalDate` | Fecha de finalización de la suscripción |
+| `status` | `String` | Estado actual (activa, suspendida, cancelada, expirada) |
+| `sensorId` | `Long` | Identificador del sensor IoT asociado |
+| `residentId` | `Long` | Identificador del residente suscrito |
+| `providerId` | `Long` | Identificador del proveedor del servicio |
+| `waterTankSize` | `Float` | Capacidad del tanque de agua en litros |
+
+#### **Subscription Commands y Queries**
+
+- Subscription Commands:
+
+| Comando | Propósito |
+|---------|-----------|
+| `CreateSubscriptionCommand` | Crear nueva suscripción al servicio |
+| `UpdateSubscriptionCommand` | Actualizar términos y condiciones de suscripción |
+| `CreateAdditionalSubscriptionCommand` | Crear suscripción adicional para mismo residente |
+| `SuspendSubscriptionCommand` | Suspender temporalmente la suscripción |
+| `ReactivateSubscriptionCommand` | Reactivar suscripción suspendida |
+
+- Subscription Queries:
+
+| Query | Propósito |
+|-------|-----------|
+| `GetAllSubscriptions` | Obtener todas las suscripciones del sistema |
+| `GetSubscriptionByUserId` | Obtener suscripción asociada a un usuario |
+| `GetSubscriptionsByProviderId` | Suscripciones gestionadas por un proveedor |
+| `GetAllSubscriptionsByResidentId` | Todas las suscripciones de un residente |
+| `GetActiveSubscriptionsQuery` | Suscripciones actualmente activas |
+| `GetExpiringSubscriptionsQuery` | Suscripciones próximas a vencer |
+
+- ##### **Servicios de Dominio**
+| Servicio | Tipo | Responsabilidad |
+|----------|------|----------------|
+| `SubscriptionCommandService` | Command Service | Gestión del ciclo de vida completo de suscripciones |
+| `SubscriptionQueryService` | Query Service | Consultas complejas y reportes de suscripciones |
+| `SubscriptionValidationService` | Domain Service | Validaciones de reglas de negocio específicas |
+
+
+#### 4.5.2 Interface Layer
+
+#### **Controladores REST**
+| Controlador | Responsabilidad |
+|-------------|----------------|
+| `SubscriptionController` | CRUD de suscripciones, gestión de renovaciones automáticas |
+
+#### **Anti-Corruption Layer (ACL)**
+| Facade | Responsabilidad |
+|---------|----------------|
+| `SubscriptionContextFacade` | Integración con sistemas de billing y facturación |
+
+
+#### 4.5.3 Application Layer
+
+#### **Servicios de Aplicación**
+
+| Implementación | Responsabilidad |
+|----------------|----------------|
+| `SubscriptionCommandServiceImpl` | Lógica de creación, renovación y cancelación de suscripciones |
+| `SubscriptionQueryServiceImpl` | Implementación de consultas de suscripciones y reportes |
+| `BillingIntegrationService` | Integración con sistemas de facturación y pagos |
+| `RenewalManagementService` | Gestión automática de renovaciones y vencimientos |
+| `SubscriptionMetricsService` | Cálculo de métricas de retención y churn |
+| `NotificationSchedulerService` | Programación de notificaciones de vencimiento |
+
+
+#### 4.5.4 Infrastructure Layer
+
+#### **Repositorios**
+| Repositorio | Responsabilidad |
+|-------------|----------------|
+| `SubscriptionRepository` | Persistencia con índices para consultas por fecha y estado |
+| `SubscriptionQueryService` | Consultas especializadas con proyecciones optimizadas |
+
+#### **Servicios de Infraestructura**
+| Servicio | Responsabilidad |
+|----------|----------------|
+| **Payment Gateway** | Integración con procesadores de pagos externos |
+| **Billing System** | Sistema de generación automática de facturas |
+| **Renewal Scheduler** | Programador de tareas para renovaciones automáticas |
+| **Usage Tracking** | Seguimiento de uso de servicios por suscripción |
+
+#### 4.5.5 Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.5.6 Bounded Context Software Architecture Code Level Diagrams
+#### 4.5.6.1 Bounded Context Domain Layer Class Diagrams
+#### 4.5.6.2 Bounded Context Database Design Diagram
+
+---
+
+### 4.6 Conversational Support Bounded Context
+
+#### 4.5.1 Domain Layer
+
+#### **Aggregates**
+
+- ConversationSession Aggregate:
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| `sessionId` | `String` | Identificador único de la sesión conversacional |
+| `userId` | `Long` | Identificador del usuario que participa en la conversación |
+| `status` | `ConversationStatus` | Estado de la conversación (ACTIVE, PAUSED, COMPLETED, EXPIRED) |
+| `startTime` | `LocalDateTime` | Momento de inicio de la sesión |
+| `lastActivity` | `LocalDateTime` | Última actividad registrada en la sesión |
+| `context` | `ConversationContext` | Contexto conversacional acumulado |
+
+- ChatMessage Aggregate:
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| `messageId` | `String` | Identificador único del mensaje |
+| `sessionId` | `String` | Referencia a la sesión conversacional |
+| `sender` | `MessageSender` | Origen del mensaje (USER, ASSISTANT) |
+| `content` | `String` | Contenido textual del mensaje |
+| `timestamp` | `LocalDateTime` | Momento de envío del mensaje |
+| `intent` | `Intent` | Intención detectada del mensaje (si aplica) |
+| `confidence` | `Float` | Nivel de confianza en la detección de intención |
+
+- Intent Aggregate:
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| `intentType` | `IntentType` | Tipo de intención (QUERY_TANK_LEVEL, REPORT_ISSUE, REQUEST_WATER, SUBSCRIPTION_INFO) |
+| `entities` | `Map<String, String>` | Entidades extraídas del mensaje (cantidad, ubicación, tipo) |
+| `actionRequired` | `String` | Acción específica requerida para procesar la intención |
+| `targetContext` | `String` | Bounded context de destino para ejecutar la acción |
+
+#### **Value Objects**
+| Value Object | Atributos | Descripción |
+|--------------|-----------|-------------|
+| `ConversationContext` | `currentTopic: String`, `variables: Map<String, Object>` | Contexto conversacional para mantener estado |
+| `MessageSender` | `USER, ASSISTANT` | Enumeración del origen del mensaje |
+| `ConversationStatus` | `ACTIVE, PAUSED, COMPLETED, EXPIRED` | Estados posibles de la conversación |
+| `IntentType` | `QUERY_TANK_LEVEL, REPORT_ISSUE, REQUEST_WATER, SUBSCRIPTION_INFO` | Tipos de intenciones reconocidas |
+
+#### **ConversationSession Commands y Queries**
+
+- ConversationSession Commands:
+
+| Comando | Propósito |
+|---------|-----------|
+| `StartConversationCommand` | Iniciar nueva sesión conversacional |
+| `UpdateConversationContextCommand` | Actualizar contexto de la conversación |
+| `EndConversationCommand` | Finalizar sesión conversacional |
+
+- ConversationSession Queries:
+
+| Query | Propósito |
+|-------|-----------|
+| `GetActiveConversationByUserQuery` | Obtener sesión activa de un usuario |
+| `GetConversationHistoryQuery` | Historial de conversaciones de un usuario |
+| `GetConversationBySessionIdQuery` | Obtener sesión específica por ID |
+
+#### **ChatMessage Commands y Queries**
+
+- ChatMessage Commands:
+
+| Comando | Propósito |
+|---------|-----------|
+| `ProcessUserMessageCommand` | Procesar mensaje entrante del usuario |
+| `GenerateAssistantResponseCommand` | Generar respuesta del asistente |
+| `ArchiveOldMessagesCommand` | Archivar mensajes antiguos |
+
+- ChatMessage Queries:
+
+| Query | Propósito |
+|-------|-----------|
+| `GetMessagesBySessionQuery` | Obtener mensajes de una sesión |
+| `GetRecentMessagesQuery` | Mensajes recientes para contexto |
+| `SearchMessagesQuery` | Búsqueda de mensajes por contenido |
+
+#### **Intent Commands y Queries**
+
+- Intent Commands:
+
+| Comando | Propósito |
+|---------|-----------|
+| `DetectIntentCommand` | Detectar intención en mensaje del usuario |
+| `ExecuteIntentActionCommand` | Ejecutar acción basada en intención detectada |
+
+- Intent Queries:
+
+| Query | Propósito |
+|-------|-----------|
+| `GetIntentsByTypeQuery` | Obtener intenciones por tipo |
+| `GetIntentStatisticsQuery` | Estadísticas de intenciones detectadas |
+
+#### **Servicios de Dominio**
+| Servicio | Tipo | Responsabilidad |
+|----------|------|----------------|
+| `NaturalLanguageProcessingService` | Domain Service | Procesamiento de lenguaje natural e interpretación de mensajes |
+| `IntentRecognitionService` | Domain Service | Reconocimiento y clasificación de intenciones del usuario |
+| `ConversationFlowService` | Domain Service | Gestión del flujo y continuidad conversacional |
+| `ResponseGenerationService` | Domain Service | Generación de respuestas contextuales y personalizadas |
+
+
+#### 4.5.2 Interface Layer
+
+#### **Controladores REST**
+| Controlador | Responsabilidad |
+|-------------|----------------|
+| `ChatController` | Endpoints para envío/recepción de mensajes del chat |
+| `ConversationController` | Gestión de sesiones conversacionales y contexto |
+
+#### **Anti-Corruption Layer (ACL)**
+| Facade | Responsabilidad |
+|---------|----------------|
+| `ConversationalSupportContextFacade` | Integración con servicios de IA externos y otros bounded contexts |
+
+
+#### 4.5.3 Application Layer
+
+#### **Servicios de Aplicación**
+| Implementación | Responsabilidad |
+|----------------|----------------|
+| `ChatbotOrchestrationService` | Orquestación completa del flujo conversacional |
+| `MessageProcessingService` | Procesamiento de mensajes entrantes y salientes |
+| `IntentMappingService` | Mapeo de intenciones a comandos de otros bounded contexts |
+| `ConversationHistoryService` | Gestión del historial y contexto conversacional |
+| `MultilingualService` | Soporte para múltiples idiomas en las conversaciones |
+| `ConversationAnalyticsService` | Análisis de patrones y efectividad conversacional |
+
+
+#### 4.5.4 Infrastructure Layer
+
+#### **Repositorios JPA**
+| Repositorio | Responsabilidad |
+|-------------|----------------|
+| `ConversationSessionRepository` | Persistencia de sesiones conversacionales |
+| `ChatMessageRepository` | Almacenamiento masivo de mensajes con búsqueda full-text |
+| `IntentRepository` | Persistencia de intenciones y estadísticas |
+
+#### **Servicios de Infraestructura**
+| Servicio | Responsabilidad |
+|----------|----------------|
+| **OpenAI Integration** | Integración con API de OpenAI para procesamiento de lenguaje natural |
+| **Azure Cognitive Services** | Servicios cognitivos para análisis de texto y reconocimiento de intenciones |
+| **Dialogflow Connector** | Conector para gestión avanzada de flujos conversacionales |
+| **Speech Processing** | Procesamiento de voz a texto y texto a voz |
+| **Translation Services** | Servicios de traducción automática para soporte multiidioma |
+
+
+#### 4.5.5 Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.5.6 Bounded Context Software Architecture Code Level Diagrams
+#### 4.5.6.1 Bounded Context Domain Layer Class Diagrams
+#### 4.5.6.2 Bounded Context Database Design Diagram
+
+---
+
+### 4.7 Predictive Analytics Bounded Context
+
+#### 4.6.1 Domain Layer
+
+
+#### **Aggregates**
+
+- PredictionModel Aggregate:
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| `modelId` | `String` | Identificador único del modelo predictivo |
+| `modelType` | `ModelType` | Tipo de modelo (CONSUMPTION_PREDICTION, DEMAND_FORECASTING, ANOMALY_DETECTION) |
+| `version` | `String` | Versión del modelo entrenado |
+| `accuracy` | `Float` | Precisión del modelo en validaciones |
+| `trainingDate` | `LocalDateTime` | Fecha de último entrenamiento |
+| `status` | `ModelStatus` | Estado del modelo (TRAINING, ACTIVE, DEPRECATED, FAILED) |
+| `parameters` | `ModelParameters` | Parámetros de configuración del modelo |
+
+- ConsumptionPrediction Aggregate:
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| `predictionId` | `String` | Identificador único de la predicción |
+| `residentId` | `Long` | Identificador del residente para quien se predice |
+| `providerId` | `Long` | Identificador del proveedor asociado |
+| `predictedConsumption` | `Float` | Consumo predicho en litros |
+| `predictionPeriod` | `PredictionPeriod` | Período de la predicción (DAILY, WEEKLY, MONTHLY) |
+| `confidence` | `Float` | Nivel de confianza de la predicción (0.0 - 1.0) |
+| `generatedAt` | `LocalDateTime` | Momento de generación de la predicción |
+| `factors` | `List<PredictionFactor>` | Factores considerados en la predicción |
+
+- AlertRule Aggregate:
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| `ruleId` | `String` | Identificador único de la regla de alerta |
+| `ruleName` | `String` | Nombre descriptivo de la regla |
+| `condition` | `AlertCondition` | Condición que dispara la alerta |
+| `threshold` | `Float` | Umbral numérico para activar la alerta |
+| `severity` | `AlertSeverity` | Severidad de la alerta (LOW, MEDIUM, HIGH, CRITICAL) |
+| `isActive` | `Boolean` | Estado de activación de la regla |
+| `targetContext` | `String` | Contexto de destino para la acción automática |
+
+- DataPattern Aggregate:
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| `patternId` | `String` | Identificador único del patrón detectado |
+| `patternType` | `PatternType` | Tipo de patrón (SEASONAL, TREND, ANOMALY, CYCLIC) |
+| `description` | `String` | Descripción del patrón identificado |
+| `detectionDate` | `LocalDateTime` | Fecha de detección del patrón |
+| `confidence` | `Float` | Confianza en la detección del patrón |
+| `affectedResidents` | `List<Long>` | Lista de residentes afectados por el patrón |
+| `metadata` | `Map<String, Object>` | Metadatos adicionales del patrón |
+
+#### **Value Objects**
+| Value Object | Atributos | Descripción |
+|--------------|-----------|-------------|
+| `ModelType` | `CONSUMPTION_PREDICTION, DEMAND_FORECASTING, ANOMALY_DETECTION` | Tipos de modelos de machine learning |
+| `ModelStatus` | `TRAINING, ACTIVE, DEPRECATED, FAILED` | Estados del modelo predictivo |
+| `PredictionPeriod` | `DAILY, WEEKLY, MONTHLY, QUARTERLY` | Períodos de tiempo para predicciones |
+| `AlertSeverity` | `LOW, MEDIUM, HIGH, CRITICAL` | Niveles de severidad de alertas |
+| `PatternType` | `SEASONAL, TREND, ANOMALY, CYCLIC` | Tipos de patrones detectables |
+| `ModelParameters` | `hyperparameters: Map<String, Object>` | Parámetros de configuración del modelo |
+
+#### **PredictionModel Commands y Queries**
+
+- PredictionModel Commands:
+
+| Comando | Propósito |
+|---------|-----------|
+| `TrainPredictionModelCommand` | Entrenar nuevo modelo predictivo |
+| `UpdateModelParametersCommand` | Actualizar parámetros del modelo |
+| `DeployModelCommand` | Desplegar modelo entrenado a producción |
+| `RetireModelCommand` | Retirar modelo obsoleto |
+
+- PredictionModel Queries:
+
+| Query | Propósito |
+|-------|-----------|
+| `GetActiveModelsQuery` | Obtener modelos activos por tipo |
+| `GetModelPerformanceQuery` | Métricas de rendimiento del modelo |
+| `GetModelHistoryQuery` | Historial de versiones del modelo |
+
+#### **ConsumptionPrediction Commands y Queries**
+
+- ConsumptionPrediction Commands:
+
+| Comando | Propósito |
+|---------|-----------|
+| `GeneratePredictionCommand` | Generar nueva predicción de consumo |
+| `BatchPredictionCommand` | Generar predicciones masivas |
+| `ValidatePredictionCommand` | Validar precisión de predicciones pasadas |
+
+- ConsumptionPrediction Queries:
+
+| Query | Propósito |
+|-------|-----------|
+| `GetPredictionsByResidentQuery` | Predicciones de un residente específico |
+| `GetPredictionsByProviderQuery` | Predicciones agrupadas por proveedor |
+| `GetPredictionAccuracyQuery` | Análisis de precisión de predicciones |
+
+#### **AlertRule Commands y Queries**
+
+- AlertRule Commands:
+
+| Comando | Propósito |
+|---------|-----------|
+| `CreateAlertRuleCommand` | Crear nueva regla de alerta predictiva |
+| `UpdateAlertRuleCommand` | Modificar condiciones de alerta existente |
+| `TriggerAutomaticActionCommand` | Ejecutar acción automática basada en alerta |
+
+- AlertRule Queries:
+
+| Query | Propósito |
+|-------|-----------|
+| `GetActiveAlertRulesQuery` | Obtener reglas activas de alerta |
+| `GetTriggeredAlertsQuery` | Historial de alertas disparadas |
+| `GetAlertStatisticsQuery` | Estadísticas de efectividad de alertas |
+
+#### **DataPattern Commands y Queries**
+
+- DataPattern Commands:
+
+| Comando | Propósito |
+|---------|-----------|
+| `DetectPatternsCommand` | Ejecutar detección de patrones en datos |
+| `AnalyzeAnomaliesCommand` | Análisis específico de anomalías |
+
+- DataPattern Queries:
+
+| Query | Propósito |
+|-------|-----------|
+| `GetPatternsByTypeQuery` | Patrones detectados por tipo |
+| `GetAnomaliesQuery` | Anomalías detectadas en período específico |
+| `GetSeasonalPatternsQuery` | Patrones estacionales identificados |
+
+#### **Servicios de Dominio**
+| Servicio | Tipo | Responsabilidad |
+|----------|------|----------------|
+| `ConsumptionPredictionService` | Domain Service | Predicciones de consumo de agua basadas en datos históricos |
+| `PatternDetectionService` | Domain Service | Detección automática de patrones y tendencias en datos |
+| `AutoRequestGenerationService` | Domain Service | Generación automática de solicitudes basada en predicciones |
+| `ModelTrainingService` | Domain Service | Entrenamiento y validación de modelos de machine learning |
+| `AnomalyDetectionService` | Domain Service | Detección de anomalías y comportamientos atípicos |
+
+#### 4.6.2 Interface Layer
+
+#### **Controladores REST**
+| Controlador | Responsabilidad |
+|-------------|----------------|
+| `PredictionController` | Endpoints para consultar y generar predicciones |
+| `ModelManagementController` | Gestión de modelos de machine learning |
+| `AlertController` | Configuración y monitoreo de alertas predictivas |
+
+#### **Anti-Corruption Layer (ACL)**
+| Facade | Responsabilidad |
+|---------|----------------|
+| `PredictiveAnalyticsContextFacade` | Integración con plataformas de ML y otros bounded contexts |
+
+
+#### 4.6.3 Application Layer
+
+#### **Servicios de Aplicación**
+| Implementación | Responsabilidad |
+|----------------|----------------|
+| `MachineLearningOrchestrator` | Orquestación completa de procesos de machine learning |
+| `PredictiveAnalyticsService` | Servicios de alto nivel para análisis predictivo |
+| `AutomatedWorkflowService` | Flujos automáticos basados en predicciones y alertas |
+| `ModelLifecycleService` | Gestión del ciclo de vida completo de modelos ML |
+| `DataPipelineService` | Pipelines de datos para alimentar modelos predictivos |
+| `ForecastingService` | Servicios especializados en pronósticos de demanda |
+
+
+#### 4.6.4 Infrastructure Layer
+
+#### **Repositorios JPA**
+| Repositorio | Responsabilidad |
+|-------------|----------------|
+| `PredictionModelRepository` | Persistencia de modelos y metadatos |
+| `ConsumptionPredictionRepository` | Almacenamiento de predicciones con índices temporales |
+| `AlertRuleRepository` | Gestión de reglas de alerta y configuraciones |
+| `DataPatternRepository` | Persistencia de patrones detectados |
+
+#### **Servicios de Infraestructura**
+| Servicio | Responsabilidad |
+|----------|----------------|
+| **TensorFlow Integration** | Integración con TensorFlow para modelos de deep learning |
+| **Azure Machine Learning** | Plataforma cloud para entrenamiento y deployment de modelos |
+| **Apache Spark Connector** | Procesamiento distribuido de grandes volúmenes de datos |
+| **Time Series Analytics** | Servicios especializados para análisis de series temporales |
+| **Model Registry** | Registro y versionado de modelos de machine learning |
+| **Data Lake Integration** | Conexión con repositorios de datos históricos |
+
+
+#### 4.6.5 Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.6.6 Bounded Context Software Architecture Code Level Diagrams
+#### 4.6.6.1 Bounded Context Domain Layer Class Diagrams
+#### 4.6.6.2 Bounded Context Database Design Diagram
+
+---
+
+
+### 4.1. Bounded Context: Subscription & Payment
+
+
+
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
+
+El diagrama de componentes muestra como la aplicación web desarrollada con Angular accede a endpoints relacionados con suscripciones y pagos expuestos por controladores REST en Spring Boot, como Subscription Controller y Payment Controller. Estos controladores delegan la lógica a servicios como Subscription Service y Payment Service, que gestionan el ciclo de vida de las suscripciones y los pagos, respectivamente. A su vez, estos servicios acceden a capas de consulta (Subscription Query Service y Payment Query Service) para recuperar información, y escriben datos mediante los repositorios Subscription Repository y Payment Repository, que usan Spring Data JPA para interactuar con la base de datos MySQL.
+
+![alt text](<./assets/img/Subscription-Bounded-Context.png>)
+
+
+#### 4.1.6. Bounded Context Software Architecture Code Level Diagrams.
+
+
+##### 4.1.6.1. Bounded Context Domain Layer Class Diagrams.
+La imagen muestra un diagrama de clases que describe la interacción entre los servicios y repositorios de suscripciones y pagos. Incluye **ISubscriptionRepository**, que maneja las operaciones de suscripciones como búsqueda y actualización, y **ISubscriptionCommandService**, que gestiona comandos para crear, cancelar, activar o expirar suscripciones. **ISubscriptionQueryService** se encarga de consultar información de suscripciones, mientras que **Payment** representa los detalles de los pagos. **IPaymentRepository**, **IPaymentCommandService**, y **IPaymentQueryService** gestionan operaciones similares para los pagos, como su creación, actualización y consulta, garantizando que el sistema pueda manejar tanto suscripciones como pagos de manera independiente y eficiente.
+
+![alt text](./assets/img/subscription.png)
+
+##### 4.1.6.2. Bounded Context Database Design Diagram.
+El diagrama muestra las relaciones entre las tablas **sensors**, **subscriptions**, **payments** y **residents**. La tabla **sensors** contiene información sobre los sensores, como tipo, descripción y estado. La tabla **subscriptions** almacena los detalles de las suscripciones, incluyendo las fechas de inicio y fin, el estado de la suscripción, y las relaciones con los sensores y residentes. La tabla **payments** registra los pagos realizados, con datos como el monto, el método de pago, el estado, la fecha de pago y su relación con la suscripción correspondiente. Finalmente, **residents** contiene los datos de los residentes, como nombre, apellido y un ID de perfil relacionado.
+
+![alt text](<./assets/img/db design diagram subsc.png>)
+
+## `subscriptions` 
+| Atributo     | Tipo       | Descripción                                              |
+|--------------|------------|----------------------------------------------------------|
+| id           | int        | Identificador único de la suscripción                    |
+| start_date   | datetime   | Fecha de inicio de la suscripción                        |
+| end_date     | datetime   | Fecha de finalización de la suscripción                  |
+| status       | string     | Estado actual (ACTIVE, EXPIRED, CANCELLED, etc.)         |
+| sensor_id    | int        | Relación con el sensor asignado                          |
+| resident_id  | int        | Relación con el residente al que pertenece la suscripción|
+
+## `payments` 
+| Atributo         | Tipo       | Descripción                                                |
+|------------------|------------|------------------------------------------------------------|
+| id               | int        | Identificador único del pago                               |
+| amount           | decimal    | Monto total del pago realizado                             |
+| status           | string     | Estado del pago (PENDING, SUCCESS, FAILED, CANCELLED)      |
+| paid_at          | datetime   | Fecha en la que se efectuó el pago                         |
+| method           | string     | Método de pago (YAPE, PLIN, BANK_TRANSFER, CARD, etc.)     |
+| subscription_id  | int        | Relación con la suscripción a la que corresponde el pago   |
 
 
 ## Conclusiones
