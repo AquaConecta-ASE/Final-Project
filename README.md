@@ -1831,9 +1831,22 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 
 #### 4.1.5 Bounded Context Software Architecture Component Level Diagrams
 
+El diagrama de componentes del bounded context Analytics muestra cómo la aplicación web y móvil se conecta con el DashboardController que expone los endpoints REST necesarios para gestionar las consultas de métricas y resúmenes del dashboard. El controlador delega su lógica al DashboardServiceImpl, el cual implementa la interfaz DashboardQueryService y se encarga de procesar operaciones de agregación y cálculo de métricas como totales de proveedores, residentes, suscripciones activas e ingresos. A su vez, el servicio interactúa con Context Facades (ProfileContextFacade y SubscriptionContextFacade) que implementan el patrón Anti-Corruption Layer para acceder de forma controlada a los datos de otros bounded contexts. El servicio genera instancias de la entidad DashboardSummary que encapsula todas las métricas calculadas para su posterior serialización y envío al cliente. Este patrón de consulta cruzada permite al bounded context Analytics actuar como un read model agregado sin duplicar datos, manteniendo la consistencia y separación de responsabilidades entre bounded contexts.
+
+![alt text](<./assets/CAPITULO5/Analitys/structurizr-101610-AnalyticsComponentDiagram.png>)
+
 #### 4.1.6 Bounded Context Software Architecture Code Level Diagrams
 #### 4.1.6.1 Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases del Domain Layer del bounded context Analytics ilustra la estructura y relaciones entre las principales abstracciones del dominio. La interfaz DashboardQueryService define el contrato para obtener métricas del dashboard, siendo implementada por DashboardServiceImpl que actúa como el servicio de aplicación principal. La entidad DashboardSummary representa el agregado central que encapsula todas las métricas calculadas del sistema, incluyendo totales de usuarios, suscripciones activas e ingresos, además de metadatos como fecha de actualización y estado. El DashboardController actúa como punto de entrada REST, delegando las operaciones al servicio de dominio. Los repositorios externos (ProviderRepository, ResidentRepository, SubscriptionRepository) proporcionan acceso de solo lectura a los datos de otros bounded contexts, manteniendo el principio de separación de responsabilidades. Esta arquitectura permite que el bounded context Analytics funcione como un read model eficiente que consolida información de múltiples fuentes sin crear dependencias fuertes entre bounded contexts.
+
+![alt text](<./assets/CAPITULO5/Analitys/hLJRRjim37tFL-ZHHfj-m504xLeCwCE0hjuFg3QR2j0beAW0nhP_dnsteMhHIp0q3p50ddD87P6wYQIHahChrLeTexhNyVKvQEn-9C2-0ToR5jIlbNhxNLyRJu0lkeNDvXYzs08TcLNDAaroJcD_J-60_RCQF_DI3CeAhMtmMqM1j7t4i3STO9IIJn27dATvKhTa.png>)
+
 #### 4.1.6.2 Bounded Context Database Design Diagram
+
+El diagrama de base de datos del bounded context Analytics muestra la estructura de persistencia que soporta las operaciones de consulta y agregación de métricas. La tabla principal DASHBOARD_SUMMARY actúa como una entidad persistente que almacena los resultados calculados de las métricas del dashboard, incluyendo metadatos de control como fecha de actualización y estado. Esta tabla se relaciona conceptualmente con las tablas PROVIDER, RESIDENT y SUBSCRIPTION que pertenecen a otros bounded contexts, de las cuales lee datos mediante consultas de solo lectura. La arquitectura permite que el bounded context Analytics mantenga un cache persistente de métricas calculadas, reduciendo la carga computacional en consultas frecuentes y mejorando los tiempos de respuesta. Las relaciones indican el flujo de datos desde las tablas fuente hacia el resumen agregado, manteniendo la integridad referencial conceptual sin crear dependencias físicas entre bounded contexts. Este diseño facilita la escalabilidad al permitir que las consultas analíticas operen sobre datos precomputados mientras mantiene la consistencia eventual con los bounded contexts fuente.
+
+![alt text](<./assets/CAPITULO5/Analitys/Untitled diagram _ Mermaid Chart-2025-10-03-163011.png>)
 
 ---
 ### 4.2 Monitoring Bounded Context
@@ -1951,10 +1964,22 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 
 #### 4.2.5 Bounded Context Software Architecture Component Level Diagrams
 
+El diagrama de componentes del bounded context Monitoring muestra cómo los controladores REST (DeviceController, EventController) gestionan la interacción entre los usuarios y el sistema para el monitoreo de dispositivos y eventos IoT. Los controladores delegan la lógica a los servicios de aplicación (DeviceCommandServiceImpl, EventCommandServiceImpl, DeviceQueryServiceImpl, EventQueryServiceImpl), que implementan los contratos definidos en el dominio. Los servicios de dominio gestionan los agregados Device y Event, así como los comandos y queries asociados.
+
+![alt text](<./assets/CAPITULO5/monitoringh/structurizr-101610-MonitoringComponentDiagram.png>)
+
 #### 4.2.6 Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.6.1 Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases del Domain Layer del bounded context Monitoring ilustra la estructura y relaciones entre los principales agregados (Device, Event), los servicios de dominio y los comandos/queries. Los servicios de comando y consulta definen los contratos para la gestión de dispositivos y eventos, mientras que los agregados encapsulan la lógica de negocio y las reglas de validación. Los comandos permiten la creación y actualización de entidades, y los queries facilitan la obtención de información específica. Este diseño promueve la claridad y la extensibilidad, permitiendo agregar nuevas funcionalidades de monitoreo sin afectar la arquitectura base.
+
+![alt text](<./assets/CAPITULO5/monitoringh/nLXTRzfA47s_lyAF849-m5M4GZxk5LAaAYJjQ-NO0xMqzjBTDIfgcz_UOLSEn_RWsY8jFBGmPpxEdfbnlRssBZQkpDK_4NyI5LiRtT4sIoZwpgRmkRgQhzU6rh6ZQAcrcytUeEc3BjPHbXuCJyvaR7Ax3RMCNCoLjcLEoIOcsxXC5ut4XcoMKk4MAG99hEwOo.png>)
+
 #### 4.2.6.2 Bounded Context Database Design Diagram
 
+El diagrama de base de datos del bounded context Monitoring representa la estructura de persistencia para los dispositivos y eventos monitoreados. Incluye las tablas principales para Device y Event, así como las relaciones entre ellas y con otras entidades relevantes. La base de datos almacena información histórica y actual de los dispositivos IoT, permitiendo consultas eficientes y la trazabilidad de los eventos generados por los sensores. La integración con el broker externo se realiza a nivel de infraestructura, permitiendo la ingesta y procesamiento de datos en tiempo real, lo que es fundamental para la operación continua y la respuesta rápida ante situaciones críticas en el sistema.
+
+![alt text](<./assets/CAPITULO5/monitoringh/Untitled diagram _ Mermaid Chart-2025-10-03-170913.png>)
 ---
 
 ### 4.3 User & Profile Bounded Context
@@ -2107,10 +2132,23 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 
 #### 4.3.5 Bounded Context Software Architecture Component Level Diagrams
 
+El diagrama de componentes muestra cómo los controladores REST (ProfilesController, ProviderController, ResidentController) exponen los endpoints para la gestión de perfiles, proveedores y residentes. Cada controlador delega la lógica a servicios de aplicación que implementan los contratos definidos en el dominio. Los servicios gestionan los agregados Profile, Provider y Resident, así como los comandos y queries asociados. La infraestructura incluye repositorios y la integración con servicios externos como validación de documentos, geolocalización y notificaciones. Los componentes ACL (Context Facades) permiten exponer información controlada a otros bounded contexts, asegurando el aislamiento y la integridad de los datos. Este diseño facilita la extensibilidad y la integración segura entre módulos, manteniendo la consistencia y la separación de responsabilidades.
+
+
+![alt text](<./assets/CAPITULO5/Profile/structurizr-101610-ProfilesComponentDiagram.png>)
+
 #### 4.3.6 Bounded Context Software Architecture Code Level Diagrams
 #### 4.3.6.1 Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases del Domain Layer ilustra la estructura y relaciones entre los principales agregados (Profile, Provider, Resident), value objects, servicios de dominio y comandosqueries. Los servicios de comando y consulta definen los contratos para la gestión de entidades, mientras que los agregados encapsulan la lógica de negocio y las reglas de validación. Los value objects como PersonName garantizan la inmutabilidad y la igualdad por valor. Los comandos permiten la creación y actualización de entidades, y los queries facilitan la obtención de información específica. Este diseño promueve la claridad, la extensibilidad y la protección de invariantes de negocio, permitiendo agregar nuevas funcionalidades sin afectar la arquitectura base.
+
+![alt text](<./assets/CAPITULO5/Profile/tLhTRjms4xt_dc8lL_3dF40H676Sf33W9gcJj9U5B77NAYHnenyZHbi_UobhPpsq3dsMLb07peMpo_dXp3d3ePRKgxPBcwwlolyjtB-iJDjsyR6ngw8qYx_SsFZlvSlZzRenwxGpYtDhkwEZdUZmpDRhHP7V3NmqJMlhzsbb5hNxSoVur3M5qpLLMfIJqRneJD.png>)
 #### 4.3.6.2 Bounded Context Database Design Diagram
 
+El diagrama de base de datos representa la estructura de persistencia para los perfiles, proveedores y residentes. Incluye las tablas principales PROFILE, PROVIDER y RESIDENT, así como las relaciones con la tabla de usuarios externos (USER). La base de datos almacena información histórica y actual de cada entidad, permitiendo consultas eficientes y la trazabilidad de las relaciones entre usuarios, proveedores y residentes. Se definen restricciones de unicidad y claves foráneas para garantizar la integridad referencial y la consistencia de los datos. Este diseño soporta la escalabilidad y la seguridad, facilitando la integración con otros módulos y la implementación de consultas especializadas para reportes y validaciones.
+
+
+![alt text](<./assets/CAPITULO5/Profile/Captura de pantalla 2025-10-03 124141.png>)
 ---
 
 ### 4.4 Requests Bounded Context
@@ -2235,10 +2273,23 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 
 #### 4.4.5 Bounded Context Software Architecture Component Level Diagrams
 
+El diagrama de componentes muestra cómo los controladores REST (WaterSupplyRequestController, IssueReportController) exponen los endpoints para la gestión de solicitudes de agua y reportes de problemas. Cada controlador delega la lógica a servicios de aplicación que implementan los contratos definidos en el dominio. Los servicios gestionan los agregados WaterSupplyRequest e IssueReport, así como los comandos y queries asociados. Los componentes ACL (Context Facades) permiten exponer información controlada a otros bounded contexts, asegurando el aislamiento y la integridad de los datos. Este diseño facilita la extensibilidad y la integración segura entre módulos, manteniendo la consistencia y la separación de responsabilidades.
+
+
+![alt text](<./assets/CAPITULO5/request/structurizr-101610-RequestsComponentDiagram.png>)
+
 #### 4.4.6 Bounded Context Software Architecture Code Level Diagrams
 #### 4.4.6.1 Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases del Domain Layer ilustra la estructura y relaciones entre los principales agregados (WaterSupplyRequest, IssueReport), value objects, servicios de dominio y comandos/queries. Los servicios de comando y consulta definen los contratos para la gestión de entidades, mientras que los agregados encapsulan la lógica de negocio y las reglas de validación. Los value objects como IssueReportStatus garantizan la inmutabilidad y la igualdad por valor. Los comandos permiten la creación y actualización de entidades, y los queries facilitan la obtención de información específica. Este diseño promueve la claridad, la extensibilidad y la protección de invariantes de negocio, permitiendo agregar nuevas funcionalidades sin afectar la arquitectura base.
+
+![alt text](<./assets/CAPITULO5/request/xLhTRjj64xtFK_2IWk8ym8V0YECe7mIuTYgbpcL0asELBN-KtPKReOsVlPHMaGur6WtfhMCOY2zactlcpC-U7NANUcDTOjoYB5waHM9jz2bnPAQB-RnOJkZBWgoB_duHRNvUlpwRpGpD6amqgMjtUheTEhcegrcKPtiN3DayeygDzmVcfhvhHWmEJ9t9Lp (1).png>)
+
 #### 4.4.6.2 Bounded Context Database Design Diagram
 
+El diagrama de base de datos representa la estructura de persistencia para las solicitudes de agua y los reportes de problemas. Incluye las tablas principales WATER_SUPPLY_REQUEST e ISSUE_REPORT, así como las relaciones con las tablas de residentes y proveedores. La base de datos almacena información histórica y actual de cada entidad, permitiendo consultas eficientes y la trazabilidad de las relaciones entre usuarios, proveedores y residentes. Se definen restricciones de unicidad y claves foráneas para garantizar la integridad referencial y la consistencia de los datos. Este diseño soporta la escalabilidad y la seguridad, facilitando la integración con otros módulos y la implementación de consultas especializadas para reportes y métricas.
+
+![alt text](<./assets/CAPITULO5/request/Captura de pantalla 2025-10-03 122241.png>)
 ---
 
 ### 4.5 Subscriptions Bounded Context
@@ -2335,15 +2386,29 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 
 #### 4.5.5 Bounded Context Software Architecture Component Level Diagrams
 
+El diagrama de componentes muestra cómo el controlador REST (SubscriptionController) expone los endpoints para la gestión de suscripciones y operaciones relacionadas. El controlador delega la lógica a servicios de aplicación que implementan los contratos definidos en el dominio. Los servicios gestionan el agregado Subscription y los comandos y queries asociados. La infraestructura incluye repositorios y la integración con servicios externos para notificaciones y validaciones. Los componentes ACL (Context Facades) permiten exponer información controlada a otros bounded contexts, asegurando el aislamiento y la integridad de los datos. Este diseño facilita la extensibilidad y la integración segura entre módulos, manteniendo la consistencia y la separación de responsabilidades.
+
+![alt text](<./assets/CAPITULO5/suscripcion/structurizr-101610-SubscriptionsComponentDiagram.png>)
 #### 4.5.6 Bounded Context Software Architecture Code Level Diagrams
+
 #### 4.5.6.1 Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases del Domain Layer ilustra la estructura y relaciones entre el agregado principal (Subscription), los servicios de dominio y los comandos/queries. Los servicios de comando y consulta definen los contratos para la gestión de suscripciones, mientras que el agregado encapsula la lógica de negocio y las reglas de validación. Los comandos permiten la creación y actualización de entidades, y los queries facilitan la obtención de información específica. Este diseño promueve la claridad, la extensibilidad y la protección de invariantes de negocio, permitiendo agregar nuevas funcionalidades sin afectar la arquitectura base.
+
+![alt text](<./assets/CAPITULO5/suscripcion/xLbVRnit37_VfxX76vxx0OOYg9CsGu0Lw-mKUnoK4-qAkvDkeiwDzoUVVP9L9vHrTEH3i0B5yc3OH_AddtuYPT9vWqvOrxVDTvN_gnk1MAtwEwojwfmoklhB6-BVwzUBpSR2HZYebiQuYuj7q_mdepULalH1BPgtmNM_G7WtP0GjKzFAMQKt8SZrU8IFeD7O6t.png>)
+
 #### 4.5.6.2 Bounded Context Database Design Diagram
+
+El diagrama de base de datos representa la estructura de persistencia para las suscripciones. Incluye la tabla principal SUBSCRIPTION y sus relaciones con las tablas de residentes y proveedores. La base de datos almacena información histórica y actual de cada suscripción, permitiendo consultas eficientes y la trazabilidad de las relaciones entre usuarios, proveedores y residentes. Se definen restricciones de unicidad y claves foráneas para garantizar la integridad referencial y la consistencia de los datos. Este diseño soporta la escalabilidad y la seguridad, facilitando la integración con otros módulos y la implementación de consultas especializadas para reportes y métricas.
+
+
+![alt text](<./assets/CAPITULO5/suscripcion/Captura de pantalla 2025-10-03 133949.png>)
 
 ---
 
 ### 4.6 Conversational Support Bounded Context
 
-#### 4.5.1 Domain Layer
+#### 4.6.1 Domain Layer
 
 #### **Aggregates**
 
@@ -2448,7 +2513,7 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 | `ResponseGenerationService` | Domain Service | Generación de respuestas contextuales y personalizadas |
 
 
-#### 4.5.2 Interface Layer
+#### 4.6.2 Interface Layer
 
 #### **Controladores REST**
 | Controlador | Responsabilidad |
@@ -2462,7 +2527,7 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 | `ConversationalSupportContextFacade` | Integración con servicios de IA externos y otros bounded contexts |
 
 
-#### 4.5.3 Application Layer
+#### 4.6.3 Application Layer
 
 #### **Servicios de Aplicación**
 | Implementación | Responsabilidad |
@@ -2475,7 +2540,7 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 | `ConversationAnalyticsService` | Análisis de patrones y efectividad conversacional |
 
 
-#### 4.5.4 Infrastructure Layer
+#### 4.6.4 Infrastructure Layer
 
 #### **Repositorios JPA**
 | Repositorio | Responsabilidad |
@@ -2494,12 +2559,28 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 | **Translation Services** | Servicios de traducción automática para soporte multiidioma |
 
 
-#### 4.5.5 Bounded Context Software Architecture Component Level Diagrams
+#### 4.6.5 Bounded Context Software Architecture Component Level Diagrams
 
-#### 4.5.6 Bounded Context Software Architecture Code Level Diagrams
-#### 4.5.6.1 Bounded Context Domain Layer Class Diagrams
-#### 4.5.6.2 Bounded Context Database Design Diagram
 
+El diagrama de componentes muestra cómo los controladores REST (ChatController, ConversationController) permiten la interacción entre el usuario y el asistente conversacional. Los mensajes y comandos se procesan en los servicios de aplicación y dominio, que orquestan el flujo conversacional, el reconocimiento de intenciones y la generación de respuestas. La infraestructura integra el servicio externo de IA (Hugging Face o OpenAI) para el procesamiento de lenguaje natural y el mapeo de comandos hacia otros bounded contexts (Requests, Monitoring, Subscriptions). El diseño asegura la extensibilidad y la integración segura, permitiendo que el chatbot actúe como interfaz accesible para consultar datos, solicitar agua o reportar problemas.
+
+![alt text](<./assets/CAPITULO5/chat/structurizr-101610-Components.png>)
+
+#### 4.6.6 Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.6.6.1 Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases del Domain Layer ilustra la estructura y relaciones entre los agregados principales (ConversationSession, ChatMessage, Intent), los value objects y los servicios de dominio. Los servicios de comando y consulta definen los contratos para la gestión de sesiones, mensajes e intenciones, mientras que los agregados encapsulan la lógica conversacional y las reglas de validación. Los value objects como ConversationStatus e IntentType garantizan la inmutabilidad y la claridad semántica. Este diseño promueve la extensibilidad y la protección de invariantes, permitiendo agregar nuevas funcionalidades de IA y flujos conversacionales sin afectar la arquitectura base.
+
+
+![alt text](<./assets/CAPITULO5/chat/bLV1Sjis4BtdAtXqf_4VP3nHR3hbL95aadARamO1rp8w9AW2e58rgh-zAs95GG8WJdGmYDrzYuV7nHB-g0rJfclgTmd-UCsqJkvRkGMbcH6jB41h798VwBU_sy8e8TU9jfwiEdccBTex3SerdcKpp7GwqVtWuZYh7vY1KZIGz8mEJx4096act.png>)
+
+#### 4.6.6.2 Bounded Context Database Design Diagram
+
+
+El diagrama de base de datos representa la estructura de persistencia para las sesiones conversacionales, mensajes, estadísticas de intenciones y analíticas de conversación. Incluye las tablas principales CONVERSATION_SESSIONS, CHAT_MESSAGES, INTENT_STATISTICS y CONVERSATION_ANALYTICS, así como sus relaciones. La base de datos almacena información histórica y actual de cada sesión y mensaje, permitiendo consultas eficientes, trazabilidad y análisis de desempeño del chatbot. Se definen claves foráneas y campos JSON para flexibilidad y escalabilidad, facilitando la integración con otros módulos y la mejora continua del asistente conversacional.
+
+![alt text](<./assets/CAPITULO5/chat/Captura de pantalla 2025-10-03 225803.png>)
 ---
 
 ### 4.7 Predictive Analytics Bounded Context
@@ -2700,56 +2781,25 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 
 #### 4.6.5 Bounded Context Software Architecture Component Level Diagrams
 
+El diagrama de componentes muestra cómo los controladores REST (PredictionController, ModelController) permiten la interacción entre el usuario y el módulo de análisis predictivo. Los servicios de aplicación gestionan el flujo de predicción, entrenamiento y despliegue de modelos, integrando el servicio externo de Machine Learning (TensorFlow Platform) para el procesamiento y entrenamiento de modelos. La infraestructura conecta con los bounded contexts de Monitoring, Requests, Analytics y Subscriptions para obtener datos históricos y enviar resultados de predicción. El diseño asegura la extensibilidad y la integración segura, permitiendo que el módulo de análisis predictivo anticipe la demanda de agua, detecte patrones críticos y genere alertas o solicitudes automáticas.
+
+![alt text](<./assets/CAPITULO5/Predictive Analytics/structurizr-101610-Components.png>)
+
 #### 4.6.6 Bounded Context Software Architecture Code Level Diagrams
 #### 4.6.6.1 Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases del Domain Layer ilustra la estructura y relaciones entre los agregados principales (Prediction, MLModel), los value objects y los servicios de dominio. Los servicios de comando y consulta definen los contratos para la gestión de predicciones y modelos, mientras que los agregados encapsulan la lógica de negocio y las reglas de validación. Los value objects como PredictionType y ModelStatus garantizan la inmutabilidad y la claridad semántica. Este diseño promueve la extensibilidad y la protección de invariantes, permitiendo agregar nuevos algoritmos y flujos de predicción sin afectar la arquitectura base.
+
+![alt text](<./assets/CAPITULO5/Predictive Analytics/bHZRSfiwyBrVmQCpf_c3JgVK48SvyQKsQQTF7HNMZivmuKZ2hTkSVFiHeB82hM6IXrZQ-sMrMl51AYPKdMTlFFsNP4nARoSWvOdYPR4kKyYytnhN_TqUbE35oSiRU9GYl2MCBnLeb5avJ6SGKij4-5rMCkMn9Aa5Iou8VoWJbWLCGSnpy9HWlD3y3M2ayA.png>)
+
 #### 4.6.6.2 Bounded Context Database Design Diagram
 
+El diagrama de base de datos representa la estructura de persistencia para las predicciones, modelos de machine learning y métricas de desempeño. Incluye las tablas principales PREDICTION, ML_MODEL y MODEL_METRICS, así como sus relaciones. La base de datos almacena información histórica y actual de cada predicción y modelo, permitiendo consultas eficientes, trazabilidad y análisis de desempeño. Se definen claves foráneas y campos JSON para flexibilidad y escalabilidad, facilitando la integración con otros módulos y la mejora continua de los algoritmos predictivos.
+
+![alt text](<./assets/CAPITULO5/Predictive Analytics/Captura667.png>)
 ---
 
-
-### 4.1. Bounded Context: Subscription & Payment
-
-
-
-#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
-
-El diagrama de componentes muestra como la aplicación web desarrollada con Angular accede a endpoints relacionados con suscripciones y pagos expuestos por controladores REST en Spring Boot, como Subscription Controller y Payment Controller. Estos controladores delegan la lógica a servicios como Subscription Service y Payment Service, que gestionan el ciclo de vida de las suscripciones y los pagos, respectivamente. A su vez, estos servicios acceden a capas de consulta (Subscription Query Service y Payment Query Service) para recuperar información, y escriben datos mediante los repositorios Subscription Repository y Payment Repository, que usan Spring Data JPA para interactuar con la base de datos MySQL.
-
-![alt text](<./assets/img/Subscription-Bounded-Context.png>)
-
-
-#### 4.1.6. Bounded Context Software Architecture Code Level Diagrams.
-
-
-##### 4.1.6.1. Bounded Context Domain Layer Class Diagrams.
-La imagen muestra un diagrama de clases que describe la interacción entre los servicios y repositorios de suscripciones y pagos. Incluye **ISubscriptionRepository**, que maneja las operaciones de suscripciones como búsqueda y actualización, y **ISubscriptionCommandService**, que gestiona comandos para crear, cancelar, activar o expirar suscripciones. **ISubscriptionQueryService** se encarga de consultar información de suscripciones, mientras que **Payment** representa los detalles de los pagos. **IPaymentRepository**, **IPaymentCommandService**, y **IPaymentQueryService** gestionan operaciones similares para los pagos, como su creación, actualización y consulta, garantizando que el sistema pueda manejar tanto suscripciones como pagos de manera independiente y eficiente.
-
-![alt text](./assets/img/subscription.png)
-
-##### 4.1.6.2. Bounded Context Database Design Diagram.
-El diagrama muestra las relaciones entre las tablas **sensors**, **subscriptions**, **payments** y **residents**. La tabla **sensors** contiene información sobre los sensores, como tipo, descripción y estado. La tabla **subscriptions** almacena los detalles de las suscripciones, incluyendo las fechas de inicio y fin, el estado de la suscripción, y las relaciones con los sensores y residentes. La tabla **payments** registra los pagos realizados, con datos como el monto, el método de pago, el estado, la fecha de pago y su relación con la suscripción correspondiente. Finalmente, **residents** contiene los datos de los residentes, como nombre, apellido y un ID de perfil relacionado.
-
-![alt text](<./assets/img/db design diagram subsc.png>)
-
-## `subscriptions` 
-| Atributo     | Tipo       | Descripción                                              |
-|--------------|------------|----------------------------------------------------------|
-| id           | int        | Identificador único de la suscripción                    |
-| start_date   | datetime   | Fecha de inicio de la suscripción                        |
-| end_date     | datetime   | Fecha de finalización de la suscripción                  |
-| status       | string     | Estado actual (ACTIVE, EXPIRED, CANCELLED, etc.)         |
-| sensor_id    | int        | Relación con el sensor asignado                          |
-| resident_id  | int        | Relación con el residente al que pertenece la suscripción|
-
-## `payments` 
-| Atributo         | Tipo       | Descripción                                                |
-|------------------|------------|------------------------------------------------------------|
-| id               | int        | Identificador único del pago                               |
-| amount           | decimal    | Monto total del pago realizado                             |
-| status           | string     | Estado del pago (PENDING, SUCCESS, FAILED, CANCELLED)      |
-| paid_at          | datetime   | Fecha en la que se efectuó el pago                         |
-| method           | string     | Método de pago (YAPE, PLIN, BANK_TRANSFER, CARD, etc.)     |
-| subscription_id  | int        | Relación con la suscripción a la que corresponde el pago   |
+# Chapter VI: Solution UX Design
 
 
 ## Conclusiones
