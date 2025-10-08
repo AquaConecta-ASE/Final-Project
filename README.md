@@ -1782,9 +1782,9 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 
 # Chapter V: Tactical-Level Software Design
 
-### 4.1 Analytics Bounded Context
+## 5.1 Analytics Bounded Context
 
-#### 4.1.1 Domain Layer
+### 5.1.1 Domain Layer 
 
 ### **Data Transfer Objects (DTOs)**
 
@@ -1803,14 +1803,14 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 |----------|------|----------------|
 | `DashboardQueryService` | Query Service | Obtiene métricas consolidadas del sistema, estadísticas de usuarios activos, reportes de consumo y datos de monitoreo |
 
-#### 4.1.2 Interface Layer
+### 5.1.2 Interface Layer 
 
 ### **Controladores REST**
 | Controlador | Responsabilidad |
 |-------------|----------------|
 | `DashboardController` | Expone endpoints para obtener métricas consolidadas, dashboards personalizados por tipo de usuario y reportes ejecutivos |
 
-#### 4.1.3 Application Layer
+### 5.1.3 Application Layer
 
 #### **Servicios de Aplicación**
 | Tipo   | Responsabilidad |
@@ -1819,7 +1819,7 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 | **Query Services** | Orquestación de consultas complejas que involucran múltiples bounded contexts |
 | **Data Aggregation Services**  | Consolidación de datos provenientes de Profiles, Requests, Monitoring y Subscriptions |
 
-#### 4.1.4 Infrastructure Layer
+### 5.1.4 Infrastructure Layer
 
 #### **Componentes de Infraestructura**
 | Componente | Responsabilidad |
@@ -1829,29 +1829,29 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 | **Reporting Engine** | Motor de generación de reportes en tiempo real |
 | **Analytics Services** | Procesamiento de analytics y KPIs del negocio |
 
-#### 4.1.5 Bounded Context Software Architecture Component Level Diagrams
+### 5.1.5 Bounded Context Software Architecture Component Level Diagrams
 
 El diagrama de componentes del bounded context Analytics muestra cómo la aplicación web y móvil se conecta con el DashboardController que expone los endpoints REST necesarios para gestionar las consultas de métricas y resúmenes del dashboard. El controlador delega su lógica al DashboardServiceImpl, el cual implementa la interfaz DashboardQueryService y se encarga de procesar operaciones de agregación y cálculo de métricas como totales de proveedores, residentes, suscripciones activas e ingresos. A su vez, el servicio interactúa con Context Facades (ProfileContextFacade y SubscriptionContextFacade) que implementan el patrón Anti-Corruption Layer para acceder de forma controlada a los datos de otros bounded contexts. El servicio genera instancias de la entidad DashboardSummary que encapsula todas las métricas calculadas para su posterior serialización y envío al cliente. Este patrón de consulta cruzada permite al bounded context Analytics actuar como un read model agregado sin duplicar datos, manteniendo la consistencia y separación de responsabilidades entre bounded contexts.
 
 ![alt text](<./assets/CAPITULO5/Analitys/structurizr-101610-AnalyticsComponentDiagram.png>)
 
-#### 4.1.6 Bounded Context Software Architecture Code Level Diagrams
-#### 4.1.6.1 Bounded Context Domain Layer Class Diagrams
+### 5.1.6 Bounded Context Software Architecture Code Level Diagrams
+#### 5.1.6.1 Bounded Context Domain Layer Class Diagrams
 
 El diagrama de clases del Domain Layer del bounded context Analytics ilustra la estructura y relaciones entre las principales abstracciones del dominio. La interfaz DashboardQueryService define el contrato para obtener métricas del dashboard, siendo implementada por DashboardServiceImpl que actúa como el servicio de aplicación principal. La entidad DashboardSummary representa el agregado central que encapsula todas las métricas calculadas del sistema, incluyendo totales de usuarios, suscripciones activas e ingresos, además de metadatos como fecha de actualización y estado. El DashboardController actúa como punto de entrada REST, delegando las operaciones al servicio de dominio. Los repositorios externos (ProviderRepository, ResidentRepository, SubscriptionRepository) proporcionan acceso de solo lectura a los datos de otros bounded contexts, manteniendo el principio de separación de responsabilidades. Esta arquitectura permite que el bounded context Analytics funcione como un read model eficiente que consolida información de múltiples fuentes sin crear dependencias fuertes entre bounded contexts.
 
 ![alt text](<./assets/CAPITULO5/Analitys/hLJRRjim37tFL-ZHHfj-m504xLeCwCE0hjuFg3QR2j0beAW0nhP_dnsteMhHIp0q3p50ddD87P6wYQIHahChrLeTexhNyVKvQEn-9C2-0ToR5jIlbNhxNLyRJu0lkeNDvXYzs08TcLNDAaroJcD_J-60_RCQF_DI3CeAhMtmMqM1j7t4i3STO9IIJn27dATvKhTa.png>)
 
-#### 4.1.6.2 Bounded Context Database Design Diagram
+#### 5.1.6.2 Bounded Context Database Design Diagram
 
 El diagrama de base de datos del bounded context Analytics muestra la estructura de persistencia que soporta las operaciones de consulta y agregación de métricas. La tabla principal DASHBOARD_SUMMARY actúa como una entidad persistente que almacena los resultados calculados de las métricas del dashboard, incluyendo metadatos de control como fecha de actualización y estado. Esta tabla se relaciona conceptualmente con las tablas PROVIDER, RESIDENT y SUBSCRIPTION que pertenecen a otros bounded contexts, de las cuales lee datos mediante consultas de solo lectura. La arquitectura permite que el bounded context Analytics mantenga un cache persistente de métricas calculadas, reduciendo la carga computacional en consultas frecuentes y mejorando los tiempos de respuesta. Las relaciones indican el flujo de datos desde las tablas fuente hacia el resumen agregado, manteniendo la integridad referencial conceptual sin crear dependencias físicas entre bounded contexts. Este diseño facilita la escalabilidad al permitir que las consultas analíticas operen sobre datos precomputados mientras mantiene la consistencia eventual con los bounded contexts fuente.
 
 ![alt text](<./assets/CAPITULO5/Analitys/Untitled diagram _ Mermaid Chart-2025-10-03-163011.png>)
 
 ---
-### 4.2 Monitoring Bounded Context
+### 5.2 Monitoring Bounded Context
 
-#### 4.2.1 Domain Layer
+### 5.2.1 Domain Layer
 
 #### **Aggregates**
 
@@ -1920,7 +1920,7 @@ El diagrama de base de datos del bounded context Analytics muestra la estructura
 | `EventQueryService` | Query Service | Análisis histórico de eventos, generación de reportes de monitoreo |
 
 
-#### 4.2.2 Interface Layer
+### 5.2.2 Interface Layer
 
 #### **Controladores REST**
 | Controlador | Responsabilidad |
@@ -1933,7 +1933,7 @@ El diagrama de base de datos del bounded context Analytics muestra la estructura
 |---------|----------------|
 | `MonitoringContextFacade` | Exposición controlada de información de dispositivos y eventos para otros contextos |
 
-#### 4.2.3 Application Layer
+### 5.2.3 Application Layer
 
 #### **Servicios de Aplicación**
 | Implementación | Responsabilidad |
@@ -1945,7 +1945,7 @@ El diagrama de base de datos del bounded context Analytics muestra la estructura
 | `AlertProcessingService` | Servicio especializado en detección y notificación de alertas críticas |
 | `DataValidationService` | Validación de integridad de datos recibidos de sensores IoT |
 
-#### 4.2.4 Infrastructure Layer
+### 5.2.4 Infrastructure Layer
 
 #### **Repositorios JPA**
 | Repositorio | Responsabilidad |
@@ -1962,29 +1962,29 @@ El diagrama de base de datos del bounded context Analytics muestra la estructura
 | **Device Configuration** | Gestión remota de configuración de dispositivos |
 
 
-#### 4.2.5 Bounded Context Software Architecture Component Level Diagrams
+### 5.2.5 Bounded Context Software Architecture Component Level Diagrams
 
 El diagrama de componentes del bounded context Monitoring muestra cómo los controladores REST (DeviceController, EventController) gestionan la interacción entre los usuarios y el sistema para el monitoreo de dispositivos y eventos IoT. Los controladores delegan la lógica a los servicios de aplicación (DeviceCommandServiceImpl, EventCommandServiceImpl, DeviceQueryServiceImpl, EventQueryServiceImpl), que implementan los contratos definidos en el dominio. Los servicios de dominio gestionan los agregados Device y Event, así como los comandos y queries asociados.
 
 ![alt text](<./assets/CAPITULO5/monitoringh/structurizr-101610-MonitoringComponentDiagram.png>)
 
-#### 4.2.6 Bounded Context Software Architecture Code Level Diagrams
+### 5.2.6 Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.6.1 Bounded Context Domain Layer Class Diagrams
 
 El diagrama de clases del Domain Layer del bounded context Monitoring ilustra la estructura y relaciones entre los principales agregados (Device, Event), los servicios de dominio y los comandos/queries. Los servicios de comando y consulta definen los contratos para la gestión de dispositivos y eventos, mientras que los agregados encapsulan la lógica de negocio y las reglas de validación. Los comandos permiten la creación y actualización de entidades, y los queries facilitan la obtención de información específica. Este diseño promueve la claridad y la extensibilidad, permitiendo agregar nuevas funcionalidades de monitoreo sin afectar la arquitectura base.
 
 ![alt text](<./assets/CAPITULO5/monitoringh/nLXTRzfA47s_lyAF849-m5M4GZxk5LAaAYJjQ-NO0xMqzjBTDIfgcz_UOLSEn_RWsY8jFBGmPpxEdfbnlRssBZQkpDK_4NyI5LiRtT4sIoZwpgRmkRgQhzU6rh6ZQAcrcytUeEc3BjPHbXuCJyvaR7Ax3RMCNCoLjcLEoIOcsxXC5ut4XcoMKk4MAG99hEwOo.png>)
 
-#### 4.2.6.2 Bounded Context Database Design Diagram
+#### 5.2.6.2 Bounded Context Database Design Diagram
 
 El diagrama de base de datos del bounded context Monitoring representa la estructura de persistencia para los dispositivos y eventos monitoreados. Incluye las tablas principales para Device y Event, así como las relaciones entre ellas y con otras entidades relevantes. La base de datos almacena información histórica y actual de los dispositivos IoT, permitiendo consultas eficientes y la trazabilidad de los eventos generados por los sensores. La integración con el broker externo se realiza a nivel de infraestructura, permitiendo la ingesta y procesamiento de datos en tiempo real, lo que es fundamental para la operación continua y la respuesta rápida ante situaciones críticas en el sistema.
 
 ![alt text](<./assets/CAPITULO5/monitoringh/Untitled diagram _ Mermaid Chart-2025-10-03-170913.png>)
 ---
 
-### 4.3 User & Profile Bounded Context
+### 5.3 User & Profile Bounded Context
 
-#### 4.3.1 Domain Layer
+### 5.3.1 Domain Layer
 
 #### **Aggregates**
 
@@ -2084,7 +2084,7 @@ El diagrama de base de datos del bounded context Monitoring representa la estruc
 | `ProviderCommandService` | Command Service | Lógica de negocio específica para proveedores |
 | `ResidentCommandService` | Command Service | Gestión de residentes y sus relaciones con proveedores |
 
-#### 4.3.2 Interface Layer
+### 5.3.2 Interface Layer
 
 #### **Controladores REST**
 
@@ -2101,7 +2101,7 @@ El diagrama de base de datos del bounded context Monitoring representa la estruc
 | `ProviderContextFacade` | Servicios específicos de proveedores para otros contextos |
 | `ResidentContextFacade` | Información de residentes para solicitudes y suscripciones |
 
-#### 4.3.3 Application Layer
+### 5.3.3 Application Layer
 
 #### **Servicios de Aplicación**
 | Implementación | Responsabilidad |
@@ -2113,7 +2113,7 @@ El diagrama de base de datos del bounded context Monitoring representa la estruc
 | `ProfileValidationService` | Validación de reglas de negocio y consistencia de datos |
 | `RelationshipService` | Gestión de relaciones entre proveedores y residentes |
 
-#### 4.3.4 Infrastructure Layer
+### 5.3.4 Infrastructure Layer
 
 #### **Repositorios JPA**
 | Repositorio | Responsabilidad |
@@ -2130,20 +2130,20 @@ El diagrama de base de datos del bounded context Monitoring representa la estruc
 | **Data Synchronization** | Sincronización con sistemas externos de clientes |
 
 
-#### 4.3.5 Bounded Context Software Architecture Component Level Diagrams
+### 5.3.5 Bounded Context Software Architecture Component Level Diagrams
 
 El diagrama de componentes muestra cómo los controladores REST (ProfilesController, ProviderController, ResidentController) exponen los endpoints para la gestión de perfiles, proveedores y residentes. Cada controlador delega la lógica a servicios de aplicación que implementan los contratos definidos en el dominio. Los servicios gestionan los agregados Profile, Provider y Resident, así como los comandos y queries asociados. La infraestructura incluye repositorios y la integración con servicios externos como validación de documentos, geolocalización y notificaciones. Los componentes ACL (Context Facades) permiten exponer información controlada a otros bounded contexts, asegurando el aislamiento y la integridad de los datos. Este diseño facilita la extensibilidad y la integración segura entre módulos, manteniendo la consistencia y la separación de responsabilidades.
 
 
 ![alt text](<./assets/CAPITULO5/Profile/structurizr-101610-ProfilesComponentDiagram.png>)
 
-#### 4.3.6 Bounded Context Software Architecture Code Level Diagrams
-#### 4.3.6.1 Bounded Context Domain Layer Class Diagrams
+### 5.3.6 Bounded Context Software Architecture Code Level Diagrams
+#### 5.3.6.1 Bounded Context Domain Layer Class Diagrams
 
 El diagrama de clases del Domain Layer ilustra la estructura y relaciones entre los principales agregados (Profile, Provider, Resident), value objects, servicios de dominio y comandosqueries. Los servicios de comando y consulta definen los contratos para la gestión de entidades, mientras que los agregados encapsulan la lógica de negocio y las reglas de validación. Los value objects como PersonName garantizan la inmutabilidad y la igualdad por valor. Los comandos permiten la creación y actualización de entidades, y los queries facilitan la obtención de información específica. Este diseño promueve la claridad, la extensibilidad y la protección de invariantes de negocio, permitiendo agregar nuevas funcionalidades sin afectar la arquitectura base.
 
 ![alt text](<./assets/CAPITULO5/Profile/tLhTRjms4xt_dc8lL_3dF40H676Sf33W9gcJj9U5B77NAYHnenyZHbi_UobhPpsq3dsMLb07peMpo_dXp3d3ePRKgxPBcwwlolyjtB-iJDjsyR6ngw8qYx_SsFZlvSlZzRenwxGpYtDhkwEZdUZmpDRhHP7V3NmqJMlhzsbb5hNxSoVur3M5qpLLMfIJqRneJD.png>)
-#### 4.3.6.2 Bounded Context Database Design Diagram
+#### 5.3.6.2 Bounded Context Database Design Diagram
 
 El diagrama de base de datos representa la estructura de persistencia para los perfiles, proveedores y residentes. Incluye las tablas principales PROFILE, PROVIDER y RESIDENT, así como las relaciones con la tabla de usuarios externos (USER). La base de datos almacena información histórica y actual de cada entidad, permitiendo consultas eficientes y la trazabilidad de las relaciones entre usuarios, proveedores y residentes. Se definen restricciones de unicidad y claves foráneas para garantizar la integridad referencial y la consistencia de los datos. Este diseño soporta la escalabilidad y la seguridad, facilitando la integración con otros módulos y la implementación de consultas especializadas para reportes y validaciones.
 
@@ -2151,9 +2151,9 @@ El diagrama de base de datos representa la estructura de persistencia para los p
 ![alt text](<./assets/CAPITULO5/Profile/Captura de pantalla 2025-10-03 124141.png>)
 ---
 
-### 4.4 Requests Bounded Context
+## 5.4 Requests Bounded Context
 
-#### 4.4.1 Domain Layer
+### 5.4.1 Domain Layer
 
 #### **Aggregates**
 
@@ -2228,7 +2228,7 @@ El diagrama de base de datos representa la estructura de persistencia para los p
 | `IssueReportQueryService` | Query Service | Análisis de reportes, tendencias y estadísticas |
 
 
-#### 4.4.2 Interface Layer
+### 5.4.2 Interface Layer
 
 #### **Controladores REST**
 | Controlador | Responsabilidad |
@@ -2242,7 +2242,7 @@ El diagrama de base de datos representa la estructura de persistencia para los p
 | `WaterSupplyRequestContextFacade` | Integración de solicitudes con otros contextos |
 | `IssueReportContextFacade` | Exposición de información de reportes |
 
-#### 4.4.3 Application Layer
+### 5.4.3 Application Layer
 
 #### **Servicios de Aplicación**
 | Implementación | Responsabilidad |
@@ -2255,7 +2255,7 @@ El diagrama de base de datos representa la estructura de persistencia para los p
 | `NotificationService` | Notificaciones automáticas sobre cambios de estado |
 | `SLAMonitoringService` | Monitoreo de tiempos de respuesta y SLAs |
 
-#### 4.4.4 Infrastructure Layer
+### 5.4.4 Infrastructure Layer
 
 #### **Repositorios JPA**
 | Repositorio | Responsabilidad |
@@ -2271,30 +2271,30 @@ El diagrama de base de datos representa la estructura de persistencia para los p
 | **Delivery Tracking** | Integración con sistemas de tracking de entregas |
 | **Analytics Engine** | Procesamiento de métricas de performance y satisfacción |
 
-#### 4.4.5 Bounded Context Software Architecture Component Level Diagrams
+### 5.4.5 Bounded Context Software Architecture Component Level Diagrams
 
 El diagrama de componentes muestra cómo los controladores REST (WaterSupplyRequestController, IssueReportController) exponen los endpoints para la gestión de solicitudes de agua y reportes de problemas. Cada controlador delega la lógica a servicios de aplicación que implementan los contratos definidos en el dominio. Los servicios gestionan los agregados WaterSupplyRequest e IssueReport, así como los comandos y queries asociados. Los componentes ACL (Context Facades) permiten exponer información controlada a otros bounded contexts, asegurando el aislamiento y la integridad de los datos. Este diseño facilita la extensibilidad y la integración segura entre módulos, manteniendo la consistencia y la separación de responsabilidades.
 
 
 ![alt text](<./assets/CAPITULO5/request/structurizr-101610-RequestsComponentDiagram.png>)
 
-#### 4.4.6 Bounded Context Software Architecture Code Level Diagrams
-#### 4.4.6.1 Bounded Context Domain Layer Class Diagrams
+### 5.4.6 Bounded Context Software Architecture Code Level Diagrams
+#### 5.4.6.1 Bounded Context Domain Layer Class Diagrams
 
 El diagrama de clases del Domain Layer ilustra la estructura y relaciones entre los principales agregados (WaterSupplyRequest, IssueReport), value objects, servicios de dominio y comandos/queries. Los servicios de comando y consulta definen los contratos para la gestión de entidades, mientras que los agregados encapsulan la lógica de negocio y las reglas de validación. Los value objects como IssueReportStatus garantizan la inmutabilidad y la igualdad por valor. Los comandos permiten la creación y actualización de entidades, y los queries facilitan la obtención de información específica. Este diseño promueve la claridad, la extensibilidad y la protección de invariantes de negocio, permitiendo agregar nuevas funcionalidades sin afectar la arquitectura base.
 
 ![alt text](<./assets/CAPITULO5/request/xLhTRjj64xtFK_2IWk8ym8V0YECe7mIuTYgbpcL0asELBN-KtPKReOsVlPHMaGur6WtfhMCOY2zactlcpC-U7NANUcDTOjoYB5waHM9jz2bnPAQB-RnOJkZBWgoB_duHRNvUlpwRpGpD6amqgMjtUheTEhcegrcKPtiN3DayeygDzmVcfhvhHWmEJ9t9Lp (1).png>)
 
-#### 4.4.6.2 Bounded Context Database Design Diagram
+#### 5.4.6.2 Bounded Context Database Design Diagram
 
 El diagrama de base de datos representa la estructura de persistencia para las solicitudes de agua y los reportes de problemas. Incluye las tablas principales WATER_SUPPLY_REQUEST e ISSUE_REPORT, así como las relaciones con las tablas de residentes y proveedores. La base de datos almacena información histórica y actual de cada entidad, permitiendo consultas eficientes y la trazabilidad de las relaciones entre usuarios, proveedores y residentes. Se definen restricciones de unicidad y claves foráneas para garantizar la integridad referencial y la consistencia de los datos. Este diseño soporta la escalabilidad y la seguridad, facilitando la integración con otros módulos y la implementación de consultas especializadas para reportes y métricas.
 
 ![alt text](<./assets/CAPITULO5/request/Captura de pantalla 2025-10-03 122241.png>)
 ---
 
-### 4.5 Subscriptions Bounded Context
+## 5.5 Subscriptions Bounded Context
 
-#### 4.5.1 Domain Layer
+### 5.5.1 Domain Layer
 
 #### **Aggregates**
 
@@ -2341,7 +2341,7 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 | `SubscriptionValidationService` | Domain Service | Validaciones de reglas de negocio específicas |
 
 
-#### 4.5.2 Interface Layer
+### 5.5.2 Interface Layer
 
 #### **Controladores REST**
 | Controlador | Responsabilidad |
@@ -2354,7 +2354,7 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 | `SubscriptionContextFacade` | Integración con sistemas de billing y facturación |
 
 
-#### 4.5.3 Application Layer
+### 5.5.3 Application Layer
 
 #### **Servicios de Aplicación**
 
@@ -2368,7 +2368,7 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 | `NotificationSchedulerService` | Programación de notificaciones de vencimiento |
 
 
-#### 4.5.4 Infrastructure Layer
+### 5.5.4 Infrastructure Layer
 
 #### **Repositorios**
 | Repositorio | Responsabilidad |
@@ -2384,20 +2384,20 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 | **Renewal Scheduler** | Programador de tareas para renovaciones automáticas |
 | **Usage Tracking** | Seguimiento de uso de servicios por suscripción |
 
-#### 4.5.5 Bounded Context Software Architecture Component Level Diagrams
+### 5.5.5 Bounded Context Software Architecture Component Level Diagrams
 
 El diagrama de componentes muestra cómo el controlador REST (SubscriptionController) expone los endpoints para la gestión de suscripciones y operaciones relacionadas. El controlador delega la lógica a servicios de aplicación que implementan los contratos definidos en el dominio. Los servicios gestionan el agregado Subscription y los comandos y queries asociados. La infraestructura incluye repositorios y la integración con servicios externos para notificaciones y validaciones. Los componentes ACL (Context Facades) permiten exponer información controlada a otros bounded contexts, asegurando el aislamiento y la integridad de los datos. Este diseño facilita la extensibilidad y la integración segura entre módulos, manteniendo la consistencia y la separación de responsabilidades.
 
 ![alt text](<./assets/CAPITULO5/suscripcion/structurizr-101610-SubscriptionsComponentDiagram.png>)
-#### 4.5.6 Bounded Context Software Architecture Code Level Diagrams
+### 5.5.6 Bounded Context Software Architecture Code Level Diagrams
 
-#### 4.5.6.1 Bounded Context Domain Layer Class Diagrams
+#### 5.5.6.1 Bounded Context Domain Layer Class Diagrams
 
 El diagrama de clases del Domain Layer ilustra la estructura y relaciones entre el agregado principal (Subscription), los servicios de dominio y los comandos/queries. Los servicios de comando y consulta definen los contratos para la gestión de suscripciones, mientras que el agregado encapsula la lógica de negocio y las reglas de validación. Los comandos permiten la creación y actualización de entidades, y los queries facilitan la obtención de información específica. Este diseño promueve la claridad, la extensibilidad y la protección de invariantes de negocio, permitiendo agregar nuevas funcionalidades sin afectar la arquitectura base.
 
 ![alt text](<./assets/CAPITULO5/suscripcion/xLbVRnit37_VfxX76vxx0OOYg9CsGu0Lw-mKUnoK4-qAkvDkeiwDzoUVVP9L9vHrTEH3i0B5yc3OH_AddtuYPT9vWqvOrxVDTvN_gnk1MAtwEwojwfmoklhB6-BVwzUBpSR2HZYebiQuYuj7q_mdepULalH1BPgtmNM_G7WtP0GjKzFAMQKt8SZrU8IFeD7O6t.png>)
 
-#### 4.5.6.2 Bounded Context Database Design Diagram
+#### 5.5.6.2 Bounded Context Database Design Diagram
 
 El diagrama de base de datos representa la estructura de persistencia para las suscripciones. Incluye la tabla principal SUBSCRIPTION y sus relaciones con las tablas de residentes y proveedores. La base de datos almacena información histórica y actual de cada suscripción, permitiendo consultas eficientes y la trazabilidad de las relaciones entre usuarios, proveedores y residentes. Se definen restricciones de unicidad y claves foráneas para garantizar la integridad referencial y la consistencia de los datos. Este diseño soporta la escalabilidad y la seguridad, facilitando la integración con otros módulos y la implementación de consultas especializadas para reportes y métricas.
 
@@ -2406,9 +2406,9 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 
 ---
 
-### 4.6 Conversational Support Bounded Context
+## 5.6 Conversational Support Bounded Context
 
-#### 4.6.1 Domain Layer
+### 5.6.1 Domain Layer
 
 #### **Aggregates**
 
@@ -2513,7 +2513,7 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 | `ResponseGenerationService` | Domain Service | Generación de respuestas contextuales y personalizadas |
 
 
-#### 4.6.2 Interface Layer
+### 5.6.2 Interface Layer
 
 #### **Controladores REST**
 | Controlador | Responsabilidad |
@@ -2527,7 +2527,7 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 | `ConversationalSupportContextFacade` | Integración con servicios de IA externos y otros bounded contexts |
 
 
-#### 4.6.3 Application Layer
+### 5.6.3 Application Layer
 
 #### **Servicios de Aplicación**
 | Implementación | Responsabilidad |
@@ -2540,7 +2540,7 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 | `ConversationAnalyticsService` | Análisis de patrones y efectividad conversacional |
 
 
-#### 4.6.4 Infrastructure Layer
+### 5.6.4 Infrastructure Layer
 
 #### **Repositorios JPA**
 | Repositorio | Responsabilidad |
@@ -2559,14 +2559,14 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 | **Translation Services** | Servicios de traducción automática para soporte multiidioma |
 
 
-#### 4.6.5 Bounded Context Software Architecture Component Level Diagrams
+### 5.6.5 Bounded Context Software Architecture Component Level Diagrams
 
 
 El diagrama de componentes muestra cómo los controladores REST (ChatController, ConversationController) permiten la interacción entre el usuario y el asistente conversacional. Los mensajes y comandos se procesan en los servicios de aplicación y dominio, que orquestan el flujo conversacional, el reconocimiento de intenciones y la generación de respuestas. La infraestructura integra el servicio externo de IA (Hugging Face o OpenAI) para el procesamiento de lenguaje natural y el mapeo de comandos hacia otros bounded contexts (Requests, Monitoring, Subscriptions). El diseño asegura la extensibilidad y la integración segura, permitiendo que el chatbot actúe como interfaz accesible para consultar datos, solicitar agua o reportar problemas.
 
 ![alt text](<./assets/CAPITULO5/chat/structurizr-101610-Components.png>)
 
-#### 4.6.6 Bounded Context Software Architecture Code Level Diagrams
+### 5.6.6 Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.6.6.1 Bounded Context Domain Layer Class Diagrams
 
@@ -2575,7 +2575,7 @@ El diagrama de clases del Domain Layer ilustra la estructura y relaciones entre 
 
 ![alt text](<./assets/CAPITULO5/chat/bLV1Sjis4BtdAtXqf_4VP3nHR3hbL95aadARamO1rp8w9AW2e58rgh-zAs95GG8WJdGmYDrzYuV7nHB-g0rJfclgTmd-UCsqJkvRkGMbcH6jB41h798VwBU_sy8e8TU9jfwiEdccBTex3SerdcKpp7GwqVtWuZYh7vY1KZIGz8mEJx4096act.png>)
 
-#### 4.6.6.2 Bounded Context Database Design Diagram
+#### 5.6.6.2 Bounded Context Database Design Diagram
 
 
 El diagrama de base de datos representa la estructura de persistencia para las sesiones conversacionales, mensajes, estadísticas de intenciones y analíticas de conversación. Incluye las tablas principales CONVERSATION_SESSIONS, CHAT_MESSAGES, INTENT_STATISTICS y CONVERSATION_ANALYTICS, así como sus relaciones. La base de datos almacena información histórica y actual de cada sesión y mensaje, permitiendo consultas eficientes, trazabilidad y análisis de desempeño del chatbot. Se definen claves foráneas y campos JSON para flexibilidad y escalabilidad, facilitando la integración con otros módulos y la mejora continua del asistente conversacional.
@@ -2583,9 +2583,9 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 ![alt text](<./assets/CAPITULO5/chat/Captura de pantalla 2025-10-03 225803.png>)
 ---
 
-### 4.7 Predictive Analytics Bounded Context
+## 5.7 Predictive Analytics Bounded Context
 
-#### 4.6.1 Domain Layer
+### 5.7.1 Domain Layer
 
 
 #### **Aggregates**
@@ -2730,7 +2730,7 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 | `ModelTrainingService` | Domain Service | Entrenamiento y validación de modelos de machine learning |
 | `AnomalyDetectionService` | Domain Service | Detección de anomalías y comportamientos atípicos |
 
-#### 4.6.2 Interface Layer
+### 5.7.2 Interface Layer
 
 #### **Controladores REST**
 | Controlador | Responsabilidad |
@@ -2745,7 +2745,7 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 | `PredictiveAnalyticsContextFacade` | Integración con plataformas de ML y otros bounded contexts |
 
 
-#### 4.6.3 Application Layer
+### 5.7.3 Application Layer
 
 #### **Servicios de Aplicación**
 | Implementación | Responsabilidad |
@@ -2758,7 +2758,7 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 | `ForecastingService` | Servicios especializados en pronósticos de demanda |
 
 
-#### 4.6.4 Infrastructure Layer
+### 5.7.4 Infrastructure Layer
 
 #### **Repositorios JPA**
 | Repositorio | Responsabilidad |
@@ -2779,20 +2779,20 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 | **Data Lake Integration** | Conexión con repositorios de datos históricos |
 
 
-#### 4.6.5 Bounded Context Software Architecture Component Level Diagrams
+### 5.7.5 Bounded Context Software Architecture Component Level Diagrams
 
 El diagrama de componentes muestra cómo los controladores REST (PredictionController, ModelController) permiten la interacción entre el usuario y el módulo de análisis predictivo. Los servicios de aplicación gestionan el flujo de predicción, entrenamiento y despliegue de modelos, integrando el servicio externo de Machine Learning (TensorFlow Platform) para el procesamiento y entrenamiento de modelos. La infraestructura conecta con los bounded contexts de Monitoring, Requests, Analytics y Subscriptions para obtener datos históricos y enviar resultados de predicción. El diseño asegura la extensibilidad y la integración segura, permitiendo que el módulo de análisis predictivo anticipe la demanda de agua, detecte patrones críticos y genere alertas o solicitudes automáticas.
 
 ![alt text](<./assets/CAPITULO5/Predictive Analytics/structurizr-101610-Components.png>)
 
-#### 4.6.6 Bounded Context Software Architecture Code Level Diagrams
-#### 4.6.6.1 Bounded Context Domain Layer Class Diagrams
+### 5.7.6 Bounded Context Software Architecture Code Level Diagrams
+#### 5.7.6.1 Bounded Context Domain Layer Class Diagrams
 
 El diagrama de clases del Domain Layer ilustra la estructura y relaciones entre los agregados principales (Prediction, MLModel), los value objects y los servicios de dominio. Los servicios de comando y consulta definen los contratos para la gestión de predicciones y modelos, mientras que los agregados encapsulan la lógica de negocio y las reglas de validación. Los value objects como PredictionType y ModelStatus garantizan la inmutabilidad y la claridad semántica. Este diseño promueve la extensibilidad y la protección de invariantes, permitiendo agregar nuevos algoritmos y flujos de predicción sin afectar la arquitectura base.
 
 ![alt text](<./assets/CAPITULO5/Predictive Analytics/bHZRSfiwyBrVmQCpf_c3JgVK48SvyQKsQQTF7HNMZivmuKZ2hTkSVFiHeB82hM6IXrZQ-sMrMl51AYPKdMTlFFsNP4nARoSWvOdYPR4kKyYytnhN_TqUbE35oSiRU9GYl2MCBnLeb5avJ6SGKij4-5rMCkMn9Aa5Iou8VoWJbWLCGSnpy9HWlD3y3M2ayA.png>)
 
-#### 4.6.6.2 Bounded Context Database Design Diagram
+#### 5.7.6.2 Bounded Context Database Design Diagram
 
 El diagrama de base de datos representa la estructura de persistencia para las predicciones, modelos de machine learning y métricas de desempeño. Incluye las tablas principales PREDICTION, ML_MODEL y MODEL_METRICS, así como sus relaciones. La base de datos almacena información histórica y actual de cada predicción y modelo, permitiendo consultas eficientes, trazabilidad y análisis de desempeño. Se definen claves foráneas y campos JSON para flexibilidad y escalabilidad, facilitando la integración con otros módulos y la mejora continua de los algoritmos predictivos.
 
@@ -2801,6 +2801,314 @@ El diagrama de base de datos representa la estructura de persistencia para las p
 
 # Chapter VI: Solution UX Design
 
+## 6.1 Style Guidelines
+### 6.1.1. General Style Guidelines
+
+Los siguientes elementos se han considerado para mejorar la experiencia del usuario.
+COLOR: Para los colores hemos elegido un esquema monocromático del color #81c9fa
+
+![alt text](<./assets/img/colores.png>)
+
+
+Se eligió este esquema debido a que el color azul y blanco representan un entorno ordenado, limpio y poco complejo, lo que son practicamente caracteristicas que nos ayudarán con los procesos de gestion
+
+Tiporafía: Para la tipografia se está usando Comfortaa principalmente pr su simplicidad y buen diseño en las paginas web.
+<br>![alt text](<./assets/img/Comfortaa.png>)
+
+Branding: Nuestro logotipo nuestra el nombre del producto AquaConecta, resaltando en azul parte del mismo, pensamos en un logo minimalista que con el hecho de verse el logo se pueda distinguir quienes somos.
+![alt text](<./assets/img/logo.png>)
+
+### 6.1.2. Web Style Guidelines
+En nuestra app web y landing page estamos usando los colores ya mencionados en diferentes maneras.
+Background: Color Primario: 539BCA Color Secundario: BAE0FC Color Terniario: 6A9CDE y 003785
+![alt text](<./assets/img/aquawire.png>)
+Text Styles: (H1, H2, p, a,) Nuestros estilos de texto van a depender del color que tengan detras, para colores mas osucros como 003785 se usa EEEEEE para dar contraste, mientras que si es un color claro se usa 00628D para que el color del texto pueda resaltar.
+![alt text](<./assets/img/ola.png>)
+
+Icons: (Fondo blanco con los iconos que vamos a usar)
+
+Los iconos que estaremos usando seran de las redes sociales en el caso de la landing page junto a otros relacionados a los beneficios. Seguidamente, se estaran utilizando menos iconos en la web aplication siendo los mas prominentes la lupa, icono de residente y proveedores
+<br>
+![alt text](<./assets/img/search.png>)
+
+
+Estaremos usando nav vars, tablas y dashboards para poner informacion de sensores, reportes y el historial.
+
+![alt text](<./assets/img/navbar.png>)
+
+## 6.2 Software Architecture
+
+### 6.2.1 Organization System
+
+La aplicación **AquaConecta** utiliza un sistema de organización secuencial. Desde la pantalla principal, los usuarios pueden navegar paso a paso por las funcionalidades críticas del sistema: como el acceso al panel de administrador, solicitud de suministros, generación de reportes, gestión de proveedores, visualización de residentes y monitoreo del historial de sensores. Este enfoque facilita la navegación y asegura que los usuarios completen tareas en un orden lógico y estructurado.
+
+![alt text](<./assets/img/dashboard1.png>)
+*Pantalla principal del administrador.*
+
+
+![alt text](<./assets/CAPITULO6/Captura de pantalla 2025-10-07 182009.png>)
+*Pantalla principal de los proveedores.*
+
+
+### 6.2.2 Labeling System
+Se han implementado etiquetas claras y concisas para representar funciones específicas dentro de la aplicación. Estas etiquetas ayudan a los usuarios a comprender fácilmente la función de cada módulo. Las etiquetas principales son:
+
+- `Admin Dashboard`
+- `Supply Requests`
+- `Report List`
+- `Providers List`
+- `Provider Profile`
+- `Residents`
+- `Sensor Monitoring`
+- `Consumption Predictions`
+
+Estas permiten una identificación directa de las secciones sin necesidad de interpretación adicional.
+
+### 6.2.3 SEO Tags and Meta Tags 
+
+Para optimizar la visibilidad en buscadores y ofrecer contexto sobre la aplicación, se proponen las siguientes etiquetas:
+
+Título: AquaConecta | Solución Inteligente de Gestión del Agua
+
+Description: meta name="description" content="Gestión eficiente de agua a través de sensores, reportes y control de usuarios y proveedores. Plataforma integral para comunidades." /
+
+Palabras clave: Gestión del agua, sensores de agua, AquaConecta, plataforma hídrica, sistema de suministro, comunidades rurales"
+
+
+### 6.2.4. Searching Systems 
+¿Qué se busca?: El usuario puede buscar residentes, proveedores o registros históricos de sensores.
+¿Qué resultados se mostrarán?: La búsqueda devolverá registros específicos como nombres de usuarios, reportes o datos de sensores.
+Interfaz de búsqueda: En el panel principal se presentan botones con acceso directo a funcionalidades clave. Aunque actualmente no hay un ícono de lupa visible, se recomienda su implementación en secciones como Residents o Sensor History para mejorar la usabilidad y facilitar la búsqueda contextual.
+
+### 6.2.5. Navigation Systems
+La navegación se basa en un sistema global donde, desde la pantalla de inicio, los usuarios pueden acceder directamente a cualquier sección mediante botones claramente etiquetados. Esta navegación plana y accesible garantiza una experiencia intuitiva, reduciendo la necesidad de múltiples clics o rutas complejas.
+
+## 6.3 Landing Page UI Design 
+
+### 6.3.1 Landing Page Wireframe
+![alt text](<./assets/img/wireframelanding.png>)
+
+### 6.3.2 Landing Page Mock Up
+
+![alt text](<./assets/img/mockuplanding.png>)
+
+
+## 6.4 Applications UX/UI Design.
+
+### 6.4.1 Applications Wireframes
+En esta sección, se presentan los wireflows de la aplicación guiándose de las historias de usuario en la herramienta Figma.
+
+https://www.figma.com/design/qX7HAGMI1mEN4ddBdaNBLh/Untitled?node-id=2-753&t=tRdexuYpspb54rXk-0
+
+
+
+Application web wireframes
+
+![alt text](<./assets/img/iniciowirefram.png>)
+<br>
+![alt text](<./assets/img/supplywire.png>)
+<br>
+![alt text](<./assets/img/schedulewire.png>)
+<br>![alt text](<./assets/img/providerswire.png>)
+![alt text](<./assets/img/nosewire.png>)<br>
+![alt text](<./assets/img/profilewire.png>)<br>
+
+![alt text](<./assets/CAPITULO6/createResident.png>)<br>
+![alt text](<./assets/img/pagowire.png>)<br>
+
+![alt text](<./assets/img/residentswire.png>)<br>
+![alt text](<./assets/CAPITULO6/inforesident.png>)<br>
+![alt text](<./assets/CAPITULO6/payment1.png>)<br>
+![alt text](<./assets/CAPITULO6/payment.png>)<br>
+![alt text](<./assets/img/listreportwire.png>)<br>
+![alt text](<./assets/img/reportdetailwire.png>)<br>
+
+
+![alt text](<./assets/CAPITULO6/chooseResidentDevice.png>)<br>
+![alt text](<./assets/CAPITULO6/choosedevice.png>)<br>
+![alt text](<./assets/CAPITULO6/devicedata.png>)<br>
+
+
+Application mobile wireframe
+
+![alt text](<./assets/img/mobile1.png>)<br>
+![alt text](<./assets/img/mobile2.png>)<br>
+![alt text](<./assets/img/mobile3.png>)<br>
+![alt text](<./assets/img/mobile4.png>)<br>
+![alt text](<./assets/img/mobile5.png>)<br>
+![alt text](<./assets/img/mobile6.png>)<br>
+
+### 6.4.2 Applications Wireflow Diagrams
+
+Los Wireflows se utilizan principalmente en el diseño UX o por sus siglas, experiencia de usuario y especialmente para aplicaciones que involucran flujos de trabajo e interacciones complejas.
+
+
+
+Aplicación web: Dentro de la aplicación web desarrollamos los wireframes para las vistas de proveedores y administrador. Por ello, lo adecuamos a los siguientes user goals.
+
+Se pueden visualizar los diagramas mediante el siguiente link:
+
+[Wireflow Diagrams](https://miro.com/welcomeonboard/eGsxNWkweU5aa1ZaSU44NXMweXNaZmp2N1FxVlNTTVptbVg1NXFwaTFCbnJRc3JyOHZPZlV4VHJhenRlM0lSako3UXdNcFRGYThmbEg5Ym93QzVTWXRkV3ZzVi9DRDZwOHFYSUFQMk8vU0NlczNibDFmTnlBTDR4b2F6MnJWUENBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=175649095908)
+
+- **User goal:** Iniciar sesión
+
+  Como admnistrador o proveedor quiero autenticarme en la aplicaión web para acceder al monitoreo de habitantes y/o proveedores.
+![alt text](./assets/wireflow-diagrams/web-app/log-app-web.png)
+
+**Proveedores**
+
+- **User goal:** Crear nuevo habitante
+
+  Como proveedor quiero registrar nuevo residente completando toda la información requerida (nombre, ubicación, contacto) y confirmar su correcta incorporación al sistema.
+![alt text](assets/wireflow-diagrams/web-app/create-resident-provider.png)
+
+- **User goal:** Crear una nueva suscripcion para un residente
+
+  Como proveedor quiere crear y asignar una nueva suscripcion a un residente ya registrado para tener un mejor manejo de datos en caso el residente tenga mas de un tanque de agua 
+![alt text](assets/wireflow-diagrams/web-app/add-new-susb.png)
+
+- **User goal:** Ver información de los habitantes
+
+  Como proveedor quiero ver la información de cada uno de mis habitantes para conocer su informacion detallada en caso la necesite.
+![alt text](assets/wireflow-diagrams/web-app/view-residents-information1.png)
+
+- **User goal:** Ver solicitudes de abastecimiento
+
+  Como proveedor quiero visualizar las solicitudes de abastecimiento para editar el status y agendar la fecha de entrega.
+![alt text](assets/wireflow-diagrams/web-app/view-supply-requests-provider.png)
+
+- **User goal:** Ver reportes de problemas 
+
+  Como proveedor quiero visualizar los reportes de fallas en sensores para solucionar los respectivos problemas.
+![alt text](assets/wireflow-diagrams/web-app/view-reports-provider.png)
+
+- **User goal:** Ver datos de los sensores
+ 
+  Como proveedor quiero visualizar los datos de los sensores para tener registros sobre el nivel, calidad de todos mis residentes.
+![alt text](assets/wireflow-diagrams/web-app/visualizar-device-data.png)
+
+
+- **User goal:** Ver Prediccion de consumo
+
+  Como proveedor, quiero 
+![alt text](assets/wireflow-diagrams/web-app/)
+
+
+**Administrador**
+
+- **User goal:** Ver información de provedores 
+  
+  Como admnistrador quiero ver la información de todos los proveedores para tener control de planes activos.
+![alt text](assets/wireflow-diagrams/web-app/view-providers-info-admin.png)
+
+- **User goal:** Ver solicitudes de abastecimiento
+  
+  como admnistrador quiero ver la información de todas las solicitudes de abastecimiento realizadas por cada habitante.
+![alt text](assets/wireflow-diagrams/web-app/view-supply-request-admin.png)
+
+- **User goal:** Ver reportes
+  
+  Como administrador quiero ver toda la información de los reportes acerca de problemas en los sensores.
+![alt text](assets/wireflow-diagrams/web-app/view-reports-admin.png)
+
+
+**Aplicación móvil:** Para la aplicación móvil hemos implementado los wireframes para los habitantes. Se presentan los diagramas de acuerdo a los usuer goals.
+
+Se pueden visualizar los diagramas mediante el siguiente link:
+[Wireflow Diagrams - Resident](https://lucid.app/lucidchart/d1e8d447-b081-4f2b-9758-7f90eac5e376/edit?invitationId=inv_3e49c8d7-d258-460c-9086-4e3648af4619)
+
+- **User goal:** Iniciar sesión, como habitante quiero autenticarme en la aplicaión móvil con las credenciales brindadas por el proveedor para visualizar la información del agua en mi tanque.
+![alt text](assets/wireflow-diagrams/mobile-app/log-in-mobile-app.png)
+
+- **User goal:** Editar perfil, como residente quiero editar y actualizar la información de mi perfil. 
+![alt text](assets/wireflow-diagrams/mobile-app/edit-profile-resident.png)
+
+- **User goal:** Ver reportes, como residente deseo ver un historial de reportes acerca de los problemas de los sensores en el tanque.
+![alt text](assets/wireflow-diagrams/mobile-app/view-reports-resident.png)
+
+### 6.4.3 Applications Mockups
+
+En esta sección, se presentan los mockups de la aplicación guiándose de las historias de usuario en la herramienta Figma.
+
+
+ Link del figma: https://www.figma.com/design/zz3FlEYCsPIEo1Ah1tWQpx/AquaConecta-ASE?node-id=34-2&t=JZIevX0Fmshp0IZ4-1
+ <br>
+ ![alt text](<./assets/wireflow-diagrams/mockups/12.png>)<br>
+ ![alt text](<./assets/img/mockup1.png>)<br>
+![alt text](<./assets/img/mockup2.png>)<br>
+![alt text](<./assets/img/mockup6.png>)<br>
+![alt text](<./assets/img/mockup3.png>)<br>
+![alt text](<./assets/img/mockup5.png>)<br>
+![alt text](<./assets/img/mockup7.png>)<br>
+![alt text](<./assets/img/mockup10.png>)<br>
+![alt text](<./assets/img/mockup4.png>)<br>
+![alt text](<./assets/wireflow-diagrams/mockups/18.png>)<br>
+![alt text](<./assets/wireflow-diagrams/mockups/16.png>)<br>
+![alt text](<./assets/wireflow-diagrams/mockups/17.png>)<br>
+![alt text](<./assets/img/mockup9.png>)<br>
+![alt text](<./assets/img/mockup11.png>)<br>
+![alt text](<./assets/wireflow-diagrams/mockups/13.png>)<br>
+![alt text](<./assets/wireflow-diagrams/mockups/14.png>)<br>
+![alt text](<./assets/wireflow-diagrams/mockups/15.png>)<br>
+
+Application mobile mockup
+
+![alt text](<./assets/img/mockupmobile1.png>)<br>
+![alt text](<./assets/img/mockupmobile2.png>)<br>
+![alt text](<./assets/img/mockupmobile3.png>)<br>
+![alt text](<./assets/img/mockupmobile4.png>)<br>
+![alt text](<./assets/img/mockupmobile5.png>)<br>
+
+### 5.4.4 Applications User Flow Diagrams
+Esta sección presenta la propuesta de User Flows. Se considera un User Flow para cada User goal, considerando los User Persona para cada aplicación que forma parte del alcance. Estos User Flows deben ser consistentes con los Wireflows de los cuales se derivan.
+
+En este caso los user flow que definimos serian:
+
+
+Login de Usuario Proveedor/Admin:
+
+![alt text](./assets/wireflow-diagrams/UserFlow/fd11.png)
+
+Programacion de fecha:
+
+![alt text](./assets/img/fd3.png)
+
+Creacion de nuevo residente:
+
+![alt text](./assets/img/fd4.png)
+
+Creacion de nueva suscripcion para residente:
+
+![alt text](./assets/wireflow-diagrams/UserFlow/Captura%20de%20pantalla%202025-10-08%20170354.png)
+
+Visualizar detalles de Residente:
+
+![alt text](./assets/img/fd5.png)
+
+Visulizar Reportes:
+
+![alt text](./assets/wireflow-diagrams/UserFlow/fd5.png)
+
+Visualizar Detalles de Proveedores:
+
+![alt text](./assets/img/fd7.png)
+
+Visualizar datos de los sensores:
+
+![alt text](./assets/wireflow-diagrams/UserFlow/Captura%20de%20pantalla%202025-10-08%20170408.png)
+
+Visualizar Prediccion de consumo:
+
+![alt text](./assets/img/.png)
+
+## 6.5 Applications Prototyping.
+
+Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con simulación de interacción y navegación, acorde con la propuesta de paths de User Flow Diagrams. Esta sección inicia con una introducción en la que se explica los principales criterios para las decisiones de interacción.
+<br>
+ ![alt text](<./assets/wireflow-diagrams/mockups/12.png>)
+<br>
+
+Link del Figma: https://www.figma.com/design/zz3FlEYCsPIEo1Ah1tWQpx/AquaConecta-ASE?node-id=34-2&t=XN4NAi451gnm4mcn-1
 
 ## Conclusiones
 ### Conclusiones – TB1
