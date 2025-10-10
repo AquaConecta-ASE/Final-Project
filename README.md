@@ -2929,6 +2929,8 @@ Application web wireframes
 ![alt text](<./assets/CAPITULO6/chooseResidentDevice.png>)<br>
 ![alt text](<./assets/CAPITULO6/choosedevice.png>)<br>
 ![alt text](<./assets/CAPITULO6/devicedata.png>)<br>
+![alt text](<./assets/CAPITULO6/PrediccionB.png>)<br>
+
 
 
 Application mobile wireframe
@@ -2992,8 +2994,8 @@ Se pueden visualizar los diagramas mediante el siguiente link:
 
 - **User goal:** Ver Prediccion de consumo
 
-  Como proveedor, quiero 
-![alt text](assets/wireflow-diagrams/web-app/)
+  Como proveedor, quiero ver la predicción de consumo de mis residentes para identificar anomalías, entender tendencias y tomar decisiones operativas basadas en datos.
+![alt text](assets/wireflow-diagrams/web-app/image.png)
 
 
 **Administrador**
@@ -3052,6 +3054,7 @@ En esta sección, se presentan los mockups de la aplicación guiándose de las h
 ![alt text](<./assets/wireflow-diagrams/mockups/13.png>)<br>
 ![alt text](<./assets/wireflow-diagrams/mockups/14.png>)<br>
 ![alt text](<./assets/wireflow-diagrams/mockups/15.png>)<br>
+![alt text](<./assets/CAPITULO6/Prediccion.png>)<br>
 
 Application mobile mockup
 
@@ -3101,7 +3104,7 @@ Visualizar datos de los sensores:
 
 Visualizar Prediccion de consumo:
 
-![alt text](./assets/img/.png)
+![alt text](./assets/wireflow-diagrams/UserFlow/image.png)
 
 ## 6.5 Applications Prototyping.
 
