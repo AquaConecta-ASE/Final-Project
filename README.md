@@ -1604,7 +1604,9 @@ A continuación, se detallan las decisiones arquitectónicas clave tomadas para 
 
 #### 4.1.4.1. Adopción de un Monolito Modular con Separación de Capas
 
-* **Decisión:** Se optó por una arquitectura de **monolito modular** para el backend en lugar de microservicios. La lógica de negocio estará organizada en módulos que se corresponden con los Bounded Contexts identificados (ej. `Monitoring`, `Subscriptions`, `Requests`). Internamente, cada módulo seguirá un patrón de capas (Presentación, Lógica de Negocio, Acceso a Datos).
+* **Decisión:** Se optó por una arquitectura de **monolito modular** para el backend en lugar de microservicios. La lógica de negocio estará organizada en módulos que se corresponden con los Bounded Contexts identificados (ej. `	
+Water Management Context
+`, `Subscriptions`, `Requests`). Internamente, cada módulo seguirá un patrón de capas (Presentación, Lógica de Negocio, Acceso a Datos).
 * **Justificación:** Esta decisión responde a la restricción de un **equipo de desarrollo reducido** y la necesidad de una **implementación inicial rápida y de bajo costo**. Un monolito modular simplifica el despliegue, las pruebas y el mantenimiento en las primeras fases del proyecto. La modularidad interna permitirá una futura migración a microservicios si la escalabilidad lo requiere, mitigando el riesgo de un rediseño completo.
 * **Alternativas Consideradas:** Se evaluó una arquitectura de microservicios, pero se descartó debido a la complejidad operativa (gestión de servicios, comunicación entre procesos, despliegue distribuido) y los costos iniciales más elevados, que no se justifican para la etapa de piloto del proyecto.
 
@@ -1639,7 +1641,7 @@ Llevamos a cabo nuestro proceso de Event Storming utilizando la herramienta MURA
 
 El proceso de Candidate Context Discovery fue ejecutado con el objetivo de establecer una aproximación inicial a los posibles bounded contexts presentes en el dominio. Se aplicó la técnica start-with-value, orientada a identificar los elementos core del dominio que representan el mayor valor estratégico para el negocio. Como resultado de esta exploración, se determinaron los siguientes bounded contexts:
 
-![alt text](assets/bounded/all-bounded%20contexts1.png)
+![alt text](assets/bounded/Captura%20de%20pantalla%202025-10-26%20173643.png)
 ![alt text](assets/bounded/all-bounded%20contexts2.png)
 
 * User & Access Management
@@ -1650,7 +1652,7 @@ El proceso de Candidate Context Discovery fue ejecutado con el objetivo de estab
 
   Gestiona la relación entre residentes, proveedores y sensores. Cada suscripción activa asegura que un tanque de agua cuente con un sensor vinculado y operativo. Controla la creación, cancelación y administración de suscripciones, permitiendo que los proveedores gestionen fácilmente a sus residentes y los sensores asociados.
 
-* Monitoring
+* Water Management Context
 
   Supervisa y administra los datos provenientes de los sensores instalados en los tanques. Ofrece a los residentes una vista detallada del nivel, calidad y pH del agua en tiempo real, mientras que los proveedores pueden visualizar y gestionar la información de todos sus residentes. También almacena el historial de consumo y genera alertas en caso de anomalías o condiciones críticas.
 
@@ -1660,11 +1662,11 @@ El proceso de Candidate Context Discovery fue ejecutado con el objetivo de estab
 
 * Analytics
 
-  Consolida y presenta métricas globales y reportes históricos. Integra información de Monitoring, Subscriptions y Requests para ofrecer un panorama completo del servicio. Los administradores pueden visualizar indicadores como promedios de nivel y calidad del agua, número de solicitudes atendidas y métricas financieras, facilitando decisiones estratégicas y de mejora del servicio.
+  Consolida y presenta métricas globales y reportes históricos. Integra información de Water Management, Subscriptions y Requests para ofrecer un panorama completo del servicio. Los administradores pueden visualizar indicadores como promedios de nivel y calidad del agua, número de solicitudes atendidas y métricas financieras, facilitando decisiones estratégicas y de mejora del servicio.
 
 * Conversational Support
 
-  Habilita la interacción inteligente entre residentes y el sistema a través de un asistente conversacional. Permite consultar el estado del tanque, reportar problemas o solicitar agua usando lenguaje natural. Actúa como interfaz de usuario simplificada y accesible, transformando los mensajes en comandos que se procesan en Requests y Monitoring.
+  Habilita la interacción inteligente entre residentes y el sistema a través de un asistente conversacional. Permite consultar el estado del tanque, reportar problemas o solicitar agua usando lenguaje natural. Actúa como interfaz de usuario simplificada y accesible, transformando los mensajes en comandos que se procesan en Requests y Water Management.
 
 * Predictive Analytics
 
@@ -1676,22 +1678,22 @@ En esta sección, aplicamos Domain Storytelling para modelar cómo los bounded c
 
 - **Scenario 1: Habitante revisa el estado del agua de su tanque.**
   
-El habitante consulta desde la app móvil el estado de su tanque de agua. El módulo de Monitoring recupera datos del sensor asociado, mostrando nivel, calidad y consumo reciente. Si no hay transmisión, se notifica indisponibilidad. En casos críticos, el sistema genera una alerta preventiva para el usuario.
+El habitante consulta desde la app móvil el estado de su tanque de agua. El módulo de Water Management recupera datos del sensor asociado, mostrando nivel, calidad y consumo reciente. Si no hay transmisión, se notifica indisponibilidad. En casos críticos, el sistema genera una alerta preventiva para el usuario.
 
-![alt text](./assets/bounded/c1.png)
+![alt text](./assets/bounded/scenario1.png)
 
 - **Scenario 2:  Proveedor registra y habilita suscripcion de habitante.**
   
 El proveedor accede a la plataforma web para registrar a un nuevo habitante. El módulo de User & Profile Management valida y guarda sus datos, y luego el módulo de Subscription crea una nueva suscripción vinculada a un sensor activo. Si el registro falla (datos incompletos o duplicados), se notifica al proveedor para corregirlos antes de habilitar la suscripción.
-![alt text](./assets/bounded/c2.png)
+![alt text](./assets/bounded/scenario2.png)
 - **Scenario 3: Residente solicita abastecimiento de agua a su proveedor.**
 
 El residente ingresa a la app móvil y crea una solicitud de abastecimiento de agua. El sistema de Requests recibe el pedido y consulta al módulo de User & Profile Management para validar los datos del residente y su suscripción activa. Una vez confirmada la información, la solicitud se registra y queda visible para el proveedor. Si la suscripción no es válida o el residente no tiene sensores activos, la solicitud se rechaza con una notificación en la app.
 ![alt text](./assets/bounded/c3.png)
 - **Scenario 4: Proveedor consulta predicciones de consumo de su residente y genera reabasteciento.**
 
-El proveedor accede a la plataforma web para consultar el patrón de consumo de un residente. El módulo de Predictive Analytics, utilizando datos históricos de Monitoring, genera una proyección del consumo futuro y estima la fecha en que el tanque alcanzará niveles críticos. Con base en esta información, el proveedor puede decidir generar automáticamente una solicitud de reabastecimiento en el módulo de Requests. Si no existen suficientes datos históricos, el sistema informa que no es posible generar una predicción en ese momento.
-![alt text](./assets/bounded/c4.png)
+El proveedor accede a la plataforma web para consultar el patrón de consumo de un residente. El módulo de Predictive Analytics, utilizando datos históricos de Water Management, genera una proyección del consumo futuro y estima la fecha en que el tanque alcanzará niveles críticos. Con base en esta información, el proveedor puede decidir generar automáticamente una solicitud de reabastecimiento en el módulo de Requests. Si no existen suficientes datos históricos, el sistema informa que no es posible generar una predicción en ese momento.
+![alt text](./assets/bounded/scenario4.png)
 
 - **Scenario 4: Residente realiza consulta al chatbot.**
 
@@ -1706,7 +1708,7 @@ Este canvas gestiona la creación y administración de suscripciones que vincula
 
 ![alt text](./assets/bounded/sus%20can.png)
 
-- Bounded context Monitoring
+- Bounded context Water Management 
 
 Este canvas administra la captura de datos de los sensores y la visualización en tiempo real del estado del agua. Asegura que residentes y proveedores accedan a métricas actualizadas y que las alertas críticas se emitan sin retrasos. Sus decisiones de negocio incluyen definir intervalos de actualización y enviar notificaciones cuando se superan umbrales de calidad o cantidad. El lenguaje ubicuo incluye “Lectura de sensor”, “Alerta de umbral” e “Historial de consumo”. Las métricas miden precisión de lecturas y latencia de alertas, mientras que las preguntas abiertas tratan sobre protocolos de conectividad y manejo de fallos de sensores.
 
@@ -1751,7 +1753,7 @@ En este diagrama se visualiza las relaciones clave entre los bounded contexts de
 
 
 
-![Context Mapping](./assets/bounded/Captura%20de%20pantalla%202025-09-20%20185751.png)
+![Context Mapping](./assets/bounded/acl.png)
 
 
 ### 4.3. Software Architecture.
@@ -1776,7 +1778,7 @@ El Backend API (Spring Boot) expone servicios REST y conecta con la base de dato
 
 Además, el módulo de Chatbot emplea un servicio externo de NLP para asistir a los residentes en sus consultas y escalar incidencias al contexto de Solicitudes cuando sea necesario. Las operaciones de pago se realizan mediante la integración con Mercado Pago, garantizando la gestión segura de transacciones.
 
-![alt text](<./assets/img/Software Architecture Container Level Diagrams-2.png>)
+![alt text](<./assets/img/TRABAJO emergentes.png>)
 #### 4.3.4. Software Architecture Deployment Diagrams.
 
 El diagrama de despliegue muestra cómo se distribuyen los distintos componentes de software en su entorno de ejecución. El sistema está compuesto por una aplicación web desarrollada con Angular y una aplicación móvil desarrollada con Flutter, ambas desplegadas sobre Firebase. Estas aplicaciones se comunican mediante JSON/HTTPS con una API REST construida con Spring Boot (Java), que encapsula toda la lógica de negocio organizada por contextos delimitados. La API, a su vez, realiza operaciones de lectura y escritura sobre una base de datos MySQL, que almacena información de usuarios, suscripciones, sensores, alertas y registros administrativos. Además, el backend se integra con el sistema de pagos externo Mercado Pago, utilizado para procesar transacciones.
@@ -1789,9 +1791,9 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 
 ### 5.1.1 Domain Layer 
 
-### **Data Transfer Objects (DTOs)**
+### **Entity**
 
-  - DashboardSummaryDto:
+  - DashboardSummary:
 
 | Atributo | Tipo | Descripción |
 |----------|------|-------------|
@@ -1820,7 +1822,7 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 |------|----------------|
 | **Command Services** |   Procesamiento de comandos para configuración de dashboards personalizados |
 | **Query Services** | Orquestación de consultas complejas que involucran múltiples bounded contexts |
-| **Data Aggregation Services**  | Consolidación de datos provenientes de Profiles, Requests, Monitoring y Subscriptions |
+| **Data Aggregation Services**  | Consolidación de datos provenientes de Profiles, Requests, Water Management y Subscriptions |
 
 ### 5.1.4 Infrastructure Layer
 
@@ -1836,7 +1838,7 @@ El diagrama de despliegue muestra cómo se distribuyen los distintos componentes
 
 El diagrama de componentes del bounded context Analytics muestra cómo la aplicación web y móvil se conecta con el DashboardController que expone los endpoints REST necesarios para gestionar las consultas de métricas y resúmenes del dashboard. El controlador delega su lógica al DashboardServiceImpl, el cual implementa la interfaz DashboardQueryService y se encarga de procesar operaciones de agregación y cálculo de métricas como totales de proveedores, residentes, suscripciones activas e ingresos. A su vez, el servicio interactúa con Context Facades (ProfileContextFacade y SubscriptionContextFacade) que implementan el patrón Anti-Corruption Layer para acceder de forma controlada a los datos de otros bounded contexts. El servicio genera instancias de la entidad DashboardSummary que encapsula todas las métricas calculadas para su posterior serialización y envío al cliente. Este patrón de consulta cruzada permite al bounded context Analytics actuar como un read model agregado sin duplicar datos, manteniendo la consistencia y separación de responsabilidades entre bounded contexts.
 
-![alt text](<./assets/CAPITULO5/Analitys/structurizr-101610-AnalyticsComponentDiagram.png>)
+![alt text](<./assets/CAPITULO5/Analitys/structurizr-101610-AnalyticsComponentDiagram3213.png>)
 
 ### 5.1.6 Bounded Context Software Architecture Code Level Diagrams
 #### 5.1.6.1 Bounded Context Domain Layer Class Diagrams
@@ -1852,7 +1854,7 @@ El diagrama de base de datos del bounded context Analytics muestra la estructura
 ![alt text](<./assets/CAPITULO5/Analitys/Untitled diagram _ Mermaid Chart-2025-10-03-163011.png>)
 
 ---
-### 5.2 Health Management Bounded Context
+### 5.2 Water Management Bounded Context
 
 ### 5.2.1 Domain Layer
 
@@ -1934,7 +1936,7 @@ El diagrama de base de datos del bounded context Analytics muestra la estructura
 #### **Anti-Corruption Layer (ACL)**
 | Facade | Responsabilidad |
 |---------|----------------|
-| `MonitoringContextFacade` | Exposición controlada de información de dispositivos y eventos para otros contextos |
+| `WaterManagementContextFacade` | Exposición controlada de información de dispositivos y eventos para otros contextos |
 
 ### 5.2.3 Application Layer
 
@@ -1967,20 +1969,20 @@ El diagrama de base de datos del bounded context Analytics muestra la estructura
 
 ### 5.2.5 Bounded Context Software Architecture Component Level Diagrams
 
-El diagrama de componentes del bounded context Monitoring muestra cómo los controladores REST (DeviceController, EventController) gestionan la interacción entre los usuarios y el sistema para el monitoreo de dispositivos y eventos IoT. Los controladores delegan la lógica a los servicios de aplicación (DeviceCommandServiceImpl, EventCommandServiceImpl, DeviceQueryServiceImpl, EventQueryServiceImpl), que implementan los contratos definidos en el dominio. Los servicios de dominio gestionan los agregados Device y Event, así como los comandos y queries asociados.
+El diagrama de componentes del bounded context Water Management muestra cómo los controladores REST (DeviceController, EventController) gestionan la interacción entre los usuarios y el sistema para el monitoreo de dispositivos y eventos IoT. Los controladores delegan la lógica a los servicios de aplicación (DeviceCommandServiceImpl, EventCommandServiceImpl, DeviceQueryServiceImpl, EventQueryServiceImpl), que implementan los contratos definidos en el dominio. Los servicios de dominio gestionan los agregados Device y Event, así como los comandos y queries asociados.
 
-![alt text](<./assets/CAPITULO5/monitoringh/structurizr-101610-MonitoringComponentDiagram.png>)
+![alt text](<./assets/CAPITULO5/monitoringh/structurizr-101610-MonitoringComponentDiagram333.png>)
 
 ### 5.2.6 Bounded Context Software Architecture Code Level Diagrams
 #### 5.2.6.1 Bounded Context Domain Layer Class Diagrams
 
-El diagrama de clases del Domain Layer del bounded context Monitoring ilustra la estructura y relaciones entre los principales agregados (Device, Event), los servicios de dominio y los comandos/queries. Los servicios de comando y consulta definen los contratos para la gestión de dispositivos y eventos, mientras que los agregados encapsulan la lógica de negocio y las reglas de validación. Los comandos permiten la creación y actualización de entidades, y los queries facilitan la obtención de información específica. Este diseño promueve la claridad y la extensibilidad, permitiendo agregar nuevas funcionalidades de monitoreo sin afectar la arquitectura base.
+El diagrama de clases del Domain Layer del bounded context Water Management ilustra la estructura y relaciones entre los principales agregados (Device, Event), los servicios de dominio y los comandos/queries. Los servicios de comando y consulta definen los contratos para la gestión de dispositivos y eventos, mientras que los agregados encapsulan la lógica de negocio y las reglas de validación. Los comandos permiten la creación y actualización de entidades, y los queries facilitan la obtención de información específica. Este diseño promueve la claridad y la extensibilidad, permitiendo agregar nuevas funcionalidades de monitoreo sin afectar la arquitectura base.
 
 ![alt text](<./assets/CAPITULO5/monitoringh/nLXTRzfA47s_lyAF849-m5M4GZxk5LAaAYJjQ-NO0xMqzjBTDIfgcz_UOLSEn_RWsY8jFBGmPpxEdfbnlRssBZQkpDK_4NyI5LiRtT4sIoZwpgRmkRgQhzU6rh6ZQAcrcytUeEc3BjPHbXuCJyvaR7Ax3RMCNCoLjcLEoIOcsxXC5ut4XcoMKk4MAG99hEwOo.png>)
 
 #### 5.2.6.2 Bounded Context Database Design Diagram
 
-El diagrama de base de datos del bounded context Monitoring representa la estructura de persistencia para los dispositivos y eventos monitoreados. Incluye las tablas principales para Device y Event, así como las relaciones entre ellas y con otras entidades relevantes. La base de datos almacena información histórica y actual de los dispositivos IoT, permitiendo consultas eficientes y la trazabilidad de los eventos generados por los sensores. La integración con el broker externo se realiza a nivel de infraestructura, permitiendo la ingesta y procesamiento de datos en tiempo real, lo que es fundamental para la operación continua y la respuesta rápida ante situaciones críticas en el sistema.
+El diagrama de base de datos del bounded context Water Management representa la estructura de persistencia para los dispositivos y eventos monitoreados. Incluye las tablas principales para Device y Event, así como las relaciones entre ellas y con otras entidades relevantes. La base de datos almacena información histórica y actual de los dispositivos IoT, permitiendo consultas eficientes y la trazabilidad de los eventos generados por los sensores. La integración con el broker externo se realiza a nivel de infraestructura, permitiendo la ingesta y procesamiento de datos en tiempo real, lo que es fundamental para la operación continua y la respuesta rápida ante situaciones críticas en el sistema.
 
 ![alt text](<./assets/CAPITULO5/monitoringh/Untitled diagram _ Mermaid Chart-2025-10-03-170913.png>)
 ---
@@ -2138,7 +2140,7 @@ El diagrama de base de datos del bounded context Monitoring representa la estruc
 El diagrama de componentes muestra cómo los controladores REST (ProfilesController, ProviderController, ResidentController) exponen los endpoints para la gestión de perfiles, proveedores y residentes. Cada controlador delega la lógica a servicios de aplicación que implementan los contratos definidos en el dominio. Los servicios gestionan los agregados Profile, Provider y Resident, así como los comandos y queries asociados. La infraestructura incluye repositorios y la integración con servicios externos como validación de documentos, geolocalización y notificaciones. Los componentes ACL (Context Facades) permiten exponer información controlada a otros bounded contexts, asegurando el aislamiento y la integridad de los datos. Este diseño facilita la extensibilidad y la integración segura entre módulos, manteniendo la consistencia y la separación de responsabilidades.
 
 
-![alt text](<./assets/CAPITULO5/Profile/structurizr-101610-ProfilesComponentDiagram.png>)
+![alt text](<./assets/CAPITULO5/Profile/structurizr-101610-ProfilesComponentDiagram222.png>)
 
 ### 5.3.6 Bounded Context Software Architecture Code Level Diagrams
 #### 5.3.6.1 Bounded Context Domain Layer Class Diagrams
@@ -2279,7 +2281,7 @@ El diagrama de base de datos representa la estructura de persistencia para los p
 El diagrama de componentes muestra cómo los controladores REST (WaterSupplyRequestController, IssueReportController) exponen los endpoints para la gestión de solicitudes de agua y reportes de problemas. Cada controlador delega la lógica a servicios de aplicación que implementan los contratos definidos en el dominio. Los servicios gestionan los agregados WaterSupplyRequest e IssueReport, así como los comandos y queries asociados. Los componentes ACL (Context Facades) permiten exponer información controlada a otros bounded contexts, asegurando el aislamiento y la integridad de los datos. Este diseño facilita la extensibilidad y la integración segura entre módulos, manteniendo la consistencia y la separación de responsabilidades.
 
 
-![alt text](<./assets/CAPITULO5/request/structurizr-101610-RequestsComponentDiagram.png>)
+![alt text](<./assets/CAPITULO5/request/structurizr-101610-RequestsComponentDiagramsds.png>)
 
 ### 5.4.6 Bounded Context Software Architecture Code Level Diagrams
 #### 5.4.6.1 Bounded Context Domain Layer Class Diagrams
@@ -2391,7 +2393,7 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 
 El diagrama de componentes muestra cómo el controlador REST (SubscriptionController) expone los endpoints para la gestión de suscripciones y operaciones relacionadas. El controlador delega la lógica a servicios de aplicación que implementan los contratos definidos en el dominio. Los servicios gestionan el agregado Subscription y los comandos y queries asociados. La infraestructura incluye repositorios y la integración con servicios externos para notificaciones y validaciones. Los componentes ACL (Context Facades) permiten exponer información controlada a otros bounded contexts, asegurando el aislamiento y la integridad de los datos. Este diseño facilita la extensibilidad y la integración segura entre módulos, manteniendo la consistencia y la separación de responsabilidades.
 
-![alt text](<./assets/CAPITULO5/suscripcion/structurizr-101610-SubscriptionsComponentDiagram.png>)
+![alt text](<./assets/CAPITULO5/suscripcion/structurizr-101610-SubscriptionsComponentDiagram222.png>)
 ### 5.5.6 Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.5.6.1 Bounded Context Domain Layer Class Diagrams
@@ -2565,9 +2567,9 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 ### 5.6.5 Bounded Context Software Architecture Component Level Diagrams
 
 
-El diagrama de componentes muestra cómo los controladores REST (ChatController, ConversationController) permiten la interacción entre el usuario y el asistente conversacional. Los mensajes y comandos se procesan en los servicios de aplicación y dominio, que orquestan el flujo conversacional, el reconocimiento de intenciones y la generación de respuestas. La infraestructura integra el servicio externo de IA (Hugging Face o OpenAI) para el procesamiento de lenguaje natural y el mapeo de comandos hacia otros bounded contexts (Requests, Monitoring, Subscriptions). El diseño asegura la extensibilidad y la integración segura, permitiendo que el chatbot actúe como interfaz accesible para consultar datos, solicitar agua o reportar problemas.
+El diagrama de componentes muestra cómo los controladores REST (ChatController, ConversationController) permiten la interacción entre el usuario y el asistente conversacional. Los mensajes y comandos se procesan en los servicios de aplicación y dominio, que orquestan el flujo conversacional, el reconocimiento de intenciones y la generación de respuestas. La infraestructura integra el servicio externo de IA (Hugging Face o OpenAI) para el procesamiento de lenguaje natural y el mapeo de comandos hacia otros bounded contexts (Requests, Water Management, Subscriptions). El diseño asegura la extensibilidad y la integración segura, permitiendo que el chatbot actúe como interfaz accesible para consultar datos, solicitar agua o reportar problemas.
 
-![alt text](<./assets/CAPITULO5/chat/structurizr-101610-Components.png>)
+![alt text](<./assets/CAPITULO5/chat/prueba.png>)
 
 ### 5.6.6 Bounded Context Software Architecture Code Level Diagrams
 
@@ -2784,9 +2786,9 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 
 ### 5.7.5 Bounded Context Software Architecture Component Level Diagrams
 
-El diagrama de componentes muestra cómo los controladores REST (PredictionController, ModelController) permiten la interacción entre el usuario y el módulo de análisis predictivo. Los servicios de aplicación gestionan el flujo de predicción, entrenamiento y despliegue de modelos, integrando el servicio externo de Machine Learning (TensorFlow Platform) para el procesamiento y entrenamiento de modelos. La infraestructura conecta con los bounded contexts de Monitoring, Requests, Analytics y Subscriptions para obtener datos históricos y enviar resultados de predicción. El diseño asegura la extensibilidad y la integración segura, permitiendo que el módulo de análisis predictivo anticipe la demanda de agua, detecte patrones críticos y genere alertas o solicitudes automáticas.
+El diagrama de componentes muestra cómo los controladores REST (PredictionController, ModelController) permiten la interacción entre el usuario y el módulo de análisis predictivo. Los servicios de aplicación gestionan el flujo de predicción, entrenamiento y despliegue de modelos, integrando el servicio externo de Machine Learning (TensorFlow Platform) para el procesamiento y entrenamiento de modelos. La infraestructura conecta con los bounded contexts de Water Management, Requests, Analytics y Subscriptions para obtener datos históricos y enviar resultados de predicción. El diseño asegura la extensibilidad y la integración segura, permitiendo que el módulo de análisis predictivo anticipe la demanda de agua, detecte patrones críticos y genere alertas o solicitudes automáticas.
 
-![alt text](<./assets/CAPITULO5/Predictive Analytics/structurizr-101610-Components.png>)
+![alt text](<./assets/CAPITULO5/Predictive Analytics/structurizr-101610-Components66.png>)
 
 ### 5.7.6 Bounded Context Software Architecture Code Level Diagrams
 #### 5.7.6.1 Bounded Context Domain Layer Class Diagrams
@@ -3064,6 +3066,9 @@ Application mobile mockup
 ![alt text](<./assets/img/mockupmobile3.png>)<br>
 ![alt text](<./assets/img/mockupmobile4.png>)<br>
 ![alt text](<./assets/img/mockupmobile5.png>)<br>
+![alt text](<./assets/img/chatmock.png>)<br>
+![alt text](<./assets/img/chatmenssa.png>)<br>
+
 
 ### 5.4.4 Applications User Flow Diagrams
 Esta sección presenta la propuesta de User Flows. Se considera un User Flow para cada User goal, considerando los User Persona para cada aplicación que forma parte del alcance. Estos User Flows deben ser consistentes con los Wireflows de los cuales se derivan.
