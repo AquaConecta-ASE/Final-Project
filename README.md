@@ -58,6 +58,7 @@
 | :-: | :-: | :-: |:---------------------------------------------------------------------------------------------------:|
 |TB1|20/09/2025| Cortez Quezada Joaquin Antonio, Oliveira Paucar Mauricio, Periche Quiroga Piero, Hidalgo Lopez Mathias Adriano | Capítulos dentro del desarrollo del  proyecto: <br>• Capitulo I: Introducción  <br>• Capitulo II: Requirements  Elicitation & Analysis <br>• Capitulo III: Requirements Specification <br>• Capítulo IV: Product Architecture Design | 
 TP|11/10/2025| Cortez Quezada Joaquin Antonio, Oliveira Paucar Mauricio, Periche Quiroga Piero, Hidalgo Lopez Mathias Adriano | Capítulos dentro del desarrollo del  proyecto: <br>• Capitulo I: Introducción  <br>• Capitulo II: Requirements  Elicitation & Analysis <br>• Capitulo III: Requirements Specification <br>• Capítulo IV: Product Architecture Design• Capitulo V: Tactical-Level Software Design <br>• Capitulo VI: Solution UX Design <br> |
+TB2|16/11/2025| Cortez Quezada Joaquin Antonio, Oliveira Paucar Mauricio, Periche Quiroga Piero, Hidalgo Lopez Mathias Adriano | Capítulos dentro del desarrollo del  proyecto: <br>• Capitulo I: Introducción  <br>• Capitulo II: Requirements  Elicitation & Analysis <br>• Capitulo III: Requirements Specification <br>• Capítulo IV: Product Architecture Design• Capitulo V: Tactical-Level Software Design <br>• Capitulo VI: Solution UX Design <br>• Capitulo VII: Product Implementation, Validation & Deployment <br> |
 
 
 </div>
@@ -137,7 +138,48 @@ TP|11/10/2025| Cortez Quezada Joaquin Antonio, Oliveira Paucar Mauricio, Periche
 [4.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-container-level-diagrams)      
 [4.3.3. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)   
 [4.3.4 Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)  
-         
+
+[Capitulo V: Tactical-Level Software Design](#capitulo-v-tactical-level-software-design)
+
+[5.1. Analytics Bounded Context](#51-analytics-bounded-context)
+[5.2. Health Management Bounded Context](#52-health-management-bounded-context)
+[5.3. User & Profile Bounded Context](#53-user--profile-bounded-context)
+[5.4. Requests Bounded Context](#54-requests-bounded-context)
+[5.5. Subscriptions Bounded Context](#55-subscriptions-bounded-context)
+[5.6. Conversational Support Bounded Context](#56-conversational-support-bounded-context)
+[5.7. Predictive Analytics Bounded Context](#57-predictive-analytics-bounded-context)
+
+[Capitulo VI: Solution UX Design](#capitulo-vi-solution-ux-design)
+
+[6.1. Style Guidelines](#61-style-guidelines)
+[6.2. Software Architecture](#62-software-architecture)
+[6.3. Landing Page UI Design](#63-landing-page-ui-design)
+[6.4. Applications UX/UI Design.](#64-applications-uxui-design)
+[6.5. Applications Prototyping.](#65-applications-prototyping)
+
+[Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation--deployment)
+
+[7.1. Software Configuration Management.](#71-software-configuration-management)
+[7.1.1. Software Development Environment Configuration.](#711-software-development-environment-configuration)
+[7.1.2. Source Code Management.](#712-source-code-management)
+[7.1.3. Source Code Style Guide & Conventions.](#713-source-code-style-guide--conventions)
+[7.1.4. Software Deployment Configuration.](#714-software-deployment-configuration)
+[7.2. Solution Implementation.](#72-solution-implementation)
+[7.2.1. Sprint 1](#721-sprint-1)
+[7.2.1.1. Sprint Planning 1.](#7211-sprint-planning-1)
+[7.2.1.2. Sprint Backlog 1.](#7212-sprint-backlog-1)
+[7.2.1.3. Development Evidence for Sprint Review.](#7213-development-evidence-for-sprint-review)
+[7.2.1.4. Testing Suite Evidence for Sprint Review.](#7214-testing-suite-evidence-for-sprint-review)
+[7.2.1.5. Execution Evidence for Sprint Review.](#7215-execution-evidence-for-sprint-review)
+[7.2.1.6. Services Documentation Evidence for Sprint Review.](#7216-services-documentation-evidence-for-sprint-review)
+[7.2.1.7. Software Deployment Evidence for Sprint Review.](#7217-software-deployment-evidence-for-sprint-review)
+[7.2.1.8. Team Collaboration Insights during Sprint.](#7218-team-collaboration-insights-during-sprint)
+[7.3. Validation Interviews.](#73-validation-interviews)
+[7.3.1. Diseño de Entrevistas.](#731-diseño-de-entrevistas)
+[7.3.2. Registro de Entrevistas.](#732-registro-de-entrevistas)
+[7.3.3. Evaluaciones según heurísticas.](#733-evaluaciones-según-heurísticas)
+[7.4. Video About-the-Product.](#74-video-about-the-product)
+
 
 [Conclusiones](#conclusiones)
 
@@ -162,8 +204,8 @@ EAC –Student Outcome 3.
 
 | **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
 |-------------------------|-------------------------|------------------|
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Joaquin Cortez Quezada** <br>**TB1:**<br> En el desarrollo de la TB1, realicé una profunda investigación sobre el problema a solucionar, considerando el aspecto social y económico, además, identifiqué posibles bounded context con el proceso de EventStorming exponiendo los procesos de forma clara y entendible estableciendo el lenguaje ubicuo en cada uno.<br><br>**TP**<br>Durante el TP, expuse el diseño táctico y la arquitectura del sistema AquaConecta, explicando las funciones de cada bounded context y la integración de los sistemas emergentes. Además, presenté el diseño UX/UI, destacando cómo la solución mejora la experiencia del usuario y la eficiencia operativa.<br><br>**Oliveira Paucar, Mauricio** <br>**TB1:**<br> Durante el desarrollo del proyecto, elaboré el modelado C4 de la solución, estructurando los diferentes niveles de abstracción necesarios para comprender el sistema. <br><br>**TP**<br>Para esta entrega se agregaron los nuevos puntos solicitados para el capitulo 5 y 6 mientras se mejoro toda la primera entrega con la retroalimentacion recibida por el docente. Este nuevo avance me permitió comunicar de manera clara y objetiva tanto la visión general como los detalles técnicos, adaptando la explicación para la comprensión de mis compañeros del equipo y docente.<br><br>**Piero Periche Quiroga** <br>**TB1:**<br> En el desarrollo de la tb1, me encargue del analisis del proyecto, con el desarrollo del c4 model y el proceso de EventStorming, mostrando y explicando de forma clara y precisa los procesos. <br><br>**TP**<br>.<br><br>**Hidalgo Lopez Mathias Adriano** <br>**TB1:**<br> Durante la fase de investigación, conduje entrevistas con dos grupos distintos: residentes de las comunidades afectadas y proveedores del servicio de agua. Para lograr una comunicación efectiva, adapté mi lenguaje y enfoque: con los residentes, utilicé un tono empático para comprender sus necesidades diarias, mientras que con los proveedores, empleé un lenguaje más técnico para discutir los desafíos operativos. Además, expuse oralmente al equipo las decisiones de diseño arquitectónico (como la elección de un monolito modular y el uso de un Edge Node), traduciendo conceptos técnicos complejos en justificaciones claras y comprensibles para todos.<br>**TP**<br>.<br> | **TB1:**<br>La comunicación oral permitió presentar con claridad la problemática social del acceso al agua y sus causas, así como los resultados del EventStorming y los bounded contexts. Esto facilitó que los hallazgos y decisiones arquitectónicas fueran entendidos por públicos de distintas especialidades y niveles.<br><br><BR>**TP**<BR>La comunicación oral permitió presentar de manera clara y precisa los avances técnicos y de diseño, demostrando dominio sobre los aspectos arquitectónicos y de experiencia de usuario. Esto contribuyó a que los interlocutores comprendieran la coherencia entre la visión de negocio, la estructura del sistema y la solución tecnológica propuesta.<br><br>|
-| Comunica por escrito con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Joaquin Cortez Quezada** <br>**TB1:**<br> Participé en la elaboración de la documentación escrita del proyecto, estructurando de manera clara y objetiva los apartados técnicos y conceptuales. Redacté descripciones de historias de usuario, escenarios de calidad, bounded context canvas y el context mapping, empleando un lenguaje accesible tanto para compañeros de ingeniería como para un público no especializado. <br><br>**TP:**<br>Elaboré un documento técnico que describe la arquitectura táctica, los diagramas estructurales y el diseño UX/UI de AquaConecta, comunicando de forma clara y precisa las decisiones técnicas y visuales del proyecto a públicos especializados y no técnicos.<br><br>**Oliveira Paucar, Mauricio** <br>**TB1:**<br> En el marco del proyecto, desarrollé el modelado C4 de la solución, documentando de manera estructurada los distintos niveles de abstracción requeridos.  <br>**TP**<br>En la entrega del TP, se mejoro los puntos entregados en la TB1 y se agrego el nuevo contenido técnico solicitado para el capitulo 5 y 6. Este trabajo escrito permitió presentar con objetividad tanto la visión general como los detalles técnicos, de modo que mis compañeros pudieran comprender la propuesta desde una perspectiva de ingeniería, y al mismo tiempo el docente evaluador tuviera claridad sobre la coherencia y justificación del diseño planteado. .<br><br><br>**Piero Periche Quiroga** <br>**TB1:**<br> En el proyecto desarrollé y aporte en el modelado c4 model de la solucion, documentando de forma clara los niveles de arquitectura requeridos. Esto permitio dejar en claro los detalles de arquitectura, para que asi la solucion tenga una vista clara desde la vision de ingeniería.<br>**TP**<br>.<br> <br><br>**Hidaldo Lopez Mathias Adriano** <br>**TB1:**<br> Participé activamente en la redacción de la documentación del proyecto, especialmente en las secciones de diseño de software (4.1.3, 4.1.4 y 4.1.5). Mi objetivo fue estructurar estas secciones de forma clara y objetiva, explicando decisiones complejas como la arquitectura de monolito modular y el Edge Node, detallando no solo los aspectos técnicos, sino también sus justificaciones y las alternativas consideradas. Esto asegura que la información sea comprensible tanto para un público técnico (compañeros y profesor) como para una audiencia no especializada que necesite entender el porqué del diseño.<br>**TP**<br>.<br>  | **TB1:**<br>La comunicación escrita permitió documentar de forma objetiva la problemática identificada, sus causas y las soluciones propuestas mediante historias de usuario, escenarios y canvases. Esto aseguró que los resultados fueran comprensibles y útiles para diferentes públicos dentro del proyecto.<br><br> **TP:**<BR> La comunicación escrita permitió documentar rigurosamente los aspectos técnicos y de diseño del sistema, asegurando que las decisiones arquitectónicas, los flujos de usuario y los prototipos fueran comprensibles y trazables. Esto consolidó la claridad y consistencia del proyecto, garantizando su valor como documento técnico y herramienta de comunicación profesional.|
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Joaquin Cortez Quezada** <br>**TB1:**<br> En el desarrollo de la TB1, realicé una profunda investigación sobre el problema a solucionar, considerando el aspecto social y económico, además, identifiqué posibles bounded context con el proceso de EventStorming exponiendo los procesos de forma clara y entendible estableciendo el lenguaje ubicuo en cada uno.<br><br>**TP**<br>Durante el TP, expuse el diseño táctico y la arquitectura del sistema AquaConecta, explicando las funciones de cada bounded context y la integración de los sistemas emergentes. Además, presenté el diseño UX/UI, destacando cómo la solución mejora la experiencia del usuario y la eficiencia operativa.<br><br>**Oliveira Paucar, Mauricio** <br>**TB1:**<br> Durante el desarrollo del proyecto, elaboré el modelado C4 de la solución, estructurando los diferentes niveles de abstracción necesarios para comprender el sistema. <br><br>**TP**<br>Para esta entrega se agregaron los nuevos puntos solicitados para el capitulo 5 y 6 mientras se mejoro toda la primera entrega con la retroalimentacion recibida por el docente. Este nuevo avance me permitió comunicar de manera clara y objetiva tanto la visión general como los detalles técnicos, adaptando la explicación para la comprensión de mis compañeros del equipo y docente.<br><br>**Piero Periche Quiroga** <br>**TB1:**<br> En el desarrollo de la tb1, me encargue del analisis del proyecto, con el desarrollo del c4 model y el proceso de EventStorming, mostrando y explicando de forma clara y precisa los procesos. <br><br>**TP**<br>.<br><br>**Hidalgo Lopez Mathias Adriano** <br>**TB1:**<br> Durante la fase de investigación, conduje entrevistas con dos grupos distintos: residentes de las comunidades afectadas y proveedores del servicio de agua. Para lograr una comunicación efectiva, adapté mi lenguaje y enfoque: con los residentes, utilicé un tono empático para comprender sus necesidades diarias, mientras que con los proveedores, empleé un lenguaje más técnico para discutir los desafíos operativos. Además, expuse oralmente al equipo las decisiones de diseño arquitectónico (como la elección de un monolito modular y el uso de un Edge Node), traduciendo conceptos técnicos complejos en justificaciones claras y comprensibles para todos.<br>**TP**<br>Fui responsable de elaborar y estructurar la presentación oral del proyecto (PPT). En esta, sinteticé los hallazgos clave y las decisiones de diseño, especialmente las relacionadas con el Capítulo 6 de UX/UI, para exponerlas de manera clara y objetiva ante el docente y compañeros. Además, comuniqué verbalmente al equipo las correcciones necesarias en diversas secciones del informe, facilitando la cohesión y la mejora continua del trabajo presentado.<br> | **TB1:**<br>La comunicación oral permitió presentar con claridad la problemática social del acceso al agua y sus causas, así como los resultados del EventStorming y los bounded contexts. Esto facilitó que los hallazgos y decisiones arquitectónicas fueran entendidos por públicos de distintas especialidades y niveles.<br><br><BR>**TP**<BR>La comunicación oral permitió presentar de manera clara y precisa los avances técnicos y de diseño, demostrando dominio sobre los aspectos arquitectónicos y de experiencia de usuario. Esto contribuyó a que los interlocutores comprendieran la coherencia entre la visión de negocio, la estructura del sistema y la solución tecnológica propuesta.<br><br>|
+| Comunica por escrito con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Joaquin Cortez Quezada** <br>**TB1:**<br> Participé en la elaboración de la documentación escrita del proyecto, estructurando de manera clara y objetiva los apartados técnicos y conceptuales. Redacté descripciones de historias de usuario, escenarios de calidad, bounded context canvas y el context mapping, empleando un lenguaje accesible tanto para compañeros de ingeniería como para un público no especializado. <br><br>**TP:**<br>Elaboré un documento técnico que describe la arquitectura táctica, los diagramas estructurales y el diseño UX/UI de AquaConecta, comunicando de forma clara y precisa las decisiones técnicas y visuales del proyecto a públicos especializados y no técnicos.<br><br>**Oliveira Paucar, Mauricio** <br>**TB1:**<br> En el marco del proyecto, desarrollé el modelado C4 de la solución, documentando de manera estructurada los distintos niveles de abstracción requeridos.  <br>**TP**<br>En la entrega del TP, se mejoro los puntos entregados en la TB1 y se agrego el nuevo contenido técnico solicitado para el capitulo 5 y 6. Este trabajo escrito permitió presentar con objetividad tanto la visión general como los detalles técnicos, de modo que mis compañeros pudieran comprender la propuesta desde una perspectiva de ingeniería, y al mismo tiempo el docente evaluador tuviera claridad sobre la coherencia y justificación del diseño planteado. .<br><br><br>**Piero Periche Quiroga** <br>**TB1:**<br> En el proyecto desarrollé y aporte en el modelado c4 model de la solucion, documentando de forma clara los niveles de arquitectura requeridos. Esto permitio dejar en claro los detalles de arquitectura, para que asi la solucion tenga una vista clara desde la vision de ingeniería.<br>**TP**<br>.<br> <br><br>**Hidaldo Lopez Mathias Adriano** <br>**TB1:**<br> Participé activamente en la redacción de la documentación del proyecto, especialmente en las secciones de diseño de software (4.1.3, 4.1.4 y 4.1.5). Mi objetivo fue estructurar estas secciones de forma clara y objetiva, explicando decisiones complejas como la arquitectura de monolito modular y el Edge Node, detallando no solo los aspectos técnicos, sino también sus justificaciones y las alternativas consideradas. Esto asegura que la información sea comprensible tanto para un público técnico (compañeros y profesor) como para una audiencia no especializada que necesite entender el porqué del diseño.<br>**TP**<br>Me encargué de la redacción completa del Capítulo 6: Solution UX Design, donde documenté de forma escrita y objetiva las directrices de estilo, los wireframes y los mockups de la aplicación. Mi objetivo fue asegurar que el diseño de la experiencia de usuario fuera comprensible para un público técnico y no especializado. Adicionalmente, realicé una revisión integral del documento, aplicando correcciones de redacción, formato y coherencia para garantizar que la comunicación escrita del informe final fuera de alta calidad.<br>  | **TB1:**<br>La comunicación escrita permitió documentar de forma objetiva la problemática identificada, sus causas y las soluciones propuestas mediante historias de usuario, escenarios y canvases. Esto aseguró que los resultados fueran comprensibles y útiles para diferentes públicos dentro del proyecto.<br><br> **TP:**<BR> La comunicación escrita permitió documentar rigurosamente los aspectos técnicos y de diseño del sistema, asegurando que las decisiones arquitectónicas, los flujos de usuario y los prototipos fueran comprensibles y trazables. Esto consolidó la claridad y consistencia del proyecto, garantizando su valor como documento técnico y herramienta de comunicación profesional.|
 
 
 # Capítulo I: Introducción
@@ -3065,7 +3107,7 @@ Application mobile mockup
 ![alt text](<./assets/img/mockupmobile4.png>)<br>
 ![alt text](<./assets/img/mockupmobile5.png>)<br>
 
-### 5.4.4 Applications User Flow Diagrams
+### 6.4.4 Applications User Flow Diagrams
 Esta sección presenta la propuesta de User Flows. Se considera un User Flow para cada User goal, considerando los User Persona para cada aplicación que forma parte del alcance. Estos User Flows deben ser consistentes con los Wireflows de los cuales se derivan.
 
 En este caso los user flow que definimos serian:
@@ -3115,6 +3157,213 @@ Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con sim
 <br>
 
 Link del Figma: https://www.figma.com/design/zz3FlEYCsPIEo1Ah1tWQpx/AquaConecta-ASE?node-id=34-2&t=XN4NAi451gnm4mcn-1
+
+## Capítulo VII: Product Implementation, Validation & Deployment
+
+### 7.1. Software Configuration Management.
+
+#### 7.1.1. Software Development Environment Configuration.
+
+Figma: https://www.figma.com/
+
+Es una herramienta visual, donde diseñamos el prototipo de la pagina web. Se usó para crear los wireframes, mock-ups, asi como los desktop and mobile application del proyecto.
+
+LucidChart: https://lucid.app/
+
+Es una plataforma, la cual tiene opciones que nos ayudaron en la creación de diagramas, mapas y flujos usando plantillas y tableros. Fue usado para la creación del event storming
+
+PlantText: https://www.planttext.com/
+
+Es una plataforma que permite interpretar código uml y diagramarlo. Fue usado para la creación de los diagramas de clase.
+
+Software Development: Para el desarrollo de la landing page se utilizarón las tecnologías basicas del desarrollo web: HTML, CSS Y JS.
+
+Frontend Web Applications
+
+Para el desarrollo del Frontend de la aplicación web se utilizó Vue.Js junto con algunas librerias de material design como PrimeVue y PrimeFlex, además de Chart.Js para la generación de dashboards.
+
+Software Deployment
+
+Netlify: https://www.netlify.com/
+
+Es una plataforma en la cual hospedamos la lading page del proyecto, se integra con repositorios en Git.
+
+Vercel: https://vercel.com/
+
+Es una plataforma en la cual hospedamos la aplicación web.
+
+Software Documentation
+
+Vertabelo: https://vertabelo.com/
+
+Es una herramienta online la cual ayuda en el desarrollo y creacion de base de datos. Se usó para la base de datos del proyecto.
+
+Structurizr: https://www.structurizr.com/
+
+Esta plataforma permite el modelado de diagramas de arquitectura de software. Se usó para la creación de los diagramas C4
+
+
+#### 7.1.2. Source Code Management.
+
+Para la gestión y actualización del proyecto, se creó una organización via GitHub, en la cual se tuvo un control sobre los cambios a lo largo del ciclo de vida del proyect. Se organizo de la siguiente manera.
+
+Organization: https://github.com/AquaConecta-ASE
+
+Report repository: https://github.com/AquaConecta-ASE/Final-Project
+
+Backend repository: https://github.com/AquaConecta-ASE/Backend
+
+Frontend repository: https://github.com/AquaConecta-ASE/frontend
+
+Mobile repository: https://github.com/AquaConecta-ASE/mobile
+
+ML repository: https://github.com/AquaConecta-ASE/ML-Service
+
+Para controlar de manera eficiente el flujo de trabajo se utilizó GitFlow, donde contamos con una rama principal main que es donde se encuentra la versión más estable y lista para pasar a producción del proyecto.
+
+Ramas auxiliares:
+
+
+feature: Son las ramas donde se desarrollan las funcionalidades del proyecto. Luego de completarlas, se fusionan con la rama develop.
+
+Commit Conventions
+
+Para el formato de los commits se siguió la estructura de Conventional Commits 1.0.0, la cual tiene la siguiente estructura:
+
+< type > [optional scope]: < description > Donde:
+
+type: Es el tipo de cambio. Tenemos valores como: fix, feat, build, chore, ci, docs, style, refactor, perf, test, etc. scope: Indica donde se realizó el commit (opcional). description: Menciona las actualizaciones del codigo.
+
+#### 7.1.3. Source Code Style Guide & Conventions.
+
+Durante el desarrollo en HTML y CSS, se optó por seguir la **Guía de Estilo de Google para HTML/CSS**. Algunos principios clave incluyen:
+
+- Iniciar el documento con la declaración del tipo de documento y etiquetas meta adecuadas.
+- Incluir la etiqueta `<title>` dentro de la sección `<head>`.
+- Aplicar una **sangría de dos espacios** de manera consistente.
+- Usar **letras minúsculas** para elementos HTML, atributos, valores, propiedades y selectores CSS.
+- Encerrar los atributos HTML entre **comillas**.
+- Asegurarse de que todos los elementos tengan su **etiqueta de cierre correspondiente**.
+- Evitar líneas de código demasiado extensas.
+- Las imágenes deben tener definidos su `width`, `height` y un atributo `alt` descriptivo.
+
+Para JavaScript, se sigue la **guía de estilo de Google para C#**, que establece lo siguiente:
+
+- Todas las instrucciones deben finalizar con un **punto y coma (`;`)**.
+- Los nombres de variables y funciones deben escribirse en **UpperCamelCase**.
+- Los valores de tipo cadena deben colocarse entre **comillas simples**.
+
+En cuanto a las pruebas de aceptación escritas en **Gherkin**, se aplican las **convenciones para especificaciones legibles**, haciendo uso de palabras clave como `Dado`, `Cuando`, `Entonces` y `Y`, manteniendo sangría adecuada y comentarios bien organizados.
+
+Para el desarrollo en **C#**, se respetan las **convenciones de nomenclatura de Microsoft**, las cuales contemplan:
+
+- Reglas para nombrar carpetas, clases y métodos.
+- Organización del código con una sangría clara y consistente.
+- División de líneas largas para facilitar la lectura.
+- Coincidencia entre el nombre del archivo y la clase que contiene.
+- Uso de un **salto de línea** tras cada declaración.
+
+En **C++**, se adoptan las pautas de la **Google C++ Style Guide**, donde:
+
+- Se utiliza **CamelCase** para nombres de clases.
+- Se emplea **snake_case** para variables, funciones y archivos.
+- Se priorizan nombres descriptivos, evitando abreviaturas innecesarias.
+- La sangría debe ser consistente, comúnmente de dos espacios.
+
+Finalmente, para el lenguaje **Dart**, se siguen las normas de la **Effective Dart Style Guide**. Estas incluyen:
+
+- Uso de **lowerCamelCase** para variables, funciones y parámetros.
+- Uso de **UpperCamelCase** para clases, tipos y enumeraciones.
+- Los archivos deben nombrarse usando **snake_case**.
+- Es importante evitar líneas largas y mantener la consistencia en la sangría.
+
+#### 7.1.4. Software Deployment Configuration.
+
+Para el despliegue de la Landing Page y la Aplicación Web, se utiliza **GitHub Pages** y **Firebase Hosting** como servicios principales. 
+
+Durante las primeras fases del desarrollo, se emplea **json-server en local** para simular datos (mock) y validar funcionalidades. Esta configuración permite trabajar sin una base de datos real durante las pruebas iniciales. Una vez que se tenga una base de datos definitiva, esta configuración será reemplazada por una conexión real.
+
+### 7.2. Solution Implementation.
+
+#### 7.2.1. Sprint 1
+
+##### 7.2.1.1. Sprint Planning 1.
+
+
+##### 7.2.1.2. Sprint Backlog 1.
+
+
+##### 7.2.1.3. Development Evidence for Sprint Review.
+
+
+##### 7.2.1.4. Testing Suite Evidence for Sprint Review.
+
+
+##### 7.2.1.5. Execution Evidence for Sprint Review.
+
+
+##### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+
+
+##### 7.2.1.7. Software Deployment Evidence for Sprint Review.
+
+
+##### 7.2.1.8. Team Collaboration Insights during Sprint.
+
+
+
+### 7.3. Validation Interviews.
+
+#### 7.3.1. Diseño de Entrevistas.
+
+#### Preguntas Generales
+
+El propósito de estas preguntas es romper el hielo y confirmar el perfil del entrevistado.
+
+* ¿Cuál es su nombre?
+* ¿Qué edad tiene?
+* ¿A qué se dedica?
+* ¿En qué distrito o asentamiento humano vive/trabaja?
+* ¿Actualmente cómo se informa sobre el nivel o la calidad del agua en su tanque/cisterna?
+
+#### Preguntas Dirigidas a Proveedores
+
+El objetivo es validar el dashboard de gestión, la claridad de los datos agregados y la utilidad de las funciones de monitoreo.
+
+* *(Se muestra el Dashboard)* Al ver esta pantalla, ¿qué es lo primero que le llama la atención? ¿Entiende de un vistazo el estado general del servicio?
+* ¿Le parece clara la información sobre el nivel y la calidad del agua de cada residente?
+* Si viera una alerta de "Mala Calidad" en uno de sus residentes, ¿qué acción esperaría poder tomar desde esta plataforma?
+* La herramienta que anticipa qué residentes necesitarán agua pronto. ¿Le parece útil esta información para planificar sus rutas de reparto?
+* ¿Considera que faltan indicadores o datos clave que usted necesita en su día a día y que no estamos mostrando?
+* ¿Qué tan fácil o difícil le pareció navegar y encontrar la información que buscaba?
+* ¿Confiaría en los datos de esta plataforma para tomar decisiones operativas importantes?
+* ¿Qué funcionalidad le pareció la más valiosa?
+* ¿Qué es lo que menos le gustó o le pareció más confuso?
+
+#### Preguntas Dirigidas a Habitantes
+
+El objetivo es validar la facilidad de uso de la app móvil, la comprensión de los datos del sensor (nivel y calidad) y la utilidad de las alertas.
+
+* ¿Qué entiende al ver este gráfico/indicador? (Ej. mostrar el nivel de 53% o la calidad "Aceptable").
+* Sabiendo que tiene esta información en su celular, ¿se siente más tranquilo o mejor informado sobre el agua que usa?
+* ¿Considera que esta información le ayudaría a planificar mejor su consumo o sus tareas diarias?
+* Si le llegara una notificación como esta ("Nivel bajo" o "Agua no potable"), ¿qué haría? ¿Le parece útil recibir este tipo de alertas?
+* Si quisiera solicitar más agua a su proveedor, ¿cómo cree que lo haría usando la aplicación?
+* ¿Le pareció fácil de entender y usar la aplicación? (Escala de 1 a 5).
+* ¿Hay algo en la pantalla que no entienda o que le cause confusión?
+* ¿Con qué frecuencia cree que revisaría esta aplicación en una semana normal?
+* ¿Qué es lo que más le gustó de la aplicación?
+* ¿Hay algo que le gustaría cambiar, mejorar o agregar?
+
+#### 7.3.2. Registro de Entrevistas.
+
+
+#### 7.3.3. Evaluaciones según heurísticas.
+
+
+
+### 7.4. Video About-the-Product.
+
 
 ## Conclusiones
 ### Conclusiones – TP
