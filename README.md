@@ -163,9 +163,9 @@ TB2|16/11/2025| Cortez Quezada Joaquin Antonio, Oliveira Paucar Mauricio, Perich
 
 [6.3. Landing Page UI Design](#63-landing-page-ui-design)
 
-[6.4. Applications UX/UI Design.](#64-applications-uxui-design)
+[6.4. Applications UX/UI Design](#64-applications-uxui-design)
 
-[6.5. Applications Prototyping.](#65-applications-prototyping)
+[6.5. Applications Prototyping](#65-applications-prototyping)
 
 [Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation--deployment)
 
@@ -177,21 +177,21 @@ TB2|16/11/2025| Cortez Quezada Joaquin Antonio, Oliveira Paucar Mauricio, Perich
 
 [7.2. Solution Implementation](#72-solution-implementation)
 [7.2.1. Sprint 1](#721-sprint-1)
-[7.2.1.1. Sprint Planning 1.](#7211-sprint-planning-1)
-[7.2.1.2. Sprint Backlog 1.](#7212-sprint-backlog-1)
-[7.2.1.3. Development Evidence for Sprint Review.](#7213-development-evidence-for-sprint-review)
-[7.2.1.4. Testing Suite Evidence for Sprint Review.](#7214-testing-suite-evidence-for-sprint-review)
-[7.2.1.5. Execution Evidence for Sprint Review.](#7215-execution-evidence-for-sprint-review)
-[7.2.1.6. Services Documentation Evidence for Sprint Review.](#7216-services-documentation-evidence-for-sprint-review)
-[7.2.1.7. Software Deployment Evidence for Sprint Review.](#7217-software-deployment-evidence-for-sprint-review)
-[7.2.1.8. Team Collaboration Insights during Sprint.](#7218-team-collaboration-insights-during-sprint)
+[7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+[7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
+[7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
+[7.2.1.4. Testing Suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
+[7.2.1.5. Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)
+[7.2.1.6. Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)
+[7.2.1.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)
+[7.2.1.8. Team Collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)
 
-[7.3. Validation Interviews.](#73-validation-interviews)
-[7.3.1. Diseño de Entrevistas.](#731-diseño-de-entrevistas)
-[7.3.2. Registro de Entrevistas.](#732-registro-de-entrevistas)
-[7.3.3. Evaluaciones según heurísticas.](#733-evaluaciones-según-heurísticas)
+[7.3. Validation Interviews](#73-validation-interviews)
+[7.3.1. Diseño de Entrevistas](#731-diseño-de-entrevistas)
+[7.3.2. Registro de Entrevistas](#732-registro-de-entrevistas)
+[7.3.3. Evaluaciones según heurísticas](#733-evaluaciones-según-heurísticas)
 
-[7.4. Video About-the-Product.](#74-video-about-the-product)
+[7.4. Video About-the-Product](#74-video-about-the-product)
 
 
 [Conclusiones](#conclusiones)
