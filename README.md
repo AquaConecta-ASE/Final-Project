@@ -3323,26 +3323,173 @@ Durante las primeras fases del desarrollo, se emplea **json-server en local** pa
 
 ##### 7.2.1.1. Sprint Planning 1.
 
+<table border="1">
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="3">Sprint Planning Background</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2025-10-31</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>19:20 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>La reunión se realizó virtualmente vía Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared By</td>
+            <td>Cortez Quezada, Joaquin Antonio</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>
+                Oliveira Paucar, Mauricio / Hidalgo López, Mathias Adriano / Cortez Quezada, Joaquin Antonio / Periche Quiroga, Piero Fernando
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Review Summary</td>
+            <td>No aplica</td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Retrospective Summary</td>
+            <td>No aplica</td>
+        </tr>
+        <tr>
+            <td>Sprint n Goal</td>
+            <td>
+              El objetivo de este sprint es desarrollar una versión inicial de la aplicación web. Estas primeras versiones permitirán presentar la propuesta de valor del proyecto, mostrar sus beneficios y sentar las bases para futuras funcionalidades orientadas al usuario final.
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint n Velocity</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>Sum of Story Points</td>
+            <td>(Colocar la suma de los Story Points para los User Stories que se están incluyendo en este Sprint n.)</td>
+        </tr>
+    </tbody>
+</table>
 
 ##### 7.2.1.2. Sprint Backlog 1.
 
+| Sprint #    | Sprint 1 |           |             |             |                     |             |                                          |
+|-------------|----------|-----------|-------------|-------------|---------------------|-------------|------------------------------------------|
+| User Story  |          | Work-Item / Task |         |             |                     |             |                                          |
+| Id          | Title    | Id        | Title       | Description | Estimation (Hours)   | Assigned To | Status (To-do / InProcess / ToReview / Done) |
+| HU01 | Ver nivel actual del agua de los habitantes | T01 | Crear vista de monitoreo por habitante |Como proveedor quiero visualizar el nivel actual del agua de un habitante Para conocer la cantidad disponible. | 3 | Piero Periche | Done |
+| HU05 | Historial de problemas de habitantes | T02 | Crear lista de reporte| Como proveedor quiero ver una lista con todos reportes de los problemas que han tenido mis clientes | 2 |Mathias Hidalgo | Done |
+| HU06 | Gestionar solicitudes de agua de residentes | T03 | Crear una tabla con las solicitudes registradas | Como proveedor, quiero visualizar y gestionar las solicitudes de agua de mis residentes | 3 | Mauricio Oliveira | Done |
+| HU07 | Visualizar suscripciones activas del proveedo | T04 | Crear vista detallada del proveedor | Como proveedor, Quiero ver todas las suscripciones de usuarios activas Para tener un registro de todos mis usuarios/habitantes activos. | 5 | Mauricio Oliveira | Done |
+| HU13 | Registro de usuario web | T05 | Implementar formulario de autentificacion externo  | Como proveedor, Quiero registrarme desde la plataforma web ingresando mis datos | 5 | Joaquín Cortez | Done |
+| HU14 | Inicio de sesión de usuario móvil | T06 | Implementar formulario de autentificacion externo | Como habitante, Quiero iniciar sesión desde la aplicación móvil, Para acceder a mi cuenta y monitorear el estado del agua en mi hogar. | 5 | Joaquín Cortez | Done |
+| HU15 | Inicio de sesión web | T07 |Implementar formulario de autentificacion externo | Como proveedor, Quiero ingresar a la plataforma web con mis credenciales, Para gestionar mis servicios y usuarios asociados de forma segura. | 5 | Joaquín Cortez | Done |
+| HU16 | Visualizacion y edicion de perfil | T08 | Formulario con informacion del usuario| Como habitante, Quiero ver y editar mi información personal desde la aplicación móvil | 3 | Mathias Hidalgo | Done |
+| HU17 | Visualización y edición de perfil web | T09 | Formulario con informacion del usuario| Como proveedor, Quiero acceder y modificar mi perfil desde la plataforma web,Para gestionar mis datos de contacto y empresa de manera segura. | 3 | Piero Periche | Done |
+| HU18 | Registrar nuevo residente | T10 | Formulario para registro |Como proveedor, Quiero registrar un nuevo residente Para que se genere automáticamente una suscripción que incluya el sensor y habilite el monitoreo del servicio de agua. | 8 | Joaquín Cortez | Done |
+| HU19 | Añadir una nueva suscripción a un residente ya registrado | T11 | Formulario para registro | Como proveedor, Quiero agregar una nueva suscripción a un residente ya registrado | 5 | Joaquín Cortez | Done |
 
 ##### 7.2.1.3. Development Evidence for Sprint Review.
 
+| Repository                   | Branch  | Commit Id | Commit Message                                                  | Commit Message Body                                           | Committed on (Date) |
+|-----------------------------|---------|-----------|-----------------------------------------------------------------|----------------------------------------------------------------|---------------------|
+|AquaConecta-ASE/Frontend|feature/iam|b551ce4|                                                     feat(iam): implementar callback Auth0 — token, perfil y redirecciónrequest                                                      ||07/06/2025 10:46 PM|
+|AquaConecta-ASE/Frontend|feature/iam|9ec5aaa|                                              feat(iam): simplificar pantalla de login para Auth0 — UI y estilos table                                              ||07/06/2025 10:53 PM|
+|AquaConecta-ASE/Frontend|feature/iam|d27524f|                                               fix(monitoring): fix device selection and event filtering                                           ||07/06/2025 11:03 PM|
+|AquaConecta-ASE/Frontend|feature/iam|029012b|                          fix(monitoring): update device monitoring template and modal bindings                          ||08/06/2025 10:54 AM|
+|<p>AquaConecta-ASE/Frontend</p><p></p>|feature/iam|f7e9655|                          fix(iam): fix provider profile load/create logic and persist correct IDs in localStorage                          ||08/06/2025 11:05 AM|
+|<p>AquaConecta-ASE/Frontend</p><p></p>|feature/iam|6339482|                          feat(iam): provider profile form layout, validation messages and action buttons                          ||08/06/2025 11:08 AM|
+|<p>AquaConecta-ASE/Frontend</p><p></p>|feature/iam|227f72b|                          fix(profiles): provider-summary, provider-api, device-data service and models - improve ID handling and event aggregation                        ||08/06/2025 11:16 AM|
+|<p>AquaConecta-ASE/Frontend</p><p></p>|feature/iam|c12883b|                                       fix(residents): make ResidentService robust — handle object/array responses, use /residents/complete, and load provider profile correctly                                        ||08/06/2025 10:13 PM|
+|AquaConecta-ASE/Frontend|feature/iam|ed19188|                                                 feat(iam): update home dashboard - metrics, filtering and UI fixes                                                 ||24/05/2025 10:47 AM|
+|AquaConecta-ASE/Frontend|feature/iam|b014ea9|                                              fix(issue-reports): validate providerId and use providers/{id}/profiles; add logging for debugging                                               ||24/05/2025 12:18 PM|
+|AquaConecta-ASE/Frontend|feature/iam|392fead|                                           fix(issue-reports): load and filter reports per provider, attach resident profile and normalize status labels                                            ||24/05/2025 12:54 PM|
+|AquaConecta-ASE/Frontend|feature/iam|ba66caa|                                                    fix(water-requests): validate providerId, fix provider/resident endpoints and add debug logs                                                    ||26/05/2025 11:44 PM|
+|AquaConecta-ASE/Frontend|feature/iam|ee12ec3|                                                    fix(subscriptions): remove MercadoPago and simplify add-subscription dialog logic                                                   ||26/05/2025 11:44 PM|
+|AquaConecta-ASE/Frontend|feature/iam|87f27d9|                                                    feat(subscriptions): replace payment UI with simple create subscription form and actions                                                    ||26/05/2025 11:44 PM|
+|AquaConecta-ASE/Frontend|feature/iam|a9a7d74|                                                    feat(iam): add create-resident component (form, styles, password reset modal)                                                    ||26/05/2025 11:44 PM|
+|AquaConecta-ASE/Frontend|feature/iam|f1027aa|                                                    feat(iam): integrate Auth0 for authentication and add related routes and translations                                                    ||26/05/2025 11:44 PM|
+|AquaConecta-ASE/Backend|feature/iam|754abc6|                                                    feat(iam): add Auth0UserSyncInterceptor and Auth0UserService to sync Auth0 users, roles and entities                                                    ||26/05/2025 1:05 AM|
+|AquaConecta-ASE/Backend|feature/iam|49e54a5|                                                   feat(iam): add IamContextFacade and SignUpHandler (Auth0 user creation & facade)                                                   ||26/05/2025 1:05 AM|
+|AquaConecta-ASE/Backend|feature/iam|303b8d1|                                                    feat(iam): add SignUpCommand and Role domain models                                                    ||26/05/2025 1:05 AM|
+|AquaConecta-ASE/Backend|feature/iam|ca76eae|                                                    feat(monitoring): add DeviceController endpoints for devices and events (get device, get device events)                                                   ||26/05/2025 1:05 AM|
+|AquaConecta-ASE/Backend|feature/iam|da2dac2|                                                    feat(profiles): add ProfileCommandServiceImpl, ProviderCommandServiceImpl and ResidentCommandServiceImpl (profile/provider/resident flows + Auth0 integration)                                                    ||26/05/2025 1:05 AM|
+|AquaConecta-ASE/Backend|feature/iam|cfc9aad|                                                    feat(profiles): add Profile, CreateProfileCommand and Resident domain models                                                    ||26/05/2025 1:05 AM|
+|AquaConecta-ASE/Backend|feature/iam|b14349a|                                                    feat(profiles): add CompleteResident resources and ResidentController endpoints for complete resident flow                                                    ||26/05/2025 1:05 AM|
+|AquaConecta-ASE/Backend|feature/iam|61e3caf|                                                    feat(auth0): add Auth0ManagementService (create users, link metadata, password ticket)                                                    ||26/05/2025 1:05 AM|
+|AquaConecta-ASE/Backend|feature/iam|461eee4|                                                    chore(project): add subscription facade, app entry, app properties and updated .gitignore                                                    ||26/05/2025 1:05 AM|
 
 ##### 7.2.1.4. Testing Suite Evidence for Sprint Review.
+
+Durante el desarrollo del sprint 1 se implementaron pruebas unitarias e integrales para validar el comportamiento de las clases de negocio. Esto ayuda a asegurarnos que cada componente funcione correctamente, cumpliendo con su responsabilidad.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| :- | :- | :- | :- | :- | :- |
+|IronCoders-IOT / Backend|test|3d8c574|feature: Add unit tests for create provider||Jun 19, 2025, 11:47 A.M.|
+|IronCoders-IOT / Backend|test|ce794ee|feature: Add unit tests for create resident||Jun 19, 2025, 11:47 A.M.|
+|IronCoders-IOT / Backend|test|2c470ba|feature: Add integration tests for provider (create and update)||Jun 19, 2025, 11:48 A.M.|
+|IronCoders-IOT / Backend|test|3c434a5|feature: Add integration tests for resident (create and update)||Jun 19, 2025, 11:48 A.M.|
+
+A continuación, se presentarán imágenes de las pruebas unitarias y la prueba integral.
+
+![alt text](assets/tests/Captura%20de%20pantalla%202025-11-14%20185826.png)
+![alt text](assets/tests/Captura%20de%20pantalla%202025-11-14%20190109.png)
+![alt text](assets/tests/Captura%20de%20pantalla%202025-11-14%20190139.png)
+![alt text](assets/tests/Captura%20de%20pantalla%202025-11-14%20190218.png)
 
 
 ##### 7.2.1.5. Execution Evidence for Sprint Review.
 
+En nuestro video de exposición, hemos incluido una demostración de la aplicación AquaConecta, donde se muestra cómo los proveedores pueden gestionar sus servicios. A continuación, se presentan capturas de pantalla que ilustran las funcionalidades clave de la aplicación:
+
+- Se muestra captura de código del proyecto.
+![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192522.png)
+
+- Se muestran las diversas vistas dentro de la aplicación web:
+![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20191517.png)
+![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192002.png)
+![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192016.png)
+![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192036.png)
+![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192050.png)
+![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192101.png)
+![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192119.png)
+![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192130.png)
+![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192142.png)
+
+Se adjunta enlace para ingresar al video en el que se muestra lo logrado en este sprint 1.
+
+- **Link de YouTube:**
+[https://youtu.be/8PBCHlpW2zA](https://youtu.be/8PBCHlpW2zA)
 
 ##### 7.2.1.6. Services Documentation Evidence for Sprint Review.
 
+Se hizo uso de Swagger para documentar los servicios de la aplicación AquaConecta. Esta herramienta permite a los desarrolladores y usuarios explorar y entender las API de manera interactiva. A continuación, se presentan capturas de pantalla que muestran la documentación generada por Swagger:
+
+![alt text](assets/Services-Documentation/Captura%20de%20pantalla%202025-11-14%20195614.png)
+
+![alt text](assets/Services-Documentation/Captura%20de%20pantalla%202025-11-14%20195710.png)
+
+![alt text](assets//Services-Documentation/Captura%20de%20pantalla%202025-11-14%20195746.png)
 
 ##### 7.2.1.7. Software Deployment Evidence for Sprint Review.
 
+La aplicación AquaConecta ha sido desplegada en Netlify, lo que permite a los usuarios acceder a la aplicación de manera sencilla y rápida. A continuación, se presentan capturas de pantalla que muestran el proceso de despliegue y el estado actual de la aplicación en Netlify:
+
+
 
 ##### 7.2.1.8. Team Collaboration Insights during Sprint.
+
+Finalmente, se presentan los insights de colaboración del equipo durante el Sprint 1, los cuales reflejan la coordinación efectiva y el trabajo continua entre los miembros en el desarrollo de los distintos productos de la solución AquaConecta. 
 
 
 
