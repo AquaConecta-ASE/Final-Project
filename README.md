@@ -3560,7 +3560,7 @@ Nombre: Belen Ramos
 
 <div style="text-align: center;">
     
-<img src="./assets/img/xxxx.png"> 
+<img src="./assets/SCR-20251116-oler.png"> 
 
 [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210192_upc_edu_pe/IQBhWOp2KubZSY04RZ7yg73_AbZbVBh-AyvCoj-lWd9aiV0?e=3hQ2ae&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
@@ -3583,7 +3583,7 @@ Nombre: Carla Cordova
 
 <div style="text-align: center;">
     
-<img src="./assets/img/xxxx.png"> 
+<img src="./assets/SCR-20251116-onot.png"> 
 
 [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210192_upc_edu_pe/IQBc7hpdjjQUSL2xG6PKGraqARBtVrzMGvZ1pBcrxxn93G0?e=OC47CV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 </div>
