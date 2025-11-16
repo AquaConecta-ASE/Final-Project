@@ -3403,31 +3403,31 @@ Durante las primeras fases del desarrollo, se emplea **json-server en local** pa
 
 | Repository                   | Branch  | Commit Id | Commit Message                                                  | Commit Message Body                                           | Committed on (Date) |
 |-----------------------------|---------|-----------|-----------------------------------------------------------------|----------------------------------------------------------------|---------------------|
-|AquaConecta-ASE/Frontend|feature/iam|b551ce4|                                                     feat(iam): implementar callback Auth0 — token, perfil y redirecciónrequest                                                      ||07/06/2025 10:46 PM|
-|AquaConecta-ASE/Frontend|feature/iam|9ec5aaa|                                              feat(iam): simplificar pantalla de login para Auth0 — UI y estilos table                                              ||07/06/2025 10:53 PM|
-|AquaConecta-ASE/Frontend|feature/iam|d27524f|                                               fix(monitoring): fix device selection and event filtering                                           ||07/06/2025 11:03 PM|
-|AquaConecta-ASE/Frontend|feature/iam|029012b|                          fix(monitoring): update device monitoring template and modal bindings                          ||08/06/2025 10:54 AM|
-|<p>AquaConecta-ASE/Frontend</p><p></p>|feature/iam|f7e9655|                          fix(iam): fix provider profile load/create logic and persist correct IDs in localStorage                          ||08/06/2025 11:05 AM|
-|<p>AquaConecta-ASE/Frontend</p><p></p>|feature/iam|6339482|                          feat(iam): provider profile form layout, validation messages and action buttons                          ||08/06/2025 11:08 AM|
-|<p>AquaConecta-ASE/Frontend</p><p></p>|feature/iam|227f72b|                          fix(profiles): provider-summary, provider-api, device-data service and models - improve ID handling and event aggregation                        ||08/06/2025 11:16 AM|
-|<p>AquaConecta-ASE/Frontend</p><p></p>|feature/iam|c12883b|                                       fix(residents): make ResidentService robust — handle object/array responses, use /residents/complete, and load provider profile correctly                                        ||08/06/2025 10:13 PM|
-|AquaConecta-ASE/Frontend|feature/iam|ed19188|                                                 feat(iam): update home dashboard - metrics, filtering and UI fixes                                                 ||24/05/2025 10:47 AM|
-|AquaConecta-ASE/Frontend|feature/iam|b014ea9|                                              fix(issue-reports): validate providerId and use providers/{id}/profiles; add logging for debugging                                               ||24/05/2025 12:18 PM|
-|AquaConecta-ASE/Frontend|feature/iam|392fead|                                           fix(issue-reports): load and filter reports per provider, attach resident profile and normalize status labels                                            ||24/05/2025 12:54 PM|
-|AquaConecta-ASE/Frontend|feature/iam|ba66caa|                                                    fix(water-requests): validate providerId, fix provider/resident endpoints and add debug logs                                                    ||26/05/2025 11:44 PM|
-|AquaConecta-ASE/Frontend|feature/iam|ee12ec3|                                                    fix(subscriptions): remove MercadoPago and simplify add-subscription dialog logic                                                   ||26/05/2025 11:44 PM|
-|AquaConecta-ASE/Frontend|feature/iam|87f27d9|                                                    feat(subscriptions): replace payment UI with simple create subscription form and actions                                                    ||26/05/2025 11:44 PM|
-|AquaConecta-ASE/Frontend|feature/iam|a9a7d74|                                                    feat(iam): add create-resident component (form, styles, password reset modal)                                                    ||26/05/2025 11:44 PM|
-|AquaConecta-ASE/Frontend|feature/iam|f1027aa|                                                    feat(iam): integrate Auth0 for authentication and add related routes and translations                                                    ||26/05/2025 11:44 PM|
-|AquaConecta-ASE/Backend|feature/iam|754abc6|                                                    feat(iam): add Auth0UserSyncInterceptor and Auth0UserService to sync Auth0 users, roles and entities                                                    ||26/05/2025 1:05 AM|
-|AquaConecta-ASE/Backend|feature/iam|49e54a5|                                                   feat(iam): add IamContextFacade and SignUpHandler (Auth0 user creation & facade)                                                   ||26/05/2025 1:05 AM|
-|AquaConecta-ASE/Backend|feature/iam|303b8d1|                                                    feat(iam): add SignUpCommand and Role domain models                                                    ||26/05/2025 1:05 AM|
-|AquaConecta-ASE/Backend|feature/iam|ca76eae|                                                    feat(monitoring): add DeviceController endpoints for devices and events (get device, get device events)                                                   ||26/05/2025 1:05 AM|
-|AquaConecta-ASE/Backend|feature/iam|da2dac2|                                                    feat(profiles): add ProfileCommandServiceImpl, ProviderCommandServiceImpl and ResidentCommandServiceImpl (profile/provider/resident flows + Auth0 integration)                                                    ||26/05/2025 1:05 AM|
-|AquaConecta-ASE/Backend|feature/iam|cfc9aad|                                                    feat(profiles): add Profile, CreateProfileCommand and Resident domain models                                                    ||26/05/2025 1:05 AM|
-|AquaConecta-ASE/Backend|feature/iam|b14349a|                                                    feat(profiles): add CompleteResident resources and ResidentController endpoints for complete resident flow                                                    ||26/05/2025 1:05 AM|
-|AquaConecta-ASE/Backend|feature/iam|61e3caf|                                                    feat(auth0): add Auth0ManagementService (create users, link metadata, password ticket)                                                    ||26/05/2025 1:05 AM|
-|AquaConecta-ASE/Backend|feature/iam|461eee4|                                                    chore(project): add subscription facade, app entry, app properties and updated .gitignore                                                    ||26/05/2025 1:05 AM|
+|AquaConecta-ASE/Frontend|feature/iam|b551ce4|                                                     feat(iam): implementar callback Auth0 — token, perfil y redirecciónrequest                                                      ||09/10/2025 10:46 PM|
+|AquaConecta-ASE/Frontend|feature/iam|9ec5aaa|                                              feat(iam): simplificar pantalla de login para Auth0 — UI y estilos table                                              ||09/10/2025 10:53 PM|
+|AquaConecta-ASE/Frontend|feature/iam|d27524f|                                               fix(monitoring): fix device selection and event filtering                                           ||09/10/2025 11:03 PM|
+|AquaConecta-ASE/Frontend|feature/iam|029012b|                          fix(monitoring): update device monitoring template and modal bindings                          ||09/10/2025 10:54 AM|
+|<p>AquaConecta-ASE/Frontend</p><p></p>|feature/iam|f7e9655|                          fix(iam): fix provider profile load/create logic and persist correct IDs in localStorage                          ||09/10/2025 11:05 AM|
+|<p>AquaConecta-ASE/Frontend</p><p></p>|feature/iam|6339482|                          feat(iam): provider profile form layout, validation messages and action buttons                          ||09/10/2025 11:08 AM|
+|<p>AquaConecta-ASE/Frontend</p><p></p>|feature/iam|227f72b|                          fix(profiles): provider-summary, provider-api, device-data service and models - improve ID handling and event aggregation                        ||09/10/2025 11:16 AM|
+|<p>AquaConecta-ASE/Frontend</p><p></p>|feature/iam|c12883b|                                       fix(residents): make ResidentService robust — handle object/array responses, use /residents/complete, and load provider profile correctly                                        ||09/10/2025 10:13 PM|
+|AquaConecta-ASE/Frontend|feature/iam|ed19188|                                                 feat(iam): update home dashboard - metrics, filtering and UI fixes                                                 ||09/10/2025 10:47 AM|
+|AquaConecta-ASE/Frontend|feature/iam|b014ea9|                                              fix(issue-reports): validate providerId and use providers/{id}/profiles; add logging for debugging                                               ||09/10/2025 12:18 PM|
+|AquaConecta-ASE/Frontend|feature/iam|392fead|                                           fix(issue-reports): load and filter reports per provider, attach resident profile and normalize status labels                                            ||09/10/2025 12:54 PM|
+|AquaConecta-ASE/Frontend|feature/iam|ba66caa|                                                    fix(water-requests): validate providerId, fix provider/resident endpoints and add debug logs                                                    ||09/10/2025 11:44 PM|
+|AquaConecta-ASE/Frontend|feature/iam|ee12ec3|                                                    fix(subscriptions): remove MercadoPago and simplify add-subscription dialog logic                                                   ||09/10/2025 11:44 PM|
+|AquaConecta-ASE/Frontend|feature/iam|87f27d9|                                                    feat(subscriptions): replace payment UI with simple create subscription form and actions                                                    ||09/10/2025 11:44 PM|
+|AquaConecta-ASE/Frontend|feature/iam|a9a7d74|                                                    feat(iam): add create-resident component (form, styles, password reset modal)                                                    ||09/10/2025 11:44 PM|
+|AquaConecta-ASE/Frontend|feature/iam|f1027aa|                                                    feat(iam): integrate Auth0 for authentication and add related routes and translations                                                    ||09/10/2025 11:44 PM|
+|AquaConecta-ASE/Backend|feature/iam|754abc6|                                                    feat(iam): add Auth0UserSyncInterceptor and Auth0UserService to sync Auth0 users, roles and entities                                                    ||09/10/2025 1:05 AM|
+|AquaConecta-ASE/Backend|feature/iam|49e54a5|                                                   feat(iam): add IamContextFacade and SignUpHandler (Auth0 user creation & facade)                                                   ||09/10/2025 1:05 AM|
+|AquaConecta-ASE/Backend|feature/iam|303b8d1|                                                    feat(iam): add SignUpCommand and Role domain models                                                    ||09/10/2025 1:05 AM|
+|AquaConecta-ASE/Backend|feature/iam|ca76eae|                                                    feat(monitoring): add DeviceController endpoints for devices and events (get device, get device events)                                                   ||09/10/2025 1:05 AM|
+|AquaConecta-ASE/Backend|feature/iam|da2dac2|                                                    feat(profiles): add ProfileCommandServiceImpl, ProviderCommandServiceImpl and ResidentCommandServiceImpl (profile/provider/resident flows + Auth0 integration)                                                    ||09/10/2025 1:05 AM|
+|AquaConecta-ASE/Backend|feature/iam|cfc9aad|                                                    feat(profiles): add Profile, CreateProfileCommand and Resident domain models                                                    ||09/10/2025 1:05 AM|
+|AquaConecta-ASE/Backend|feature/iam|b14349a|                                                    feat(profiles): add CompleteResident resources and ResidentController endpoints for complete resident flow                                                    ||09/10/2025 1:05 AM|
+|AquaConecta-ASE/Backend|feature/iam|61e3caf|                                                    feat(auth0): add Auth0ManagementService (create users, link metadata, password ticket)                                                    ||09/10/2025 1:05 AM|
+|AquaConecta-ASE/Backend|feature/iam|461eee4|                                                    chore(project): add subscription facade, app entry, app properties and updated .gitignore                                                    ||09/10/2025 1:05 AM|
 
 ##### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 
@@ -3435,10 +3435,10 @@ Durante el desarrollo del sprint 1 se implementaron pruebas unitarias e integral
 
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
 | :- | :- | :- | :- | :- | :- |
-|IronCoders-IOT / Backend|test|3d8c574|feature: Add unit tests for create provider||Jun 19, 2025, 11:47 A.M.|
-|IronCoders-IOT / Backend|test|ce794ee|feature: Add unit tests for create resident||Jun 19, 2025, 11:47 A.M.|
-|IronCoders-IOT / Backend|test|2c470ba|feature: Add integration tests for provider (create and update)||Jun 19, 2025, 11:48 A.M.|
-|IronCoders-IOT / Backend|test|3c434a5|feature: Add integration tests for resident (create and update)||Jun 19, 2025, 11:48 A.M.|
+|IronCoders-IOT / Backend|test|3d8c574|feature: Add unit tests for create provider||Nov 14, 2025, 11:47 A.M.|
+|IronCoders-IOT / Backend|test|ce794ee|feature: Add unit tests for create resident||Nov 14, 2025, 11:47 A.M.|
+|IronCoders-IOT / Backend|test|2c470ba|feature: Add integration tests for provider (create and update)||Nov 14, 2025, 11:48 A.M.|
+|IronCoders-IOT / Backend|test|3c434a5|feature: Add integration tests for resident (create and update)||Nov 14, 2025, 11:48 A.M.|
 
 A continuación, se presentarán imágenes de las pruebas unitarias y la prueba integral.
 
@@ -3479,19 +3479,29 @@ Se hizo uso de Swagger para documentar los servicios de la aplicación AquaConec
 
 ![alt text](assets/Services-Documentation/Captura%20de%20pantalla%202025-11-14%20195710.png)
 
-![alt text](assets//Services-Documentation/Captura%20de%20pantalla%202025-11-14%20195746.png)
+![alt text](assets/Services-Documentation/Captura%20de%20pantalla%202025-11-14%20195746.png)
 
 ##### 7.2.1.7. Software Deployment Evidence for Sprint Review.
 
 La aplicación AquaConecta ha sido desplegada en Netlify, lo que permite a los usuarios acceder a la aplicación de manera sencilla y rápida. A continuación, se presentan capturas de pantalla que muestran el proceso de despliegue y el estado actual de la aplicación en Netlify:
 
-
+![alt text](assets/sprint1/netly.png)
 
 ##### 7.2.1.8. Team Collaboration Insights during Sprint.
 
 Finalmente, se presentan los insights de colaboración del equipo durante el Sprint 1, los cuales reflejan la coordinación efectiva y el trabajo continua entre los miembros en el desarrollo de los distintos productos de la solución AquaConecta. 
 
+Backend:
 
+![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-16%20021633.png)
+
+Frontend:
+
+![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-16%20022444.png)
+
+Mobile:
+
+![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-16%20022710.png)
 
 ### 7.3. Validation Interviews.
 
@@ -3541,6 +3551,95 @@ El objetivo es validar la facilidad de uso de la app móvil, la comprensión de 
 
 #### 7.3.3. Evaluaciones según heurísticas.
 
+#### UX Heuristics & Principles Evaluation
+##### Usability – Inclusive Design – Information Architecture
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Arquitecturas De Software Emergentes  
+**SECCIÓN:** 7322 
+**PROFESORES:** Todos  
+**AUDITOR:** IronCoders  
+**CLIENTE(S):** Todos  
+**SITE o APP A EVALUAR:** AquaConecta  
+
+#### TAREAS A EVALUAR:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Boton call to action
+2. Navegación principal y estructura de botones
+3. Jerarquía visual y organización de información
+4. Búsqueda y filtrado de datos
+
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+- Funcionalidades de sensores IoT en tiempo real
+- Módulos de facturación y pagos
+- Integración con sistemas externos
+
+#### ESCALA DE SEVERIDAD:
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+#### TABLA RESUMEN:
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|----------|---------------------|---------------------------------|
+| 1 | Uso del botón call to action | 2 | Visibilidad del estado del sistema y Libertad y control del usuario |
+| 2 | Navegación confusa y redundante | 3 | Usability: Consistencia y estándares |
+| 3 | Funcionalidad de búsqueda limitada | 2 | Usability: Flexibilidad y eficiencia de uso |
+| 4 | Tabla de historial excesivamente ancha | 3 | Usability: Diseño estético y minimalista |
+
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+#### PROBLEMA #1: Uso del botón call to action
+
+**Severidad:** 2
+**Heurística violada:** Visibilidad del estado del sistema y Libertad y control del usuario
+
+**Descripción:** Actualmente solo existe un boton con el cual se puede acceder a la informacion completa de un residente. Este boton puede llegar a ser poco intuitivo para los usuarios debido al tamaño y colores seleccionados, lo cual puede limitar el acceso a la informacion revelantes para los proveedores sobre sus residentes.
+
+
+![alt text](<assets/heuristics-evaluation/Captura de pantalla 2025-11-16 024128.png>)
+
+
+**Solución propuesta:** Reemplazar el botón por una CTA clara (ícono + texto "Ver residente") que destaque visualmente en la fila, con etiqueta/tooltip "Ver información completa del residente", versión solo-ícono en móvil y un pequeño indicador (badge) para alertas; así los proveedores localizarán y accederán fácilmente a la información del residente.
+
+#### PROBLEMA #2: Navegación confusa y redundante
+**Severidad:** 3  
+**Heurística violada:** Usability: Consistencia y estándares
+
+**Descripción:** En la pantalla de inicio el proveedor encuentra varios botones que apuntan a la misma funcionalidad, lo que genera redundancia y confusión.
+
+![alt text](image-2.png)
+
+
+**Solución propuesta:** Reorganizar la navegación agrupando elementos relacionados, establecer una jerarquía clara y reducir la redundancia.
+
+#### PROBLEMA #3: Funcionalidad de búsqueda limitada
+**Severidad:** 2  
+**Heurística violada:** Usability: Flexibilidad y eficiencia de uso  
+**Descripción:** El campo de búsqueda solo permite buscar por ID, limitando la capacidad de los usuarios para encontrar solicitudes usando otros criterios relevantes como nombre del residente, fecha de emisión, o estado.  
+
+![alt text](heuristic9.png)
+
+**Solución propuesta:** Expandir la funcionalidad de búsqueda para incluir múltiples campos (nombre, fecha, estado) o implementar filtros avanzados que permitan búsquedas más granulares.
+
+#### PROBLEMA #4: Tabla de historial excesivamente ancha
+**Severidad:** 3  
+**Heurística violada:** Usability: Diseño estético y minimalista
+**Descripción:** La tabla "Sensor Activity History" se extiende innecesariamente por todo el ancho de la pantalla, creando líneas de lectura muy largas que dificultan el escaneo visual y hacen que los datos se vean dispersos y poco organizados.
+
+![alt text](image-1.png)
+
+**Solución propuesta:** Reducir el ancho de la tabla para mejorar la legibilidad y el enfoque visual. Se recomienda establecer un ancho máximo y centrar la tabla en la página, además de ajustar el tamaño de las columnas para que solo ocupen el espacio necesario.
 
 
 ### 7.4. Video About-the-Product.
