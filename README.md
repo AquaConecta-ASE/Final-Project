@@ -233,8 +233,8 @@ EAC –Student Outcome 3.
 
 | **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
 |-------------------------|-------------------------|------------------|
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Joaquin Cortez Quezada** <br>**TB1:**<br> En el desarrollo de la TB1, realicé una profunda investigación sobre el problema a solucionar, considerando el aspecto social y económico, además, identifiqué posibles bounded context con el proceso de EventStorming exponiendo los procesos de forma clara y entendible estableciendo el lenguaje ubicuo en cada uno.<br><br>**TP**<br>Durante el TP, expuse el diseño táctico y la arquitectura del sistema AquaConecta, explicando las funciones de cada bounded context y la integración de los sistemas emergentes. Además, presenté el diseño UX/UI, destacando cómo la solución mejora la experiencia del usuario y la eficiencia operativa.<br><br>**TB2**<br>Durante la TB2, participé activamente en el desarrollo e implementación del Frontend y Backend, promoví una comunicación efectiva dentro del equipo de desarrollo. Esto me permitió expresar con claridad y objetividad los avances técnicos del proyecto y asegurando que todos comprendieran la lógica detrás de las decisiones tomadas.<br><br>**Oliveira Paucar, Mauricio** <br>**TB1:**<br> Durante el desarrollo del proyecto, elaboré el modelado C4 de la solución, estructurando los diferentes niveles de abstracción necesarios para comprender el sistema. <br><br>**TP**<br>Para esta entrega se agregaron los nuevos puntos solicitados para el capitulo 5 y 6 mientras se mejoro toda la primera entrega con la retroalimentacion recibida por el docente. Este nuevo avance me permitió comunicar de manera clara y objetiva tanto la visión general como los detalles técnicos, adaptando la explicación para la comprensión de mis compañeros del equipo y docente.<br><br>**Piero Periche Quiroga** <br>**TB1:**<br> En el desarrollo de la tb1, me encargue del analisis del proyecto, con el desarrollo del c4 model y el proceso de EventStorming, mostrando y explicando de forma clara y precisa los procesos. <br><br>**TP**<br>.<br><br>**Hidalgo Lopez Mathias Adriano** <br>**TB1:**<br> Durante la fase de investigación, conduje entrevistas con dos grupos distintos: residentes de las comunidades afectadas y proveedores del servicio de agua. Para lograr una comunicación efectiva, adapté mi lenguaje y enfoque: con los residentes, utilicé un tono empático para comprender sus necesidades diarias, mientras que con los proveedores, empleé un lenguaje más técnico para discutir los desafíos operativos. Además, expuse oralmente al equipo las decisiones de diseño arquitectónico (como la elección de un monolito modular y el uso de un Edge Node), traduciendo conceptos técnicos complejos en justificaciones claras y comprensibles para todos.<br>**TP**<br>Fui responsable de elaborar y estructurar la presentación oral del proyecto (PPT). En esta, sinteticé los hallazgos clave y las decisiones de diseño, especialmente las relacionadas con el Capítulo 6 de UX/UI, para exponerlas de manera clara y objetiva ante el docente y compañeros. Además, comuniqué verbalmente al equipo las correcciones necesarias en diversas secciones del informe, facilitando la cohesión y la mejora continua del trabajo presentado.<br> | **TB1:**<br>La comunicación oral permitió presentar con claridad la problemática social del acceso al agua y sus causas, así como los resultados del EventStorming y los bounded contexts. Esto facilitó que los hallazgos y decisiones arquitectónicas fueran entendidos por públicos de distintas especialidades y niveles.<br><br><BR>**TP**<BR>La comunicación oral permitió presentar de manera clara y precisa los avances técnicos y de diseño, demostrando dominio sobre los aspectos arquitectónicos y de experiencia de usuario. Esto contribuyó a que los interlocutores comprendieran la coherencia entre la visión de negocio, la estructura del sistema y la solución tecnológica propuesta.<br><br><BR>**TB2**<br>El equipo presentó los avances técnicos y de diseño de forma clara y estructurada, facilitando la comprensión entre miembros de distintas especialidades. Las reuniones permitieron alinear criterios y justificar decisiones ante docentes y stakeholders con precisión técnica.|
-| Comunica por escrito con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.<br> | **Joaquin Cortez Quezada** <br>**TB1:**<br> Participé en la elaboración de la documentación escrita del proyecto, estructurando de manera clara y objetiva los apartados técnicos y conceptuales. Redacté descripciones de historias de usuario, escenarios de calidad, bounded context canvas y el context mapping, empleando un lenguaje accesible tanto para compañeros de ingeniería como para un público no especializado. <br><br>**TP:**<br>Elaboré un documento técnico que describe la arquitectura táctica, los diagramas estructurales y el diseño UX/UI de AquaConecta, comunicando de forma clara y precisa las decisiones técnicas y visuales del proyecto a públicos especializados y no técnicos.<br><br>**TB2**<br>Durante la TB2, participé activamente en el desarrollo e implementación del Frontend y Backend, y promoví una comunicación efectiva dentro del equipo de desarrollo. Esto me permitió documentar con claridad y objetividad los avances técnicos del proyecto, adaptando el lenguaje y el nivel de detalle según el perfil de los destinatarios.<br><br>**Oliveira Paucar, Mauricio** <br>**TB1:**<br> En el marco del proyecto, desarrollé el modelado C4 de la solución, documentando de manera estructurada los distintos niveles de abstracción requeridos.  <br>**TP**<br>En la entrega del TP, se mejoro los puntos entregados en la TB1 y se agrego el nuevo contenido técnico solicitado para el capitulo 5 y 6. Este trabajo escrito permitió presentar con objetividad tanto la visión general como los detalles técnicos, de modo que mis compañeros pudieran comprender la propuesta desde una perspectiva de ingeniería, y al mismo tiempo el docente evaluador tuviera claridad sobre la coherencia y justificación del diseño planteado. .<br><br><br>**Piero Periche Quiroga** <br>**TB1:**<br> En el proyecto desarrollé y aporte en el modelado c4 model de la solucion, documentando de forma clara los niveles de arquitectura requeridos. Esto permitio dejar en claro los detalles de arquitectura, para que asi la solucion tenga una vista clara desde la vision de ingeniería.<br>**TP**<br>.<br> <br><br>**Hidaldo Lopez Mathias Adriano** <br>**TB1:**<br> Participé activamente en la redacción de la documentación del proyecto, especialmente en las secciones de diseño de software (4.1.3, 4.1.4 y 4.1.5). Mi objetivo fue estructurar estas secciones de forma clara y objetiva, explicando decisiones complejas como la arquitectura de monolito modular y el Edge Node, detallando no solo los aspectos técnicos, sino también sus justificaciones y las alternativas consideradas. Esto asegura que la información sea comprensible tanto para un público técnico (compañeros y profesor) como para una audiencia no especializada que necesite entender el porqué del diseño.<br>**TP**<br>Me encargué de la redacción completa del Capítulo 6: Solution UX Design, donde documenté de forma escrita y objetiva las directrices de estilo, los wireframes y los mockups de la aplicación. Mi objetivo fue asegurar que el diseño de la experiencia de usuario fuera comprensible para un público técnico y no especializado. Adicionalmente, realicé una revisión integral del documento, aplicando correcciones de redacción, formato y coherencia para garantizar que la comunicación escrita del informe final fuera de alta calidad.<br>  | **TB1:**<br>La comunicación escrita permitió documentar de forma objetiva la problemática identificada, sus causas y las soluciones propuestas mediante historias de usuario, escenarios y canvases. Esto aseguró que los resultados fueran comprensibles y útiles para diferentes públicos dentro del proyecto.<br><br> **TP:**<BR> La comunicación escrita permitió documentar rigurosamente los aspectos técnicos y de diseño del sistema, asegurando que las decisiones arquitectónicas, los flujos de usuario y los prototipos fueran comprensibles y trazables. Esto consolidó la claridad y consistencia del proyecto, garantizando su valor como documento técnico y herramienta de comunicación profesional.<br><br>**TB2**<br>Se documentaron rigurosamente los aspectos técnicos del sistema, incluyendo arquitectura, flujos y pruebas. La redacción objetiva y adaptada a distintos perfiles aseguró la trazabilidad del proyecto y su valor como soporte técnico.|
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Joaquin Cortez Quezada** <br>**TB1:**<br> En el desarrollo de la TB1, realicé una profunda investigación sobre el problema a solucionar, considerando el aspecto social y económico, además, identifiqué posibles bounded context con el proceso de EventStorming exponiendo los procesos de forma clara y entendible estableciendo el lenguaje ubicuo en cada uno.<br><br>**TP:**<br>Durante el TP, expuse el diseño táctico y la arquitectura del sistema AquaConecta, explicando las funciones de cada bounded context y la integración de los sistemas emergentes. Además, presenté el diseño UX/UI, destacando cómo la solución mejora la experiencia del usuario y la eficiencia operativa.<br><br>**TB2:**<br>Durante la TB2, participé activamente en el desarrollo e implementación del Frontend y Backend, promoví una comunicación efectiva dentro del equipo de desarrollo. Esto me permitió expresar con claridad y objetividad los avances técnicos del proyecto y asegurando que todos comprendieran la lógica detrás de las decisiones tomadas.<br><br>**Oliveira Paucar, Mauricio** <br>**TB1:**<br> Durante el desarrollo del proyecto, elaboré el modelado C4 de la solución, estructurando los diferentes niveles de abstracción necesarios para comprender el sistema. <br><br>**TP:**<br>Para esta entrega se agregaron los nuevos puntos solicitados para el capitulo 5 y 6 mientras se mejoro toda la primera entrega con la retroalimentacion recibida por el docente. Este nuevo avance me permitió comunicar de manera clara y objetiva tanto la visión general como los detalles técnicos, adaptando la explicación para la comprensión de mis compañeros del equipo y docente.<br><br>**TB2:**<br>La comunicación oral en esta entrega me permitió presentar y sustentar la implementación del primer sprint (Cap. 7.2), incluyendo la demostración del software funcional y la ejecución de pruebas. Además, se expusieron los resultados cualitativos obtenidos en las entrevistas de validación (Cap. 7.3), facilitando la discusión objetiva del feedback del usuario y los siguientes pasos del despliegue.<br><br>**Piero Periche Quiroga** <br>**TB1:**<br> En el desarrollo de la tb1, me encargue del analisis del proyecto, con el desarrollo del c4 model y el proceso de EventStorming, mostrando y explicando de forma clara y precisa los procesos. <br><br>**TP:**<br>Xxxx<br><br>**TB2:**<br>Durante la TB2,<br><br>**Hidalgo Lopez Mathias Adriano** <br>**TB1:**<br> Durante la fase de investigación, conduje entrevistas con dos grupos distintos: residentes de las comunidades afectadas y proveedores del servicio de agua. Para lograr una comunicación efectiva, adapté mi lenguaje y enfoque: con los residentes, utilicé un tono empático para comprender sus necesidades diarias, mientras que con los proveedores, empleé un lenguaje más técnico para discutir los desafíos operativos. Además, expuse oralmente al equipo las decisiones de diseño arquitectónico (como la elección de un monolito modular y el uso de un Edge Node), traduciendo conceptos técnicos complejos en justificaciones claras y comprensibles para todos.<br><br>**TP:**<br>Fui responsable de elaborar y estructurar la presentación oral del proyecto (PPT). En esta, sinteticé los hallazgos clave y las decisiones de diseño, especialmente las relacionadas con el Capítulo 6 de UX/UI, para exponerlas de manera clara y objetiva ante el docente y compañeros. Además, comuniqué verbalmente al equipo las correcciones necesarias en diversas secciones del informe, facilitando la cohesión y la mejora continua del trabajo presentado.<br><br>**TB2:**<br>Durante la TB2,<br> | **TB1:**<br>La comunicación oral permitió presentar con claridad la problemática social del acceso al agua y sus causas, así como los resultados del EventStorming y los bounded contexts. Esto facilitó que los hallazgos y decisiones arquitectónicas fueran entendidos por públicos de distintas especialidades y niveles.<br><br><BR>**TP:**<BR>La comunicación oral permitió presentar de manera clara y precisa los avances técnicos y de diseño, demostrando dominio sobre los aspectos arquitectónicos y de experiencia de usuario. Esto contribuyó a que los interlocutores comprendieran la coherencia entre la visión de negocio, la estructura del sistema y la solución tecnológica propuesta.<br><br><BR>**TB2:**<br>El equipo presentó los avances técnicos y de diseño de forma clara y estructurada, facilitando la comprensión entre miembros de distintas especialidades. Las reuniones permitieron alinear criterios y justificar decisiones ante docentes y stakeholders con precisión técnica.|
+| Comunica por escrito con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.<br> | **Joaquin Cortez Quezada** <br>**TB1:**<br> Participé en la elaboración de la documentación escrita del proyecto, estructurando de manera clara y objetiva los apartados técnicos y conceptuales. Redacté descripciones de historias de usuario, escenarios de calidad, bounded context canvas y el context mapping, empleando un lenguaje accesible tanto para compañeros de ingeniería como para un público no especializado. <br><br>**TP:**<br>Elaboré un documento técnico que describe la arquitectura táctica, los diagramas estructurales y el diseño UX/UI de AquaConecta, comunicando de forma clara y precisa las decisiones técnicas y visuales del proyecto a públicos especializados y no técnicos.<br><br>**TB2:**<br>Durante la TB2, participé activamente en el desarrollo e implementación del Frontend y Backend, y promoví una comunicación efectiva dentro del equipo de desarrollo. Esto me permitió documentar con claridad y objetividad los avances técnicos del proyecto, adaptando el lenguaje y el nivel de detalle según el perfil de los destinatarios.<br><br>**Oliveira Paucar, Mauricio** <br>**TB1:**<br> En el marco del proyecto, desarrollé el modelado C4 de la solución, documentando de manera estructurada los distintos niveles de abstracción requeridos.  <br><br>**TP:**<br>En la entrega del TP, se mejoro los puntos entregados en la TB1 y se agrego el nuevo contenido técnico solicitado para el capitulo 5 y 6. Este trabajo escrito permitió presentar con objetividad tanto la visión general como los detalles técnicos, de modo que mis compañeros pudieran comprender la propuesta desde una perspectiva de ingeniería, y al mismo tiempo el docente evaluador tuviera claridad sobre la coherencia y justificación del diseño planteado.<br><br>**TB2:**<br>La comunicación escrita fue fundamental para documentar objetivamente el primer ciclo de desarrollo. Esto incluyó la gestión de configuración de software y el registro detallado de la implementación del Sprint 1, abarcando desde el backlog hasta la evidencia de pruebas y despliegue. Asimismo, se estructuró el diseño y los resultados de las entrevistas de validación, asegurando la trazabilidad del feedback del usuario.<br><br>**Piero Periche Quiroga** <br>**TB1:**<br> En el proyecto desarrollé y aporte en el modelado c4 model de la solucion, documentando de forma clara los niveles de arquitectura requeridos. Esto permitio dejar en claro los detalles de arquitectura, para que asi la solucion tenga una vista clara desde la vision de ingeniería.<br><br>**TP:**<br>.<br>**TB2:**<br>Durante la TB2,<br><br>**Hidaldo Lopez Mathias Adriano** <br>**TB1:**<br> Participé activamente en la redacción de la documentación del proyecto, especialmente en las secciones de diseño de software (4.1.3, 4.1.4 y 4.1.5). Mi objetivo fue estructurar estas secciones de forma clara y objetiva, explicando decisiones complejas como la arquitectura de monolito modular y el Edge Node, detallando no solo los aspectos técnicos, sino también sus justificaciones y las alternativas consideradas. Esto asegura que la información sea comprensible tanto para un público técnico (compañeros y profesor) como para una audiencia no especializada que necesite entender el porqué del diseño.<br><br>**TP:**<br>Me encargué de la redacción completa del Capítulo 6: Solution UX Design, donde documenté de forma escrita y objetiva las directrices de estilo, los wireframes y los mockups de la aplicación. Mi objetivo fue asegurar que el diseño de la experiencia de usuario fuera comprensible para un público técnico y no especializado. Adicionalmente, realicé una revisión integral del documento, aplicando correcciones de redacción, formato y coherencia para garantizar que la comunicación escrita del informe final fuera de alta calidad.<br><br>**TB2:**<br>Durante la TB2,<br>  | **TB1:**<br>La comunicación escrita permitió documentar de forma objetiva la problemática identificada, sus causas y las soluciones propuestas mediante historias de usuario, escenarios y canvases. Esto aseguró que los resultados fueran comprensibles y útiles para diferentes públicos dentro del proyecto.<br><br> **TP:**<BR> La comunicación escrita permitió documentar rigurosamente los aspectos técnicos y de diseño del sistema, asegurando que las decisiones arquitectónicas, los flujos de usuario y los prototipos fueran comprensibles y trazables. Esto consolidó la claridad y consistencia del proyecto, garantizando su valor como documento técnico y herramienta de comunicación profesional.<br><br>**TB2:**<br>Se documentaron rigurosamente los aspectos técnicos del sistema, incluyendo arquitectura, flujos y pruebas. La redacción objetiva y adaptada a distintos perfiles aseguró la trazabilidad del proyecto y su valor como soporte técnico.|
 
 
 # Capítulo I: Introducción
@@ -886,7 +886,7 @@ Nombre: André Alonso Arroyo Ormeño
     
 <img src="./assets/img/entrevista_andre.png"> 
 
-[Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201719831_upc_edu_pe/ESHvuiS-1uxFoVubElY_50MB_Tk9hX2iy3uX2VsVH50gxA)
+[Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201719831_upc_edu_pe/IQAh77okvtbsRaFbmxJWP-dDAXTLvEN-xgelUIPuUu6O900?e=A7L9EV)
 </div>
 
 André, Coordinador de monitoreo de calidad de agua de 28 años que coordina el monitoreo en Pueblo Nuevo, comenta que sus mayores retos son la ausencia de datos en tiempo real, los tiempos muertos entre muestreo y resultados de laboratorio, y la dispersión de la información en planillas. Detalla que hoy el proceso incluye inspección en campo, mediciones rápidas in situ (cloro, pH, temperatura) y envío a laboratorio para análisis fisicoquímicos y microbiológicos; el control de cloro/pH es semanal o quincenal y el microbiológico mensual, con campañas extraordinarias ante incidentes. Le gustaría monitorear en tiempo real cloro, turbidez, pH, temperatura, conductividad, presión, caudal y nivel de tanque. Actualmente almacenan datos en Excel/Sheets y usan QGIS para mapas. Ante problemas, notifican, aíslan tramos, ajustan dosificación de cloro, purgan la red y activan abastecimiento alterno, informando a la comunidad. Los costos clave son transporte/viáticos, insumos y análisis de laboratorio. La detección puede darse en horas, pero la confirmación tarda 3–7 días. Considera que un sistema IoT permitiría alertas tempranas, mayor trazabilidad y transparencia, además de optimizar rutas y mantenimiento. Ve como imprescindibles alertas configurables, dashboard web/móvil con históricos, georreferenciación, modo offline/energía solar, gestión de roles y API para integrar con sistemas existentes.
@@ -3548,6 +3548,161 @@ El objetivo es validar la facilidad de uso de la app móvil, la comprensión de 
 
 #### 7.3.2. Registro de Entrevistas.
 
+**Entrevistas usuario segmento (Habitantes):** 
+
+Nombre: Xxxx Xxxx
+
+- Edad: Xx
+<br>
+- Ocupación: Estudiante
+<br>
+- Distrito: Chincha Alta
+<br>
+<div style="text-align: center;">
+    
+<img src="./assets/img/xxxx.png"> 
+
+[Link de la entrevista](https:Xxxx)
+</div>
+
+Xxxxx.
+<br>
+
+Nombre: Xxxx Xxxx
+
+- Edad: Xx
+<br>
+- Ocupación: Estudiante
+<br>
+- Distrito: Chincha Alta
+<br>
+<div style="text-align: center;">
+    
+<img src="./assets/img/xxxx.png"> 
+
+[Link de la entrevista](https:Xxxx)
+</div>
+
+Xxxxx.
+<br>
+
+Nombre: Xxxx Xxxx
+
+- Edad: Xx
+<br>
+- Ocupación: Estudiante
+<br>
+- Distrito: Chincha Alta
+<br>
+<div style="text-align: center;">
+    
+<img src="./assets/img/xxxx.png"> 
+
+[Link de la entrevista](https:Xxxx)
+</div>
+
+Xxxxx.
+<br>
+
+Nombre: Xxxx Xxxx
+
+- Edad: Xx
+<br>
+- Ocupación: Estudiante
+<br>
+- Distrito: Chincha Alta
+<br>
+<div style="text-align: center;">
+    
+<img src="./assets/img/xxxx.png"> 
+
+[Link de la entrevista](https:Xxxx)
+</div>
+
+Xxxxx.
+<br>
+
+**Entrevistas usuario segmento (Proveedor de agua):**
+
+Nombre: William Ramos Vicente
+
+- Edad: 32
+<br>
+- Ocupación: Ingeniero sanitario
+<br>
+- Distrito: Chincha Alta
+<br>
+<div style="text-align: center;">
+    
+<img src="./assets/img/entrevista_vi_william.png"> 
+
+[Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201719831_upc_edu_pe/IQDkoqPLUJW4SJ-MI1_cLyNvAe6Hh9wSJoM94pQ7PNOnPAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kKq8LH)
+</div>
+
+William Ramos confirma que su proceso de monitoreo actual es manual y que los resultados de laboratorio para la calidad del agua tardan de 3 a 7 días. Considera que la plataforma web de AquaConecta es "muy intuitiva" y "fácil de aprender".
+
+La funcionalidad que más valora es la automatización, ya que le ahorraría mucho tiempo y costos operativos. Las "alertas automáticas de calidad" le parecen la función más valiosa, pues reducen el tiempo de detección de días a minutos.
+
+Antes de confiar al 100% en los datos, realizaría un "benchmark" (comparación) con los resultados de un laboratorio tradicional. Finalmente, sugiere que se añada la capacidad de personalizar más parámetros de medición y reitera la importancia de un modo offline para zonas sin conectividad.
+<br>
+
+Nombre: André Alonso Arroyo Ormeño
+
+- Edad: 28
+<br>
+- Ocupación: Ingeniero sanitario
+<br>
+- Distrito: Chincha Alta
+<br>
+<div style="text-align: center;">
+    
+<img src="./assets/img/entrevista_vi_andre.png"> 
+
+[Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201719831_upc_edu_pe/IQDjZnPkoq2kR7iYEfS8LwiJAZ4hLiPDi3_M58l2fbNllg0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BorDVq)
+</div>
+
+André también valida que su proceso actual es manual y que los resultados de laboratorio "demoraban como unos 3 a 7 días". Considera la plataforma "demasiado útil" y un "cambio radical" respecto a sus planillas de Excel.
+
+Destaca la analítica predictiva como una herramienta clave que les permitiría optimizar las rutas de las cisternas y pasar de ser "reactivos a preventivos", ahorrando combustible, tiempo y quejas. Al igual que William, la funcionalidad que considera más valiosa son las "alertas automáticas de calidad".
+
+Su principal sugerencia es la necesidad de georreferenciación (ver las alertas en un "mapa tipo GIS") y pide diferenciar claramente en la interfaz si un "Issue Report" es una queja de un residente o una alerta automática del sensor, para evitar confusiones operativas.
+<br>
+
+Nombre: Xxxx Xxxx
+
+- Edad: Xx
+<br>
+- Ocupación: Estudiante
+<br>
+- Distrito: Chincha Alta
+<br>
+<div style="text-align: center;">
+    
+<img src="./assets/img/xxxx.png"> 
+
+[Link de la entrevista](https:Xxxx)
+</div>
+
+Xxxxx.
+<br>
+
+Nombre: Xxxx Xxxx
+
+- Edad: Xx
+<br>
+- Ocupación: Estudiante
+<br>
+- Distrito: Chincha Alta
+<br>
+<div style="text-align: center;">
+    
+<img src="./assets/img/xxxx.png"> 
+
+[Link de la entrevista](https:Xxxx)
+</div>
+
+Xxxxx.
+<br>
 
 #### 7.3.3. Evaluaciones según heurísticas.
 
