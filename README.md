@@ -3563,6 +3563,7 @@ Nombre: Xxxx Xxxx
 <img src="./assets/img/xxxx.png"> 
 
 [Link de la entrevista](https:Xxxx)
+
 </div>
 
 Xxxxx.
@@ -3581,6 +3582,7 @@ Nombre: Xxxx Xxxx
 <img src="./assets/img/xxxx.png"> 
 
 [Link de la entrevista](https:Xxxx)
+
 </div>
 
 Xxxxx.
@@ -3599,6 +3601,7 @@ Nombre: Xxxx Xxxx
 <img src="./assets/img/xxxx.png"> 
 
 [Link de la entrevista](https:Xxxx)
+
 </div>
 
 Xxxxx.
@@ -3617,6 +3620,7 @@ Nombre: Xxxx Xxxx
 <img src="./assets/img/xxxx.png"> 
 
 [Link de la entrevista](https:Xxxx)
+
 </div>
 
 Xxxxx.
@@ -3636,6 +3640,7 @@ Nombre: William Ramos Vicente
 <img src="./assets/img/entrevista_vi_william.png"> 
 
 [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201719831_upc_edu_pe/IQDkoqPLUJW4SJ-MI1_cLyNvAe6Hh9wSJoM94pQ7PNOnPAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kKq8LH)
+
 </div>
 
 William Ramos confirma que su proceso de monitoreo actual es manual y que los resultados de laboratorio para la calidad del agua tardan de 3 a 7 días. Considera que la plataforma web de AquaConecta es "muy intuitiva" y "fácil de aprender".
@@ -3657,6 +3662,7 @@ Nombre: André Alonso Arroyo Ormeño
 <img src="./assets/img/entrevista_vi_andre.png"> 
 
 [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201719831_upc_edu_pe/IQDjZnPkoq2kR7iYEfS8LwiJAZ4hLiPDi3_M58l2fbNllg0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BorDVq)
+
 </div>
 
 André también valida que su proceso actual es manual y que los resultados de laboratorio "demoraban como unos 3 a 7 días". Considera la plataforma "demasiado útil" y un "cambio radical" respecto a sus planillas de Excel.
@@ -3679,6 +3685,7 @@ Nombre: Xxxx Xxxx
 <img src="./assets/img/xxxx.png"> 
 
 [Link de la entrevista](https:Xxxx)
+
 </div>
 
 Xxxxx.
@@ -3697,6 +3704,7 @@ Nombre: Xxxx Xxxx
 <img src="./assets/img/xxxx.png"> 
 
 [Link de la entrevista](https:Xxxx)
+
 </div>
 
 Xxxxx.
