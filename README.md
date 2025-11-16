@@ -3553,11 +3553,11 @@ El objetivo es validar la facilidad de uso de la app móvil, la comprensión de 
 Nombre: Xxxx Xxxx
 
 - Edad: Xx
-<br>
 - Ocupación: Estudiante
-<br>
 - Distrito: Chincha Alta
+
 <br>
+
 <div style="text-align: center;">
     
 <img src="./assets/img/xxxx.png"> 
@@ -3571,11 +3571,11 @@ Xxxxx.
 Nombre: Xxxx Xxxx
 
 - Edad: Xx
-<br>
 - Ocupación: Estudiante
-<br>
 - Distrito: Chincha Alta
+
 <br>
+
 <div style="text-align: center;">
     
 <img src="./assets/img/xxxx.png"> 
@@ -3589,11 +3589,11 @@ Xxxxx.
 Nombre: Xxxx Xxxx
 
 - Edad: Xx
-<br>
 - Ocupación: Estudiante
-<br>
 - Distrito: Chincha Alta
+
 <br>
+
 <div style="text-align: center;">
     
 <img src="./assets/img/xxxx.png"> 
@@ -3607,11 +3607,11 @@ Xxxxx.
 Nombre: Xxxx Xxxx
 
 - Edad: Xx
-<br>
 - Ocupación: Estudiante
-<br>
 - Distrito: Chincha Alta
+
 <br>
+
 <div style="text-align: center;">
     
 <img src="./assets/img/xxxx.png"> 
@@ -3627,10 +3627,9 @@ Xxxxx.
 Nombre: William Ramos Vicente
 
 - Edad: 32
-<br>
 - Ocupación: Ingeniero sanitario
-<br>
 - Distrito: Chincha Alta
+
 <br>
 <div style="text-align: center;">
     
@@ -3649,10 +3648,9 @@ Antes de confiar al 100% en los datos, realizaría un "benchmark" (comparación)
 Nombre: André Alonso Arroyo Ormeño
 
 - Edad: 28
-<br>
 - Ocupación: Ingeniero sanitario
-<br>
 - Distrito: Chincha Alta
+
 <br>
 <div style="text-align: center;">
     
@@ -3671,11 +3669,11 @@ Su principal sugerencia es la necesidad de georreferenciación (ver las alertas 
 Nombre: Xxxx Xxxx
 
 - Edad: Xx
-<br>
 - Ocupación: Estudiante
-<br>
 - Distrito: Chincha Alta
+
 <br>
+
 <div style="text-align: center;">
     
 <img src="./assets/img/xxxx.png"> 
@@ -3689,11 +3687,11 @@ Xxxxx.
 Nombre: Xxxx Xxxx
 
 - Edad: Xx
-<br>
 - Ocupación: Estudiante
-<br>
 - Distrito: Chincha Alta
+
 <br>
+
 <div style="text-align: center;">
     
 <img src="./assets/img/xxxx.png"> 
