@@ -3550,9 +3550,9 @@ El objetivo es validar la facilidad de uso de la app móvil, la comprensión de 
 
 **Entrevistas usuario segmento (Habitantes):** 
 
-Nombre: Xxxx Xxxx
+Nombre: Belen Ramos
 
-- Edad: Xx
+- Edad: 25
 - Ocupación: Estudiante
 - Distrito: Chincha Alta
 
@@ -3562,16 +3562,20 @@ Nombre: Xxxx Xxxx
     
 <img src="./assets/img/xxxx.png"> 
 
-[Link de la entrevista](https:Xxxx)
+[Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210192_upc_edu_pe/IQBhWOp2KubZSY04RZ7yg73_AbZbVBh-AyvCoj-lWd9aiV0?e=3hQ2ae&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 </div>
 
-Xxxxx.
+Belén comenta que, antes de usar AquaConecta, solo podía guiarse por la experiencia diaria para saber si había suficiente agua, ya que no contaba con herramientas para monitorear el nivel o la calidad. Al probar la aplicación, señala que la interfaz le pareció “clara”, “ordenada” y que entender los gráficos no le tomó más de unos segundos.
+
+La característica que más le llamó la atención fue la posibilidad de ver el nivel del tanque en cualquier momento, lo que, según dice, le ayudaría a organizar actividades como lavado, limpieza o almacenamiento. También considera muy valiosas las alertas de cambios en nivel o calidad, pues recibirlas en tiempo real le permitiría evitar usos riesgosos o ajustar su consumo antes de quedarse sin agua.
+
+Aunque afirma sentirse cómoda con la aplicación, menciona que algunos términos técnicos podrían acompañarse de una breve explicación para mayor claridad. Por último, propone incorporar un modo de lectura más simple, pensado para usuarios mayores, así como una opción que permita revisar el historial semanal o mensual del consumo para hacer un uso más eficiente del recurso.
 <br>
 
-Nombre: Xxxx Xxxx
+Nombre: Carla Cordova
 
-- Edad: Xx
+- Edad: 22
 - Ocupación: Estudiante
 - Distrito: Chincha Alta
 
@@ -3581,50 +3585,16 @@ Nombre: Xxxx Xxxx
     
 <img src="./assets/img/xxxx.png"> 
 
-[Link de la entrevista](https:Xxxx)
-
+[Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210192_upc_edu_pe/IQBc7hpdjjQUSL2xG6PKGraqARBtVrzMGvZ1pBcrxxn93G0?e=OC47CV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 </div>
 
-Xxxxx.
+Carla indica que, antes de usar AquaConecta, no tenía forma clara de conocer el nivel ni la calidad del agua en su vivienda y que dependía únicamente de la experiencia diaria y de esperar a que el agua se acabara. Afirma que la aplicación le resulta “fácil de entender”, “clara” y que los gráficos son “muy intuitivos”.
+
+La funcionalidad que más valora es la visualización en tiempo real del nivel del agua, ya que le permite planificar mejor su consumo y evitar inconvenientes. También destaca que las alertas automáticas —como “Nivel bajo” o “Agua no potable”— son especialmente útiles porque le permitirían anticiparse y tomar decisiones inmediatas, evitando riesgos de salud o interrupciones en sus actividades.
+
+Aunque considera confiables los datos mostrados, menciona que sería ideal contar con explicaciones adicionales en algunos indicadores (como niveles de calidad) para personas que no están familiarizadas con términos técnicos. Finalmente, sugiere añadir un modo para personas mayores con textos más grandes y un historial de consumo para entender mejor sus patrones de uso.
 <br>
 
-Nombre: Xxxx Xxxx
-
-- Edad: Xx
-- Ocupación: Estudiante
-- Distrito: Chincha Alta
-
-<br>
-
-<div style="text-align: center;">
-    
-<img src="./assets/img/xxxx.png"> 
-
-[Link de la entrevista](https:Xxxx)
-
-</div>
-
-Xxxxx.
-<br>
-
-Nombre: Xxxx Xxxx
-
-- Edad: Xx
-- Ocupación: Estudiante
-- Distrito: Chincha Alta
-
-<br>
-
-<div style="text-align: center;">
-    
-<img src="./assets/img/xxxx.png"> 
-
-[Link de la entrevista](https:Xxxx)
-
-</div>
-
-Xxxxx.
-<br>
 
 **Entrevistas usuario segmento (Proveedor de agua):**
 
