@@ -2,10 +2,10 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br>
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
     <strong>Ingeniería de Software</strong><br>
-    <strong>1ASI0728 Arquitecturas De Software Emergentes<strong><br>
-    <strong>202520<strong><br>
-    <strong>NRC: 7322<strong><br>
-    <strong>Profesor: Christian Luis De Los Rios Fernandez </strong><br>
+    <strong>1ASI0728 Arquitecturas De Software Emergentes</strong><br>
+    <strong>202520</strong><br>
+    <strong>NRC: 7322</strong><br>
+    <strong>Profesor: Christian Luis De Los Rios Fernandez</strong><br>
     <br><strong>Informe del Trabajo Final</strong>
 </p>
 
@@ -1829,7 +1829,7 @@ En este diagrama se visualiza las relaciones clave entre los bounded contexts de
 ### 4.3. Software Architecture.
 
 #### 4.3.1. Software Architecture System Landscape Diagram.
-![alt text](<./assets/img/Software Architecture Context Level Diagrams-2.png>)
+![alt text](<./assets/img/Context2.png>)
 #### 4.3.2. Software Architecture Context Level Diagrams.
 
 En el diagrama de contexto se muestra la interacción de los diferentes actores con el sistema central AquaConecta. Los residentes utilizan la aplicación móvil para monitorear en tiempo real el nivel y la calidad del agua, recibir alertas, solicitar reabastecimientos e interactuar con un chatbot asistido por un servicio externo de NLP. Los proveedores acceden a la plataforma web para gestionar residentes, suscripciones, solicitudes y visualizar predicciones de consumo generadas por el módulo de Analítica Predictiva. Los administradores supervisan las operaciones globales a través de reportes y paneles analíticos.
@@ -1848,7 +1848,7 @@ El Backend API (Spring Boot) expone servicios REST y conecta con la base de dato
 
 Además, el módulo de Chatbot emplea un servicio externo de NLP para asistir a los residentes en sus consultas y escalar incidencias al contexto de Solicitudes cuando sea necesario. Las operaciones de pago se realizan mediante la integración con Mercado Pago, garantizando la gestión segura de transacciones.
 
-![alt text](<./assets/img/TRABAJO emergentes.png>)
+![alt text](<./assets/img/conteneodres2.png>)
 #### 4.3.4. Software Architecture Deployment Diagrams.
 
 El diagrama de despliegue muestra cómo se distribuyen los distintos componentes de software en su entorno de ejecución. El sistema está compuesto por una aplicación web desarrollada con Angular y una aplicación móvil desarrollada con Flutter, ambas desplegadas sobre Firebase. Estas aplicaciones se comunican mediante JSON/HTTPS con una API REST construida con Spring Boot (Java), que encapsula toda la lógica de negocio organizada por contextos delimitados. La API, a su vez, realiza operaciones de lectura y escritura sobre una base de datos MySQL, que almacena información de usuarios, suscripciones, sensores, alertas y registros administrativos. Además, el backend se integra con el sistema de pagos externo Mercado Pago, utilizado para procesar transacciones.
