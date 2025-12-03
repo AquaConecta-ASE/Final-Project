@@ -3621,18 +3621,86 @@ Mobile:
 | **AquaConecta-ASE/mobile-bff** | deployment | b367904 | first commit | | 29/11/2025 |
 
 ##### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+Durante el desarrollo del sprint 2 se implementaron pruebas unitarias e integrales para validar el comportamiento de las clases de negocio. Esto ayuda a asegurarnos que cada componente funcione correctamente, cumpliendo con su responsabilidad.
 
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| :- | :- | :- | :- | :- | :- |
+|IronCoders-IOT / Backend|test|3d8c574|feature: Add unit tests for create provider||Nov 14, 2025, 11:47 A.M.|
+|IronCoders-IOT / Backend|test|ce794ee|feature: Add unit tests for create resident||Nov 14, 2025, 11:47 A.M.|
+|IronCoders-IOT / Backend|test|2c470ba|feature: Add integration tests for provider (create and update)||Nov 14, 2025, 11:48 A.M.|
+|IronCoders-IOT / Backend|test|3c434a5|feature: Add integration tests for resident (create and update)||Nov 14, 2025, 11:48 A.M.|
+
+A continuación, se presentarán imágenes de las pruebas unitarias y la prueba integral.
+
+![alt text](assets/tests/Captura%20de%20pantalla%202025-11-14%20185826.png)
+![alt text](assets/tests/Captura%20de%20pantalla%202025-11-14%20190109.png)
+![alt text](assets/tests/Captura%20de%20pantalla%202025-11-14%20190139.png)
+![alt text](assets/tests/Captura%20de%20pantalla%202025-11-14%20190218.png)
 
 ##### 7.2.2.5. Execution Evidence for Sprint Review.
+En nuestro video de exposición, hemos incluido una demostración de la aplicación AquaConecta, donde se muestra cómo los proveedores pueden gestionar sus servicios. A continuación, se presentan capturas de pantalla que ilustran las funcionalidades clave de la aplicación:
+
+- Se muestra captura de código del proyecto.
+  ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192522.png)
+
+- Se muestran las diversas vistas dentro de la aplicación web:
+  ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20191517.png)
+  ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192002.png)
+  ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192016.png)
+  ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192036.png)
+  ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192050.png)
+  ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192101.png)
+  ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192119.png)
+  ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192130.png)
+  ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192142.png)
+
+Se adjunta enlace para ingresar al video en el que se muestra lo logrado en este sprint 1.
+
+- **Link de YouTube:**
+  [https://youtu.be/8PBCHlpW2zA](https://youtu.be/8PBCHlpW2zA)
 
 
 ##### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 
+Se hizo uso de Swagger para documentar los servicios de la aplicación AquaConecta. Esta herramienta permite a los desarrolladores y usuarios explorar y entender las API de manera interactiva. A continuación, se presentan capturas de pantalla que muestran la documentación generada por Swagger:
+
+![alt text](assets/Services-Documentation/Captura%20de%20pantalla%202025-11-14%20195614.png)
 
 ##### 7.2.2.7. Software Deployment Evidence for Sprint Review.
 
 
+La aplicacion fue desplegada en Azure App Service, lo que permite a los usuarios acceder a la aplicación de manera sencilla y rápida. A continuación, se presentan capturas de pantalla que muestran el proceso de despliegue y el estado actual de la aplicación en Azure, asi como la implementacion el Auth0:
+
+
+![alt text](assets/1.jpeg)
+
+![alt text](assets/2.jpeg)
+
+![alt text](assets/3.jpeg)
+
+![alt text](assets/4.jpeg)
+
+![alt text](assets/5.jpeg)
+
+![alt text](assets/6.jpeg)
+
+![alt text](assets/7.jpeg)
+
 ##### 7.2.2.8. Team Collaboration Insights during Sprint.
+
+Finalmente, se presentan los insights de colaboración del equipo durante el Sprint 2, los cuales reflejan la coordinación efectiva y el trabajo continua entre los miembros en el desarrollo de los distintos productos de la solución AquaConecta.
+
+Backend:
+
+![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-16%20021633.png)
+
+Frontend:
+
+![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-16%20022444.png)
+
+Mobile:
+
+![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-16%20022710.png)
 
 ### 7.3. Validation Interviews.
 
