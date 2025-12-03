@@ -1,23 +1,20 @@
-# <center>COURSE PROJECT</center>
-
 <p align="center">
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br>
+    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
     <strong>Ingeniería de Software</strong><br>
-    <strong>Arquitecturas De Software Emergentes - 7322</strong><br>
+    <strong>1ASI0728 Arquitecturas De Software Emergentes<strong><br>
+    <strong>202520<strong><br>
+    <strong>NRC: 7322<strong><br>
     <strong>Profesor: Christian Luis De Los Rios Fernandez </strong><br>
-    <br><strong>INFORME</strong>
+    <br><strong>Informe del Trabajo Final</strong>
 </p>
-<h4 style="text-align: center;"><strong>Startup: IronCoders</strong></h4>
 
-<h4 style="text-align: center;"><strong>Product: AquaConecta</strong></h4>
+<h4 style="text-align: center;"><strong>Nombre del Producto: AquaConecta</strong></h4>
 
+
+<h5> Integrantes:</h5>
 
 <div style="text-align: center;">
-
-
-<h5 style="text-align: center;"> Team Members</h5>
-
 <table style="margin-left: auto; margin-right: auto; text-align: center;">
   <thead>
     <tr>
@@ -44,6 +41,8 @@
     </tr>
   </tbody>
 </table>
+
+<br><h5>Diciembre de 2025<h5><br><br><br><br><br>
 
 </div>
 
@@ -3774,43 +3773,7 @@ Destaca la analítica predictiva como una herramienta clave que les permitiría 
 Su principal sugerencia es la necesidad de georreferenciación (ver las alertas en un "mapa tipo GIS") y pide diferenciar claramente en la interfaz si un "Issue Report" es una queja de un residente o una alerta automática del sensor, para evitar confusiones operativas.
 <br>
 
-Nombre: Xxxx Xxxx
 
-- Edad: Xx
-- Ocupación: Estudiante
-- Distrito: Chincha Alta
-
-<br>
-
-<div style="text-align: center;">
-    
-<img src="./assets/img/xxxx.png"> 
-
-[Link de la entrevista](https:Xxxx)
-
-</div>
-
-Xxxxx.
-<br>
-
-Nombre: Xxxx Xxxx
-
-- Edad: Xx
-- Ocupación: Estudiante
-- Distrito: Chincha Alta
-
-<br>
-
-<div style="text-align: center;">
-    
-<img src="./assets/img/xxxx.png"> 
-
-[Link de la entrevista](https:Xxxx)
-
-</div>
-
-Xxxxx.
-<br>
 
 #### 7.3.3. Evaluaciones según heurísticas.
 
