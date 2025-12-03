@@ -3542,11 +3542,11 @@ Mobile:
             </td>
         </tr>
         <tr>
-            <td>Sprint n – 1 Review Summary</td>
+            <td>Sprint n – 2 Review Summary</td>
             <td>En este sprint hemos logrado desarrollar en su totalidad la funcionalidad del las prediciones sobre el consumo de agua de los residentes con machine learning y la implementacion del patron BFF consideran las aplicaciones de escritorio y dispositivos moviles</td>
         </tr>
         <tr>
-            <td>Sprint n – 1 Retrospective Summary</td>
+            <td>Sprint n – 2 Retrospective Summary</td>
             <td>Se destacó el cumplimineto de todas las tareas en este sprint. Se identificó como mejora la necesidad de definir muy bien los criterios de aceptacion antes de empezar a hacer las tareas.</td>
         </tr>
         <tr>
@@ -3587,6 +3587,39 @@ Mobile:
 
 ##### 7.2.2.3. Development Evidence for Sprint Review.
 
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **AquaConecta-ASE/Backend** | deployment | 85283ed | Remove outdated unit and integration tests for Resident and Provider services; add Azure deployment configuration and GitHub Actions workflow for automated deployment to Azure App Service. | | 02/12/2025 |
+| **AquaConecta-ASE/Backend** | deployment | c7eadee | fix: update ML service URL to production endpoint | | 27/11/2025 |
+| **AquaConecta-ASE/Backend** | deployment | 099b537 | Merge pull request #5 from AquaConecta-ASE/feature/iam | | 27/11/2025 |
+| **AquaConecta-ASE/Backend** | deployment | 18b05f1 | feat(cors): remove CORS configuration as handled by BFF Gateway | | 27/11/2025 |
+| **AquaConecta-ASE/Frontend** | feature/iam | 51fe577 | home(init): detectar/sincronizar providerId y recargar datos del dashboard | | 29/11/2025 |
+| **AquaConecta-ASE/Frontend** | feature/iam | 9df1a44 | home(ui): estilos para banner de advertencia de perfil incompleto | | 29/11/2025 |
+| **AquaConecta-ASE/Frontend** | feature/iam | d70e207 | add watertanksize as numbre | | 29/11/2025 |
+| **AquaConecta-ASE/Frontend** | feature/iam | a31133a | providers(profile): sincronizar providerId/userId y robustecer creación/actualización de perfil | | 29/11/2025 |
+| **AquaConecta-ASE/Frontend** | feature/iam | 398dd49 | residents(summary): agregar columna waterTankSize en la tabla de suscripciones | | 29/11/2025 |
+| **AquaConecta-ASE/Frontend** | feature/iam | 8fe6419 | residents(summary): loguear suscripciones y mostrar waterTankSize en consola | | 29/11/2025 |
+| **AquaConecta-ASE/Frontend** | feature/iam | 44fa370 | providers(api): usar /providers/me/profile y añadir logs detallados | | 29/11/2025 |
+| **AquaConecta-ASE/Frontend** | feature/iam | 8b01eee | iam(login): ajustar botones de Auth0 (inicio/crear cuenta) para consistencia UI | | 29/11/2025 |
+| **AquaConecta-ASE/Frontend** | feature/iam | b9534df | iam(callback): robustecer flujo Auth0 (obtener token, consultar/crear perfil y mapear providerId/userId) | | 29/11/2025 |
+| **AquaConecta-ASE/Frontend** | feature/iam | e58651c | iam(auth): cargar usuario desde localStorage y exponer userProfileReady para notificar perfil completo | | 29/11/2025 |
+| **AquaConecta-ASE/Frontend** | feature/iam | 570d493 | analytics(predictive): soportar múltiples suscripciones y predicciones por residente | | 29/11/2025 |
+| **AquaConecta-ASE/Frontend** | feature/iam | 4e18387 | analytics(predictive): mejorar estilos y estados de UI para predicciones | | 29/11/2025 |
+| **AquaConecta-ASE/ML-Service** | main | 9d11320 | Update package versions in requirements.txt | | 27/11/2025 |
+| **AquaConecta-ASE/ML-Service** | main | 15b75b9 | Add gunicorn and ensure numpy is listed | | 27/11/2025 |
+| **AquaConecta-ASE/ML-Service** | main | 3ccd604 | first commit | | 03/11/2025 |
+| **AquaConecta-ASE/web-bff** | main | 6b17667 | fix(env): update serverBasePath to include API endpoint for AquaConecta | | 29/11/2025 |
+| **AquaConecta-ASE/web-bff** | main | 4aeab40 | fix(docs): correct typo in deprecated POST endpoint for predictive analytics | | 29/11/2025 |
+| **AquaConecta-ASE/web-bff** | main | a831b48 | fix(config): update API base paths for consistency across environments | | 29/11/2025 |
+| **AquaConecta-ASE/web-bff** | main | 915f062 | api(reports): usar /providers/me/profile y añadir logs de diagnóstico | | 29/11/2025 |
+| **AquaConecta-ASE/web-bff** | main | 7277c92 | api(water): usar /providers/me/profile y añadir logs de diagnóstico | | 29/11/2025 |
+| **AquaConecta-ASE/web-bff** | main | 529d5f0 | ui(resident): actualizar estilos y color del botón Crear Residente | | 29/11/2025 |
+| **AquaConecta-ASE/web-bff** | main | dd6889c | i18n: agregar y refinar claves de traducción para residentes y water tank | | 29/11/2025 |
+| **AquaConecta-ASE/mobile-bff** | deployment | e32085b | Refactor application configuration for dynamic backend URL and port settings | | 02/12/2025 |
+| **AquaConecta-ASE/mobile-bff** | deployment | b400e55 | Initialize BFF Mobile Gateway with Spring Boot, OAuth2 security, and API routing for mobile clients | | 02/12/2025 |
+| **AquaConecta-ASE/mobile-bff** | deployment | 39e6bf5 | fix: remove comment from server port configuration in application.yml | | 29/11/2025 |
+| **AquaConecta-ASE/mobile-bff** | deployment | c7ec1cf | fix: revert java.version to 21 in pom.xml | | 29/11/2025 |
+| **AquaConecta-ASE/mobile-bff** | deployment | b367904 | first commit | | 29/11/2025 |
 
 ##### 7.2.2.4. Testing Suite Evidence for Sprint Review.
 
