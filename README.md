@@ -3503,6 +3503,105 @@ Mobile:
 
 ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-16%20022710.png)
 
+
+#### 7.2.2. Sprint 2
+
+##### 7.2.2.1. Sprint Planning 2.
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="3">Sprint Planning Background</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2025-11-30</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>19:20 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>La reunión se realizó virtualmente vía Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared By</td>
+            <td>Cortez Quezada, Joaquin Antonio</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>
+                Oliveira Paucar, Mauricio / Hidalgo López, Mathias Adriano / Cortez Quezada, Joaquin Antonio / Periche Quiroga, Piero Fernando
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Review Summary</td>
+            <td>En este sprint hemos logrado desarrollar en su totalidad la funcionalidad del las prediciones sobre el consumo de agua de los residentes con machine learning y la implementacion del patron BFF consideran las aplicaciones de escritorio y dispositivos moviles</td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Retrospective Summary</td>
+            <td>Se destacó el cumplimineto de todas las tareas en este sprint. Se identificó como mejora la necesidad de definir muy bien los criterios de aceptacion antes de empezar a hacer las tareas.</td>
+        </tr>
+        <tr>
+            <td>Sprint n Goal</td>
+            <td>
+              Nuestro enfoque está en habilitar una experiencia integral de gestión y monitoreo del sistema AquaConecta en sus diferentes capas (dispositivo, borde, cloud y aplicaciones). Creemos que esto brinda visibilidad en tiempo real, automatización de procesos clave y una experiencia clara e informativa tanto para habitantes como para proveedores. Esto se confirmará cuando los habitantes puedan consultar el estado de su consumo desde la app móvil, los proveedores accedan a paneles centralizados en la web, el backend reciba datos seguros desde sensores cada 60 segundos.
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint n Velocity</td>
+            <td>103</td>
+        </tr>
+        <tr>
+            <td>Sum of Story Points</td>
+            <td>43</td>
+        </tr>
+    </tbody>
+</table>
+
+##### 7.2.2.2. Sprint Backlog 2.
+
+| Sprint #    | Sprint 2 |           |             |             |                     |             |                                          |
+|-------------|----------|-----------|-------------|-------------|---------------------|-------------|------------------------------------------|
+| User Story  |          | Work-Item / Task |         |             |                     |             |                                          |
+| Id          | Title    | Id        | Title       | Description | Estimation (Hours)   | Assigned To | Status (To-do / InProcess / ToReview / Done) |
+| HU02 | Ver métricas del tanque de agua | T01 | Implementar dashboard de métricas en app móvil | Como habitante, Quiero visualizar el resumen de métricas de mi tanque Para conocer la cantidad disponible y solicitar el reabastecimiento correspondiente. | 5 | Mathias Hidalgo | Done |
+| HU03 | Ver calidad del agua | T02 | Integrar medición de calidad del agua | Como habitante, Quiero que el sistema mida la calidad del agua, Para saber si es segura para el consumo de mi familia. | 4 | Piero Periche | Done |
+| HU04 | Recibir datos actualizados constantemente | T03 | Implementar actualización en tiempo real de sensores | Como habitante, Quiero que el sistema realice lecturas frecuentes del agua, Para asegurarme de que la información sobre el nivel y la calidad esté siempre actualizada | 6 | Mauricio Oliveira | Done |
+| HU20 | Ver suscripciones activas por residente | T04 | Crear vista de suscripciones por residente | Como proveedor, Quiero visualizar las suscripciones activas asociadas a los sensores de cada residente, Para conocer el estado de monitoreo de mis habitantes. | 4 | Joaquín Cortez | Done |
+| HU21 | Ver todas las suscripciones del sistema | T05 | Implementar panel de administrador para suscripciones | Como administrador, Quiero visualizar todas las suscripciones del sistema, Para supervisar el uso de la plataforma por parte de proveedores y residentes. | 3 | Piero Periche | Done |
+| HU22 | Visualizar suscripción del residente | T06 | Crear vista de suscripción en app móvil | Como residente, Quiero consultar el estado de mi suscripción Para saber si mi sensor está activo y en funcionamiento. | 3 | Mathias Hidalgo | Done |
+| HU24 | Predicción de consumo y solicitud automática | T07 | Integrar modelo ML para predicción de consumo | Como proveedor, Quiero que el sistema use un modelo de machine learning, Para predecir el consumo de agua de los residentes y generar solicitudes automáticas de reabastecimiento. | 8 | Mauricio Oliveira | Done |
+| HT04 | Crear suscripción a través de API REST | T08 | Implementar endpoint POST /subscriptions | Como desarrollador, Quiero crear una suscripción a través de la API Para que cada sensor quede vinculado a un residente y a un proveedor, y así se habilite el monitoreo. | 4 | Joaquín Cortez | Done |
+| HT05 | Obtener suscripciones por residente | T09 | Implementar endpoint GET /subscriptions/resident/{id} | Como desarrollador, Quiero exponer un endpoint que permita obtener las suscripciones asociadas a un residente, Para que puedan ser consultadas fácilmente cuando se necesite. | 3 | Joaquín Cortez | Done |
+| HT06 | Obtener todas las suscripciones del sistema | T10 | Implementar endpoint GET /subscriptions | Como desarrollador, Quiero exponer un endpoint que permita listar todas las suscripciones registradas, Para que el administrador pueda supervisar su uso y gestión. | 3 | Piero Periche | Done |
+| HU23 | Chatbot de asistencia inteligente | T11 | Implementar chatbot conversacional en app móvil | Como residente, Quiero interactuar con un chatbot en la aplicación móvil para consultar el nivel de agua, estado de mi suscripción o solicitar reabastecimiento, Para obtener respuestas rápidas sin necesidad de conocimientos técnicos. | 10 | Mathias Hidalgo | To-do |
+
+
+##### 7.2.2.3. Development Evidence for Sprint Review.
+
+
+##### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+
+
+##### 7.2.2.5. Execution Evidence for Sprint Review.
+
+
+##### 7.2.2.6. Services Documentation Evidence for Sprint Review.
+
+
+##### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+
+
+##### 7.2.2.8. Team Collaboration Insights during Sprint.
+
 ### 7.3. Validation Interviews.
 
 #### 7.3.1. Diseño de Entrevistas.
@@ -3774,6 +3873,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 
 ### 7.4. Video About-the-Product.
+
 
 
 ## Conclusiones
