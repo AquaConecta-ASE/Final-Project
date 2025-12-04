@@ -58,7 +58,7 @@
 |TB1|20/09/2025| Cortez Quezada Joaquin Antonio, Oliveira Paucar Mauricio, Periche Quiroga Piero, Hidalgo Lopez Mathias Adriano | Capítulos dentro del desarrollo del  proyecto: <br>• Capitulo I: Introducción  <br>• Capitulo II: Requirements  Elicitation & Analysis <br>• Capitulo III: Requirements Specification <br>• Capítulo IV: Product Architecture Design | 
 TP|11/10/2025| Cortez Quezada Joaquin Antonio, Oliveira Paucar Mauricio, Periche Quiroga Piero, Hidalgo Lopez Mathias Adriano | Capítulos dentro del desarrollo del  proyecto: <br>• Capitulo I: Introducción  <br>• Capitulo II: Requirements  Elicitation & Analysis <br>• Capitulo III: Requirements Specification <br>• Capítulo IV: Product Architecture Design• Capitulo V: Tactical-Level Software Design <br>• Capitulo VI: Solution UX Design <br> |
 TB2|16/11/2025| Cortez Quezada Joaquin Antonio, Oliveira Paucar Mauricio, Periche Quiroga Piero, Hidalgo Lopez Mathias Adriano | Capítulos dentro del desarrollo del  proyecto: <br>• Capitulo I: Introducción  <br>• Capitulo II: Requirements  Elicitation & Analysis <br>• Capitulo III: Requirements Specification <br>• Capítulo IV: Product Architecture Design• Capitulo V: Tactical-Level Software Design <br>• Capitulo VI: Solution UX Design <br>• Capitulo VII: Product Implementation, Validation & Deployment <br> |
-
+TF|04/12/2025| Cortez Quezada Joaquin Antonio, Oliveira Paucar Mauricio, Periche Quiroga Piero, Hidalgo Lopez Mathias Adriano | Capítulos dentro del desarrollo del  proyecto: <br>• Capitulo I: Introducción  <br>• Capitulo II: Requirements  Elicitation & Analysis <br>• Capitulo III: Requirements Specification <br>• Capítulo IV: Product Architecture Design• Capitulo V: Tactical-Level Software Design <br>• Capitulo VI: Solution UX Design <br>• Capitulo VII: Product Implementation, Validation & Deployment <br> |
 
 </div>
 
@@ -150,9 +150,7 @@ TB2|16/11/2025| Cortez Quezada Joaquin Antonio, Oliveira Paucar Mauricio, Perich
 
 [5.5. Subscriptions Bounded Context](#55-subscriptions-bounded-context)
 
-[5.6. Conversational Support Bounded Context](#56-conversational-support-bounded-context)
-
-[5.7. Predictive Analytics Bounded Context](#57-predictive-analytics-bounded-context)
+[5.6. Predictive Analytics Bounded Context](#57-predictive-analytics-bounded-context)
 
 [Capitulo VI: Solution UX Design](#capitulo-vi-solution-ux-design)
 
@@ -232,8 +230,8 @@ EAC –Student Outcome 3.
 
 | **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
 |-------------------------|-------------------------|------------------|
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Joaquin Cortez Quezada** <br>**TB1:**<br> En el desarrollo de la TB1, realicé una profunda investigación sobre el problema a solucionar, considerando el aspecto social y económico, además, identifiqué posibles bounded context con el proceso de EventStorming exponiendo los procesos de forma clara y entendible estableciendo el lenguaje ubicuo en cada uno.<br><br>**TP:**<br>Durante el TP, expuse el diseño táctico y la arquitectura del sistema AquaConecta, explicando las funciones de cada bounded context y la integración de los sistemas emergentes. Además, presenté el diseño UX/UI, destacando cómo la solución mejora la experiencia del usuario y la eficiencia operativa.<br><br>**TB2:**<br>Durante la TB2, participé activamente en el desarrollo e implementación del Frontend y Backend, promoví una comunicación efectiva dentro del equipo de desarrollo. Esto me permitió expresar con claridad y objetividad los avances técnicos del proyecto y asegurando que todos comprendieran la lógica detrás de las decisiones tomadas.<br><br>**Oliveira Paucar, Mauricio** <br>**TB1:**<br> Durante el desarrollo del proyecto, elaboré el modelado C4 de la solución, estructurando los diferentes niveles de abstracción necesarios para comprender el sistema. <br><br>**TP:**<br>Para esta entrega se agregaron los nuevos puntos solicitados para el capitulo 5 y 6 mientras se mejoro toda la primera entrega con la retroalimentacion recibida por el docente. Este nuevo avance me permitió comunicar de manera clara y objetiva tanto la visión general como los detalles técnicos, adaptando la explicación para la comprensión de mis compañeros del equipo y docente.<br><br>**TB2:**<br>La comunicación oral en esta entrega me permitió presentar y sustentar la implementación del primer sprint (Cap. 7.2), incluyendo la demostración del software funcional y la ejecución de pruebas. Además, se expusieron los resultados cualitativos obtenidos en las entrevistas de validación (Cap. 7.3), facilitando la discusión objetiva del feedback del usuario y los siguientes pasos del despliegue.<br><br>**Piero Periche Quiroga** <br>**TB1:**<br> En el desarrollo de la tb1, me encargue del analisis del proyecto, con el desarrollo del c4 model y el proceso de EventStorming, mostrando y explicando de forma clara y precisa los procesos. <br><br>**TP:**<br>La comunicación oral fue clave para presentar y sustentar el diseño de la solución. Expuse los mockups (web y mobile) al equipo y docente, explicando objetivamente el flujo de usuario y el diseño de la interfaz para recibir feedback. Asimismo, sustenté oralmente la arquitectura de software propuesta, justificando las decisiones técnicas (componentes, tecnologías) a un público de diferentes especialidades (mis compañeros de equipo) y niveles jerárquicos (docente), asegurando que el plan de implementación del front-end fuera comprendido por todos.<br><br>**TB2:**<br>Durante la TB2, La comunicación oral en esta entrega me permitió liderar y ejecutar las entrevistas de validación con los usuarios. Esto requirió sustentar el prototipo y sus funcionalidades (desarrolladas en front, back y mobile) a un público de diferente especialidad. Posteriormente, expuse los resultados cualitativos y el feedback obtenido de manera objetiva al equipo, facilitando la discusión para definir las correcciones y siguientes pasos del proyecto.<br><br>**Hidalgo Lopez Mathias Adriano** <br>**TB1:**<br> Durante la fase de investigación, conduje entrevistas con dos grupos distintos: residentes de las comunidades afectadas y proveedores del servicio de agua. Para lograr una comunicación efectiva, adapté mi lenguaje y enfoque: con los residentes, utilicé un tono empático para comprender sus necesidades diarias, mientras que con los proveedores, empleé un lenguaje más técnico para discutir los desafíos operativos. Además, expuse oralmente al equipo las decisiones de diseño arquitectónico (como la elección de un monolito modular y el uso de un Edge Node), traduciendo conceptos técnicos complejos en justificaciones claras y comprensibles para todos.<br><br>**TP:**<br>Fui responsable de elaborar y estructurar la presentación oral del proyecto (PPT). En esta, sinteticé los hallazgos clave y las decisiones de diseño, especialmente las relacionadas con el Capítulo 6 de UX/UI, para exponerlas de manera clara y objetiva ante el docente y compañeros. Además, comuniqué verbalmente al equipo las correcciones necesarias en diversas secciones del informe, facilitando la cohesión y la mejora continua del trabajo presentado.<br><br>**TB2:**<br>Durante la TB2, La comunicación oral en esta entrega me permitió presentar y sustentar los avances técnicos correspondientes al desarrollo del front-end. En las reuniones de equipo, discutí y argumenté objetivamente las decisiones de implementación y las soluciones a los problemas encontrados, facilitando la coordinación con otras áreas del proyecto (como el back-end) y reportando el progreso a un nivel jerárquico superior.<br> | **TB1:**<br>La comunicación oral permitió presentar con claridad la problemática social del acceso al agua y sus causas, así como los resultados del EventStorming y los bounded contexts. Esto facilitó que los hallazgos y decisiones arquitectónicas fueran entendidos por públicos de distintas especialidades y niveles.<br><br><BR>**TP:**<BR>La comunicación oral permitió presentar de manera clara y precisa los avances técnicos y de diseño, demostrando dominio sobre los aspectos arquitectónicos y de experiencia de usuario. Esto contribuyó a que los interlocutores comprendieran la coherencia entre la visión de negocio, la estructura del sistema y la solución tecnológica propuesta.<br><br><BR>**TB2:**<br>El equipo presentó los avances técnicos y de diseño de forma clara y estructurada, facilitando la comprensión entre miembros de distintas especialidades. Las reuniones permitieron alinear criterios y justificar decisiones ante docentes y stakeholders con precisión técnica.|
-| Comunica por escrito con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.<br> | **Joaquin Cortez Quezada** <br>**TB1:**<br> Participé en la elaboración de la documentación escrita del proyecto, estructurando de manera clara y objetiva los apartados técnicos y conceptuales. Redacté descripciones de historias de usuario, escenarios de calidad, bounded context canvas y el context mapping, empleando un lenguaje accesible tanto para compañeros de ingeniería como para un público no especializado. <br><br>**TP:**<br>Elaboré un documento técnico que describe la arquitectura táctica, los diagramas estructurales y el diseño UX/UI de AquaConecta, comunicando de forma clara y precisa las decisiones técnicas y visuales del proyecto a públicos especializados y no técnicos.<br><br>**TB2:**<br>Durante la TB2, participé activamente en el desarrollo e implementación del Frontend y Backend, y promoví una comunicación efectiva dentro del equipo de desarrollo. Esto me permitió documentar con claridad y objetividad los avances técnicos del proyecto, adaptando el lenguaje y el nivel de detalle según el perfil de los destinatarios.<br><br>**Oliveira Paucar, Mauricio** <br>**TB1:**<br> En el marco del proyecto, desarrollé el modelado C4 de la solución, documentando de manera estructurada los distintos niveles de abstracción requeridos.  <br><br>**TP:**<br>En la entrega del TP, se mejoro los puntos entregados en la TB1 y se agrego el nuevo contenido técnico solicitado para el capitulo 5 y 6. Este trabajo escrito permitió presentar con objetividad tanto la visión general como los detalles técnicos, de modo que mis compañeros pudieran comprender la propuesta desde una perspectiva de ingeniería, y al mismo tiempo el docente evaluador tuviera claridad sobre la coherencia y justificación del diseño planteado.<br><br>**TB2:**<br>La comunicación escrita fue fundamental para documentar objetivamente el primer ciclo de desarrollo. Esto incluyó la gestión de configuración de software y el registro detallado de la implementación del Sprint 1, abarcando desde el backlog hasta la evidencia de pruebas y despliegue. Asimismo, se estructuró el diseño y los resultados de las entrevistas de validación, asegurando la trazabilidad del feedback del usuario.<br><br>**Piero Periche Quiroga** <br>**TB1:**<br> En el proyecto desarrollé y aporte en el modelado c4 model de la solucion, documentando de forma clara los niveles de arquitectura requeridos. Esto permitio dejar en claro los detalles de arquitectura, para que asi la solucion tenga una vista clara desde la vision de ingeniería.<br><br>**TP:**<br> La comunicación escrita se materializó en la creación de los artefactos de diseño y arquitectura, que son documentos de ingeniería en sí mismos. Los mockups sirvieron como una guía visual objetiva que comunicó el diseño de la solución. Adicionalmente, documenté la arquitectura (mediante diagramas y especificaciones técnicas), creando un registro objetivo que permitió al equipo (público de diferentes especialidades) entender la estructura del proyecto y proceder con el desarrollo del front-end de manera coherente.<br>**TB2:**<br>Durante la TB2, La comunicación escrita fue fundamental para documentar los hallazgos de las entrevistas de validación y participar activamente en las correcciones generales del reporte. Mi labor incluyó asegurar que el feedback del usuario y la evidencia del desarrollo (front, back y mobile) estuvieran registrados con objetividad, garantizando un informe coherente y comprensible para los evaluadores.<br><br>**Hidaldo Lopez Mathias Adriano** <br>**TB1:**<br> Participé activamente en la redacción de la documentación del proyecto, especialmente en las secciones de diseño de software (4.1.3, 4.1.4 y 4.1.5). Mi objetivo fue estructurar estas secciones de forma clara y objetiva, explicando decisiones complejas como la arquitectura de monolito modular y el Edge Node, detallando no solo los aspectos técnicos, sino también sus justificaciones y las alternativas consideradas. Esto asegura que la información sea comprensible tanto para un público técnico (compañeros y profesor) como para una audiencia no especializada que necesite entender el porqué del diseño.<br><br>**TP:**<br>Me encargué de la redacción completa del Capítulo 6: Solution UX Design, donde documenté de forma escrita y objetiva las directrices de estilo, los wireframes y los mockups de la aplicación. Mi objetivo fue asegurar que el diseño de la experiencia de usuario fuera comprensible para un público técnico y no especializado. Adicionalmente, realicé una revisión integral del documento, aplicando correcciones de redacción, formato y coherencia para garantizar que la comunicación escrita del informe final fuera de alta calidad.<br><br>**TB2:**<br>Durante la TB2, La comunicación escrita fue fundamental para gestionar y aplicar las correcciones del reporte del proyecto. Mi rol se centró en revisar y asegurar que la documentación técnica, especialmente la vinculada al desarrollo del front-end y la implementación, estuviera plasmada con objetividad y precisión, garantizando la calidad y claridad del documento final para los evaluadores.<br>  | **TB1:**<br>La comunicación escrita permitió documentar de forma objetiva la problemática identificada, sus causas y las soluciones propuestas mediante historias de usuario, escenarios y canvases. Esto aseguró que los resultados fueran comprensibles y útiles para diferentes públicos dentro del proyecto.<br><br> **TP:**<BR> La comunicación escrita permitió documentar rigurosamente los aspectos técnicos y de diseño del sistema, asegurando que las decisiones arquitectónicas, los flujos de usuario y los prototipos fueran comprensibles y trazables. Esto consolidó la claridad y consistencia del proyecto, garantizando su valor como documento técnico y herramienta de comunicación profesional.<br><br>**TB2:**<br>Se documentaron rigurosamente los aspectos técnicos del sistema, incluyendo arquitectura, flujos y pruebas. La redacción objetiva y adaptada a distintos perfiles aseguró la trazabilidad del proyecto y su valor como soporte técnico.|
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Joaquin Cortez Quezada** <br>**TB1:**<br> En el desarrollo de la TB1, realicé una profunda investigación sobre el problema a solucionar, considerando el aspecto social y económico, además, identifiqué posibles bounded context con el proceso de EventStorming exponiendo los procesos de forma clara y entendible estableciendo el lenguaje ubicuo en cada uno.<br><br>**TP:**<br>Durante el TP, expuse el diseño táctico y la arquitectura del sistema AquaConecta, explicando las funciones de cada bounded context y la integración de los sistemas emergentes. Además, presenté el diseño UX/UI, destacando cómo la solución mejora la experiencia del usuario y la eficiencia operativa.<br><br>**TB2:**<br>Durante la TB2, participé activamente en el desarrollo e implementación del Frontend y Backend, promoví una comunicación efectiva dentro del equipo de desarrollo. Esto me permitió expresar con claridad y objetividad los avances técnicos del proyecto y asegurando que todos comprendieran la lógica detrás de las decisiones tomadas.<br><br>**TF:**<br>En el TF, lideré la comunicación oral relacionada con la implementación del bounded context de Predictive Analytics en el backend. Presenté al equipo técnico y al docente las decisiones arquitectónicas del módulo de predicción de consumo, explicando objetivamente el flujo de datos, la integración con machine learning y los endpoints REST desarrollados. Esta presentación facilitó que tanto compañeros técnicos como stakeholders no especializados comprendieran el valor funcional y la complejidad técnica de la solución implementada.<br><br>**Oliveira Paucar, Mauricio** <br>**TB1:**<br> Durante el desarrollo del proyecto, elaboré el modelado C4 de la solución, estructurando los diferentes niveles de abstracción necesarios para comprender el sistema. <br><br>**TP:**<br>Para esta entrega se agregaron los nuevos puntos solicitados para el capitulo 5 y 6 mientras se mejoro toda la primera entrega con la retroalimentacion recibida por el docente. Este nuevo avance me permitió comunicar de manera clara y objetiva tanto la visión general como los detalles técnicos, adaptando la explicación para la comprensión de mis compañeros del equipo y docente.<br><br>**TB2:**<br>La comunicación oral en esta entrega me permitió presentar y sustentar la implementación del primer sprint (Cap. 7.2), incluyendo la demostración del software funcional y la ejecución de pruebas. Además, se expusieron los resultados cualitativos obtenidos en las entrevistas de validación (Cap. 7.3), facilitando la discusión objetiva del feedback del usuario y los siguientes pasos del despliegue.<br><br>**TF:**<br>Durante el TF, presenté oralmente los resultados finales de la implementación del Sprint 2, destacando las mejoras en el backend y la integración del bounded context de Predictive Analytics. Expuse de manera clara y objetiva las métricas de rendimiento, los casos de prueba ejecutados y los resultados de las validaciones técnicas, facilitando que tanto el equipo de desarrollo como los evaluadores comprendieran el alcance y la calidad del trabajo realizado.<br><br>**Piero Periche Quiroga** <br>**TB1:**<br> En el desarrollo de la tb1, me encargue del analisis del proyecto, con el desarrollo del c4 model y el proceso de EventStorming, mostrando y explicando de forma clara y precisa los procesos. <br><br>**TP:**<br>La comunicación oral fue clave para presentar y sustentar el diseño de la solución. Expuse los mockups (web y mobile) al equipo y docente, explicando objetivamente el flujo de usuario y el diseño de la interfaz para recibir feedback. Asimismo, sustenté oralmente la arquitectura de software propuesta, justificando las decisiones técnicas (componentes, tecnologías) a un público de diferentes especialidades (mis compañeros de equipo) y niveles jerárquicos (docente), asegurando que el plan de implementación del front-end fuera comprendido por todos.<br><br>**TB2:**<br>Durante la TB2, La comunicación oral en esta entrega me permitió liderar y ejecutar las entrevistas de validación con los usuarios. Esto requirió sustentar el prototipo y sus funcionalidades (desarrolladas en front, back y mobile) a un público de diferente especialidad. Posteriormente, expuse los resultados cualitativos y el feedback obtenido de manera objetiva al equipo, facilitando la discusión para definir las correcciones y siguientes pasos del proyecto.<br><br>**TF:**<br>En el TF, expuse oralmente al equipo las actualizaciones finales del backend relacionadas con el módulo de Predictive Analytics. Comuniqué de forma clara y objetiva los desafíos técnicos superados durante la integración, las decisiones de diseño tomadas para optimizar el rendimiento del sistema y los resultados obtenidos en las pruebas de estrés. Esta comunicación permitió que tanto desarrolladores como evaluadores entendieran el valor técnico de las mejoras implementadas.<br><br>**Hidalgo Lopez Mathias Adriano** <br>**TB1:**<br> Durante la fase de investigación, conduje entrevistas con dos grupos distintos: residentes de las comunidades afectadas y proveedores del servicio de agua. Para lograr una comunicación efectiva, adapté mi lenguaje y enfoque: con los residentes, utilicé un tono empático para comprender sus necesidades diarias, mientras que con los proveedores, empleé un lenguaje más técnico para discutir los desafíos operativos. Además, expuse oralmente al equipo las decisiones de diseño arquitectónico (como la elección de un monolito modular y el uso de un Edge Node), traduciendo conceptos técnicos complejos en justificaciones claras y comprensibles para todos.<br><br>**TP:**<br>Fui responsable de elaborar y estructurar la presentación oral del proyecto (PPT). En esta, sinteticé los hallazgos clave y las decisiones de diseño, especialmente las relacionadas con el Capítulo 6 de UX/UI, para exponerlas de manera clara y objetiva ante el docente y compañeros. Además, comuniqué verbalmente al equipo las correcciones necesarias en diversas secciones del informe, facilitando la cohesión y la mejora continua del trabajo presentado.<br><br>**TB2:**<br>Durante la TB2, La comunicación oral en esta entrega me permitió presentar y sustentar los avances técnicos correspondientes al desarrollo del front-end. En las reuniones de equipo, discutí y argumenté objetivamente las decisiones de implementación y las soluciones a los problemas encontrados, facilitando la coordinación con otras áreas del proyecto (como el back-end) y reportando el progreso a un nivel jerárquico superior.<br><br>**TF:**<br>En el TF, comuniqué oralmente las actualizaciones y mejoras realizadas en el backend durante el Sprint 2, especialmente las relacionadas con el bounded context de Predictive Analytics. Presenté de manera objetiva y estructurada el funcionamiento del módulo de predicción de consumo, los algoritmos utilizados y su integración con el sistema existente, asegurando que tanto el equipo técnico como los evaluadores comprendieran la complejidad y el valor de la solución desarrollada.<br> | **TB1:**<br>La comunicación oral permitió presentar con claridad la problemática social del acceso al agua y sus causas, así como los resultados del EventStorming y los bounded contexts. Esto facilitó que los hallazgos y decisiones arquitectónicas fueran entendidos por públicos de distintas especialidades y niveles.<br><br>**TP:**<br>La comunicación oral permitió presentar de manera clara y precisa los avances técnicos y de diseño, demostrando dominio sobre los aspectos arquitectónicos y de experiencia de usuario. Esto contribuyó a que los interlocutores comprendieran la coherencia entre la visión de negocio, la estructura del sistema y la solución tecnológica propuesta.<br><br>**TB2:**<br>El equipo presentó los avances técnicos y de diseño de forma clara y estructurada, facilitando la comprensión entre miembros de distintas especialidades. Las reuniones permitieron alinear criterios y justificar decisiones ante docentes y stakeholders con precisión técnica.<br><br>**TF:**<br>La comunicación oral en la entrega final permitió presentar de manera integral y objetiva el funcionamiento completo del sistema, incluyendo el módulo de Predictive Analytics. El equipo logró transmitir con claridad técnica la arquitectura del backend, los algoritmos implementados y los resultados obtenidos, facilitando que evaluadores de diferentes especialidades comprendieran el valor y la complejidad de la solución desarrollada.|
+| Comunica por escrito con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.<br> | **Joaquin Cortez Quezada** <br>**TB1:**<br> Participé en la elaboración de la documentación escrita del proyecto, estructurando de manera clara y objetiva los apartados técnicos y conceptuales. Redacté descripciones de historias de usuario, escenarios de calidad, bounded context canvas y el context mapping, empleando un lenguaje accesible tanto para compañeros de ingeniería como para un público no especializado. <br><br>**TP:**<br>Elaboré un documento técnico que describe la arquitectura táctica, los diagramas estructurales y el diseño UX/UI de AquaConecta, comunicando de forma clara y precisa las decisiones técnicas y visuales del proyecto a públicos especializados y no técnicos.<br><br>**TB2:**<br>Durante la TB2, participé activamente en el desarrollo e implementación del Frontend y Backend, y promoví una comunicación efectiva dentro del equipo de desarrollo. Esto me permitió documentar con claridad y objetividad los avances técnicos del proyecto, adaptando el lenguaje y el nivel de detalle según el perfil de los destinatarios.<br><br>**TF:**<br>En el TF, documenté de manera exhaustiva la implementación del bounded context de Predictive Analytics en el backend. Redacté especificaciones técnicas, diagramas de secuencia y documentación de API para los endpoints desarrollados, empleando un lenguaje técnico preciso pero accesible. Esta documentación garantizó que tanto desarrolladores futuros como evaluadores técnicos pudieran comprender el diseño, la lógica de negocio y las decisiones arquitectónicas tomadas durante la implementación.<br><br>**Oliveira Paucar, Mauricio** <br>**TB1:**<br> En el marco del proyecto, desarrollé el modelado C4 de la solución, documentando de manera estructurada los distintos niveles de abstracción requeridos.  <br><br>**TP:**<br>En la entrega del TP, se mejoro los puntos entregados en la TB1 y se agrego el nuevo contenido técnico solicitado para el capitulo 5 y 6. Este trabajo escrito permitió presentar con objetividad tanto la visión general como los detalles técnicos, de modo que mis compañeros pudieran comprender la propuesta desde una perspectiva de ingeniería, y al mismo tiempo el docente evaluador tuviera claridad sobre la coherencia y justificación del diseño planteado.<br><br>**TB2:**<br>La comunicación escrita fue fundamental para documentar objetivamente el primer ciclo de desarrollo. Esto incluyó la gestión de configuración de software y el registro detallado de la implementación del Sprint 1, abarcando desde el backlog hasta la evidencia de pruebas y despliegue. Asimismo, se estructuró el diseño y los resultados de las entrevistas de validación, asegurando la trazabilidad del feedback del usuario.<br><br>**TF:**<br>Durante el TF, redacté la documentación completa del Sprint 2, incluyendo el Sprint Planning, Sprint Backlog, evidencia de desarrollo y pruebas relacionadas con el bounded context de Predictive Analytics. Mi comunicación escrita permitió presentar con objetividad los commits realizados, las historias de usuario implementadas y los resultados de las validaciones técnicas, garantizando que la documentación fuera comprensible tanto para el equipo técnico como para los evaluadores académicos.<br><br>**Piero Periche Quiroga** <br>**TB1:**<br> En el proyecto desarrollé y aporte en el modelado c4 model de la solucion, documentando de forma clara los niveles de arquitectura requeridos. Esto permitio dejar en claro los detalles de arquitectura, para que asi la solucion tenga una vista clara desde la vision de ingeniería.<br><br>**TP:**<br> La comunicación escrita se materializó en la creación de los artefactos de diseño y arquitectura, que son documentos de ingeniería en sí mismos. Los mockups sirvieron como una guía visual objetiva que comunicó el diseño de la solución. Adicionalmente, documenté la arquitectura (mediante diagramas y especificaciones técnicas), creando un registro objetivo que permitió al equipo (público de diferentes especialidades) entender la estructura del proyecto y proceder con el desarrollo del front-end de manera coherente.<br><br>**TB2:**<br>Durante la TB2, La comunicación escrita fue fundamental para documentar los hallazgos de las entrevistas de validación y participar activamente en las correcciones generales del reporte. Mi labor incluyó asegurar que el feedback del usuario y la evidencia del desarrollo (front, back y mobile) estuvieran registrados con objetividad, garantizando un informe coherente y comprensible para los evaluadores.<br><br>**TF:**<br>En el TF, participé activamente en la documentación técnica del Sprint 2, redactando las secciones relacionadas con la implementación del backend y el bounded context de Predictive Analytics. Mi trabajo escrito incluyó la descripción de los endpoints REST, los diagramas de clases actualizados y los casos de prueba ejecutados, asegurando que la información fuera precisa, objetiva y comprensible para diferentes niveles de especialización técnica.<br><br>**Hidalgo Lopez Mathias Adriano** <br>**TB1:**<br> Participé activamente en la redacción de la documentación del proyecto, especialmente en las secciones de diseño de software (4.1.3, 4.1.4 y 4.1.5). Mi objetivo fue estructurar estas secciones de forma clara y objetiva, explicando decisiones complejas como la arquitectura de monolito modular y el Edge Node, detallando no solo los aspectos técnicos, sino también sus justificaciones y las alternativas consideradas. Esto asegura que la información sea comprensible tanto para un público técnico (compañeros y profesor) como para una audiencia no especializada que necesite entender el porqué del diseño.<br><br>**TP:**<br>Me encargué de la redacción completa del Capítulo 6: Solution UX Design, donde documenté de forma escrita y objetiva las directrices de estilo, los wireframes y los mockups de la aplicación. Mi objetivo fue asegurar que el diseño de la experiencia de usuario fuera comprensible para un público técnico y no especializado. Adicionalmente, realicé una revisión integral del documento, aplicando correcciones de redacción, formato y coherencia para garantizar que la comunicación escrita del informe final fuera de alta calidad.<br><br>**TB2:**<br>Durante la TB2, La comunicación escrita fue fundamental para gestionar y aplicar las correcciones del reporte del proyecto. Mi rol se centró en revisar y asegurar que la documentación técnica, especialmente la vinculada al desarrollo del front-end y la implementación, estuviera plasmada con objetividad y precisión, garantizando la calidad y claridad del documento final para los evaluadores.<br><br>**TF:**<br>En el TF, me enfoqué en la documentación escrita del Sprint 2, redactando las secciones técnicas relacionadas con el desarrollo del backend y la integración del bounded context de Predictive Analytics. Documenté con objetividad y precisión los diagramas de arquitectura actualizados, las especificaciones de los modelos de machine learning y las evidencias de despliegue, garantizando que la información fuera comprensible para evaluadores técnicos y académicos con diferentes niveles de especialización.<br>  | **TB1:**<br>La comunicación escrita permitió documentar de forma objetiva la problemática identificada, sus causas y las soluciones propuestas mediante historias de usuario, escenarios y canvases. Esto aseguró que los resultados fueran comprensibles y útiles para diferentes públicos dentro del proyecto.<br><br>**TP:**<br>La comunicación escrita permitió documentar rigurosamente los aspectos técnicos y de diseño del sistema, asegurando que las decisiones arquitectónicas, los flujos de usuario y los prototipos fueran comprensibles y trazables. Esto consolidó la claridad y consistencia del proyecto, garantizando su valor como documento técnico y herramienta de comunicación profesional.<br><br>**TB2:**<br>Se documentaron rigurosamente los aspectos técnicos del sistema, incluyendo arquitectura, flujos y pruebas. La redacción objetiva y adaptada a distintos perfiles aseguró la trazabilidad del proyecto y su valor como soporte técnico.<br><br>**TF:**<br>La comunicación escrita en la entrega final consolidó la documentación completa del proyecto, incluyendo la implementación del bounded context de Predictive Analytics en el backend. El equipo logró plasmar con objetividad y precisión técnica las especificaciones de API, los diagramas de arquitectura actualizados y las evidencias de desarrollo y pruebas, garantizando que la documentación fuera comprensible y útil para evaluadores técnicos, académicos y futuros desarrolladores del sistema.|
 
 
 # Capítulo I: Introducción
@@ -1734,10 +1732,6 @@ El proceso de Candidate Context Discovery fue ejecutado con el objetivo de estab
 
   Consolida y presenta métricas globales y reportes históricos. Integra información de Water Management, Subscriptions y Requests para ofrecer un panorama completo del servicio. Los administradores pueden visualizar indicadores como promedios de nivel y calidad del agua, número de solicitudes atendidas y métricas financieras, facilitando decisiones estratégicas y de mejora del servicio.
 
-* Conversational Support
-
-  Habilita la interacción inteligente entre residentes y el sistema a través de un asistente conversacional. Permite consultar el estado del tanque, reportar problemas o solicitar agua usando lenguaje natural. Actúa como interfaz de usuario simplificada y accesible, transformando los mensajes en comandos que se procesan en Requests y Water Management.
-
 * Predictive Analytics
 
   Analiza datos históricos y actuales para generar predicciones de consumo y detectar patrones críticos. A partir de estas predicciones, puede emitir alertas preventivas o generar solicitudes automáticas de reabastecimiento. Además, alimenta al módulo de Analytics con métricas de predicción y desempeño del modelo. Representa una capacidad diferenciadora al anticipar la demanda de agua y optimizar la distribución.
@@ -1810,13 +1804,6 @@ Este canvas analiza datos históricos de consumo para generar predicciones sobre
 
 ![alt text](./assets/bounded/ml%20can.png)
 
-
-- Bounded context Conversational Support
-
-Este canvas integra un asistente conversacional para responder dudas frecuentes de residentes y derivar consultas complejas a Requests. Su objetivo es mejorar la experiencia de usuario con atención inmediata. Las decisiones de negocio definen que el chatbot debe resolver un alto porcentaje de consultas frecuentes y registrar tickets automáticamente en casos no cubiertos. El lenguaje ubicuo incluye “Consulta automática” y “Derivación de ticket”. Las métricas consideran porcentaje de consultas resueltas y tiempos de respuesta, mientras que las preguntas abiertas discuten el uso de modelos propios o externos y el soporte multilingüe.
-
-![alt text](./assets/bounded/chatbot%20can.png)
-
 ### 4.2.5. Context Mapping.
 
 En este diagrama se visualiza las relaciones clave entre los bounded contexts del sistema.
@@ -1836,19 +1823,59 @@ En el diagrama de contexto se muestra la interacción de los diferentes actores 
 
 El sistema central se integra con los dispositivos IoT instalados en los tanques, que capturan métricas de agua y transmiten los datos a través de un nodo de procesamiento en el borde (Edge Node). Asimismo, se conecta con Mercado Pago para la gestión de transacciones seguras y con servicios externos de Machine Learning y NLP que fortalecen las capacidades de predicción y soporte conversacional.
 
-![alt text](<./assets/img/Software Architecture Context Level Diagrams-2.png>)
+![alt text](<./assets/img/Context2.png>)
+
 
 #### 4.3.3. Software Architecture Container Level Diagrams.
 
-El diagrama de contenedores muestra cómo interactúan los diferentes usuarios y componentes del sistema. Los principales usuarios son: residentes, que utilizan una aplicación móvil para monitorear el consumo de agua, recibir alertas, solicitar reabastecimientos e interactuar con un chatbot; proveedores, que gestionan residentes, suscripciones y solicitudes desde una plataforma web; y administradores, que supervisan el desempeño global y los reportes analíticos.
+El diagrama de contenedores ilustra las interacciones de alto nivel entre los usuarios, las aplicaciones y los servicios del sistema AquaConecta. Antes de detallar los flujos, es importante distinguir que el proyecto plantea dos visiones arquitectónicas: una **Arquitectura Ideal**, diseñada para escalabilidad y producción masiva, y una **Arquitectura de la Demo**, optimizada para la implementación actual y validación académica.
 
-En el núcleo, los sensores AquaConecta miden la calidad y el nivel del agua en los tanques de los residentes. Los datos son recolectados por una aplicación embebida y enviados al nodo de procesamiento en el borde (Edge Node), que los preprocesa y almacena temporalmente en SQLite antes de transmitirlos a la plataforma central.
+#### A. Actores y Flujo General (Común a ambas arquitecturas)
 
-El Backend API (Spring Boot) expone servicios REST y conecta con la base de datos central MySQL, donde se gestionan usuarios, perfiles, monitoreo, suscripciones y solicitudes. Los módulos de Monitoreo y Analytics ofrecen paneles de control para proveedores y administradores, mientras que el módulo de Analítica Predictiva utiliza servicios de machine learning para pronosticar patrones de consumo y recomendar reabastecimientos proactivos.
+Independientemente de la arquitectura subyacente, los actores principales y el flujo de datos en el "Borde" (*Edge*) se mantienen constantes:
 
-Además, el módulo de Chatbot emplea un servicio externo de NLP para asistir a los residentes en sus consultas y escalar incidencias al contexto de Solicitudes cuando sea necesario. Las operaciones de pago se realizan mediante la integración con Mercado Pago, garantizando la gestión segura de transacciones.
+* **Usuarios:**
+    * **Residentes:** Utilizan la aplicación móvil (Flutter) para monitorear su consumo de agua, recibir alertas de niveles críticos y enviar reportes.
+    * **Proveedores:** Gestionan residentes, suscripciones y atienden solicitudes mediante la aplicación web (Angular).
+    * **Administradores:** Supervisan el desempeño global y los reportes analíticos del sistema.
 
-![alt text](<./assets/img/conteneodres2.png>)
+* **IoT y Edge Computing:**
+    * Los sensores AquaConecta miden calidad y nivel de agua en los tanques.
+    * Una aplicación embebida recolecta estos datos y los envía al **Edge Processing Node**.
+    * Este nodo preprocesa la información, genera recomendaciones locales y almacena datos temporalmente en una base de datos **MySQL** local antes de transmitirlos a la plataforma central, optimizando el ancho de banda y asegurando disponibilidad offline.
+
+---
+
+#### B. Arquitectura de la Solución Ideal (Target Architecture)
+
+Esta arquitectura representa la visión a largo plazo de AquaConecta. Está diseñada bajo el patrón de **Microservicios** con bases de datos descentralizadas para garantizar alta cohesión y escalabilidad.
+
+![Diagrama de Arquitectura Ideal](conteneodres2-1.png)
+
+**Características clave:**
+
+1.  **Patrón Backend for Frontend (BFF):** Se implementan gateways específicos para cada tipo de cliente (*API Gateway Web, API Gateway Mobile, API Gateway IoT*). Esto permite que cada interfaz reciba los datos formateados exactamente como los necesita, reduciendo el *over-fetching* y mejorando la experiencia de usuario.
+2.  **Desacoplamiento de Datos (Database per Service):** Cada contexto delimitado (*Bounded Context*), como Usuarios, Suscripciones o Monitoreo, posee su propia base de datos. Esto evita que un fallo en un módulo afecte a la integridad de todo el sistema.
+3.  **Comunicación Asíncrona (Message Broker):** Se introduce un *Message Broker* para gestionar eventos entre servicios, desacoplando la comunicación directa y mejorando la resiliencia.
+4.  **Arquitectura Medallion (Data Analytics):** Para la analítica avanzada, se observa una sección inferior estructurada bajo el concepto de "Medallion Architecture". Los datos fluyen a través de capas lógicas (Bronce para datos crudos, Plata para datos limpios y Oro para datos agregados/de negocio), permitiendo procesar grandes volúmenes de información histórica para los modelos de Machine Learning sin impactar el rendimiento transaccional.
+
+---
+
+#### C. Arquitectura de la Demo (Implementación Actual)
+
+Para efectos de la demostración académica y validación funcional del MVP (*Producto Mínimo Viable*), se ha optado por una arquitectura que simplifica la infraestructura de datos pero mantiene la lógica de segregación de responsabilidades.
+
+![Diagrama de Arquitectura Demo](<as is.png>)
+
+**Diferencias y adaptaciones:**
+
+1.  **Persistencia del Patrón BFF:** Al igual que en la arquitectura ideal, la demo mantiene el patrón **Backend for Frontend**. Los gateways (Web, Mobile e IoT) siguen estando separados para gestionar la lógica de presentación específica de cada cliente, demostrando una buena práctica arquitectónica desde la fase de prototipo.
+2.  **Base de Datos Compartida:** A diferencia de la solución ideal, la demo utiliza una instancia centralizada de MySQL. Aunque los servicios (APIs en Spring Boot) están lógicamente separados por contextos, todos persisten información en el mismo repositorio para facilitar la integración, el despliegue rápido y la validación de relaciones entre entidades.
+3.  **Comunicación Síncrona:** La interacción entre los servicios se realiza principalmente a través de llamadas REST directas.
+4.  **Machine Learning Integrado:** El módulo de Analítica Predictiva interactúa directamente con la base de datos central para obtener el histórico de consumo y generar las proyecciones de demanda.
+
+Esta estrategia dual permite demostrar la funcionalidad completa del sistema hoy (Arquitectura Demo) respetando los patrones de diseño modernos como el BFF, mientras se tiene una hoja de ruta técnica clara para el crecimiento futuro hacia una arquitectura distribuida y basada en datos (Arquitectura Ideal).
+
 #### 4.3.4. Software Architecture Deployment Diagrams.
 
 El diagrama de despliegue muestra cómo se distribuyen los distintos componentes de software en su entorno de ejecución. El sistema está compuesto por una aplicación web desarrollada con Angular y una aplicación móvil desarrollada con Flutter, ambas desplegadas sobre Firebase. Estas aplicaciones se comunican mediante JSON/HTTPS con una API REST construida con Spring Boot (Java), que encapsula toda la lógica de negocio organizada por contextos delimitados. La API, a su vez, realiza operaciones de lectura y escritura sobre una base de datos MySQL, que almacena información de usuarios, suscripciones, sensores, alertas y registros administrativos. Además, el backend se integra con el sistema de pagos externo Mercado Pago, utilizado para procesar transacciones.
@@ -2041,7 +2068,7 @@ El diagrama de base de datos del bounded context Analytics muestra la estructura
 
 El diagrama de componentes del bounded context Water Management muestra cómo los controladores REST (DeviceController, EventController) gestionan la interacción entre los usuarios y el sistema para el monitoreo de dispositivos y eventos IoT. Los controladores delegan la lógica a los servicios de aplicación (DeviceCommandServiceImpl, EventCommandServiceImpl, DeviceQueryServiceImpl, EventQueryServiceImpl), que implementan los contratos definidos en el dominio. Los servicios de dominio gestionan los agregados Device y Event, así como los comandos y queries asociados.
 
-![alt text](<./assets/CAPITULO5/monitoringh/structurizr-101610-MonitoringComponentDiagram333.png>)
+![alt text](structurizr-101610-WaterManagementComponents.png)
 
 ### 5.2.6 Bounded Context Software Architecture Code Level Diagrams
 #### 5.2.6.1 Bounded Context Domain Layer Class Diagrams
@@ -2351,7 +2378,7 @@ El diagrama de base de datos representa la estructura de persistencia para los p
 El diagrama de componentes muestra cómo los controladores REST (WaterSupplyRequestController, IssueReportController) exponen los endpoints para la gestión de solicitudes de agua y reportes de problemas. Cada controlador delega la lógica a servicios de aplicación que implementan los contratos definidos en el dominio. Los servicios gestionan los agregados WaterSupplyRequest e IssueReport, así como los comandos y queries asociados. Los componentes ACL (Context Facades) permiten exponer información controlada a otros bounded contexts, asegurando el aislamiento y la integridad de los datos. Este diseño facilita la extensibilidad y la integración segura entre módulos, manteniendo la consistencia y la separación de responsabilidades.
 
 
-![alt text](<./assets/CAPITULO5/request/structurizr-101610-RequestsComponentDiagramsds.png>)
+![alt text](<structurizr-101610-RequestManagementComponents (1).png>)
 
 ### 5.4.6 Bounded Context Software Architecture Code Level Diagrams
 #### 5.4.6.1 Bounded Context Domain Layer Class Diagrams
@@ -2463,7 +2490,8 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 
 El diagrama de componentes muestra cómo el controlador REST (SubscriptionController) expone los endpoints para la gestión de suscripciones y operaciones relacionadas. El controlador delega la lógica a servicios de aplicación que implementan los contratos definidos en el dominio. Los servicios gestionan el agregado Subscription y los comandos y queries asociados. La infraestructura incluye repositorios y la integración con servicios externos para notificaciones y validaciones. Los componentes ACL (Context Facades) permiten exponer información controlada a otros bounded contexts, asegurando el aislamiento y la integridad de los datos. Este diseño facilita la extensibilidad y la integración segura entre módulos, manteniendo la consistencia y la separación de responsabilidades.
 
-![alt text](<./assets/CAPITULO5/suscripcion/structurizr-101610-SubscriptionsComponentDiagram222.png>)
+![alt text](structurizr-101610-SubscriptionComponents.png)
+
 ### 5.5.6 Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.5.6.1 Bounded Context Domain Layer Class Diagrams
@@ -2479,188 +2507,12 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 
 ![alt text](<./assets/CAPITULO5/suscripcion/Captura de pantalla 2025-10-03 133949.png>)
 
+
 ---
 
-## 5.6 Conversational Support Bounded Context
+## 5.6 Predictive Analytics Bounded Context
 
 ### 5.6.1 Domain Layer
-
-#### **Aggregates**
-
-- ConversationSession Aggregate:
-
-| Atributo | Tipo | Descripción |
-|----------|------|-------------|
-| `sessionId` | `String` | Identificador único de la sesión conversacional |
-| `userId` | `Long` | Identificador del usuario que participa en la conversación |
-| `status` | `ConversationStatus` | Estado de la conversación (ACTIVE, PAUSED, COMPLETED, EXPIRED) |
-| `startTime` | `LocalDateTime` | Momento de inicio de la sesión |
-| `lastActivity` | `LocalDateTime` | Última actividad registrada en la sesión |
-| `context` | `ConversationContext` | Contexto conversacional acumulado |
-
-- ChatMessage Aggregate:
-
-| Atributo | Tipo | Descripción |
-|----------|------|-------------|
-| `messageId` | `String` | Identificador único del mensaje |
-| `sessionId` | `String` | Referencia a la sesión conversacional |
-| `sender` | `MessageSender` | Origen del mensaje (USER, ASSISTANT) |
-| `content` | `String` | Contenido textual del mensaje |
-| `timestamp` | `LocalDateTime` | Momento de envío del mensaje |
-| `intent` | `Intent` | Intención detectada del mensaje (si aplica) |
-| `confidence` | `Float` | Nivel de confianza en la detección de intención |
-
-- Intent Aggregate:
-
-| Atributo | Tipo | Descripción |
-|----------|------|-------------|
-| `intentType` | `IntentType` | Tipo de intención (QUERY_TANK_LEVEL, REPORT_ISSUE, REQUEST_WATER, SUBSCRIPTION_INFO) |
-| `entities` | `Map<String, String>` | Entidades extraídas del mensaje (cantidad, ubicación, tipo) |
-| `actionRequired` | `String` | Acción específica requerida para procesar la intención |
-| `targetContext` | `String` | Bounded context de destino para ejecutar la acción |
-
-#### **Value Objects**
-| Value Object | Atributos | Descripción |
-|--------------|-----------|-------------|
-| `ConversationContext` | `currentTopic: String`, `variables: Map<String, Object>` | Contexto conversacional para mantener estado |
-| `MessageSender` | `USER, ASSISTANT` | Enumeración del origen del mensaje |
-| `ConversationStatus` | `ACTIVE, PAUSED, COMPLETED, EXPIRED` | Estados posibles de la conversación |
-| `IntentType` | `QUERY_TANK_LEVEL, REPORT_ISSUE, REQUEST_WATER, SUBSCRIPTION_INFO` | Tipos de intenciones reconocidas |
-
-#### **ConversationSession Commands y Queries**
-
-- ConversationSession Commands:
-
-| Comando | Propósito |
-|---------|-----------|
-| `StartConversationCommand` | Iniciar nueva sesión conversacional |
-| `UpdateConversationContextCommand` | Actualizar contexto de la conversación |
-| `EndConversationCommand` | Finalizar sesión conversacional |
-
-- ConversationSession Queries:
-
-| Query | Propósito |
-|-------|-----------|
-| `GetActiveConversationByUserQuery` | Obtener sesión activa de un usuario |
-| `GetConversationHistoryQuery` | Historial de conversaciones de un usuario |
-| `GetConversationBySessionIdQuery` | Obtener sesión específica por ID |
-
-#### **ChatMessage Commands y Queries**
-
-- ChatMessage Commands:
-
-| Comando | Propósito |
-|---------|-----------|
-| `ProcessUserMessageCommand` | Procesar mensaje entrante del usuario |
-| `GenerateAssistantResponseCommand` | Generar respuesta del asistente |
-| `ArchiveOldMessagesCommand` | Archivar mensajes antiguos |
-
-- ChatMessage Queries:
-
-| Query | Propósito |
-|-------|-----------|
-| `GetMessagesBySessionQuery` | Obtener mensajes de una sesión |
-| `GetRecentMessagesQuery` | Mensajes recientes para contexto |
-| `SearchMessagesQuery` | Búsqueda de mensajes por contenido |
-
-#### **Intent Commands y Queries**
-
-- Intent Commands:
-
-| Comando | Propósito |
-|---------|-----------|
-| `DetectIntentCommand` | Detectar intención en mensaje del usuario |
-| `ExecuteIntentActionCommand` | Ejecutar acción basada en intención detectada |
-
-- Intent Queries:
-
-| Query | Propósito |
-|-------|-----------|
-| `GetIntentsByTypeQuery` | Obtener intenciones por tipo |
-| `GetIntentStatisticsQuery` | Estadísticas de intenciones detectadas |
-
-#### **Servicios de Dominio**
-| Servicio | Tipo | Responsabilidad |
-|----------|------|----------------|
-| `NaturalLanguageProcessingService` | Domain Service | Procesamiento de lenguaje natural e interpretación de mensajes |
-| `IntentRecognitionService` | Domain Service | Reconocimiento y clasificación de intenciones del usuario |
-| `ConversationFlowService` | Domain Service | Gestión del flujo y continuidad conversacional |
-| `ResponseGenerationService` | Domain Service | Generación de respuestas contextuales y personalizadas |
-
-
-### 5.6.2 Interface Layer
-
-#### **Controladores REST**
-| Controlador | Responsabilidad |
-|-------------|----------------|
-| `ChatController` | Endpoints para envío/recepción de mensajes del chat |
-| `ConversationController` | Gestión de sesiones conversacionales y contexto |
-
-#### **Anti-Corruption Layer (ACL)**
-| Facade | Responsabilidad |
-|---------|----------------|
-| `ConversationalSupportContextFacade` | Integración con servicios de IA externos y otros bounded contexts |
-
-
-### 5.6.3 Application Layer
-
-#### **Servicios de Aplicación**
-| Implementación | Responsabilidad |
-|----------------|----------------|
-| `ChatbotOrchestrationService` | Orquestación completa del flujo conversacional |
-| `MessageProcessingService` | Procesamiento de mensajes entrantes y salientes |
-| `IntentMappingService` | Mapeo de intenciones a comandos de otros bounded contexts |
-| `ConversationHistoryService` | Gestión del historial y contexto conversacional |
-| `MultilingualService` | Soporte para múltiples idiomas en las conversaciones |
-| `ConversationAnalyticsService` | Análisis de patrones y efectividad conversacional |
-
-
-### 5.6.4 Infrastructure Layer
-
-#### **Repositorios JPA**
-| Repositorio | Responsabilidad |
-|-------------|----------------|
-| `ConversationSessionRepository` | Persistencia de sesiones conversacionales |
-| `ChatMessageRepository` | Almacenamiento masivo de mensajes con búsqueda full-text |
-| `IntentRepository` | Persistencia de intenciones y estadísticas |
-
-#### **Servicios de Infraestructura**
-| Servicio | Responsabilidad |
-|----------|----------------|
-| **OpenAI Integration** | Integración con API de OpenAI para procesamiento de lenguaje natural |
-| **Azure Cognitive Services** | Servicios cognitivos para análisis de texto y reconocimiento de intenciones |
-| **Dialogflow Connector** | Conector para gestión avanzada de flujos conversacionales |
-| **Speech Processing** | Procesamiento de voz a texto y texto a voz |
-| **Translation Services** | Servicios de traducción automática para soporte multiidioma |
-
-
-### 5.6.5 Bounded Context Software Architecture Component Level Diagrams
-
-
-El diagrama de componentes muestra cómo los controladores REST (ChatController, ConversationController) permiten la interacción entre el usuario y el asistente conversacional. Los mensajes y comandos se procesan en los servicios de aplicación y dominio, que orquestan el flujo conversacional, el reconocimiento de intenciones y la generación de respuestas. La infraestructura integra el servicio externo de IA (Hugging Face o OpenAI) para el procesamiento de lenguaje natural y el mapeo de comandos hacia otros bounded contexts (Requests, Water Management, Subscriptions). El diseño asegura la extensibilidad y la integración segura, permitiendo que el chatbot actúe como interfaz accesible para consultar datos, solicitar agua o reportar problemas.
-
-![alt text](<./assets/CAPITULO5/chat/prueba.png>)
-
-### 5.6.6 Bounded Context Software Architecture Code Level Diagrams
-
-#### 4.6.6.1 Bounded Context Domain Layer Class Diagrams
-
-El diagrama de clases del Domain Layer ilustra la estructura y relaciones entre los agregados principales (ConversationSession, ChatMessage, Intent), los value objects y los servicios de dominio. Los servicios de comando y consulta definen los contratos para la gestión de sesiones, mensajes e intenciones, mientras que los agregados encapsulan la lógica conversacional y las reglas de validación. Los value objects como ConversationStatus e IntentType garantizan la inmutabilidad y la claridad semántica. Este diseño promueve la extensibilidad y la protección de invariantes, permitiendo agregar nuevas funcionalidades de IA y flujos conversacionales sin afectar la arquitectura base.
-
-
-![alt text](<./assets/CAPITULO5/chat/bLV1Sjis4BtdAtXqf_4VP3nHR3hbL95aadARamO1rp8w9AW2e58rgh-zAs95GG8WJdGmYDrzYuV7nHB-g0rJfclgTmd-UCsqJkvRkGMbcH6jB41h798VwBU_sy8e8TU9jfwiEdccBTex3SerdcKpp7GwqVtWuZYh7vY1KZIGz8mEJx4096act.png>)
-
-#### 5.6.6.2 Bounded Context Database Design Diagram
-
-
-El diagrama de base de datos representa la estructura de persistencia para las sesiones conversacionales, mensajes, estadísticas de intenciones y analíticas de conversación. Incluye las tablas principales CONVERSATION_SESSIONS, CHAT_MESSAGES, INTENT_STATISTICS y CONVERSATION_ANALYTICS, así como sus relaciones. La base de datos almacena información histórica y actual de cada sesión y mensaje, permitiendo consultas eficientes, trazabilidad y análisis de desempeño del chatbot. Se definen claves foráneas y campos JSON para flexibilidad y escalabilidad, facilitando la integración con otros módulos y la mejora continua del asistente conversacional.
-
-![alt text](<./assets/CAPITULO5/chat/Captura de pantalla 2025-10-03 225803.png>)
----
-
-## 5.7 Predictive Analytics Bounded Context
-
-### 5.7.1 Domain Layer
 
 
 #### **Aggregates**
@@ -2805,7 +2657,7 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 | `ModelTrainingService` | Domain Service | Entrenamiento y validación de modelos de machine learning |
 | `AnomalyDetectionService` | Domain Service | Detección de anomalías y comportamientos atípicos |
 
-### 5.7.2 Interface Layer
+### 5.6.2 Interface Layer
 
 #### **Controladores REST**
 | Controlador | Responsabilidad |
@@ -2820,7 +2672,7 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 | `PredictiveAnalyticsContextFacade` | Integración con plataformas de ML y otros bounded contexts |
 
 
-### 5.7.3 Application Layer
+### 5.6.3 Application Layer
 
 #### **Servicios de Aplicación**
 | Implementación | Responsabilidad |
@@ -2833,7 +2685,7 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 | `ForecastingService` | Servicios especializados en pronósticos de demanda |
 
 
-### 5.7.4 Infrastructure Layer
+### 5.6.4 Infrastructure Layer
 
 #### **Repositorios JPA**
 | Repositorio | Responsabilidad |
@@ -2854,20 +2706,20 @@ El diagrama de base de datos representa la estructura de persistencia para las s
 | **Data Lake Integration** | Conexión con repositorios de datos históricos |
 
 
-### 5.7.5 Bounded Context Software Architecture Component Level Diagrams
+### 5.6.5 Bounded Context Software Architecture Component Level Diagrams
 
 El diagrama de componentes muestra cómo los controladores REST (PredictionController, ModelController) permiten la interacción entre el usuario y el módulo de análisis predictivo. Los servicios de aplicación gestionan el flujo de predicción, entrenamiento y despliegue de modelos, integrando el servicio externo de Machine Learning (TensorFlow Platform) para el procesamiento y entrenamiento de modelos. La infraestructura conecta con los bounded contexts de Water Management, Requests, Analytics y Subscriptions para obtener datos históricos y enviar resultados de predicción. El diseño asegura la extensibilidad y la integración segura, permitiendo que el módulo de análisis predictivo anticipe la demanda de agua, detecte patrones críticos y genere alertas o solicitudes automáticas.
 
-![alt text](<./assets/CAPITULO5/Predictive Analytics/structurizr-101610-Components66.png>)
+![alt text](structurizr-101610-PredictiveAnalyticsComponents.png)
 
-### 5.7.6 Bounded Context Software Architecture Code Level Diagrams
-#### 5.7.6.1 Bounded Context Domain Layer Class Diagrams
+### 5.6.6 Bounded Context Software Architecture Code Level Diagrams
+#### 5.6.6.1 Bounded Context Domain Layer Class Diagrams
 
 El diagrama de clases del Domain Layer ilustra la estructura y relaciones entre los agregados principales (Prediction, MLModel), los value objects y los servicios de dominio. Los servicios de comando y consulta definen los contratos para la gestión de predicciones y modelos, mientras que los agregados encapsulan la lógica de negocio y las reglas de validación. Los value objects como PredictionType y ModelStatus garantizan la inmutabilidad y la claridad semántica. Este diseño promueve la extensibilidad y la protección de invariantes, permitiendo agregar nuevos algoritmos y flujos de predicción sin afectar la arquitectura base.
 
 ![alt text](<./assets/CAPITULO5/Predictive Analytics/bHZRSfiwyBrVmQCpf_c3JgVK48SvyQKsQQTF7HNMZivmuKZ2hTkSVFiHeB82hM6IXrZQ-sMrMl51AYPKdMTlFFsNP4nARoSWvOdYPR4kKyYytnhN_TqUbE35oSiRU9GYl2MCBnLeb5avJ6SGKij4-5rMCkMn9Aa5Iou8VoWJbWLCGSnpy9HWlD3y3M2ayA.png>)
 
-#### 5.7.6.2 Bounded Context Database Design Diagram
+#### 5.6.6.2 Bounded Context Database Design Diagram
 
 El diagrama de base de datos representa la estructura de persistencia para las predicciones, modelos de machine learning y métricas de desempeño. Incluye las tablas principales PREDICTION, ML_MODEL y MODEL_METRICS, así como sus relaciones. La base de datos almacena información histórica y actual de cada predicción y modelo, permitiendo consultas eficientes, trazabilidad y análisis de desempeño. Se definen claves foráneas y campos JSON para flexibilidad y escalabilidad, facilitando la integración con otros módulos y la mejora continua de los algoritmos predictivos.
 
@@ -3649,10 +3501,21 @@ En nuestro video de exposición, hemos incluido una demostración de la aplicaci
   ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192016.png)
   ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192036.png)
   ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192050.png)
+  ![alt text](image-6.png)
   ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192101.png)
   ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192119.png)
   ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192130.png)
-  ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-14%20192142.png)
+  ![alt text](image-4.png)
+  ![alt text](image-5.png)
+
+- Capturas de pantalla del la aplicación mobile:
+
+  ![alt text](image-7.png)
+  ![alt text](image-8.png)
+  ![alt text](image-9.png)
+  ![alt text](image-10.png)
+  ![alt text](image-11.png)
+  ![alt text](image-12.png)
 
 Se adjunta enlace para ingresar al video en el que se muestra lo logrado en este sprint 1.
 
@@ -3664,13 +3527,24 @@ Se adjunta enlace para ingresar al video en el que se muestra lo logrado en este
 
 Se hizo uso de Swagger para documentar los servicios de la aplicación AquaConecta. Esta herramienta permite a los desarrolladores y usuarios explorar y entender las API de manera interactiva. A continuación, se presentan capturas de pantalla que muestran la documentación generada por Swagger:
 
+- **Link de swagger:**
+  [https://aquaconecta-backend-app.azurewebsites.net/swagger-ui](https://aquaconecta-backend-app.azurewebsites.net/swagger-ui/index.html#/)
+
 ![alt text](assets/Services-Documentation/Captura%20de%20pantalla%202025-11-14%20195614.png)
+
+![alt text](assets/Services-Documentation/Captura%20de%20pantalla%202025-11-14%20195710.png)
+
+![alt text](assets/Services-Documentation/Captura%20de%20pantalla%202025-11-14%20195746.png)
+
+![alt text](image-3.png)
 
 ##### 7.2.2.7. Software Deployment Evidence for Sprint Review.
 
 
 La aplicacion fue desplegada en Azure App Service, lo que permite a los usuarios acceder a la aplicación de manera sencilla y rápida. A continuación, se presentan capturas de pantalla que muestran el proceso de despliegue y el estado actual de la aplicación en Azure, asi como la implementacion el Auth0:
 
+- **Aplicacion Web:**
+  [https://aquaconecta-ase.netlify.app](https://aquaconecta-ase.netlify.app)
 
 ![alt text](assets/1.jpeg)
 
