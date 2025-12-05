@@ -142,7 +142,7 @@ TF|04/12/2025| Cortez Quezada Joaquin Antonio, Oliveira Paucar Mauricio, Periche
 
 [5.1. Analytics Bounded Context](#51-analytics-bounded-context)
 
-[5.2. Health Management Bounded Context](#52-health-management-bounded-context)
+[5.2. Water Management Bounded Context](#52-health-management-bounded-context)
 
 [5.3. User & Profile Bounded Context](#53-user--profile-bounded-context)
 
@@ -1128,12 +1128,12 @@ Tenemos el As-Is Scenario para el segmento de proveedores, que contiene una oper
 | **Report**                           | Automatically generated document with historical data, alerts, consumption, and water conditions. |
 | **Dashboard**                        | Customized view (for inhabitants or providers) displaying relevant data, graphs, and alerts. |
 | **Water Distribution**               | Logistical and technical process through which water is delivered from its source to households. |
-| **Distribution Impact**             | Measurement of how system conditions (leaks, pressure, high consumption) affect distribution efficiency. |
+| **Edge Computing**             | Procesamiento de datos realizado localmente en el nodo (sensor) para reducir latencia y operar sin internet. |
 | **Web Platform/Mobile App**          | Digital interface accessible via computer or smartphone where users view and manage water service information. |
 | **Device Monitoring**                | Functionality that allows providers to configure, monitor, or troubleshoot installed IoT sensors. |
 | **Real-Time Visualization**          | Dynamic and continuous display of current data about the water system. |
 | **Registered Users**                 | People with authenticated access to the platform, either inhabitants or providers, with differentiated functionalities. |
-| **Coverage Area**                    | Geographic area where AquaConecta provides services and where sensors are located. |
+| **Machine Learning Model**                    | Algoritmo entrenado con datos históricos para detectar patrones y predecir el consumo futuro. |
 
 
 # Capítulo III: Introducción
@@ -3477,17 +3477,23 @@ Durante el desarrollo del sprint 2 se implementaron pruebas unitarias e integral
 
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
 | :- | :- | :- | :- | :- | :- |
-|IronCoders-IOT / Backend|test|3d8c574|feature: Add unit tests for create provider||Nov 14, 2025, 11:47 A.M.|
-|IronCoders-IOT / Backend|test|ce794ee|feature: Add unit tests for create resident||Nov 14, 2025, 11:47 A.M.|
-|IronCoders-IOT / Backend|test|2c470ba|feature: Add integration tests for provider (create and update)||Nov 14, 2025, 11:48 A.M.|
-|IronCoders-IOT / Backend|test|3c434a5|feature: Add integration tests for resident (create and update)||Nov 14, 2025, 11:48 A.M.|
+|IronCoders-IOT / Backend|deployment|58e356b|feature: Add unit tests for consumption calculation service||Dec 05, 2025, 11:47 A.M.|
+|IronCoders-IOT / Backend|deployment|9b5f4cb|test: Add unit tests for prediction command service||Dec 05, 2025, 11:47 A.M.|
+|IronCoders-IOT / Backend|deployment|92e09a9|test: Add unit tests for subscription command service||Dec 05, 2025, 11:48 A.M.|
+|IronCoders-IOT / Backend|deployment|ea7e474|test: Add unit tests for event command service||Dec 05, 2025, 11:48 A.M.|
+|IronCoders-IOT / Backend|deployment|09223ed|test: Add unit tests for water supply request command service||Dec 05, 2025, 11:48 A.M.|
 
 A continuación, se presentarán imágenes de las pruebas unitarias y la prueba integral.
 
-![alt text](assets/tests/Captura%20de%20pantalla%202025-11-14%20185826.png)
-![alt text](assets/tests/Captura%20de%20pantalla%202025-11-14%20190109.png)
-![alt text](assets/tests/Captura%20de%20pantalla%202025-11-14%20190139.png)
-![alt text](assets/tests/Captura%20de%20pantalla%202025-11-14%20190218.png)
+![alt text](image-15.png)
+
+![alt text](image-16.png)
+
+![alt text](image-17.png)
+
+![alt text](image-18.png)
+
+![alt text](image-19.png)
 
 ##### 7.2.2.5. Execution Evidence for Sprint Review.
 En nuestro video de exposición, hemos incluido una demostración de la aplicación AquaConecta, donde se muestra cómo los proveedores pueden gestionar sus servicios. A continuación, se presentan capturas de pantalla que ilustran las funcionalidades clave de la aplicación:
@@ -3575,6 +3581,18 @@ Frontend:
 Mobile:
 
 ![alt text](assets/sprint1/Captura%20de%20pantalla%202025-11-16%20022710.png)
+
+Mobile API Gateway:
+
+
+
+Web API Gateway:
+
+![alt text](image-14.png)
+
+Machine Learning:
+
+![alt text](image-13.png)
 
 ### 7.3. Validation Interviews.
 
@@ -3812,28 +3830,37 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 ### 7.4. Video About-the-Product.
 
+En esta sección colocamos el video de About the Product. En este video se puede visualizar tanto la app web y móvil para que los usuarios puedan observar cómo funciona nustra solución. 
+
+**Link del video:** [About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212648_upc_edu_pe/IQBhxKSLVx_JSY9JiKEDbTLAAY6BJEpEr1EJ1y1hUkO1-ms?e=5cihZx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 
 
 ## Conclusiones
-### Conclusiones 
 
-#### TP:
-  Durante esta etapa del proyecto se consolidó el diseño arquitectónico y técnico de AquaConecta, definiendo la estructura táctica de cada bounded context y su interacción dentro del sistema. Esto permitió establecer una base sólida para el desarrollo modular y escalable de la solución.
+#### TF:
 
-Se implementaron principios de Domain-Driven Design y Attribute-Driven Design, garantizando una arquitectura alineada con los requerimientos funcionales y los atributos de calidad definidos. Además, se incorporaron sistemas emergentes como el chatbot y el modelo predictivo de consumo, fortaleciendo el valor tecnológico y la innovación del proyecto.
+Con la finalización del proyecto AquaConecta, se logró la implementación completa de una solución tecnológica integral que aborda la problemática del acceso al agua potable mediante tecnologías emergentes. La integración exitosa de Machine Learning para la predicción de consumo, dispositivos IoT para el monitoreo en tiempo real y la aplicación del patrón arquitectónico Backend for Frontend (BFF) demuestran la viabilidad de arquitecturas modernas y especializadas para resolver desafíos sociales complejos.
 
-El diseño UX/UI permitió traducir las necesidades del usuario en interfaces accesibles y funcionales, asegurando una experiencia coherente entre las aplicaciones web y móvil.
+Durante el desarrollo del trabajo, el equipo adquirió conocimientos profundos sobre el diseño e implementación de arquitecturas de software emergentes, comprendiendo la importancia de seleccionar patrones arquitectónicos adecuados según el dominio del problema y los requisitos no funcionales del sistema. La aplicación de Domain-Driven Design (DDD), la implementación de bounded contexts bien definidos y la utilización de tecnologías como Spring Boot, Angular, Flutter y servicios IoT permitieron construir una solución escalable, mantenible y alineada con las mejores prácticas de la ingeniería de software moderna.
 
-Finalmente, esta fase representó un avance significativo hacia la implementación final del sistema, al integrar aspectos técnicos, arquitectónicos y de diseño en una propuesta sólida, escalable y centrada en el usuario.
+El proyecto consolidó la capacidad del equipo para diseñar arquitecturas óptimas considerando aspectos críticos como la escalabilidad, el rendimiento, la seguridad y la experiencia de usuario. La implementación del bounded context de Predictive Analytics, junto con los módulos de Analytics, Water Management, User & Profile, Requests y Subscriptions, evidencian un sistema cohesivo que responde eficientemente a las necesidades de los usuarios finales y proveedores de agua. Esta experiencia formativa ha fortalecido nuestras competencias técnicas y nuestra visión estratégica para enfrentar proyectos de software de alta complejidad en contextos reales.
 
-#### TB2:
+#### Tecnología Emergente Aplicada a la Distribución de Agua:
 
-Durante esta etapa se consolidó la implementación funcional de AquaConecta, integrando los módulos definidos en el diseño arquitectónico previo. A través de los sprints se desarrollaron y probaron los servicios clave, asegurando su trazabilidad mediante documentación técnica y evidencias de ejecución.
+La aplicación de Machine Learning (ML) predictivo, complementada por el Internet de las Cosas (IoT), representa una disrupción fundamental en la gestión de la distribución de agua a comunidades sin infraestructura de red fija. Nuestro proyecto concluye que esta integración tecnológica transforma la distribución de un esquema reactivo, ineficiente y generador de estrés hídrico en un modelo proactivo, optimizado y socialmente equitativo.
 
-Se fortaleció la colaboración entre los miembros del equipo, lo que permitió mantener la coherencia entre frontend, backend y experiencia de usuario. Las entrevistas de validación y evaluaciones heurísticas aportaron retroalimentación valiosa para ajustar la interfaz y mejorar la usabilidad.
+La esencia del cambio radica en la capacidad predictiva del ML. Al analizar continuamente los patrones de consumo de cada hogar mediante sensores IoT, el sistema no solo registra el uso, sino que aprende y anticipa con 3 a 7 días de antelación cuándo cada tanque se acercará a un umbral crítico. Esta anticipación elimina la ansiedad hídrica de las familias y permite a los proveedores migrar de la respuesta a llamadas urgentes a una planificación de rutas optimizada. Esta mejora no es trivial: reduce significativamente los costos operativos por concepto de combustible y tiempos muertos, elevando la eficiencia operativa y la rentabilidad del servicio.
 
-Esta fase representó un avance concreto hacia la entrega final del sistema, al integrar desarrollo, pruebas, despliegue y validación en un ciclo iterativo que consolidó la propuesta tecnológica y su alineación con las necesidades del usuario.
+La optimización va más allá de la eficiencia en el transporte. El modelo agrega valor al permitir la identificación de patrones de demanda zonales imposibles de detectar manualmente. Esta visibilidad en tiempo real no solo facilita la gestión de inventarios y recursos humanos, sino que también garantiza la continuidad del suministro, asegurando el acceso al agua, un derecho humano fundamental, en comunidades históricamente desatendidas. Adicionalmente, el sistema fomenta la transparencia y el uso responsable, al generar alertas ante consumos anómalos que podrían indicar fugas o desperdicio, promoviendo una cultura de conservación.
 
+En términos de sostenibilidad, la contribución es doble. Primero, la optimización de rutas reduce directamente la huella de carbono de los camiones cisterna, contribuyendo a la mitigación del cambio climático. Segundo, la capacidad de detección temprana de fugas y desperdicios se alinea con los Objetivos de Desarrollo Sostenible (ODS), logrando la conservación efectiva de miles de litros de agua.
+
+En retrospectiva, la implementación del Machine Learning en la distribución de agua es un poderoso ejemplo de cómo la tecnología emergente puede ser adaptada para cerrar brechas de desigualdad y transformar servicios básicos en operaciones inteligentes, justas y sostenibles. El sistema no solo garantiza un suministro predecible, sino que también sienta las bases para una gestión hídrica futura basada en datos reales, mejorando la resiliencia comunitaria frente a los desafíos del cambio climático y el crecimiento poblacional.
+
+# Video About-the-Team
+
+**Link del video:** **FALTA AGREGAR**[About the Team]( )
 
 # Bibliografía
 
