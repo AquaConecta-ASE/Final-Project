@@ -3832,9 +3832,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 En esta sección colocamos el video de About the Product. En este video se puede visualizar tanto la app web y móvil para que los usuarios puedan observar cómo funciona nustra solución. 
 
-**Link del video:** [About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212648_upc_edu_pe/IQBhxKSLVx_JSY9JiKEDbTLAAY6BJEpEr1EJ1y1hUkO1-ms?e=5cihZx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
-
+**Link del video:** [About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212648_upc_edu_pe/IQBFoQp45_LrRqrOTJTSvuY7Ac-hxk8_hYciwT9okKH0djQ?e=5c5OcO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ## Conclusiones
 
