@@ -1134,6 +1134,12 @@ Tenemos el As-Is Scenario para el segmento de proveedores, que contiene una oper
 | **Real-Time Visualization**          | Dynamic and continuous display of current data about the water system. |
 | **Registered Users**                 | People with authenticated access to the platform, either inhabitants or providers, with differentiated functionalities. |
 | **Machine Learning Model**                    | Algoritmo entrenado con datos históricos para detectar patrones y predecir el consumo futuro. |
+| **Bronze Layer (Capa Bronce)**                    | Datos crudos y sin procesar recibidos directamente de la telemetría de los sensores IoT (Edge). |
+| **Gold Layer (Capa Oro)**                    | Datos refinados y agregados (KPIs, reportes) listos para la toma de decisiones en el Dashboard Administrativo. |
+| **IAM (Identity Management)**                    | Sistema centralizado (Auth0) que garantiza la autenticación segura y el control de acceso único (SSO). |
+| **RBAC (Role-Based Access)**                    | Política de seguridad que restringe el acceso según el perfil del usuario (ej. Proveedor vs. Residente). |
+| **Bounded Context**                    | Límite lógico que agrupa funcionalidades específicas del negocio (ej. "Gestión de Agua" separado de "Suscripciones"). |
+| **Container (Contenedor)**                    | Unidades de software ejecutables y desplegables por separado, como la App Móvil, Web App o la API REST. |
 
 
 # Capítulo III: Introducción
